@@ -1,0 +1,34 @@
+[
+  {
+    "id": "startups-funding",
+    "slug": "startups-funding",
+    "name": "Startups & Funding",
+    "summary": "Venture capital rounds, university spinouts, accelerator programmes, and scaleup financing across Europe.",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "investment",
+    "slug": "investment",
+    "name": "Investment",
+    "summary": "Corporate capital expenditure, cross-border European direct investments, sovereign tech funds, and private equity deals.",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "sustainability",
+    "slug": "sustainability",
+    "name": "Sustainability",
+    "summary": "Decarbonization mandates, circular economy regulations, CSRD corporate reporting, and ESG transition frameworks.",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "eu-policy",
+    "slug": "eu-policy",
+    "name": "EU Policy",
+    "summary": "Directives, regulations, European Commission frameworks including the AI Act, Chips Act, and Net-Zero Industry Act.",
+    "featured": true,
+    "isDemo": false
+  }
+]

@@ -1,0 +1,79 @@
+---
+import { url } from '@/lib/url';
+import { getCountries } from '@/services/countries';
+import { getJobs } from '@/services/jobs';
+
+interface Props {
+  activeCountrySlug?: string;
+  class?: string;
+}
+
+const { activeCountrySlug, class: className = '' } = Astro.props;
+
+const [countries, jobs] = await Promise.all([getCountries(), getJobs()]);
+
+// Compute jobs per country
+const jobCounts = new Map<string, number>();
+jobs.forEach((j) => {
+  jobCounts.set(j.country.toLowerCase(), (jobCounts.get(j.country.toLowerCase()) || 0) + 1);
+});
+---
+
+<div class={`w-full overflow-x-auto pb-2 ${className}`}>
+  <div
+    class="min-w-[420px] max-w-2xl mx-auto grid grid-cols-5 gap-2 p-3 bg-surface border border-hairline rounded-md"
+    style="grid-template-rows: repeat(5, minmax(64px, 1fr));"
+    role="region"
+    aria-label="Europe Geographical Country Map"
+  >
+    {
+      countries.map((country) => {
+        const row = country.gridCoords.row;
+        const col = country.gridCoords.col;
+        const count = jobCounts.get(country.slug.toLowerCase()) || 0;
+        const isActive = activeCountrySlug?.toLowerCase() === country.slug.toLowerCase();
+
+        return (
+          <a
+            href={url(`/countries/${country.slug}/`)}
+            class={`group relative flex flex-col justify-between p-2 rounded border transition-all duration-150 select-none ${
+              isActive
+                ? 'border-cobalt bg-cobalt/10 ring-1 ring-cobalt text-ink'
+                : 'border-hairline bg-paper hover:border-cobalt hover:bg-surface text-ink'
+            }`}
+            style={`grid-row: ${row}; grid-column: ${col};`}
+            title={`${country.name} (${country.iso2}) — ${count} open jobs`}
+          >
+            <div class="flex items-start justify-between">
+              <span class="font-mono text-sm font-bold tracking-wider text-ink group-hover:text-cobalt">
+                {country.iso2}
+              </span>
+              {country.featured && (
+                <span class="w-1.5 h-1.5 rounded-full bg-amber" title="Featured hub" />
+              )}
+            </div>
+
+            <div>
+              <div class="text-[11px] font-medium text-ink truncate leading-tight">
+                {country.name}
+              </div>
+              <div class="font-mono text-[10px] text-muted tabular-nums">
+                {count > 0 ? `${count} jobs` : 'Exploring'}
+              </div>
+            </div>
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <div class="flex items-center justify-between text-[11px] font-mono text-muted max-w-2xl mx-auto mt-2 px-1">
+    <span>Geographical Europe Grid (14 active economies)</span>
+    <span class="flex items-center gap-2">
+      <span class="inline-flex items-center gap-1">
+        <span class="w-2 h-2 rounded-full bg-amber inline-block"></span>
+        Featured
+      </span>
+    </span>
+  </div>
+</div>

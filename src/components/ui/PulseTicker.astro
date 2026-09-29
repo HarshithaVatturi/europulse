@@ -1,0 +1,142 @@
+---
+import { url } from '@/lib/url';
+import { getLatestPulseEdition } from '@/services/pulse';
+
+const pulse = await getLatestPulseEdition();
+const allBriefItems = pulse.countryBriefs.flatMap((cb) =>
+  cb.items.map((it) => ({
+    iso2: cb.countryIso2,
+    countrySlug: cb.countrySlug,
+    text: it.text,
+    industrySlug: it.industrySlug,
+    companySlug: it.companySlug,
+  }))
+);
+---
+
+<div
+  class="bg-paper border-b border-hairline py-1 px-4 text-xs font-mono overflow-hidden select-none"
+  role="region"
+  aria-label="Today's Pulse Ticker"
+>
+  <div class="max-w-7xl mx-auto flex items-center gap-3">
+    <!-- Pulse Label -->
+    <a
+      href={url(`/pulse/${pulse.date}/`)}
+      class="inline-flex items-center gap-1.5 shrink-0 text-ink hover:text-cobalt transition-colors font-semibold"
+      title="View full Pulse edition"
+    >
+      <span class="w-2 h-2 rounded-full bg-amber live-pulse-dot" aria-hidden="true" />
+      <span class="uppercase tracking-widest text-[11px]">Pulse 2026-09-29</span>
+    </a>
+
+    <span class="text-hairline select-none">|</span>
+
+    <!-- Pausable Marquee Container -->
+    <div
+      id="pulse-ticker-track"
+      class="flex-1 overflow-x-hidden whitespace-nowrap relative flex items-center gap-8 group"
+    >
+      <div class="inline-flex items-center gap-8 animate-ticker group-hover:[animation-play-state:paused]">
+        {
+          allBriefItems.map((item) => (
+            <span class="inline-flex items-center gap-1.5 shrink-0 text-muted">
+              <a
+                href={url(`/countries/${item.countrySlug}/`)}
+                class="font-bold text-ink hover:text-cobalt"
+              >
+                [{item.iso2}]
+              </a>
+              <a
+                href={url(`/industries/${item.industrySlug}/`)}
+                class="hover:text-ink text-muted transition-colors font-sans text-xs"
+              >
+                {item.text}
+              </a>
+            </span>
+          ))
+        }
+      </div>
+
+      <!-- Duplicate set for seamless looping -->
+      <div
+        class="inline-flex items-center gap-8 animate-ticker group-hover:[animation-play-state:paused]"
+        aria-hidden="true"
+      >
+        {
+          allBriefItems.map((item) => (
+            <span class="inline-flex items-center gap-1.5 shrink-0 text-muted">
+              <a
+                href={url(`/countries/${item.countrySlug}/`)}
+                class="font-bold text-ink hover:text-cobalt"
+              >
+                [{item.iso2}]
+              </a>
+              <a
+                href={url(`/industries/${item.industrySlug}/`)}
+                class="hover:text-ink text-muted transition-colors font-sans text-xs"
+              >
+                {item.text}
+              </a>
+            </span>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Pause/Play button -->
+    <button
+      type="button"
+      id="ticker-toggle-btn"
+      class="text-[10px] text-muted hover:text-ink uppercase tracking-wider shrink-0 px-1 py-0.5 rounded border border-hairline bg-surface"
+      aria-label="Pause or resume ticker"
+    >
+      Pause
+    </button>
+  </div>
+</div>
+
+<style>
+  @keyframes tickerScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-ticker {
+    animation: tickerScroll 45s linear infinite;
+  }
+
+  .ticker-paused .animate-ticker {
+    animation-play-state: paused !important;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-ticker {
+      animation: none !important;
+    }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const track = document.getElementById('pulse-ticker-track');
+    const toggleBtn = document.getElementById('ticker-toggle-btn');
+    if (!track || !toggleBtn) return;
+
+    let isPaused = false;
+    toggleBtn.addEventListener('click', function () {
+      isPaused = !isPaused;
+      if (isPaused) {
+        track.classList.add('ticker-paused');
+        toggleBtn.textContent = 'Play';
+      } else {
+        track.classList.remove('ticker-paused');
+        toggleBtn.textContent = 'Pause';
+      }
+    });
+  })();
+</script>

@@ -1,0 +1,52 @@
+---
+import { url } from '@/lib/url';
+
+interface Props {
+  kicker?: string;
+  title: string;
+  description?: string;
+  actionText?: string;
+  actionHref?: string;
+  class?: string;
+}
+
+const {
+  kicker,
+  title,
+  description,
+  actionText,
+  actionHref,
+  class: className = '',
+} = Astro.props;
+---
+
+<header class={`mb-6 pb-4 border-b border-hairline ${className}`}>
+  <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+    <div>
+      {kicker && (
+        <span class="block font-mono text-[11px] font-semibold uppercase tracking-widest text-cobalt mb-1 select-none">
+          {kicker}
+        </span>
+      )}
+      <h2 class="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-ink">
+        {title}
+      </h2>
+      {description && (
+        <p class="mt-1 text-sm text-muted max-w-2xl font-sans">
+          {description}
+        </p>
+      )}
+    </div>
+
+    {actionText && actionHref && (
+      <a
+        href={url(actionHref)}
+        class="inline-flex items-center text-xs font-mono uppercase tracking-wider font-semibold text-cobalt hover:underline shrink-0 group"
+      >
+        <span>{actionText}</span>
+        <span class="ml-1 transition-transform group-hover:translate-x-0.5">→</span>
+      </a>
+    )}
+    <slot name="action" />
+  </div>
+</header>

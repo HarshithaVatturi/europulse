@@ -1,0 +1,151 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getDegrees } from '@/services/degrees';
+import { getRoles } from '@/services/roles';
+import { getSkills } from '@/services/skills';
+import { getIndustries } from '@/services/industries';
+import { getCompanies } from '@/services/companies';
+import { getJobs } from '@/services/jobs';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import PathExplorer from '@/components/islands/PathExplorer';
+
+const [degrees, roles, skills, industries, companies, jobs] = await Promise.all([
+  getDegrees(),
+  getRoles(),
+  getSkills(),
+  getIndustries(),
+  getCompanies(),
+  getJobs(),
+]);
+---
+
+<Layout
+  title="European Career Hub & Degree Pathway Explorer"
+  description="Navigate European business and engineering career tracks, graduate degree roadmaps, and entry routes."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+    <Breadcrumbs items={[{ label: 'Career Hub' }]} />
+
+    <header class="border-b border-hairline pb-6 space-y-3">
+      <div class="inline-flex items-center gap-2 px-2 py-0.5 rounded border border-hairline bg-surface text-ink font-mono text-xs font-semibold uppercase tracking-wider">
+        <span>Academic &amp; Role Intelligence</span>
+      </div>
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        Career Hub &amp; Pathway Explorer
+      </h1>
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed">
+        Engineered specifically for Master's, MIM, MBA, and engineering students targeting career placement in Europe. Trace the direct chain from academic degrees into competencies, functions, industries, and active employer pipelines.
+      </p>
+    </header>
+
+    <!-- SIGNATURE FEATURE: Career Hub Path Explorer -->
+    <section class="space-y-4">
+      <SectionHeader
+        kicker="Dynamic Mapping"
+        title="Interactive Pathway Explorer"
+        description="Pick a degree to follow the complete graph chain: Degree → Skills → Roles → Industries → Companies → Jobs."
+      />
+
+      <PathExplorer
+        client:visible
+        degrees={degrees}
+        skills={skills}
+        roles={roles}
+        industries={industries}
+        companies={companies}
+        jobs={jobs}
+        initialDegreeSlug="mim"
+      />
+    </section>
+
+    <!-- Degrees Matrix -->
+    <section class="space-y-6">
+      <SectionHeader
+        kicker="Academic Qualifications"
+        title="Degree Program Guides & Roadmaps"
+        description="Detailed European study timelines, semester milestones, and visa conversion advice."
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {
+          degrees.map((deg) => (
+            <article class="bg-surface border border-hairline rounded-md p-5 hover:border-cobalt transition-colors flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-mono text-xs font-bold text-cobalt uppercase">
+                    {deg.slug.toUpperCase()}
+                  </span>
+                  {deg.featured && (
+                    <span class="font-mono text-[9px] uppercase px-1.5 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+                      Featured
+                    </span>
+                  )}
+                </div>
+
+                <h3 class="font-serif text-lg font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                  <a href={url(`/careers/${deg.slug}/`)} class="hover:underline">
+                    {deg.name}
+                  </a>
+                </h3>
+
+                <p class="text-xs text-muted font-sans line-clamp-3 mb-4">
+                  {deg.summary}
+                </p>
+              </div>
+
+              <div class="pt-3 border-t border-hairline font-mono text-xs flex items-center justify-between">
+                <span class="text-muted">{deg.roles.length} Target Roles</span>
+                <a
+                  href={url(`/careers/${deg.slug}/`)}
+                  class="text-cobalt hover:underline font-semibold"
+                >
+                  Roadmap →
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Roles Matrix -->
+    <section class="space-y-6">
+      <SectionHeader
+        kicker="Functional Directory"
+        title="15 European Job Functions &amp; Entry Routes"
+        description="Profiles covering consulting, business analysis, product management, supply chain, and advanced engineering."
+      />
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          roles.map((role) => (
+            <a
+              href={url(`/careers/roles/${role.slug}/`)}
+              class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group flex flex-col justify-between"
+            >
+              <div>
+                <div class="font-mono text-[10px] uppercase font-bold text-muted mb-1">
+                  Function: {role.function}
+                </div>
+                <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-1.5">
+                  {role.name}
+                </h4>
+                <p class="text-xs text-muted font-sans line-clamp-2 mb-3">
+                  {role.summary}
+                </p>
+              </div>
+
+              <div class="flex items-center justify-between pt-2 border-t border-hairline font-mono text-[11px] text-muted">
+                <span>{role.skills.length} skills</span>
+                <span class="text-cobalt font-semibold">View Profile →</span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</Layout>

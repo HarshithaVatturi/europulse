@@ -1,0 +1,143 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url, formatDate } from '@/lib/url';
+import { getNews, getNewsBySlug } from '@/services/news';
+import { getNewsImpactTrail } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import DemoBadge from '@/components/ui/DemoBadge.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import ImpactTrail from '@/components/ui/ImpactTrail.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+
+export const getStaticPaths = (async () => {
+  const newsList = await getNews();
+  return newsList.map((n) => ({
+    params: { slug: n.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const article = await getNewsBySlug(slug);
+
+if (!article) {
+  return Astro.redirect(url('/404/'));
+}
+
+const trail = await getNewsImpactTrail(article);
+const allNews = await getNews();
+const relatedNews = allNews
+  .filter((n) => n.id !== article.id && (
+    n.industries.some((i) => article.industries.includes(i)) ||
+    n.countries.some((c) => article.countries.includes(c))
+  ))
+  .slice(0, 3);
+---
+
+<Layout
+  title={article.title}
+  description={article.summary}
+  publishDate={article.date}
+  noindex={article.isDemo}
+  type="article"
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumbs
+      items={[
+        { label: 'News', href: '/news/' },
+        { label: article.title },
+      ]}
+    />
+
+    <!-- Header & Meta -->
+    <header class="border-b border-hairline pb-6 space-y-3">
+      <div class="flex flex-wrap items-center gap-2 font-mono text-xs text-muted tabular-nums">
+        <span>{formatDate(article.date)}</span>
+        <span class="text-hairline select-none">·</span>
+        <span class="text-cobalt font-semibold">{article.source.name}</span>
+        {article.isDemo && <DemoBadge type="news" />}
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-ink leading-[1.18]">
+        {article.title}
+      </h1>
+
+      <div class="flex flex-wrap items-center gap-2 pt-2">
+        <span class="font-mono text-xs text-muted uppercase tracking-wider">Target Geographies:</span>
+        {trail.countries.map((c) => (
+          <CountryBadge iso2={c.iso2} slug={c.slug} name={c.name} size="sm" />
+        ))}
+      </div>
+    </header>
+
+    <!-- Executive Summary -->
+    <section class="font-serif text-xl sm:text-2xl text-ink leading-relaxed border-l-4 border-cobalt pl-5 py-1">
+      {article.summary}
+    </section>
+
+    <!-- SIGNATURE FEATURE: Career Impact Trail Full Panel -->
+    <ImpactTrail trail={trail} compact={false} />
+
+    <!-- Related Job Opportunities -->
+    {trail.relatedJobs.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Direct Openings"
+          title={`Matching Jobs in this Sphere (${trail.relatedJobs.length})`}
+          description="Opportunities at involved employers or within the same national sector."
+        />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {trail.relatedJobs.slice(0, 4).map((job) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between text-xs font-mono text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">{job.company}</span>
+                <span>[{job.country.slice(0, 2).toUpperCase()}] · {job.employmentType}</span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                  {job.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{job.city} · {job.workMode}</span>
+                <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  Listing →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Related Dispatches -->
+    {relatedNews.length > 0 && (
+      <section class="space-y-4 pt-8 border-t border-hairline">
+        <SectionHeader
+          kicker="Related Reporting"
+          title="Related Business Stories"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {relatedNews.map((rn) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <span class="font-mono text-[10px] text-muted block mb-1 tabular-nums">
+                {formatDate(rn.date)}
+              </span>
+              <h4 class="font-serif text-sm font-bold text-ink group-hover:text-cobalt transition-colors line-clamp-2 mb-2">
+                <a href={url(`/news/${rn.slug}/`)} class="hover:underline">
+                  {rn.title}
+                </a>
+              </h4>
+              <p class="text-xs text-muted font-sans line-clamp-2">
+                {rn.careerImpact}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

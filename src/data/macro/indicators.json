@@ -1,0 +1,156 @@
+{
+  "FR": {
+    "iso2": "FR",
+    "gdpGrowthRate": 0,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 8.3,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 20.7,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "DE": {
+    "iso2": "DE",
+    "gdpGrowthRate": 0.3,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 4,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 7.2,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "NL": {
+    "iso2": "NL",
+    "gdpGrowthRate": 0.6,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 4,
+    "unemploymentPeriod": "2026-08",
+    "youthUnemploymentRate": 8.8,
+    "youthUnemploymentPeriod": "2026-08",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "IT": {
+    "iso2": "IT",
+    "gdpGrowthRate": 0.2,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 5.8,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 18.9,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "ES": {
+    "iso2": "ES",
+    "gdpGrowthRate": 0.7,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 10,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 22.9,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "SE": {
+    "iso2": "SE",
+    "gdpGrowthRate": 1.6,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 8.9,
+    "unemploymentPeriod": "2026-08",
+    "youthUnemploymentRate": 23,
+    "youthUnemploymentPeriod": "2026-08",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "CH": {
+    "iso2": "CH",
+    "gdpGrowthRate": 1.9,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 5.1,
+    "unemploymentPeriod": "2026-06",
+    "youthUnemploymentRate": 9,
+    "youthUnemploymentPeriod": "2026-06",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "IE": {
+    "iso2": "IE",
+    "gdpGrowthRate": 10.2,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 5,
+    "unemploymentPeriod": "2026-08",
+    "youthUnemploymentRate": 12.3,
+    "youthUnemploymentPeriod": "2026-08",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "BE": {
+    "iso2": "BE",
+    "gdpGrowthRate": 0,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 6,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 18.9,
+    "youthUnemploymentPeriod": "2026-06",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "DK": {
+    "iso2": "DK",
+    "gdpGrowthRate": 0.3,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 6.7,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 10.8,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "FI": {
+    "iso2": "FI",
+    "gdpGrowthRate": 0.3,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 9.9,
+    "unemploymentPeriod": "2026-08",
+    "youthUnemploymentRate": 22.8,
+    "youthUnemploymentPeriod": "2026-08",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "AT": {
+    "iso2": "AT",
+    "gdpGrowthRate": -0.1,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 6.2,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 12.2,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "NO": {
+    "iso2": "NO",
+    "gdpGrowthRate": 0.7,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 4.2,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 12.1,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  },
+  "PT": {
+    "iso2": "PT",
+    "gdpGrowthRate": 0.9,
+    "gdpPeriod": "2026-Q2",
+    "unemploymentRate": 5.7,
+    "unemploymentPeriod": "2026-07",
+    "youthUnemploymentRate": 20.1,
+    "youthUnemploymentPeriod": "2026-07",
+    "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
+    "lastUpdated": "2026-09-29"
+  }
+}

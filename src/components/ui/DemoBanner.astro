@@ -1,0 +1,53 @@
+---
+import { url } from '@/lib/url';
+---
+
+<aside
+  id="demo-banner"
+  class="bg-surface border-b border-hairline text-ink text-xs font-mono py-1 px-4 hidden transition-all duration-150"
+  aria-label="Sample data preview notice"
+>
+  <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+    <div class="flex items-center gap-2 truncate">
+      <span class="inline-flex items-center px-1.5 py-0.2 rounded bg-amber/20 text-ink font-semibold uppercase text-[10px]">
+        Sample Data Preview
+      </span>
+      <span class="truncate text-muted">
+        Demonstration edition with illustrative European industrial scenarios and real public facts.
+      </span>
+      <a
+        href={url('/about/#ethics')}
+        class="text-cobalt hover:underline shrink-0 hidden sm:inline-block"
+      >
+        Ethics &amp; Sources →
+      </a>
+    </div>
+
+    <button
+      type="button"
+      id="dismiss-demo-banner"
+      class="text-muted hover:text-ink text-sm px-1.5 py-0.5 rounded shrink-0"
+      aria-label="Dismiss banner"
+      title="Dismiss preview notice"
+    >
+      ✕
+    </button>
+  </div>
+</aside>
+
+<script is:inline>
+  (function () {
+    const banner = document.getElementById('demo-banner');
+    const dismissBtn = document.getElementById('dismiss-demo-banner');
+    if (!banner || !dismissBtn) return;
+
+    if (!sessionStorage.getItem('europulse_banner_dismissed')) {
+      banner.classList.remove('hidden');
+    }
+
+    dismissBtn.addEventListener('click', function () {
+      banner.classList.add('hidden');
+      sessionStorage.setItem('europulse_banner_dismissed', 'true');
+    });
+  })();
+</script>

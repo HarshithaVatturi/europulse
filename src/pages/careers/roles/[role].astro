@@ -1,0 +1,192 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getRoles, getRoleBySlug } from '@/services/roles';
+import { getRoleGraph } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import EmptyState from '@/components/ui/EmptyState.astro';
+
+export const getStaticPaths = (async () => {
+  const roles = await getRoles();
+  return roles.map((r) => ({
+    params: { role: r.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { role: roleSlug } = Astro.params;
+const role = await getRoleBySlug(roleSlug);
+
+if (!role) {
+  return Astro.redirect(url('/404/'));
+}
+
+const graph = await getRoleGraph(role.slug);
+const { skills = [], industries = [], degrees = [], jobs = [] } = graph || {};
+---
+
+<Layout
+  title={`${role.name} Role Profile & European Career Routes`}
+  description={role.summary}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Career Hub', href: '/careers/' },
+        { label: 'Roles', href: '/careers/#roles' },
+        { label: role.name },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="font-mono text-xs font-bold uppercase px-2 py-0.5 rounded bg-cobalt/10 text-cobalt border border-cobalt/30">
+          Function: {role.function}
+        </span>
+        {role.featured && (
+          <span class="font-mono text-xs uppercase px-2 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+            In-Demand
+          </span>
+        )}
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        {role.name}
+      </h1>
+
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed">
+        {role.summary}
+      </p>
+
+      {/* Entry Routes Callout */}
+      <div class="pt-4 border-t border-hairline">
+        <span class="font-mono text-xs uppercase font-bold text-muted block mb-2">
+          Typical Entry Routes in Europe:
+        </span>
+        <div class="flex flex-wrap gap-2">
+          {role.entryRoutes.map((route) => (
+            <span class="text-xs font-sans px-3 py-1 rounded bg-surface border border-hairline text-ink font-medium">
+              {route}
+            </span>
+          ))}
+        </div>
+      </div>
+    </header>
+
+    <!-- Relevant Industries & Degrees Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Target Industries -->
+      <section class="space-y-4">
+        <SectionHeader
+          kicker="Sector Applicability"
+          title="Industries Employing this Role"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {industries.map((ind) => (
+            <a
+              href={url(`/industries/${ind.slug}/`)}
+              class="p-3.5 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex items-center justify-between"
+            >
+              <div class="flex items-center gap-2 truncate">
+                <span class="w-2 h-2 rounded-full shrink-0" style={`background-color: ${ind.color};`} />
+                <span class="text-xs font-bold text-ink group-hover:text-cobalt truncate">
+                  {ind.name}
+                </span>
+              </div>
+              <span class="font-mono text-[10px] text-muted">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Degrees -->
+      <section class="space-y-4">
+        <SectionHeader
+          kicker="Academic Foundations"
+          title="Degree Programs Leading to this Role"
+        />
+
+        <div class="space-y-2">
+          {degrees.map((deg) => (
+            <a
+              href={url(`/careers/${deg.slug}/`)}
+              class="block p-3.5 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group"
+            >
+              <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+                {deg.name}
+              </div>
+              <div class="text-xs text-muted font-sans mt-0.5 line-clamp-1">
+                {deg.summary}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <!-- Skills Required -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Competency Profile"
+        title="Required Competencies &amp; Technical Skills"
+      />
+
+      <div class="flex flex-wrap gap-2">
+        {skills.map((s) => (
+          <a
+            href={url(`/jobs/?query=${encodeURIComponent(s.name)}`)}
+            class="px-3 py-1.5 rounded bg-surface border border-hairline text-ink hover:border-cobalt hover:text-cobalt transition-colors font-mono text-xs flex items-center gap-1.5"
+          >
+            <span>{s.name}</span>
+            <span class="text-muted text-[10px]">({s.category})</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Live Job Openings -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Direct Recruitment"
+        title={`Live Openings for ${role.name} (${jobs.length})`}
+        actionText="Search All Openings"
+        actionHref={`/jobs/?query=${encodeURIComponent(role.name)}`}
+      />
+
+      {jobs.length === 0 ? (
+        <EmptyState
+          title="No live vacancies specifically tagged to this title"
+          message="Browse general openings in this function or related disciplines."
+          actionText="Open Jobs Explorer"
+          actionHref="/jobs/"
+        />
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {jobs.slice(0, 6).map((job) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">{job.company}</span>
+                <span>[{job.country.slice(0, 2).toUpperCase()}] · {job.employmentType}</span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                  {job.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{job.city} · {job.workMode}</span>
+                <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  View →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+  </div>
+</Layout>

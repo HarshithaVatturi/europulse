@@ -1,0 +1,41 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getJobs } from '@/services/jobs';
+import { getCountries } from '@/services/countries';
+import { getIndustries } from '@/services/industries';
+import { getDegrees } from '@/services/degrees';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import JobsExplorer from '@/components/islands/JobsExplorer';
+
+const [jobs, countries, industries, degrees] = await Promise.all([
+  getJobs(),
+  getCountries(),
+  getIndustries(),
+  getDegrees(),
+]);
+---
+
+<Layout
+  title="European Job Pipeline & Early Career Opportunities"
+  description="Explore active graduate programmes, working student placements, apprenticeships, and engineering openings across Europe."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <Breadcrumbs items={[{ label: 'Jobs' }]} />
+
+    <SectionHeader
+      kicker="Hiring Pipeline"
+      title="European Job Explorer"
+      description="Direct vacancies across verified employers with structured filters for international degrees, visa-friendly graduate programmes, and work modes."
+    />
+
+    <JobsExplorer
+      client:idle
+      initialJobs={jobs}
+      countries={countries}
+      industries={industries}
+      degrees={degrees}
+    />
+  </div>
+</Layout>

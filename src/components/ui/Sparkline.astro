@@ -1,0 +1,73 @@
+---
+interface Props {
+  data: number[];
+  width?: number;
+  height?: number;
+  direction?: 'up' | 'down' | 'stable';
+  class?: string;
+}
+
+const {
+  data = [50, 60, 55, 70, 65, 80, 85],
+  width = 100,
+  height = 28,
+  direction,
+  class: className = '',
+} = Astro.props;
+
+// Determine direction if not provided: compare last point with first point
+const first = data[0] ?? 0;
+const last = data[data.length - 1] ?? 0;
+const resolvedDirection = direction || (last > first ? 'up' : last < first ? 'down' : 'stable');
+
+const min = Math.min(...data);
+const max = Math.max(...data);
+const range = max - min === 0 ? 1 : max - min;
+const padding = 3;
+const chartHeight = height - padding * 2;
+const chartWidth = width - padding * 2;
+
+// Calculate SVG points
+const points = data.map((val, index) => {
+  const x = padding + (index / (data.length - 1)) * chartWidth;
+  const y = height - padding - ((val - min) / range) * chartHeight;
+  return `${x.toFixed(1)},${y.toFixed(1)}`;
+});
+
+const polylineString = points.join(' ');
+const lastPoint = points[points.length - 1].split(',');
+const lastX = Number(lastPoint[0]);
+const lastY = Number(lastPoint[1]);
+
+// Color tokens
+const strokeColors = {
+  up: '#0F7B5F', // green
+  down: '#C23B22', // red
+  stable: '#5B6472', // muted
+};
+
+const strokeColor = strokeColors[resolvedDirection];
+---
+
+<svg
+  width={width}
+  height={height}
+  viewBox={`0 0 ${width} ${height}`}
+  class={`shrink-0 overflow-visible ${className}`}
+  aria-hidden="true"
+>
+  <polyline
+    fill="none"
+    stroke={strokeColor}
+    stroke-width="1.75"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    points={polylineString}
+  />
+  <circle
+    cx={lastX}
+    cy={lastY}
+    r="2.5"
+    fill={strokeColor}
+  />
+</svg>

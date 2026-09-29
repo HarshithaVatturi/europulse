@@ -1,0 +1,48 @@
+---
+interface Props {
+  value: string | number;
+  label: string;
+  subtext?: string;
+  trend?: 'up' | 'down' | 'stable';
+  class?: string;
+}
+
+const { value, label, subtext, trend, class: className = '' } = Astro.props;
+
+const trendColors = {
+  up: 'text-trend-up',
+  down: 'text-trend-down',
+  stable: 'text-muted',
+};
+
+const trendIcons = {
+  up: '↑',
+  down: '↓',
+  stable: '→',
+};
+---
+
+<div
+  class={`bg-surface border border-hairline rounded-md p-4 text-ink flex flex-col justify-between ${className}`}
+>
+  <div class="flex items-center justify-between mb-1.5">
+    <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-muted select-none">
+      {label}
+    </span>
+    {trend && (
+      <span class={`font-mono text-xs font-bold ${trendColors[trend]}`}>
+        {trendIcons[trend]}
+      </span>
+    )}
+  </div>
+
+  <div class="font-mono text-2xl font-bold tracking-tight text-ink tabular-nums">
+    {value}
+  </div>
+
+  {subtext && (
+    <div class="mt-1 text-xs text-muted font-sans">
+      {subtext}
+    </div>
+  )}
+</div>

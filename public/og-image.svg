@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0B1B33"/>
+  
+  <!-- Subtle background grid lines -->
+  <line x1="80" y1="0" x2="80" y2="630" stroke="#22304A" stroke-width="1"/>
+  <line x1="1120" y1="0" x2="1120" y2="630" stroke="#22304A" stroke-width="1"/>
+  <line x1="80" y1="120" x2="1120" y2="120" stroke="#22304A" stroke-width="1"/>
+  <line x1="80" y1="510" x2="1120" y2="510" stroke="#22304A" stroke-width="1"/>
+
+  <!-- Kicker -->
+  <text x="120" y="180" font-family="'IBM Plex Mono', monospace" font-size="20" font-weight="600" letter-spacing="4" fill="#F5B700">EUROPEAN BUSINESS &amp; CAREER INTELLIGENCE</text>
+  
+  <!-- Title with Amber Pulse Mark -->
+  <text x="120" y="270" font-family="'Newsreader', Georgia, serif" font-size="82" font-weight="700" fill="#F8F6F1">EuroPulse</text>
+  <circle cx="510" cy="225" r="14" fill="#F5B700"/>
+  
+  <!-- Tagline -->
+  <text x="120" y="340" font-family="'IBM Plex Sans', sans-serif" font-size="34" font-weight="400" fill="#E6E9EF">Europe's business news, connected to your career.</text>
+  
+  <!-- Sub-description -->
+  <text x="120" y="420" font-family="'IBM Plex Sans', sans-serif" font-size="22" font-weight="400" fill="#9AA4B5">News &#8594; Company &#8594; Industry &#8594; Country &#8594; Skills &#8594; Roles &#8594; Jobs</text>
+  
+  <!-- Bottom bar -->
+  <text x="120" y="555" font-family="'IBM Plex Mono', monospace" font-size="16" fill="#7FA2FF">europulse.github.io</text>
+  <text x="960" y="555" font-family="'IBM Plex Mono', monospace" font-size="16" fill="#9AA4B5">STATIC &#8226; FAST &#8226; GDPR-COMPLIANT</text>
+</svg>

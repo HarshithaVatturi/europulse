@@ -1,0 +1,285 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getIndustries, getIndustryBySlug } from '@/services/industries';
+import { getIndustryGraph } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import Tag from '@/components/ui/Tag.astro';
+import Sparkline from '@/components/ui/Sparkline.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+import EmptyState from '@/components/ui/EmptyState.astro';
+
+export const getStaticPaths = (async () => {
+  const industries = await getIndustries();
+  return industries.map((i) => ({
+    params: { slug: i.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const industry = await getIndustryBySlug(slug);
+
+if (!industry) {
+  return Astro.redirect(url('/404/'));
+}
+
+const graph = await getIndustryGraph(industry.slug);
+const { companies = [], startups = [], jobs = [], news = [], leadingCountries = [], roles = [], skills = [] } = graph || {};
+---
+
+<Layout
+  title={`${industry.name} Industry Sector & Career Hub`}
+  description={industry.summary}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Industries', href: '/industries/' },
+        { label: industry.name },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <Tag label={industry.name} color={industry.color} size="md" />
+        <div class="flex items-center gap-3">
+          <span class="font-mono text-xs text-muted">7-Quarter Trajectory:</span>
+          <Sparkline data={industry.momentumSeries} width={120} height={28} />
+        </div>
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        {industry.name}
+      </h1>
+
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed">
+        {industry.summary}
+      </p>
+
+      {/* Metric Counters */}
+      <div class="flex flex-wrap items-center gap-6 pt-2 font-mono text-xs text-muted">
+        <div>
+          <span class="text-muted uppercase">Active Employers:</span>{' '}
+          <strong class="text-ink">{companies.length} Profiled</strong>
+        </div>
+        <div>
+          <span class="text-muted uppercase">Open Positions:</span>{' '}
+          <strong class="text-cobalt">{jobs.length} Listings</strong>
+        </div>
+        <div>
+          <span class="text-muted uppercase">Intelligence Dispatches:</span>{' '}
+          <strong class="text-ink">{news.length} Stories</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Key Sector Trends -->
+    {industry.trends && industry.trends.length > 0 && (
+      <section class="space-y-4">
+        <SectionHeader
+          kicker="Macro Developments"
+          title="Sector Transformation Trends"
+          description="Technological and regulatory movements shaping European operations."
+        />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {industry.trends.map((t) => (
+            <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-mono text-xs text-muted uppercase tracking-wider">{t.period}</span>
+                  <span class={`font-mono text-xs font-bold ${t.direction === 'up' ? 'text-trend-up' : t.direction === 'down' ? 'text-trend-down' : 'text-muted'}`}>
+                    {t.direction === 'up' ? '↑ ACCELERATING' : t.direction === 'down' ? '↓ CONTRACTING' : '→ STABLE'}
+                  </span>
+                </div>
+                <h4 class="font-serif text-base font-bold text-ink mb-1.5">{t.title}</h4>
+                <p class="text-xs text-muted font-sans leading-relaxed">{t.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Companies & Leading Countries Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <!-- Anchor Companies (8 cols) -->
+      <section class="lg:col-span-8 space-y-4">
+        <SectionHeader
+          kicker="Major Employers"
+          title={`Profiled Employers in ${industry.name}`}
+          actionText="All Companies"
+          actionHref="/companies/"
+        />
+
+        {companies.length === 0 ? (
+          <EmptyState
+            title="Additional corporate profiles currently indexing"
+            message="We are continuously mapping Mittelstand and enterprise operators in this sector."
+          />
+        ) : (
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {companies.map((comp) => {
+              const compJobs = jobs.filter((j) => j.company.toLowerCase() === comp.slug.toLowerCase());
+              return (
+                <a
+                  href={url(`/companies/${comp.slug}/`)}
+                  class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group flex flex-col justify-between"
+                >
+                  <div>
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                      <div class="flex items-center gap-2.5 truncate">
+                        <CompanyMonogram name={comp.name} size="sm" />
+                        <span class="font-serif text-base font-bold text-ink group-hover:text-cobalt truncate">
+                          {comp.name}
+                        </span>
+                      </div>
+                      <CountryBadge iso2={comp.country.slice(0, 2).toUpperCase()} slug={comp.country} size="sm" linkable={false} />
+                    </div>
+                    <p class="text-xs text-muted font-sans line-clamp-2 mb-3">
+                      {comp.summary}
+                    </p>
+                  </div>
+                  <div class="flex items-center justify-between pt-2 border-t border-hairline font-mono text-[11px] text-muted">
+                    <span>HQ: {comp.hqCity}</span>
+                    <span class="text-cobalt font-semibold">{compJobs.length} jobs</span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        )}
+      </section>
+
+      <!-- Leading Countries Rail (4 cols) -->
+      <aside class="lg:col-span-4 space-y-4">
+        <SectionHeader
+          kicker="Geographic Density"
+          title="Leading Hubs"
+        />
+
+        <div class="bg-surface border border-hairline rounded-md p-4 space-y-2.5">
+          {leadingCountries.length === 0 ? (
+            <p class="text-xs text-muted font-sans">Pan-European distribution across member states.</p>
+          ) : (
+            leadingCountries.map(({ country, jobCount }) => (
+              <a
+                href={url(`/countries/${country.slug}/`)}
+                class="flex items-center justify-between p-2 rounded hover:bg-paper transition-colors group"
+              >
+                <div class="flex items-center gap-2">
+                  <CountryBadge iso2={country.iso2} slug={country.slug} size="sm" linkable={false} />
+                  <span class="text-xs font-semibold text-ink group-hover:text-cobalt">
+                    {country.name}
+                  </span>
+                </div>
+                <span class="font-mono text-xs text-cobalt tabular-nums font-semibold">
+                  {jobCount} jobs
+                </span>
+              </a>
+            ))
+          )}
+        </div>
+
+        {/* Startups Watch */}
+        {startups.length > 0 && (
+          <div class="bg-surface border border-hairline rounded-md p-4 space-y-3">
+            <span class="font-mono text-xs font-bold uppercase tracking-wider text-ink block pb-1 border-b border-hairline">
+              Emerging Scaleups
+            </span>
+            {startups.map((s) => (
+              <div class="p-2 rounded bg-paper border border-hairline text-xs">
+                <div class="font-semibold text-ink">{s.name} ({s.fundingStage})</div>
+                <div class="text-[11px] text-muted mt-0.5">{s.city} · {s.amount}</div>
+              </div>
+            ))}
+          </div>
+        )}
+      </aside>
+    </div>
+
+    <!-- Active Jobs Section -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Direct Recruitment"
+        title={`Live Job Openings in ${industry.name} (${jobs.length})`}
+        actionText="All Jobs Explorer"
+        actionHref={`/jobs/?industry=${industry.slug}`}
+      />
+
+      {jobs.length === 0 ? (
+        <EmptyState
+          title="No live vacancies currently listed in this specific sector"
+          message="Check related engineering and consulting positions or set up email alerts."
+          actionText="Browse all open jobs"
+          actionHref="/jobs/"
+        />
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {jobs.slice(0, 6).map((job) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">{job.company}</span>
+                <span>[{job.country.slice(0, 2).toUpperCase()}] · {job.employmentType}</span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                  {job.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{job.city} · {job.workMode}</span>
+                <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  Details →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+
+    <!-- Key Roles & In-Demand Skills -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-hairline">
+      <div>
+        <SectionHeader
+          kicker="Career Pathways"
+          title="Typical Target Roles"
+        />
+        <div class="space-y-2">
+          {roles.map((r) => (
+            <a
+              href={url(`/careers/roles/${r.slug}/`)}
+              class="block p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors"
+            >
+              <div class="font-serif font-bold text-ink text-sm">{r.name}</div>
+              <div class="text-xs text-muted font-sans line-clamp-1 mt-0.5">{r.summary}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <SectionHeader
+          kicker="Prerequisites"
+          title="Core In-Demand Competencies"
+        />
+        <div class="flex flex-wrap gap-1.5">
+          {skills.map((s) => (
+            <a
+              href={url(`/jobs/?query=${encodeURIComponent(s.name)}`)}
+              class="text-xs font-mono px-2.5 py-1.5 rounded bg-surface border border-hairline text-ink hover:border-cobalt hover:text-cobalt transition-colors"
+            >
+              {s.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

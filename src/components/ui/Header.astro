@@ -1,0 +1,134 @@
+---
+import { siteConfig } from '@/config/site';
+import { url } from '@/lib/url';
+import SearchPalette from '@/components/islands/SearchPalette';
+import ThemeToggle from '@/components/islands/ThemeToggle';
+
+const currentPath = Astro.url.pathname;
+
+function isActiveNav(href: string): boolean {
+  const resolved = url(href);
+  if (href === '/' && currentPath === resolved) return true;
+  if (href !== '/' && currentPath.startsWith(resolved)) return true;
+  return false;
+}
+---
+
+<header class="bg-surface border-b border-hairline sticky top-0 z-40 transition-colors">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-14 sm:h-16 gap-4">
+      {/* Brand Wordmark with Amber Pulse Mark */}
+      <div class="flex items-center gap-6">
+        <a
+          href={url('/')}
+          class="flex items-center gap-1 group select-none"
+          aria-label="EuroPulse Home"
+        >
+          <span class="font-serif text-2xl font-bold tracking-tight text-ink group-hover:text-cobalt transition-colors">
+            {siteConfig.name}
+          </span>
+          <span
+            class="w-2 h-2 rounded-full bg-amber inline-block live-pulse-dot -mt-2"
+            aria-hidden="true"
+          />
+        </a>
+
+        {/* Desktop Nav Links */}
+        <nav
+          class="hidden xl:flex items-center space-x-1"
+          aria-label="Main Navigation"
+        >
+          {
+            siteConfig.nav.map((item) => {
+              const active = isActiveNav(item.href);
+              return (
+                <a
+                  href={url(item.href)}
+                  class={`px-2.5 py-1 text-xs font-mono font-medium rounded transition-colors uppercase tracking-wider ${
+                    active
+                      ? 'bg-paper text-cobalt border border-hairline font-semibold'
+                      : 'text-muted hover:text-ink hover:bg-paper'
+                  }`}
+                  aria-current={active ? 'page' : undefined}
+                >
+                  {item.label}
+                </a>
+              );
+            })
+          }
+        </nav>
+      </div>
+
+      {/* Right Actions: Search + Theme Toggle + Mobile Menu Trigger */}
+      <div class="flex items-center gap-2 sm:gap-3">
+        <SearchPalette client:idle />
+        <ThemeToggle client:idle />
+
+        {/* Mobile Menu Button */}
+        <button
+          type="button"
+          id="mobile-nav-toggle"
+          class="xl:hidden p-2 rounded border border-hairline bg-surface text-ink hover:border-cobalt transition-colors"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  {/* Mobile Nav Dropdown */}
+  <div
+    id="mobile-nav-menu"
+    class="xl:hidden hidden border-t border-hairline bg-paper px-4 pt-2 pb-4 space-y-1"
+  >
+    {
+      siteConfig.nav.map((item) => {
+        const active = isActiveNav(item.href);
+        return (
+          <a
+            href={url(item.href)}
+            class={`block px-3 py-2 text-xs font-mono uppercase tracking-wider rounded ${
+              active
+                ? 'bg-surface text-cobalt font-semibold border border-hairline'
+                : 'text-muted hover:text-ink hover:bg-surface'
+            }`}
+          >
+            {item.label}
+          </a>
+        );
+      })
+    }
+    <div class="pt-2 border-t border-hairline flex items-center justify-between text-xs font-mono text-muted px-2">
+      <a href={url('/about/')} class="hover:text-ink">About</a>
+      <a href={url('/my-lab/')} class="hover:text-ink">My Lab</a>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    const toggle = document.getElementById('mobile-nav-toggle');
+    const menu = document.getElementById('mobile-nav-menu');
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', () => {
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        toggle.setAttribute('aria-expanded', 'true');
+      } else {
+        menu.classList.add('hidden');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
+</script>

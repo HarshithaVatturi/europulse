@@ -1,0 +1,281 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getCompanies, getCompanyBySlug } from '@/services/companies';
+import { getCompanyGraph } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import Tag from '@/components/ui/Tag.astro';
+import EmptyState from '@/components/ui/EmptyState.astro';
+
+export const getStaticPaths = (async () => {
+  const companies = await getCompanies();
+  return companies.map((c) => ({
+    params: { slug: c.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const company = await getCompanyBySlug(slug);
+
+if (!company) {
+  return Astro.redirect(url('/404/'));
+}
+
+const graph = await getCompanyGraph(company.slug);
+const { country, industry, operatingCountries = [], jobs = [], news = [], similarCompanies = [], skills = [], degrees = [] } = graph || {};
+---
+
+<Layout
+  title={`${company.name} Corporate Profile & Careers`}
+  description={company.summary}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Companies', href: '/companies/' },
+        { label: company.name },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <CompanyMonogram name={company.name} size="xl" />
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              {country && <CountryBadge iso2={country.iso2} slug={country.slug} size="sm" />}
+              {industry && <Tag label={industry.name} color={industry.color} size="sm" />}
+            </div>
+            <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+              {company.name}
+            </h1>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <a
+            href={company.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 rounded border border-hairline bg-surface text-ink hover:border-cobalt transition-colors font-mono text-xs uppercase font-semibold"
+          >
+            Official Website ↗
+          </a>
+          <a
+            href={company.careersUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 rounded bg-cobalt text-white hover:bg-cobalt/90 transition-colors font-mono text-xs uppercase font-semibold"
+          >
+            Official Careers Portal ↗
+          </a>
+        </div>
+      </div>
+
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed pt-2">
+        {company.summary}
+      </p>
+
+      {/* Facts Bar (No revenue/headcount per honesty rules) */}
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-hairline font-mono text-xs">
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Headquarters</span>
+          <strong class="text-ink text-sm font-sans">{company.hqCity}</strong>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Founded</span>
+          <strong class="text-ink text-sm font-sans">{company.founded}</strong>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Operating Countries</span>
+          <div class="text-ink font-sans text-xs mt-0.5 truncate">
+            {operatingCountries.map((c) => c.name).join(', ') || company.country.toUpperCase()}
+          </div>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Active Requisitions</span>
+          <strong class="text-cobalt text-sm font-sans">{jobs.length} open listings</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Products & Solutions -->
+    <section class="space-y-3">
+      <SectionHeader
+        kicker="Industrial Focus"
+        title="Products & Core Technological Capabilities"
+      />
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {company.products.map((product) => (
+          <div class="bg-surface border border-hairline rounded p-3.5 flex items-start gap-2.5">
+            <span class="text-cobalt font-mono text-sm font-bold">▪</span>
+            <span class="text-sm font-medium text-ink font-sans leading-snug">{product}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Early Careers & Graduate Programmes Guidance -->
+    <section class="bg-surface border border-hairline rounded-md p-6 space-y-3">
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-amber"></span>
+        <h2 class="font-mono text-xs font-bold uppercase tracking-wider text-ink">
+          Student Traineeships &amp; Graduate Tracks
+        </h2>
+      </div>
+      <p class="text-sm text-ink/90 font-sans leading-relaxed">
+        {company.internshipNotes}
+      </p>
+      <div class="pt-2 text-xs font-mono text-muted">
+        <span>To apply for official student positions, visit the </span>
+        <a href={company.careersUrl} target="_blank" rel="noopener noreferrer" class="text-cobalt hover:underline font-semibold">
+          {company.name} Careers Portal ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- Open Jobs at this Company -->
+    <section class="space-y-4">
+      <SectionHeader
+        kicker="Current Hiring"
+        title={`Open Listings at ${company.name} (${jobs.length})`}
+        actionText="All Jobs Explorer"
+        actionHref={`/jobs/?company=${company.slug}`}
+      />
+
+      {jobs.length === 0 ? (
+        <EmptyState
+          title="No live vacancies currently listed for this company"
+          message="Check the official corporate careers portal above for unlisted local plant openings."
+        />
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {jobs.map((job) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">[{job.country.slice(0, 2).toUpperCase()}] {job.city}</span>
+                <span class="px-2 py-0.5 rounded bg-paper border border-hairline text-ink font-semibold">
+                  {job.employmentType}
+                </span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                  {job.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{job.workMode} · {job.experience}</span>
+                <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  View Listing →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+
+    <!-- Target Degrees & Skills Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-hairline">
+      <div>
+        <SectionHeader
+          kicker="Target Qualifications"
+          title="Degree Programs in Demand"
+        />
+        <div class="space-y-2">
+          {degrees.map((deg) => (
+            <a
+              href={url(`/careers/${deg.slug}/`)}
+              class="block p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors"
+            >
+              <div class="font-serif font-bold text-ink text-sm">{deg.name}</div>
+              <div class="text-xs text-muted font-sans line-clamp-1 mt-0.5">{deg.summary}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <SectionHeader
+          kicker="Target Competencies"
+          title="Technical & Business Skills"
+        />
+        <div class="flex flex-wrap gap-1.5">
+          {skills.map((s) => (
+            <a
+              href={url(`/jobs/?query=${encodeURIComponent(s.name)}`)}
+              class="text-xs font-mono px-2.5 py-1.5 rounded bg-surface border border-hairline text-ink hover:border-cobalt hover:text-cobalt transition-colors"
+            >
+              {s.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Intelligence Dispatches -->
+    {news.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Related Reporting"
+          title={`Dispatches Involving ${company.name} (${news.length})`}
+          actionText="All News"
+          actionHref="/news/"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {news.map((n) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <span class="font-mono text-[10px] text-muted block mb-1 tabular-nums">
+                {n.date}
+              </span>
+              <h4 class="font-serif text-sm font-bold text-ink group-hover:text-cobalt transition-colors line-clamp-2 mb-2">
+                <a href={url(`/news/${n.slug}/`)} class="hover:underline">
+                  {n.title}
+                </a>
+              </h4>
+              <p class="text-xs text-muted font-sans line-clamp-2">
+                {n.careerImpact}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Similar Employers -->
+    {similarCompanies.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Ecosystem Peers"
+          title="Similar European Employers"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {similarCompanies.slice(0, 3).map((peer) => (
+            <a
+              href={url(`/companies/${peer.slug}/`)}
+              class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group flex items-center gap-3"
+            >
+              <CompanyMonogram name={peer.name} size="sm" />
+              <div>
+                <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+                  {peer.name}
+                </div>
+                <div class="font-mono text-[10px] text-muted capitalize">
+                  HQ: {peer.hqCity} · {peer.industry}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

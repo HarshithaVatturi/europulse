@@ -1,0 +1,63 @@
+---
+import { url } from '@/lib/url';
+
+interface Props {
+  label: string;
+  href?: string;
+  color?: string;
+  variant?: 'default' | 'mono' | 'subtle';
+  size?: 'sm' | 'md';
+  class?: string;
+}
+
+const {
+  label,
+  href,
+  color,
+  variant = 'default',
+  size = 'md',
+  class: className = '',
+} = Astro.props;
+
+const sizeStyles = {
+  sm: 'text-[11px] px-2 py-0.5',
+  md: 'text-xs px-2.5 py-1',
+};
+
+const fontStyles = {
+  default: 'font-sans font-medium',
+  mono: 'font-mono uppercase tracking-wider text-[10px]',
+  subtle: 'font-sans text-muted',
+};
+---
+
+{
+  href ? (
+    <a
+      href={url(href)}
+      class={`inline-flex items-center gap-1.5 rounded border border-hairline bg-surface text-ink hover:border-cobalt hover:text-cobalt transition-colors ${fontStyles[variant]} ${sizeStyles[size]} ${className}`}
+    >
+      {color && (
+        <span
+          class="w-2 h-2 rounded-full shrink-0"
+          style={`background-color: ${color};`}
+          aria-hidden="true"
+        />
+      )}
+      <span>{label}</span>
+    </a>
+  ) : (
+    <span
+      class={`inline-flex items-center gap-1.5 rounded border border-hairline bg-surface text-ink ${fontStyles[variant]} ${sizeStyles[size]} ${className}`}
+    >
+      {color && (
+        <span
+          class="w-2 h-2 rounded-full shrink-0"
+          style={`background-color: ${color};`}
+          aria-hidden="true"
+        />
+      )}
+      <span>{label}</span>
+    </span>
+  )
+}

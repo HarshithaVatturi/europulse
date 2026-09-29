@@ -1,0 +1,55 @@
+---
+import { url } from '@/lib/url';
+
+interface Props {
+  iso2: string;
+  name?: string;
+  slug?: string;
+  size?: 'sm' | 'md' | 'lg';
+  linkable?: boolean;
+  class?: string;
+}
+
+const {
+  iso2,
+  name,
+  slug,
+  size = 'md',
+  linkable = true,
+  class: className = '',
+} = Astro.props;
+
+const targetSlug = slug || iso2.toLowerCase();
+const href = url(`/countries/${targetSlug}/`);
+
+const sizeStyles = {
+  sm: 'text-[11px] px-1 py-0.5',
+  md: 'text-xs px-1.5 py-0.5',
+  lg: 'text-sm px-2 py-1',
+};
+---
+
+{
+  linkable ? (
+    <a
+      href={href}
+      class={`inline-flex items-center gap-1 font-mono font-semibold tracking-wider rounded border border-hairline bg-surface text-ink hover:border-cobalt hover:text-cobalt transition-colors tabular-nums ${sizeStyles[size]} ${className}`}
+      title={name ? `${name} (${iso2})` : iso2}
+    >
+      <span class="text-muted text-[10px] select-none">[</span>
+      <span>{iso2.toUpperCase()}</span>
+      <span class="text-muted text-[10px] select-none">]</span>
+      {name && <span class="font-sans font-normal ml-0.5 text-ink">{name}</span>}
+    </a>
+  ) : (
+    <span
+      class={`inline-flex items-center gap-1 font-mono font-semibold tracking-wider rounded border border-hairline bg-surface text-ink tabular-nums ${sizeStyles[size]} ${className}`}
+      title={name ? `${name} (${iso2})` : iso2}
+    >
+      <span class="text-muted text-[10px] select-none">[</span>
+      <span>{iso2.toUpperCase()}</span>
+      <span class="text-muted text-[10px] select-none">]</span>
+      {name && <span class="font-sans font-normal ml-0.5 text-ink">{name}</span>}
+    </span>
+  )
+}

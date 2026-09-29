@@ -1,0 +1,132 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getCountries } from '@/services/countries';
+import { getJobs } from '@/services/jobs';
+import { getCompanies } from '@/services/companies';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import EuropeTileMap from '@/components/ui/EuropeTileMap.astro';
+
+const [countries, jobs, companies] = await Promise.all([
+  getCountries(),
+  getJobs(),
+  getCompanies(),
+]);
+
+const jobCountMap = new Map<string, number>();
+jobs.forEach((j) => {
+  jobCountMap.set(j.country.toLowerCase(), (jobCountMap.get(j.country.toLowerCase()) || 0) + 1);
+});
+
+const companyCountMap = new Map<string, number>();
+companies.forEach((c) => {
+  companyCountMap.set(c.country.toLowerCase(), (companyCountMap.get(c.country.toLowerCase()) || 0) + 1);
+});
+---
+
+<Layout
+  title="European Countries & Student Career Hubs"
+  description="Explore the 14 European single-market economies, post-study work regulations, and direct job opportunities."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+    <Breadcrumbs items={[{ label: 'Countries' }]} />
+
+    <SectionHeader
+      kicker="Geographical Matrix"
+      title="European Economies & Study Portals"
+      description="Interactive single-market overview pairing national macroeconomic ecosystems with official student visa guidelines and active hiring."
+    />
+
+    <!-- Europe Tile Map -->
+    <div>
+      <EuropeTileMap />
+    </div>
+
+    <!-- Country Directory Cards -->
+    <div class="space-y-4">
+      <SectionHeader
+        kicker="National Hubs"
+        title="All 14 Country Intelligence Hubs"
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {
+          countries.map((c) => {
+            const jobCount = jobCountMap.get(c.slug.toLowerCase()) || 0;
+            const companyCount = companyCountMap.get(c.slug.toLowerCase()) || 0;
+
+            return (
+              <article class="bg-surface border border-hairline rounded-md p-6 hover:border-cobalt transition-colors flex flex-col justify-between group">
+                <div>
+                  <div class="flex items-start justify-between gap-3 mb-3">
+                    <div class="flex items-center gap-3">
+                      <CountryBadge iso2={c.iso2} slug={c.slug} size="lg" linkable={false} />
+                      <div>
+                        <h3 class="font-serif text-xl font-bold text-ink group-hover:text-cobalt transition-colors">
+                          <a href={url(`/countries/${c.slug}/`)} class="hover:underline">
+                            {c.name}
+                          </a>
+                        </h3>
+                        <span class="font-mono text-xs text-muted">Capital: {c.capital}</span>
+                      </div>
+                    </div>
+                    {c.featured && (
+                      <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+                        Featured
+                      </span>
+                    )}
+                  </div>
+
+                  <p class="text-xs text-ink/80 font-sans line-clamp-3 mb-4 leading-relaxed">
+                    {c.summary}
+                  </p>
+
+                  <div class="space-y-1.5 text-xs font-mono text-muted mb-4 border-t border-hairline pt-3">
+                    <div class="flex items-center justify-between">
+                      <span>Currency:</span>
+                      <strong class="text-ink">{c.currency}</strong>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span>Post-Study Work:</span>
+                      <span class="text-ink font-sans text-[11px] truncate max-w-[180px]">
+                        {c.studentInfo.postStudyWorkDuration}
+                      </span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span>Official Portal:</span>
+                      <a
+                        href={c.studentInfo.officialPortalUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-cobalt hover:underline font-mono text-[11px]"
+                      >
+                        Portal ↗
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-3 border-t border-hairline flex items-center justify-between font-mono text-xs">
+                  <div class="flex items-center gap-3">
+                    <span class="text-muted">{companyCount} employers</span>
+                    <span>·</span>
+                    <strong class="text-cobalt tabular-nums">{jobCount} jobs</strong>
+                  </div>
+                  <a
+                    href={url(`/countries/${c.slug}/`)}
+                    class="text-cobalt hover:underline font-semibold"
+                  >
+                    Country Hub →
+                  </a>
+                </div>
+              </article>
+            );
+          })
+        }
+      </div>
+    </div>
+  </div>
+</Layout>

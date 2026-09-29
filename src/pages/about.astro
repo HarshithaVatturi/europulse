@@ -1,0 +1,214 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { siteConfig, isOwnerPopulated } from '@/config/site';
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+
+const hasOwner = isOwnerPopulated();
+const owner = siteConfig.owner;
+---
+
+<Layout
+  title="About EuroPulse — Methodology, Graph Architecture & Ethics"
+  description="Discover how EuroPulse connects European business news to career trajectories, our data integrity standards, and ethics."
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12 text-ink font-sans">
+    <Breadcrumbs items={[{ label: 'About' }]} />
+
+    <!-- Page Header -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded border border-hairline bg-surface text-ink font-mono text-xs font-semibold uppercase tracking-wider">
+        <span>Platform Mission &amp; Methodology</span>
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        About {siteConfig.name}
+      </h1>
+
+      <p class="text-base sm:text-xl text-muted leading-relaxed font-sans">
+        A Europe-focused business and career intelligence platform. The differentiator: every single business story connects directly to industry trends, skills, and open jobs.
+      </p>
+    </header>
+
+    <!-- Mission & Target Audience -->
+    <section class="space-y-4">
+      <SectionHeader
+        kicker="The Problem"
+        title="Why Business News Should Connect to Careers"
+      />
+      <div class="prose prose-neutral max-w-none text-sm sm:text-base leading-relaxed space-y-4 text-ink/90">
+        <p>
+          Mainstream business reporting covers corporate investments, plant retooling, and EU policy directives at 30,000 feet. At the same time, graduate job boards feature thousands of disconnected job postings without business context.
+        </p>
+        <p>
+          For Master's, MIM, MBA, and engineering students—as well as international job seekers targeting Europe—navigating the single market requires seeing the causal chain: <em>When a German automaker expands EV battery cell production, which engineering competencies will they recruit for in 12 months? When the EU AI Act takes effect, which corporate governance functions will scale their teams?</em>
+        </p>
+        <p>
+          <strong>{siteConfig.name}</strong> bridges this gap by maintaining an interconnected entity graph linking macroeconomic developments to actionable career pathways.
+        </p>
+      </div>
+    </section>
+
+    <!-- How the Graph Works -->
+    <section id="methodology" class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Architecture"
+        title="The News-to-Careers Graph"
+        description="Every story flows through six deterministic graph dimensions."
+      />
+
+      <div class="bg-surface border border-hairline rounded-md p-6 space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 text-center">
+          <div class="p-3 bg-paper rounded border border-hairline">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">01. News</span>
+            <span class="text-xs text-ink font-semibold">Macro Story</span>
+          </div>
+          <div class="p-3 bg-paper rounded border border-hairline">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">02. Company</span>
+            <span class="text-xs text-ink font-semibold">Anchor Enterprise</span>
+          </div>
+          <div class="p-3 bg-paper rounded border border-hairline">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">03. Industry</span>
+            <span class="text-xs text-ink font-semibold">Sector Dynamics</span>
+          </div>
+          <div class="p-3 bg-paper rounded border border-hairline">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">04. Country</span>
+            <span class="text-xs text-ink font-semibold">Single Market Hub</span>
+          </div>
+          <div class="p-3 bg-paper rounded border border-hairline">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">05. Skills &amp; Roles</span>
+            <span class="text-xs text-ink font-semibold">Target Functions</span>
+          </div>
+          <div class="p-3 bg-cobalt/10 rounded border border-cobalt/40">
+            <span class="font-mono text-xs font-bold text-cobalt block mb-1">06. Jobs</span>
+            <span class="text-xs text-cobalt font-bold">Active Requisitions</span>
+          </div>
+        </div>
+
+        <p class="text-xs text-muted font-sans leading-relaxed pt-2">
+          Relationships are stored once on the most specific entity, and bidirectional reverse linkages are computed at build time in <code class="font-mono text-xs text-cobalt">src/lib/graph.ts</code>. This guarantees zero broken links and ultra-fast static page generation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Data Ethics & Honesty Guidelines -->
+    <section id="ethics" class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Integrity Bar"
+        title="Data Ethics &amp; Verification Rules"
+        description="Our strict commitment to factual accuracy, copyright, and user privacy."
+      />
+
+      <div class="space-y-4 text-sm text-ink/90 font-sans leading-relaxed">
+        <div class="bg-surface border border-hairline rounded p-4 space-y-1">
+          <strong class="font-serif font-bold text-ink block text-base">Original Summaries &amp; Copyright Compliance</strong>
+          <p class="text-xs text-muted">
+            EuroPulse never reproduces full external articles. Dispatches consist of original analytical summaries of 60 words or fewer, accompanied by structured career impact analysis. External publisher traffic is respected.
+          </p>
+        </div>
+
+        <div class="bg-surface border border-hairline rounded p-4 space-y-1">
+          <strong class="font-serif font-bold text-ink block text-base">Verified Public Corporate Facts Only</strong>
+          <p class="text-xs text-muted">
+            Company profiles contain only stable public information: headquarters city, sector, founding year, products, and official portal links. We never invent or extrapolate financial headcount or revenue figures.
+          </p>
+        </div>
+
+        <div class="bg-surface border border-hairline rounded p-4 space-y-1">
+          <strong class="font-serif font-bold text-ink block text-base">No Fabricated Macro Statistics</strong>
+          <p class="text-xs text-muted">
+            Volatile country metrics (GDP growth, unemployment rates) are not simulated. They are designated as pending future Eurostat API integration. All displayed counts and skill frequencies are computed live from active data.
+          </p>
+        </div>
+
+        <div class="bg-surface border border-hairline rounded p-4 space-y-1">
+          <strong class="font-serif font-bold text-ink block text-base">Privacy &amp; GDPR Adherence</strong>
+          <p class="text-xs text-muted">
+            Zero third-party trackers, zero advertising pixels, zero persistent tracking cookies. Typefaces are self-hosted via Fontsource to ensure compliance with European privacy standards.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Future Evolution"
+        title="Technical Roadmap"
+      />
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 font-mono text-xs">
+        <div class="bg-surface border border-hairline rounded p-4 space-y-2">
+          <span class="text-cobalt font-bold">Phase 1 (Current)</span>
+          <h4 class="font-serif text-sm font-bold text-ink">MVP Static Intelligence</h4>
+          <p class="text-[11px] text-muted font-sans leading-snug">
+            Static Astro output on GitHub Pages, MiniSearch client indexing, and deterministic graph relationships.
+          </p>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-4 space-y-2">
+          <span class="text-muted font-bold">Phase 2</span>
+          <h4 class="font-serif text-sm font-bold text-ink">Automated Daily Ingestion</h4>
+          <p class="text-[11px] text-muted font-sans leading-snug">
+            Scheduled RSS &amp; job board aggregators feeding AI entity classification models before git-committing updates.
+          </p>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-4 space-y-2">
+          <span class="text-muted font-bold">Phase 3</span>
+          <h4 class="font-serif text-sm font-bold text-ink">Eurostat &amp; Live Feeds</h4>
+          <p class="text-[11px] text-muted font-sans leading-snug">
+            Direct integration with official European Commission data portals and university alumni career outcomes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Owner Section (Conditional Rendering per Brief) -->
+    {hasOwner && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Curator &amp; Lead"
+          title="About the Author"
+        />
+
+        <div class="bg-surface border border-hairline rounded-md p-6 flex flex-col sm:flex-row items-center gap-6">
+          {owner.avatarUrl && (
+            <img
+              src={owner.avatarUrl}
+              alt={owner.name}
+              class="w-24 h-24 rounded-full object-cover border border-hairline shrink-0"
+            />
+          )}
+          <div class="space-y-2 text-center sm:text-left">
+            <h3 class="font-serif text-2xl font-bold text-ink">{owner.name}</h3>
+            {owner.role && <div class="font-mono text-xs text-cobalt font-semibold">{owner.role}</div>}
+            {owner.bio && <p class="text-sm text-muted font-sans leading-relaxed">{owner.bio}</p>}
+            {owner.location && <div class="font-mono text-xs text-muted">Location: {owner.location}</div>}
+
+            {/* Social Links */}
+            <div class="flex flex-wrap items-center gap-3 pt-2 font-mono text-xs text-cobalt">
+              {owner.socials.github && (
+                <a href={owner.socials.github} target="_blank" rel="noopener noreferrer" class="hover:underline">
+                  GitHub ↗
+                </a>
+              )}
+              {owner.socials.linkedin && (
+                <a href={owner.socials.linkedin} target="_blank" rel="noopener noreferrer" class="hover:underline">
+                  LinkedIn ↗
+                </a>
+              )}
+              {owner.socials.twitter && (
+                <a href={owner.socials.twitter} target="_blank" rel="noopener noreferrer" class="hover:underline">
+                  Twitter ↗
+                </a>
+              )}
+              {owner.socials.email && (
+                <a href={`mailto:${owner.socials.email}`} class="hover:underline">
+                  Email ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

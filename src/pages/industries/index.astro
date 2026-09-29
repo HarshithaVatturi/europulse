@@ -1,0 +1,106 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getIndustries } from '@/services/industries';
+import { getJobs } from '@/services/jobs';
+import { getCompanies } from '@/services/companies';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import Tag from '@/components/ui/Tag.astro';
+import Sparkline from '@/components/ui/Sparkline.astro';
+
+const [industries, jobs, companies] = await Promise.all([
+  getIndustries(),
+  getJobs(),
+  getCompanies(),
+]);
+
+const jobCountMap = new Map<string, number>();
+jobs.forEach((j) => {
+  jobCountMap.set(j.industry.toLowerCase(), (jobCountMap.get(j.industry.toLowerCase()) || 0) + 1);
+});
+
+const companyCountMap = new Map<string, number>();
+companies.forEach((c) => {
+  companyCountMap.set(c.industry.toLowerCase(), (companyCountMap.get(c.industry.toLowerCase()) || 0) + 1);
+});
+---
+
+<Layout
+  title="European Industry Sectors & Momentum"
+  description="Analysis of 14 core European industry sectors, technological trends, investment series, and employment demand."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumbs items={[{ label: 'Industries' }]} />
+
+    <SectionHeader
+      kicker="Macro Sectors"
+      title="European Industry Taxonomy"
+      description="The 14 industrial pillars driving continental economic sovereignty, re-industrialization, and specialized career pathways."
+    />
+
+    <div class="bg-surface border border-hairline rounded-md divide-y divide-hairline overflow-hidden">
+      {
+        industries.map((ind) => {
+          const jobCount = jobCountMap.get(ind.slug.toLowerCase()) || 0;
+          const companyCount = companyCountMap.get(ind.slug.toLowerCase()) || 0;
+
+          return (
+            <div class="p-5 sm:p-6 hover:bg-paper/50 transition-colors flex flex-col lg:flex-row lg:items-center justify-between gap-4 group">
+              <div class="space-y-1.5 lg:max-w-xl">
+                <div class="flex items-center gap-2">
+                  <Tag label={ind.name} color={ind.color} href={`/industries/${ind.slug}/`} />
+                  {ind.featured && (
+                    <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+                      Featured
+                    </span>
+                  )}
+                </div>
+
+                <h3 class="font-serif text-lg font-bold text-ink">
+                  <a href={url(`/industries/${ind.slug}/`)} class="hover:text-cobalt hover:underline">
+                    {ind.name}
+                  </a>
+                </h3>
+
+                <p class="text-xs text-muted font-sans line-clamp-2">
+                  {ind.summary}
+                </p>
+              </div>
+
+              <!-- Sparkline & Metrics -->
+              <div class="flex flex-wrap items-center gap-6 sm:gap-8 justify-between lg:justify-end">
+                <div class="text-left sm:text-right">
+                  <span class="block font-mono text-[10px] uppercase text-muted">Active Employers</span>
+                  <span class="font-mono text-sm font-bold text-ink tabular-nums">
+                    {companyCount} profiled
+                  </span>
+                </div>
+
+                <div class="text-left sm:text-right">
+                  <span class="block font-mono text-[10px] uppercase text-muted">Open Positions</span>
+                  <span class="font-mono text-sm font-bold text-cobalt tabular-nums">
+                    {jobCount} listings
+                  </span>
+                </div>
+
+                <div class="flex flex-col items-end">
+                  <span class="block font-mono text-[10px] uppercase text-muted mb-1">Momentum Series</span>
+                  <Sparkline data={ind.momentumSeries} width={110} height={26} />
+                </div>
+
+                <a
+                  href={url(`/industries/${ind.slug}/`)}
+                  class="font-mono text-xs font-semibold text-cobalt hover:underline shrink-0"
+                >
+                  Hub Details →
+                </a>
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,60 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+
+const suggestions = [
+  { label: 'Europe Pulse', href: '/pulse/', desc: 'Daily multi-country business briefing' },
+  { label: 'News Dispatches', href: '/news/', desc: 'Macro stories connected to career impacts' },
+  { label: 'Job Explorer', href: '/jobs/', desc: 'Search graduate programmes and engineering roles' },
+  { label: 'Career Hub', href: '/careers/', desc: 'Explore academic pathways and degree roadmaps' },
+  { label: 'Search (⌘K)', href: '/search/', desc: 'Instant entity search across Europe' },
+];
+---
+
+<Layout
+  title="404 — Page Not Found"
+  description="The requested European intelligence dispatch or taxonomy record could not be found."
+  noindex={true}
+>
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center space-y-6">
+    <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-amber/15 border border-amber/30 text-ink font-mono text-xs uppercase font-bold tracking-wider">
+      <span>HTTP 404 · Route Not Found</span>
+    </div>
+
+    <h1 class="font-serif text-4xl sm:text-5xl font-bold tracking-tight text-ink">
+      Signal Terminated
+    </h1>
+
+    <p class="font-sans text-base text-muted max-w-lg mx-auto leading-relaxed">
+      The intelligence report, company monograph, or job requisition you requested is not indexed or has been archived.
+    </p>
+
+    <!-- Suggestions Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left pt-6">
+      {
+        suggestions.map((item) => (
+          <a
+            href={url(item.href)}
+            class="p-4 rounded-md bg-surface border border-hairline hover:border-cobalt transition-colors group block"
+          >
+            <div class="font-serif font-bold text-ink group-hover:text-cobalt text-sm">
+              {item.label} →
+            </div>
+            <div class="text-xs text-muted font-sans mt-0.5">
+              {item.desc}
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="pt-6">
+      <a
+        href={url('/')}
+        class="inline-flex items-center px-6 py-2.5 rounded bg-ink text-surface hover:bg-cobalt transition-colors font-mono text-xs uppercase font-semibold tracking-wider"
+      >
+        Return to EuroPulse Home
+      </a>
+    </div>
+  </div>
+</Layout>

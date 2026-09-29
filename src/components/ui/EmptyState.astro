@@ -1,0 +1,43 @@
+---
+import { url } from '@/lib/url';
+
+interface Props {
+  title?: string;
+  message?: string;
+  actionText?: string;
+  actionHref?: string;
+  class?: string;
+}
+
+const {
+  title = 'No records match your criteria',
+  message = 'Try broadening your search keywords or resetting active filters.',
+  actionText,
+  actionHref,
+  class: className = '',
+} = Astro.props;
+---
+
+<div
+  class={`bg-surface border border-dashed border-hairline rounded-md p-10 text-center flex flex-col items-center justify-center my-6 ${className}`}
+>
+  <div class="w-10 h-10 rounded-full bg-paper border border-hairline flex items-center justify-center mb-3 text-muted font-mono text-sm">
+    ø
+  </div>
+  <h3 class="font-serif text-lg font-bold text-ink mb-1">
+    {title}
+  </h3>
+  <p class="text-sm text-muted max-w-md font-sans mb-4">
+    {message}
+  </p>
+
+  {actionText && actionHref && (
+    <a
+      href={url(actionHref)}
+      class="inline-flex items-center px-4 py-2 text-xs font-mono font-semibold uppercase tracking-wider rounded border border-hairline bg-paper text-ink hover:border-cobalt hover:text-cobalt transition-colors"
+    >
+      {actionText}
+    </a>
+  )}
+  <slot />
+</div>

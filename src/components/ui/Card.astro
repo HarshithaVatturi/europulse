@@ -1,0 +1,35 @@
+---
+interface Props {
+  as?: 'div' | 'article' | 'section' | 'a';
+  href?: string;
+  class?: string;
+  hoverable?: boolean;
+  padding?: 'none' | 'sm' | 'md' | 'lg';
+}
+
+const {
+  as: Component = 'div',
+  href,
+  class: className = '',
+  hoverable = true,
+  padding = 'md',
+} = Astro.props;
+
+const paddingStyles = {
+  none: '',
+  sm: 'p-3',
+  md: 'p-5',
+  lg: 'p-7',
+};
+
+const hoverStyle = hoverable
+  ? 'hover:border-cobalt transition-colors duration-150'
+  : '';
+---
+
+<Component
+  href={href}
+  class={`block bg-surface border border-hairline rounded-md text-ink ${paddingStyles[padding]} ${hoverStyle} ${className}`}
+>
+  <slot />
+</Component>

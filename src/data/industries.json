@@ -1,0 +1,304 @@
+[
+  {
+    "id": "technology",
+    "slug": "technology",
+    "name": "Technology",
+    "summary": "Enterprise cloud, software infrastructure, open-source tooling, and European sovereign data architecture.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#1F4FD1",
+    "trends": [
+      {
+        "title": "Sovereign Cloud & Gaia-X Deployments",
+        "description": "European enterprises accelerating compliance with EU data protection regulations through regional cloud infrastructure.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Industrial Software Standardization",
+        "description": "Shift toward unified digital twin frameworks bridging engineering CAD with real-time shop floor telematics.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [62, 65, 68, 72, 75, 80, 86],
+    "aliases": ["tech", "software", "digital", "it", "saas", "cloud"]
+  },
+  {
+    "id": "automotive",
+    "slug": "automotive",
+    "name": "Automotive",
+    "summary": "Software-defined vehicles, high-voltage battery architecture, circular manufacturing, and autonomous fleet platforms.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#0B1B33",
+    "trends": [
+      {
+        "title": "Software-Defined Vehicle (SDV) Re-platforming",
+        "description": "OEMs building internal vehicle operating system divisions to regain control over infotainment and powertrain middleware.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Legacy Internal Combustion Downscaling",
+        "description": "Systematic phase-down of petrol and diesel powertrain development lines across central European facilities.",
+        "direction": "down",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [80, 78, 75, 71, 69, 73, 76],
+    "aliases": ["auto", "vehicles", "cars", "mobility", "ev", "powertrain"]
+  },
+  {
+    "id": "manufacturing",
+    "slug": "manufacturing",
+    "name": "Manufacturing",
+    "summary": "Precision tooling, Industry 4.0 automation, circular metallurgy, and decentralized European supply ecosystems.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#5B6472",
+    "trends": [
+      {
+        "title": "Smart Factory Retrofitting",
+        "description": "Mittelstand and enterprise manufacturers embedding edge computing into legacy CNC and stamping machinery.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Decarbonized Metallurgy",
+        "description": "Adoption of green hydrogen reduction furnaces for low-emission steel and aluminum precision fabrication.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [70, 71, 72, 74, 76, 78, 81],
+    "aliases": ["industrial", "production", "industry 4.0", "machinery", "fabrication"]
+  },
+  {
+    "id": "robotics",
+    "slug": "robotics",
+    "name": "Robotics & Automation",
+    "summary": "Collaborative robots (cobots), warehouse autonomous mobile robots (AMRs), and vision-guided factory robotics.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#F5B700",
+    "trends": [
+      {
+        "title": "Autonomous Mobile Fleets in Logistics",
+        "description": "Rapid integration of SLAM navigation mobile robots in trans-European distribution hubs.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "AI Vision-Guided Assembly",
+        "description": "Deployment of real-time multi-spectral neural vision models for zero-defect precision assembly lines.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [55, 60, 66, 72, 81, 88, 94],
+    "aliases": ["robotics", "automation", "cobots", "amr", "mechatronics"]
+  },
+  {
+    "id": "aerospace",
+    "slug": "aerospace",
+    "name": "Aerospace",
+    "summary": "Commercial avionics, sustainable aviation fuels (SAF), satellite constellations, and sovereign defense electronics.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#1F4FD1",
+    "trends": [
+      {
+        "title": "Hydrogen Turbofan Testbeds",
+        "description": "Cross-border aerospace consortiums testing cryogenic hydrogen storage and combustor demonstrators.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Low Earth Orbit Sovereign Constellations",
+        "description": "European secure connectivity initiatives driving demand for space-rated optical communications payloads.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [65, 68, 71, 75, 78, 82, 87],
+    "aliases": ["aviation", "defense", "space", "aeronautics", "avionics"]
+  },
+  {
+    "id": "fashion",
+    "slug": "fashion",
+    "name": "Fashion & Luxury",
+    "summary": "Haute couture heritage, sustainable textiles, digital product passports, and luxury brand experience orchestration.",
+    "featured": true,
+    "isDemo": false,
+    "color": "#C23B22",
+    "trends": [
+      {
+        "title": "Digital Product Passport (DPP) Mandates",
+        "description": "Implementation of EU-mandated traceability protocols for garment lifecycle and material provenance.",
+        "direction": "up",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Bio-Synthetic Leather Alternatives",
+        "description": "Luxury fashion houses transitioning capsule collections toward mycelium and fruit-waste biomaterials.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [72, 73, 71, 74, 76, 75, 78],
+    "aliases": ["luxury", "apparel", "textiles", "couture", "retail fashion"]
+  },
+  {
+    "id": "ai",
+    "slug": "ai",
+    "name": "AI",
+    "summary": "Frontier foundation models, multilingual NLP, European AI Act compliance frameworks, and applied enterprise intelligence.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#0F7B5F",
+    "trends": [
+      {
+        "title": "EU AI Act Compliance Engineering",
+        "description": "Creation of specialized risk assessment and technical auditing tooling for high-risk foundation model deployments.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [50, 58, 68, 79, 87, 93, 98],
+    "aliases": ["artificial intelligence", "machine learning", "ml", "genai", "deep learning"]
+  },
+  {
+    "id": "semiconductors",
+    "slug": "semiconductors",
+    "name": "Semiconductors",
+    "summary": "Extreme ultraviolet (EUV) photolithography, automotive microcontrollers, and European Chips Act mega-fabs.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#1F4FD1",
+    "trends": [
+      {
+        "title": "High-NA EUV Commercialization",
+        "description": "Ramp-up of next-generation numerical aperture lithography tools enabling sub-2nm node mass production.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [68, 72, 77, 83, 86, 91, 95],
+    "aliases": ["chips", "silicon", "microchips", "fab", "photolithography"]
+  },
+  {
+    "id": "energy",
+    "slug": "energy",
+    "name": "Energy",
+    "summary": "Grid electrification, offshore wind farms, nuclear small modular reactors, and hydrogen transport infrastructure.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#0F7B5F",
+    "trends": [
+      {
+        "title": "High-Voltage Direct Current (HVDC) Interconnects",
+        "description": "Interconnecting North Sea wind generation directly with inland continental industrial load centers.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [64, 69, 73, 78, 82, 85, 89],
+    "aliases": ["renewables", "clean tech", "power", "grid", "wind", "solar", "nuclear"]
+  },
+  {
+    "id": "finance-banking",
+    "slug": "finance-banking",
+    "name": "Finance & Banking",
+    "summary": "Sustainable finance taxonomy, pan-European SEPA instant settlement, digital euro trials, and private credit.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#5B6472",
+    "trends": [
+      {
+        "title": "Digital Euro CBDC Pilot Infrastructure",
+        "description": "European Central Bank and commercial banking consortiums piloting retail digital euro architecture.",
+        "direction": "stable",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [66, 68, 67, 69, 70, 71, 72],
+    "aliases": ["fintech", "banking", "finance", "capital markets", "insurance"]
+  },
+  {
+    "id": "healthcare",
+    "slug": "healthcare",
+    "name": "Healthcare",
+    "summary": "Medical technology imaging, oncology therapeutics, decentralized clinical trials, and biotech research.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#0F7B5F",
+    "trends": [
+      {
+        "title": "AI-Enhanced Diagnostic Radiology",
+        "description": "CE-certified clinical decision support algorithms scaling across national European health systems.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [70, 72, 74, 76, 79, 81, 84],
+    "aliases": ["medtech", "biotech", "pharma", "life sciences", "medical devices"]
+  },
+  {
+    "id": "retail",
+    "slug": "retail",
+    "name": "Retail",
+    "summary": "Omnichannel consumer supply chains, automated fulfillment micro-centers, and zero-packaging grocery innovation.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#5B6472",
+    "trends": [
+      {
+        "title": "Automated Dark Store Micro-Fulfillment",
+        "description": "Urban robotics grocery picking stations reducing delivery time windows in European capitals.",
+        "direction": "stable",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [63, 62, 64, 65, 63, 66, 67],
+    "aliases": ["e-commerce", "commerce", "consumer goods", "fmcg"]
+  },
+  {
+    "id": "construction",
+    "slug": "construction",
+    "name": "Construction",
+    "summary": "Prefabricated modular timber architecture, low-clinker cement, and Building Information Modeling (BIM).",
+    "featured": false,
+    "isDemo": false,
+    "color": "#5B6472",
+    "trends": [
+      {
+        "title": "Mass Timber High-Rise Architecture",
+        "description": "Regulatory harmonization across France and Germany enabling hybrid timber construction up to 20 stories.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [59, 61, 60, 63, 65, 66, 68],
+    "aliases": ["infrastructure", "building", "real estate", "civil engineering"]
+  },
+  {
+    "id": "logistics-supply-chain",
+    "slug": "logistics-supply-chain",
+    "name": "Logistics & Supply Chain",
+    "summary": "Trans-European freight corridors, automated multimodal terminals, and green last-mile electric distribution.",
+    "featured": false,
+    "isDemo": false,
+    "color": "#0B1B33",
+    "trends": [
+      {
+        "title": "Electric Heavy Truck Corridor Charging",
+        "description": "High-megawatt charging networks opening across Rhine-Alpine and Scandinavian-Mediterranean freight axes.",
+        "direction": "up",
+        "period": "Q3 2026"
+      }
+    ],
+    "momentumSeries": [68, 71, 74, 78, 80, 83, 86],
+    "aliases": ["freight", "shipping", "warehousing", "transportation"]
+  }
+]

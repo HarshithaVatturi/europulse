@@ -1,0 +1,87 @@
+---
+import '@/styles/global.css';
+import SEO from '@/components/ui/SEO.astro';
+import DemoBanner from '@/components/ui/DemoBanner.astro';
+import Header from '@/components/ui/Header.astro';
+import PulseTicker from '@/components/ui/PulseTicker.astro';
+import Footer from '@/components/ui/Footer.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  type?: 'website' | 'article';
+  publishDate?: string;
+  jsonLd?: Record<string, any>;
+  showTicker?: boolean;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  noindex,
+  type = 'website',
+  publishDate,
+  jsonLd,
+  showTicker = true,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <SEO
+      title={title}
+      description={description}
+      ogImage={ogImage}
+      noindex={noindex}
+      type={type}
+      publishDate={publishDate}
+      jsonLd={jsonLd}
+    />
+
+    {/* No-flash inline theme loader script */}
+    <script is:inline>
+      (function () {
+        try {
+          const stored = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (_) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-paper text-ink font-sans min-h-screen flex flex-col selection:bg-cobalt/20 selection:text-ink">
+    {/* Accessible Skip Link */}
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-cobalt focus:text-white focus:rounded focus:outline-none focus:ring-2 focus:ring-amber font-mono text-xs"
+    >
+      Skip to content
+    </a>
+
+    {/* Slim Sample Data Banner */}
+    <DemoBanner />
+
+    {/* Header */}
+    <Header />
+
+    {/* Live Pulse Ticker */}
+    {showTicker && <PulseTicker />}
+
+    {/* Main Content Area */}
+    <main id="main-content" class="flex-1 outline-none">
+      <slot />
+    </main>
+
+    {/* Footer */}
+    <Footer />
+  </body>
+</html>

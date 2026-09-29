@@ -1,0 +1,367 @@
+[
+  {
+    "id": "mim",
+    "slug": "mim",
+    "name": "Master in Management (MIM)",
+    "summary": "Flagship European pre-experience graduate degree blending general management, economics, leadership, and international mobility.",
+    "featured": true,
+    "isDemo": false,
+    "skills": [
+      "business-analytics",
+      "financial-modelling",
+      "project-management",
+      "stakeholder-management",
+      "market-research",
+      "supply-chain-planning",
+      "product-strategy",
+      "multilingual-comms"
+    ],
+    "roles": [
+      "strategy-consultant",
+      "business-analyst",
+      "product-manager",
+      "project-manager",
+      "general-management-trainee",
+      "supply-chain-specialist",
+      "financial-analyst",
+      "marketing-strategist"
+    ],
+    "roadmap": [
+      {
+        "stage": "Semester 1 (Months 1–4)",
+        "period": "Foundations & Core Rigour",
+        "focus": "Master core financial accounting, business statistics, microeconomics, and corporate strategy frameworks.",
+        "actions": [
+          "Complete advanced Financial Modelling and valuation training in Excel/Python",
+          "Form cross-cultural case study teams and participate in European business competitions",
+          "Begin networking with campus alumni across Paris, Frankfurt, Amsterdam, and Milan"
+        ]
+      },
+      {
+        "stage": "Semester 2 (Months 5–8)",
+        "period": "Specialization & Case Competitions",
+        "focus": "Electives in Digital Transformation, ESG & CSRD compliance, and Supply Chain Analytics.",
+        "actions": [
+          "Secure competitive summer internship or gap-year placement in European enterprise",
+          "Achieve working proficiency (B2/C1) in target market local language (e.g. French, German)",
+          "Lead a pro-bono consulting assignment for a regional SME or green tech startup"
+        ]
+      },
+      {
+        "stage": "Gap Year / Internship (Months 9–20)",
+        "period": "In-Company Immersion",
+        "focus": "Two 6-month corporate internships across distinct European industrial hubs.",
+        "actions": [
+          "Internship 1: Strategy or Business Analytics in tech or automotive hub (Munich, Paris, Stockholm)",
+          "Internship 2: Operations or Product Management in high-growth scaleup or multinational",
+          "Synthesize real corporate challenges for Master's thesis topic"
+        ]
+      },
+      {
+        "stage": "Final Term & Thesis (Months 21–24)",
+        "period": "Graduate Placement & Capstone",
+        "focus": "Defend research thesis and convert internships or campus interviews into permanent European contracts.",
+        "actions": [
+          "Target European Graduate Trainee Programs and direct-entry Junior Analyst/Consultant roles",
+          "Leverage post-study visa frameworks (RECE in France, 18-month Job Seeker in Germany, Zoekjaar in NL)",
+          "Finalize onboarding with signed CDI / permanent employment offer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mba",
+    "slug": "mba",
+    "name": "Master of Business Administration (MBA)",
+    "summary": "Post-experience executive management degree accelerating career switches into European corporate leadership, private equity, and enterprise strategy.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "stakeholder-management",
+      "financial-modelling",
+      "product-strategy",
+      "operations-management",
+      "market-research",
+      "csrd-reporting"
+    ],
+    "roles": [
+      "strategy-consultant",
+      "product-manager",
+      "operations-manager",
+      "general-management-trainee"
+    ],
+    "roadmap": [
+      {
+        "stage": "Term 1 (Months 1–4)",
+        "period": "Executive Leadership Reframing",
+        "focus": "Macroeconomics, global operations, corporate valuation, and organizational behavior.",
+        "actions": [
+          "Join industry professional clubs (Tech Club, Energy & Sustainability Club)",
+          "Define 3 target post-MBA industries in the European single market"
+        ]
+      },
+      {
+        "stage": "Term 2 (Months 5–8)",
+        "period": "Strategy & Industry Treks",
+        "focus": "Tailored electives in private equity, sustainable innovation, and global supply chains.",
+        "actions": [
+          "Participate in corporate trek to Zurich, Amsterdam, and Berlin startup ecosystems",
+          "Interview for summer associate positions with European corporate development teams"
+        ]
+      },
+      {
+        "stage": "Term 3 (Months 9–12)",
+        "period": "Capstones & Full-Time Offers",
+        "focus": "Real-world consulting capstone project with European multinational sponsor.",
+        "actions": [
+          "Negotiate European employment package including relocation and work permit sponsorship",
+          "Form alumni angel syndicates and strategic advisory networks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-mechanical-engineering",
+    "slug": "msc-mechanical-engineering",
+    "name": "MSc Mechanical Engineering",
+    "summary": "Advanced engineering degree specializing in structural mechanics, thermal dynamics, finite element simulation, and sustainable automotive/aerospace systems.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "cad-modelling",
+      "finite-element-analysis",
+      "aviation-part21",
+      "iso-standards",
+      "battery-engineering",
+      "project-management"
+    ],
+    "roles": [
+      "mechanical-systems-engineer",
+      "manufacturing-process-engineer",
+      "project-manager"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Advanced Computational Mechanics",
+        "focus": "Nonlinear FEA, continuum mechanics, fluid-structure interaction, and materials science.",
+        "actions": [
+          "Complete hands-on CAD/FEA simulation laboratory projects in CATIA and ANSYS",
+          "Apply for industrial thesis (Masterarbeit) with European aerospace or automotive OEMs"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Industry Thesis & Verification",
+        "focus": "6-month embedded thesis within an R&D department (Airbus, BMW, Siemens).",
+        "actions": [
+          "Publish thesis findings on lightweight structural composites or battery pack cooling",
+          "Transition directly from thesis work into full-time mechanical systems engineering role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-robotics",
+    "slug": "msc-robotics",
+    "name": "MSc Robotics & Autonomous Systems",
+    "summary": "Interdisciplinary program fusing mechanical mechatronics, computer vision, kinematic control theory, and mobile robotics.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "ros-robotics",
+      "computer-vision",
+      "embedded-systems",
+      "python",
+      "plcs-scada",
+      "agile-scrum"
+    ],
+    "roles": [
+      "robotics-automation-engineer",
+      "ai-ml-engineer",
+      "mechanical-systems-engineer"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Kinematics & Perception Systems",
+        "focus": "State estimation, Kalman filtering, ROS 2 middleware, and neural visual perception.",
+        "actions": [
+          "Deploy navigation stack on physical mobile robot platforms in university robotics lab",
+          "Collaborate on European robotics competition or research consortium grant"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Autonomous Deployment & Thesis",
+        "focus": "Industrial automation internship at ABB, KUKA, or automotive assembly hub.",
+        "actions": [
+          "Validate SLAM mapping algorithms under challenging factory lighting conditions",
+          "Secure robotics development engineering position with European robotics integrator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-data-science-ai",
+    "slug": "msc-data-science-ai",
+    "name": "MSc Data Science & AI",
+    "summary": "Rigorous mathematics, statistical machine learning, deep neural architectures, and distributed high-performance computing.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql",
+      "eu-ai-act",
+      "cloud-infrastructure",
+      "devops-cicd"
+    ],
+    "roles": [
+      "ai-ml-engineer",
+      "data-scientist",
+      "software-engineer",
+      "business-analyst"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Mathematical Foundations & Deep Learning",
+        "focus": "Stochastic processes, high-dimensional statistics, PyTorch, and distributed training.",
+        "actions": [
+          "Implement end-to-end transformer architectures and fine-tune on domain datasets",
+          "Audit algorithms against EU AI Act risk categorization guidelines"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Applied Enterprise AI & Thesis",
+        "focus": "Deploy ML pipelines into cloud production environments with automated monitoring.",
+        "actions": [
+          "Conduct industrial research thesis on predictive maintenance or multi-modal vision",
+          "Interview for AI/ML Engineer and Data Scientist roles across European tech centers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-finance",
+    "slug": "msc-finance",
+    "name": "MSc Finance",
+    "summary": "Quantitative corporate finance, asset pricing, derivatives valuation, fintech platforms, and European sustainable finance regulations.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "financial-modelling",
+      "business-analytics",
+      "sql",
+      "csrd-reporting",
+      "energy-trading"
+    ],
+    "roles": [
+      "financial-analyst",
+      "strategy-consultant",
+      "business-analyst"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Financial Markets & Quantitative Methods",
+        "focus": "Econometrics, fixed income mathematics, Bloomberg terminal certification, and Python for finance.",
+        "actions": [
+          "Compete in European university valuation and equity research challenges",
+          "Pass CFA Level I examination during winter study term"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Sustainable Investment & Placement",
+        "focus": "EU Taxonomy for sustainable finance, ESG green bond structuring, and private equity.",
+        "actions": [
+          "Complete off-cycle internship in Frankfurt, Paris, or Amsterdam banking district",
+          "Secure full-time role in corporate financial planning, consulting, or investment management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-marketing",
+    "slug": "msc-marketing",
+    "name": "MSc Marketing & Brand Management",
+    "summary": "Consumer behavioral psychology, luxury omnichannel strategy, data-driven customer acquisition, and European brand equity.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "market-research",
+      "customer-segmentation",
+      "luxury-brand-mgmt",
+      "business-analytics",
+      "digital-product-passport"
+    ],
+    "roles": [
+      "marketing-strategist",
+      "product-manager",
+      "business-analyst"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Brand Strategy & Analytics",
+        "focus": "Brand architecture, digital marketing funnels, customer analytics, and storytelling.",
+        "actions": [
+          "Conduct ethnographic research and consumer sentiment analysis in Milan or Paris",
+          "Build multi-touch attribution dashboards linking marketing spend to conversions"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Omnichannel Activation & Thesis",
+        "focus": "Luxury heritage marketing, sustainable brand positioning, and thesis defense.",
+        "actions": [
+          "Work with European luxury or consumer goods house on international product launch",
+          "Transition into Junior Brand Manager or Marketing Strategist permanent role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msc-supply-chain",
+    "slug": "msc-supply-chain",
+    "name": "MSc Supply Chain & Logistics",
+    "summary": "Global network optimization, trans-European multimodal freight corridors, green procurement, and automated warehouse operations.",
+    "featured": false,
+    "isDemo": false,
+    "skills": [
+      "supply-chain-planning",
+      "sap-erp",
+      "vendor-procurement",
+      "operations-management",
+      "csrd-reporting"
+    ],
+    "roles": [
+      "supply-chain-specialist",
+      "operations-manager",
+      "project-manager"
+    ],
+    "roadmap": [
+      {
+        "stage": "Year 1 (Semesters 1–2)",
+        "period": "Operations Research & S&OP",
+        "focus": "Inventory theory, network simulation, SAP S/4HANA supply chain modules, and supplier risk.",
+        "actions": [
+          "Tour high-throughput distribution hubs in Rotterdam, Antwerp, or Frankfurt Airport",
+          "Obtain APICS / CSCP professional foundational certification"
+        ]
+      },
+      {
+        "stage": "Year 2 (Semesters 3–4)",
+        "period": "Green Logistics & Placement",
+        "focus": "Decarbonizing freight networks, Scope 3 supply chain auditing, and industry thesis.",
+        "actions": [
+          "Execute supply chain resilience audit for European manufacturing partner",
+          "Join pan-European logistics or automotive OEM supply chain development program"
+        ]
+      }
+    ]
+  }
+]

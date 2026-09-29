@@ -1,0 +1,41 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getNews } from '@/services/news';
+import { getCountries } from '@/services/countries';
+import { getIndustries } from '@/services/industries';
+import { getTopics } from '@/services/topics';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import NewsExplorer from '@/components/islands/NewsExplorer';
+
+const [news, countries, industries, topics] = await Promise.all([
+  getNews(),
+  getCountries(),
+  getIndustries(),
+  getTopics(),
+]);
+---
+
+<Layout
+  title="European Business News & Career Dispatches"
+  description="Factual European business dispatches connected directly to industrial skills, roles, and hiring requisitions."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumbs items={[{ label: 'News' }]} />
+
+    <SectionHeader
+      kicker="Intelligence Feed"
+      title="European Business News Dispatches"
+      description="Original concise reporting linking macroeconomic decisions, gigafactory investments, and policy directives to downstream hiring trends."
+    />
+
+    <NewsExplorer
+      client:idle
+      initialNews={news}
+      countries={countries}
+      industries={industries}
+      topics={topics}
+    />
+  </div>
+</Layout>

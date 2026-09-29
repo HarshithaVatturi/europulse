@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-29",
+  "editionNumber": 42,
+  "isDemo": true,
+  "leadSummary": "European industrial momentum pivots on battery gigafactory commissioning and sovereign semiconductor lithography, while the EU AI Act accelerates governance and product management hiring across continental hubs.",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "Toulouse aerospace cluster initiates cryogenic fuel storage demonstrator trials for next-generation turbofans.",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace",
+          "companySlug": "airbus"
+        },
+        {
+          "text": "Paris luxury houses accelerate digital product passport integration ahead of EU circular economy mandates.",
+          "industrySlug": "fashion",
+          "industryName": "Fashion & Luxury",
+          "companySlug": "lvmh"
+        },
+        {
+          "text": "Grenoble and Paris-Saclay research campuses expand AI Act conformity auditing and verification teams.",
+          "industrySlug": "ai",
+          "industryName": "AI"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "Bavarian automotive plants retool powertrain lines for high-voltage cylindrical cell production.",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "bmw"
+        },
+        {
+          "text": "Baden-Württemberg manufacturers deploy spatial vision collaborative robots for zero-defect machining.",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation",
+          "companySlug": "bosch"
+        },
+        {
+          "text": "Ruhr valley green steel reduction pilot commissions hydrogen electrolyser capacity.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "siemens"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "Brainport Eindhoven advances volume shipments of High-NA EUV lithography systems for sub-2nm nodes.",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors",
+          "companySlug": "asml"
+        },
+        {
+          "text": "Amsterdam healthcare diagnostic imaging suites secure European CE marks for deep learning oncology suites.",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare",
+          "companySlug": "philips"
+        },
+        {
+          "text": "Rotterdam port authority inaugurates heavy battery-electric drayage truck charging plazas.",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "Motor Valley supercar manufacturers expand internal hybrid powertrain and computational aerodynamics teams.",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "ferrari"
+        },
+        {
+          "text": "Tuscan textile consortia achieve commercial-scale chemical recycling of post-consumer regenerated wool.",
+          "industrySlug": "fashion",
+          "industryName": "Fashion & Luxury",
+          "companySlug": "prada"
+        },
+        {
+          "text": "Rome aerospace facilities finalize optical communications payload modules for sovereign satellite constellation.",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace",
+          "companySlug": "leonardo"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Gothenburg heavy vehicle lines expand assembly of heavy-duty electric regional trucks.",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volvo"
+        },
+        {
+          "text": "Stockholm digital engineering platforms release open-source distributed developer portal tooling.",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "spotify"
+        },
+        {
+          "text": "Västerås robotics labs scale cobot motion planning firmware for high-throughput European fulfillment.",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation",
+          "companySlug": "abb"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": ["asml", "bmw", "airbus", "lvmh", "abb"],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV qualification drives nanotech hiring across NL and BE."
+      },
+      {
+        "slug": "robotics",
+        "name": "Robotics & Automation",
+        "trend": "up",
+        "note": "Vision-guided cobot deployments surge in industrial manufacturing."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "down",
+        "note": "Legacy ICE engineering downscales as EV battery retooling accelerates."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "The Rise of Dual-Competency Engineers in European Industry",
+      "content": "Major European multinationals are phasing out siloed engineering roles. Mechanical and industrial engineers who master embedded ROS 2 or Python telemetry are converting interviews at double the historical rate.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+---
+import { url } from '@/lib/url';
+
+interface Props {
+  currentPage: number;
+  totalPages: number;
+  baseUrl: string; // e.g. /jobs/ or /news/
+  class?: string;
+}
+
+const { currentPage, totalPages, baseUrl, class: className = '' } = Astro.props;
+
+if (totalPages <= 1) return null;
+
+function getPageUrl(page: number): string {
+  if (page === 1) return url(baseUrl);
+  const sep = baseUrl.includes('?') ? '&' : '?';
+  return url(`${baseUrl}${sep}page=${page}`);
+}
+
+const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
+---
+
+<nav aria-label="Pagination" class={`flex items-center justify-center gap-1 my-8 font-mono text-xs ${className}`}>
+  {currentPage > 1 ? (
+    <a
+      href={getPageUrl(currentPage - 1)}
+      class="px-3 py-1.5 rounded border border-hairline bg-surface text-ink hover:border-cobalt hover:text-cobalt transition-colors"
+      aria-label="Previous page"
+    >
+      ← Prev
+    </a>
+  ) : (
+    <span class="px-3 py-1.5 rounded border border-hairline bg-paper text-muted cursor-not-allowed select-none opacity-50">
+      ← Prev
+    </span>
+  )}
+
+  <div class="flex items-center gap-1 mx-2">
+    {pages.map((p) => {
+      const isCurrent = p === currentPage;
+      return isCurrent ? (
+        <span
+          class="w-8 h-8 flex items-center justify-center rounded border border-cobalt bg-cobalt text-white font-bold select-none tabular-nums"
+          aria-current="page"
+        >
+          {p}
+        </span>
+      ) : (
+        <a
+          href={getPageUrl(p)}
+          class="w-8 h-8 flex items-center justify-center rounded border border-hairline bg-surface text-ink hover:border-cobalt hover:text-cobalt transition-colors tabular-nums"
+          aria-label={`Page ${p}`}
+        >
+          {p}
+        </a>
+      );
+    })}
+  </div>
+
+  {currentPage < totalPages ? (
+    <a
+      href={getPageUrl(currentPage + 1)}
+      class="px-3 py-1.5 rounded border border-hairline bg-surface text-ink hover:border-cobalt hover:text-cobalt transition-colors"
+      aria-label="Next page"
+    >
+      Next →
+    </a>
+  ) : (
+    <span class="px-3 py-1.5 rounded border border-hairline bg-paper text-muted cursor-not-allowed select-none opacity-50">
+      Next →
+    </span>
+  )}
+</nav>

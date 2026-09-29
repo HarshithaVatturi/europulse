@@ -1,0 +1,7 @@
+---
+import { url } from '@/lib/url';
+import { getLatestPulseEdition } from '@/services/pulse';
+
+const pulse = await getLatestPulseEdition();
+return Astro.redirect(url(`/pulse/${pulse.date}/`), 302);
+---

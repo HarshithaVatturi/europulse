@@ -1,0 +1,255 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getDegrees, getDegreeBySlug } from '@/services/degrees';
+import { getDegreePath } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import DemoBadge from '@/components/ui/DemoBadge.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+
+export const getStaticPaths = (async () => {
+  const degrees = await getDegrees();
+  return degrees.map((d) => ({
+    params: { degree: d.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { degree: degreeSlug } = Astro.params;
+const degree = await getDegreeBySlug(degreeSlug);
+
+if (!degree) {
+  return Astro.redirect(url('/404/'));
+}
+
+const pathData = await getDegreePath(degree.slug);
+const { skills = [], roles = [], companies = [], jobs = [] } = pathData || {};
+---
+
+<Layout
+  title={`${degree.name} Career Roadmap & European Opportunities`}
+  description={degree.summary}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Career Hub', href: '/careers/' },
+        { label: degree.name },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="font-mono text-xs font-bold uppercase px-2 py-0.5 rounded bg-cobalt/10 text-cobalt border border-cobalt/30">
+          {degree.slug.toUpperCase()}
+        </span>
+        {degree.featured && (
+          <span class="font-mono text-xs uppercase px-2 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+            Featured Blueprint
+          </span>
+        )}
+        <DemoBadge type="guidance" />
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        {degree.name}
+      </h1>
+
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed">
+        {degree.summary}
+      </p>
+
+      <div class="flex flex-wrap items-center gap-6 pt-2 font-mono text-xs text-muted">
+        <div>
+          <span class="uppercase">Target Roles:</span>{' '}
+          <strong class="text-ink">{roles.length} Mapped</strong>
+        </div>
+        <div>
+          <span class="uppercase">Key Employers:</span>{' '}
+          <strong class="text-ink">{companies.length} Profiled</strong>
+        </div>
+        <div>
+          <span class="uppercase">Active Openings:</span>{' '}
+          <strong class="text-cobalt">{jobs.length} Listings</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Detailed Academic-to-Career Roadmap -->
+    {degree.roadmap && degree.roadmap.length > 0 && (
+      <section class="space-y-6">
+        <SectionHeader
+          kicker="Timeline & Milestones"
+          title="European Study & Placement Roadmap"
+          description="Chronological guide through coursework, case competitions, gap-year internships, and visa conversion."
+        />
+
+        <div class="space-y-4">
+          {degree.roadmap.map((stage, idx) => (
+            <div class="bg-surface border border-hairline rounded-md p-6 hover:border-cobalt transition-colors">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 mb-3 border-b border-hairline">
+                <div class="flex items-center gap-3">
+                  <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-paper border border-hairline text-ink tabular-nums">
+                    Stage {idx + 1}
+                  </span>
+                  <h3 class="font-serif text-lg font-bold text-ink">
+                    {stage.stage}
+                  </h3>
+                </div>
+                <span class="font-mono text-xs font-semibold text-cobalt">
+                  {stage.period}
+                </span>
+              </div>
+
+              <p class="text-sm text-ink/90 font-sans mb-4 leading-relaxed font-medium">
+                {stage.focus}
+              </p>
+
+              <div class="space-y-2">
+                <span class="font-mono text-[11px] uppercase font-bold text-muted block">
+                  Actionable Deliverables:
+                </span>
+                <ul class="space-y-1.5 text-xs font-sans text-muted">
+                  {stage.actions.map((act) => (
+                    <li class="flex items-start gap-2">
+                      <span class="text-cobalt font-mono font-bold mt-0.5">✓</span>
+                      <span>{act}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Functional Roles & Competencies Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-hairline">
+      <!-- Target Roles -->
+      <section class="space-y-4">
+        <SectionHeader
+          kicker="Target Functions"
+          title="Target Roles for this Degree"
+        />
+
+        <div class="space-y-3">
+          {roles.map((r) => (
+            <a
+              href={url(`/careers/roles/${r.slug}/`)}
+              class="block p-4 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group"
+            >
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-serif text-base font-bold text-ink group-hover:text-cobalt">
+                  {r.name}
+                </span>
+                <span class="font-mono text-[10px] uppercase text-muted">
+                  {r.function}
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans line-clamp-2">
+                {r.summary}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Core Competencies -->
+      <section class="space-y-4">
+        <SectionHeader
+          kicker="Evaluated Skills"
+          title="Core Skills & Tooling"
+        />
+
+        <div class="space-y-2.5">
+          {skills.map((s) => (
+            <div class="p-3 rounded bg-surface border border-hairline flex items-center justify-between">
+              <div>
+                <a
+                  href={url(`/jobs/?query=${encodeURIComponent(s.name)}`)}
+                  class="font-mono text-xs font-bold text-ink hover:text-cobalt"
+                >
+                  {s.name}
+                </a>
+                <div class="text-[11px] text-muted font-sans mt-0.5">
+                  Category: {s.category}
+                </div>
+              </div>
+              <a
+                href={url(`/jobs/?query=${encodeURIComponent(s.name)}`)}
+                class="text-xs font-mono text-cobalt hover:underline"
+              >
+                Jobs →
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <!-- Target Employers -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Direct Recruiters"
+        title="European Employers Hiring this Profile"
+        actionText="All Companies"
+        actionHref="/companies/"
+      />
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {companies.slice(0, 6).map((comp) => (
+          <a
+            href={url(`/companies/${comp.slug}/`)}
+            class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group flex items-center gap-3"
+          >
+            <CompanyMonogram name={comp.name} size="sm" />
+            <div class="truncate">
+              <h4 class="font-serif font-bold text-sm text-ink group-hover:text-cobalt truncate">
+                {comp.name}
+              </h4>
+              <div class="font-mono text-[10px] text-muted capitalize truncate">
+                HQ: {comp.hqCity} · {comp.industry}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Live Job Openings for this Degree -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Current Intake"
+        title={`Live Matching Vacancies (${jobs.length})`}
+        actionText="Filter in Explorer"
+        actionHref={`/jobs/?degree=${degree.slug}`}
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {jobs.slice(0, 6).map((job) => (
+          <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+            <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+              <span class="font-bold text-ink uppercase">{job.company}</span>
+              <span>[{job.country.slice(0, 2).toUpperCase()}] · {job.employmentType}</span>
+            </div>
+            <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+              <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                {job.title}
+              </a>
+            </h4>
+            <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+              <span class="text-muted">{job.city} · {job.workMode}</span>
+              <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                View Opening →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</Layout>

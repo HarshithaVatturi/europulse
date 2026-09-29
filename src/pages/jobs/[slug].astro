@@ -1,0 +1,228 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url, formatDate } from '@/lib/url';
+import { getJobs, getJobBySlug } from '@/services/jobs';
+import { getCompanyBySlug } from '@/services/companies';
+import { getCountryBySlug } from '@/services/countries';
+import { getIndustryBySlug } from '@/services/industries';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import DemoBadge from '@/components/ui/DemoBadge.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+
+export const getStaticPaths = (async () => {
+  const jobs = await getJobs();
+  return jobs.map((j) => ({
+    params: { slug: j.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const job = await getJobBySlug(slug);
+
+if (!job) {
+  return Astro.redirect(url('/404/'));
+}
+
+const company = await getCompanyBySlug(job.company);
+const country = await getCountryBySlug(job.country);
+const industry = await getIndustryBySlug(job.industry);
+
+const allJobs = await getJobs();
+const relatedJobs = allJobs
+  .filter((j) => j.id !== job.id && (j.company === job.company || j.industry === job.industry))
+  .slice(0, 4);
+---
+
+<Layout
+  title={`${job.title} at ${company?.name || job.company.toUpperCase()}`}
+  description={`Apply for ${job.title} in ${job.city}, ${country?.name || job.country}. Target qualifications: ${job.degrees.join(', ')}.`}
+  noindex={job.isDemo}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumbs
+      items={[
+        { label: 'Jobs', href: '/jobs/' },
+        { label: `${job.title} (${company?.name || job.company})` },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="bg-surface border border-hairline rounded-md p-6 sm:p-8 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+        <div class="flex items-start gap-4">
+          <CompanyMonogram name={company?.name || job.company} size="lg" />
+          <div class="space-y-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <a
+                href={url(`/companies/${job.company}/`)}
+                class="font-mono text-sm font-bold text-cobalt hover:underline uppercase"
+              >
+                {company?.name || job.company}
+              </a>
+              <span class="text-hairline select-none">·</span>
+              <span class="font-mono text-xs text-muted">
+                Posted: {formatDate(job.postedDate)}
+              </span>
+              {job.isDemo && <DemoBadge type="job" />}
+            </div>
+
+            <h1 class="font-serif text-2xl sm:text-4xl font-bold tracking-tight text-ink">
+              {job.title}
+            </h1>
+
+            <div class="flex flex-wrap items-center gap-2 pt-1 font-mono text-xs text-muted">
+              {country && <CountryBadge iso2={country.iso2} slug={country.slug} size="sm" />}
+              <span>{job.city}</span>
+              <span>·</span>
+              <span class="text-ink font-semibold">{job.workMode}</span>
+              <span>·</span>
+              <span>{job.experience}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Action Button: Per honesty rules, demo jobs get "Company website" button, not "Apply" */}
+        <div class="shrink-0 pt-2 sm:pt-0">
+          <a
+            href={job.applyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1.5 px-6 py-3 rounded bg-cobalt text-white hover:bg-cobalt/90 font-mono text-xs uppercase font-bold tracking-wider transition-colors shadow-sm"
+          >
+            <span>Company Website ↗</span>
+          </a>
+          <div class="text-[10px] font-mono text-muted text-center mt-1">
+            Official employer career portal
+          </div>
+        </div>
+      </div>
+
+      {/* Badges Matrix */}
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-hairline font-mono text-xs">
+        <div class="bg-paper border border-hairline rounded p-2.5">
+          <span class="text-muted block text-[10px] uppercase">Contract</span>
+          <strong class="text-ink font-sans text-xs">{job.employmentType}</strong>
+        </div>
+        <div class="bg-paper border border-hairline rounded p-2.5">
+          <span class="text-muted block text-[10px] uppercase">Function</span>
+          <strong class="text-ink font-sans text-xs">{job.function}</strong>
+        </div>
+        <div class="bg-paper border border-hairline rounded p-2.5">
+          <span class="text-muted block text-[10px] uppercase">Industry</span>
+          <strong class="text-ink font-sans text-xs">{industry?.name || job.industry}</strong>
+        </div>
+        <div class="bg-paper border border-hairline rounded p-2.5">
+          <span class="text-muted block text-[10px] uppercase">Languages</span>
+          <strong class="text-ink font-sans text-xs truncate block">{job.languages.join(', ')}</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Qualifications & Competencies Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-surface border border-hairline rounded-md p-5 space-y-3">
+        <h3 class="font-mono text-xs font-bold uppercase tracking-wider text-muted">
+          Target Qualifications
+        </h3>
+        <p class="text-xs text-muted font-sans leading-relaxed">
+          The hiring team has designated this position as suitable for candidates pursuing or holding:
+        </p>
+        <div class="flex flex-wrap gap-2 pt-1">
+          {job.degrees.map((deg) => (
+            <a
+              href={url(`/careers/${deg}/`)}
+              class="px-3 py-1.5 rounded bg-cobalt/10 border border-cobalt/30 text-cobalt font-mono text-xs font-semibold hover:bg-cobalt hover:text-white transition-colors"
+            >
+              {deg.toUpperCase()} Pathway →
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div class="bg-surface border border-hairline rounded-md p-5 space-y-3">
+        <h3 class="font-mono text-xs font-bold uppercase tracking-wider text-muted">
+          Evaluated Competencies
+        </h3>
+        <p class="text-xs text-muted font-sans leading-relaxed">
+          Core technical and business skills evaluated during application review:
+        </p>
+        <div class="flex flex-wrap gap-1.5 pt-1">
+          {job.skills.map((skillSlug) => (
+            <a
+              href={url(`/jobs/?query=${encodeURIComponent(skillSlug)}`)}
+              class="px-2.5 py-1 rounded bg-paper border border-hairline text-ink font-mono text-xs hover:border-cobalt transition-colors"
+            >
+              {skillSlug}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Description Details -->
+    <section class="bg-surface border border-hairline rounded-md p-6 sm:p-8 space-y-4 text-ink font-sans">
+      <h3 class="font-serif text-xl font-bold">Role Overview &amp; Candidate Profile</h3>
+      <p class="text-sm leading-relaxed text-ink/90">
+        This opening represents an early-career opportunity within {company?.name || job.company}'s operations in {job.city}, {country?.name}. International candidates holding recognized European master's qualifications or eligible for student work authorization (e.g. RECE in France, Job Seeker permit in Germany, Zoekjaar in the Netherlands) are encouraged to apply directly through the employer portal.
+      </p>
+
+      <div class="bg-paper border-l-2 border-cobalt p-4 rounded text-xs text-ink/90 leading-relaxed font-sans">
+        <strong class="font-mono text-[10px] uppercase font-bold text-cobalt block mb-1">
+          Application Guidance:
+        </strong>
+        EuroPulse operates without affiliate compensation. Use the link below to access the verified employer portal directly with your CV and relevant academic transcripts.
+      </div>
+
+      <div class="pt-4 border-t border-hairline flex items-center justify-between">
+        <span class="font-mono text-xs text-muted">
+          Source: {job.source}
+        </span>
+        <a
+          href={job.applyUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-mono text-xs font-bold uppercase tracking-wider text-cobalt hover:underline flex items-center gap-1"
+        >
+          <span>Visit {company?.name || 'Company'} Portal</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Opportunities -->
+    {relatedJobs.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Related Positions"
+          title="Similar Openings"
+        />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {relatedJobs.map((rj) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">{rj.company}</span>
+                <span>[{rj.country.slice(0, 2).toUpperCase()}] · {rj.employmentType}</span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${rj.slug}/`)} class="hover:underline">
+                  {rj.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{rj.city} · {rj.workMode}</span>
+                <a href={url(`/jobs/${rj.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  View →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

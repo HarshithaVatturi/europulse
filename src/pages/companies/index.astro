@@ -1,0 +1,111 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
+import { getCompanies } from '@/services/companies';
+import { getCountries } from '@/services/countries';
+import { getIndustries } from '@/services/industries';
+import { getJobs } from '@/services/jobs';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+
+const [companies, countries, industries, jobs] = await Promise.all([
+  getCompanies(),
+  getCountries(),
+  getIndustries(),
+  getJobs(),
+]);
+
+const jobCountMap = new Map<string, number>();
+jobs.forEach((j) => {
+  jobCountMap.set(j.company.toLowerCase(), (jobCountMap.get(j.company.toLowerCase()) || 0) + 1);
+});
+---
+
+<Layout
+  title="European Corporate Directory & Monograms"
+  description="Directory of leading European multinational and industrial enterprises with verified public facts and hiring pipelines."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumbs items={[{ label: 'Companies' }]} />
+
+    <SectionHeader
+      kicker="Enterprise Directory"
+      title="Profiled European Employers"
+      description="20 verified enterprise employers across aerospace, automotive, semiconductors, robotics, energy, and luxury goods."
+    />
+
+    <!-- Companies Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {
+        companies.map((comp) => {
+          const jobCount = jobCountMap.get(comp.slug.toLowerCase()) || 0;
+          const country = countries.find((c) => c.slug.toLowerCase() === comp.country.toLowerCase());
+          const industry = industries.find((i) => i.slug.toLowerCase() === comp.industry.toLowerCase());
+
+          return (
+            <article class="bg-surface border border-hairline rounded-md p-6 hover:border-cobalt transition-colors flex flex-col justify-between group">
+              <div>
+                <div class="flex items-start justify-between gap-3 mb-3">
+                  <div class="flex items-center gap-3">
+                    <CompanyMonogram name={comp.name} size="md" />
+                    <div>
+                      <h3 class="font-serif text-xl font-bold text-ink group-hover:text-cobalt transition-colors">
+                        <a href={url(`/companies/${comp.slug}/`)} class="hover:underline">
+                          {comp.name}
+                        </a>
+                      </h3>
+                      <div class="font-mono text-xs text-muted">
+                        HQ: {comp.hqCity} · Founded {comp.founded}
+                      </div>
+                    </div>
+                  </div>
+                  {country && (
+                    <CountryBadge iso2={country.iso2} slug={country.slug} size="sm" linkable={false} />
+                  )}
+                </div>
+
+                <p class="text-xs text-ink/80 font-sans line-clamp-3 mb-4 leading-relaxed">
+                  {comp.summary}
+                </p>
+
+                <div class="space-y-1.5 text-xs font-mono text-muted mb-4 border-t border-hairline pt-3">
+                  <div class="flex items-center justify-between">
+                    <span>Industry:</span>
+                    <span class="text-ink font-sans text-xs">{industry?.name || comp.industry}</span>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <span>Official Portal:</span>
+                    <a
+                      href={comp.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-cobalt hover:underline"
+                    >
+                      {comp.website.replace('https://www.', '').replace('https://', '')} ↗
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-t border-hairline flex items-center justify-between font-mono text-xs">
+                <span class="text-cobalt font-semibold tabular-nums">
+                  {jobCount > 0 ? `${jobCount} open positions` : 'View Profile'}
+                </span>
+                <a
+                  href={url(`/companies/${comp.slug}/`)}
+                  class="text-ink hover:text-cobalt font-semibold flex items-center gap-1"
+                >
+                  <span>Company Hub</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </div>
+</Layout>

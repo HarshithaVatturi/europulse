@@ -1,0 +1,23 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import SearchResults from '@/components/islands/SearchResults';
+---
+
+<Layout
+  title="Search European Business & Career Intelligence"
+  description="Search across European dispatches, employer directories, degree roadmaps, and active job listings."
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <Breadcrumbs items={[{ label: 'Search' }]} />
+
+    <SectionHeader
+      kicker="Omni-Search Engine"
+      title="Search European Intelligence"
+      description="Instant search across 24 dispatches, 40 active positions, 20 corporate profiles, and 15 functional roles."
+    />
+
+    <SearchResults client:idle />
+  </div>
+</Layout>

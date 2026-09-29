@@ -1,0 +1,389 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '@/layouts/Layout.astro';
+import { url, formatDate } from '@/lib/url';
+import { getCountries, getCountryBySlug, getCountryMacroIndicators } from '@/services/countries';
+import { getCountryGraph } from '@/lib/graph';
+
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import CountryBadge from '@/components/ui/CountryBadge.astro';
+import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
+import EmptyState from '@/components/ui/EmptyState.astro';
+
+export const getStaticPaths = (async () => {
+  const countries = await getCountries();
+  return countries.map((c) => ({
+    params: { slug: c.slug },
+  }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const country = await getCountryBySlug(slug);
+
+if (!country) {
+  return Astro.redirect(url('/404/'));
+}
+
+const graph = await getCountryGraph(country.slug);
+const { companies = [], startups = [], jobs = [], news = [], leadingIndustries = [] } = graph || {};
+const macroIndicators = getCountryMacroIndicators(country.iso2);
+---
+
+<Layout
+  title={`${country.name} Business & Career Intelligence Hub`}
+  description={country.summary}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Countries', href: '/countries/' },
+        { label: country.name },
+      ]}
+    />
+
+    <!-- Header Section -->
+    <header class="border-b border-hairline pb-8 space-y-4">
+      <div class="flex items-center gap-3">
+        <CountryBadge iso2={country.iso2} slug={country.slug} size="lg" linkable={false} />
+        {country.featured && (
+          <span class="font-mono text-xs uppercase px-2 py-0.5 rounded bg-amber/20 text-ink font-semibold">
+            Featured Economic Hub
+          </span>
+        )}
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        {country.name}
+      </h1>
+
+      <p class="font-sans text-base sm:text-lg text-muted max-w-3xl leading-relaxed">
+        {country.summary}
+      </p>
+
+      {/* Stable Facts Grid */}
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-hairline font-mono text-xs">
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Capital</span>
+          <strong class="text-ink text-sm font-sans">{country.capital}</strong>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Currency</span>
+          <strong class="text-ink text-sm font-sans">{country.currency}</strong>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Languages</span>
+          <strong class="text-ink text-sm font-sans truncate block">{country.languages.join(', ')}</strong>
+        </div>
+        <div class="bg-surface border border-hairline rounded p-3">
+          <span class="text-muted block text-[10px] uppercase">Single Market Status</span>
+          <div class="text-ink font-bold text-[11px] mt-0.5">
+            {country.isEU ? 'EU Member' : 'Non-EU'} · {country.isSchengen ? 'Schengen' : 'Non-Schengen'}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Student & Post-Study Work Information -->
+    <section class="bg-surface border border-hairline rounded-md p-6 space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-hairline">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-cobalt"></span>
+          <h2 class="font-mono text-xs font-bold uppercase tracking-wider text-ink">
+            International Student &amp; Post-Study Work Guidelines
+          </h2>
+        </div>
+        <a
+          href={country.studentInfo.officialPortalUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-mono text-xs text-cobalt hover:underline font-semibold flex items-center gap-1"
+        >
+          <span>Official Portal ({country.studentInfo.officialPortalUrl.replace('https://', '')})</span>
+          <span>↗</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs font-sans text-ink">
+        <div class="space-y-1">
+          <span class="font-mono text-[11px] uppercase font-bold text-muted block">
+            Work While Studying
+          </span>
+          <p class="leading-relaxed text-ink/90">
+            {country.studentInfo.visaSummary}
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <span class="font-mono text-[11px] uppercase font-bold text-muted block">
+            Post-Study Work Authorization
+          </span>
+          <p class="leading-relaxed text-ink/90 font-medium">
+            {country.studentInfo.postStudyWorkDuration}
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <span class="font-mono text-[11px] uppercase font-bold text-muted block">
+            Tuition Fee Structure
+          </span>
+          <p class="leading-relaxed text-ink/90">
+            {country.studentInfo.tuitionNotes}
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Macroeconomic Indicators Panel -->
+    {macroIndicators && macroIndicators.gdpGrowthRate !== null ? (
+      <section class="bg-surface border border-hairline rounded-md p-5 space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-hairline">
+          <div>
+            <span class="font-mono text-[10px] uppercase font-bold tracking-wider text-muted block">
+              Macroeconomic Environment
+            </span>
+            <h3 class="font-serif text-lg font-bold text-ink">
+              Official Eurostat Statistics
+            </h3>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[11px] font-mono bg-paper border border-hairline text-ink">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              Live Integration
+            </span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="p-3 bg-paper rounded border border-hairline/60">
+            <span class="font-mono text-[11px] text-muted block uppercase">Quarterly GDP Growth</span>
+            <div class="mt-1 flex items-baseline gap-2">
+              <span class={`font-mono text-2xl font-bold ${macroIndicators.gdpGrowthRate >= 0 ? 'text-trend-up' : 'text-trend-down'}`}>
+                {macroIndicators.gdpGrowthRate >= 0 ? `+${macroIndicators.gdpGrowthRate.toFixed(1)}%` : `${macroIndicators.gdpGrowthRate.toFixed(1)}%`}
+              </span>
+              <span class="font-mono text-xs text-muted">({macroIndicators.gdpPeriod})</span>
+            </div>
+            <span class="text-[11px] text-muted block mt-1">Real GDP volume (CLV_PCH_PRE)</span>
+          </div>
+
+          <div class="p-3 bg-paper rounded border border-hairline/60">
+            <span class="font-mono text-[11px] text-muted block uppercase">Harmonised Unemployment</span>
+            <div class="mt-1 flex items-baseline gap-2">
+              <span class="font-mono text-2xl font-bold text-ink">
+                {macroIndicators.unemploymentRate !== null ? `${macroIndicators.unemploymentRate.toFixed(1)}%` : 'N/A'}
+              </span>
+              <span class="font-mono text-xs text-muted">({macroIndicators.unemploymentPeriod})</span>
+            </div>
+            <span class="text-[11px] text-muted block mt-1">Total active labour force</span>
+          </div>
+
+          <div class="p-3 bg-paper rounded border border-hairline/60">
+            <span class="font-mono text-[11px] text-muted block uppercase">Youth Unemployment (&lt;25)</span>
+            <div class="mt-1 flex items-baseline gap-2">
+              <span class="font-mono text-2xl font-bold text-ink">
+                {macroIndicators.youthUnemploymentRate !== null ? `${macroIndicators.youthUnemploymentRate.toFixed(1)}%` : 'N/A'}
+              </span>
+              <span class="font-mono text-xs text-muted">({macroIndicators.youthUnemploymentPeriod})</span>
+            </div>
+            <span class="text-[11px] text-muted block mt-1">Key indicator for graduate entry</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px] font-mono text-muted border-t border-hairline/60">
+          <span>Source: {macroIndicators.source}</span>
+          <span>Verified: {formatDate(macroIndicators.lastUpdated)}</span>
+        </div>
+      </section>
+    ) : (
+      <section class="bg-paper border border-hairline rounded-md p-4 text-xs font-mono text-muted flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <span class="font-semibold text-ink uppercase">Macroeconomic Indicators:</span>
+          <span>Eurostat API integration planned for quarterly GDP growth and unemployment rates.</span>
+        </div>
+        <span class="text-[11px] text-muted italic">Per EuroPulse honesty rules: no simulated statistics.</span>
+      </section>
+    )}
+
+    <!-- Profiled Companies in Country -->
+    <section class="space-y-4">
+      <SectionHeader
+        kicker="Industrial Anchors"
+        title={`Profiled Employers in ${country.name} (${companies.length})`}
+        actionText="All Companies"
+        actionHref="/companies/"
+      />
+
+      {companies.length === 0 ? (
+        <EmptyState
+          title="Corporate mapping expanding for this territory"
+          message="Additional enterprise and Mittelstand companies are continuously researched."
+        />
+      ) : (
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {companies.map((comp) => {
+            const compJobs = jobs.filter((j) => j.company.toLowerCase() === comp.slug.toLowerCase());
+            return (
+              <a
+                href={url(`/companies/${comp.slug}/`)}
+                class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group flex flex-col justify-between"
+              >
+                <div>
+                  <div class="flex items-center gap-2.5 mb-2">
+                    <CompanyMonogram name={comp.name} size="sm" />
+                    <div>
+                      <h3 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors leading-tight">
+                        {comp.name}
+                      </h3>
+                      <div class="font-mono text-[10px] text-muted">
+                        HQ: {comp.hqCity} · Founded {comp.founded}
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-xs text-muted font-sans line-clamp-2 mb-3">
+                    {comp.summary}
+                  </p>
+                </div>
+                <div class="flex items-center justify-between pt-2 border-t border-hairline font-mono text-[11px] text-muted">
+                  <span class="capitalize">{comp.industry}</span>
+                  <span class="text-cobalt font-semibold">{compJobs.length} jobs</span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      )}
+    </section>
+
+    <!-- Leading Industries in Country -->
+    {leadingIndustries.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Sector Focus"
+          title={`Leading Industries in ${country.name}`}
+          actionText="All Industries"
+          actionHref="/industries/"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {leadingIndustries.slice(0, 3).map(({ industry: ind, jobCount }) => (
+            <a
+              href={url(`/industries/${ind.slug}/`)}
+              class="p-4 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex items-center justify-between"
+            >
+              <div class="flex items-center gap-2 truncate">
+                <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background-color: ${ind.color};`} />
+                <span class="text-sm font-bold text-ink group-hover:text-cobalt truncate">
+                  {ind.name}
+                </span>
+              </div>
+              <span class="font-mono text-xs text-cobalt font-semibold tabular-nums">
+                {jobCount} jobs
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Startups & Scaleups in Country -->
+    {startups.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Venture Ecosystem"
+          title={`Emerging Startups in ${country.name} (${startups.length})`}
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {startups.map((s) => (
+            <div class="p-4 rounded bg-surface border border-hairline flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-serif font-bold text-base text-ink">{s.name}</span>
+                  <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-cobalt/10 text-cobalt font-bold">
+                    {s.fundingStage}
+                  </span>
+                </div>
+                <p class="text-xs text-muted font-sans mb-3">{s.summary}</p>
+              </div>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline font-mono text-xs text-muted">
+                <span>{s.city}</span>
+                <strong class="text-cobalt tabular-nums">{s.amount}</strong>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Active Jobs in Country -->
+    <section class="space-y-4 pt-4 border-t border-hairline">
+      <SectionHeader
+        kicker="Direct Pipeline"
+        title={`Open Positions in ${country.name} (${jobs.length})`}
+        actionText="All Jobs Explorer"
+        actionHref={`/jobs/?country=${country.slug}`}
+      />
+
+      {jobs.length === 0 ? (
+        <EmptyState
+          title="No live vacancies currently listed in this country"
+          message="Check neighboring European markets or set up custom keyword alerts."
+          actionText="Browse all open jobs"
+          actionHref="/jobs/"
+        />
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {jobs.map((job) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <div class="flex items-center justify-between font-mono text-[11px] text-muted mb-1.5">
+                <span class="font-bold text-ink uppercase">{job.company}</span>
+                <span>{job.city} · {job.employmentType}</span>
+              </div>
+              <h4 class="font-serif text-base font-bold text-ink group-hover:text-cobalt transition-colors mb-2">
+                <a href={url(`/jobs/${job.slug}/`)} class="hover:underline">
+                  {job.title}
+                </a>
+              </h4>
+              <div class="flex items-center justify-between pt-2 border-t border-hairline text-xs font-mono">
+                <span class="text-muted">{job.workMode} · {job.experience}</span>
+                <a href={url(`/jobs/${job.slug}/`)} class="text-cobalt hover:underline font-semibold">
+                  Listing →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+
+    <!-- Related Dispatches -->
+    {news.length > 0 && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Territorial Coverage"
+          title={`Business Dispatches Concerning ${country.name} (${news.length})`}
+          actionText="All News"
+          actionHref="/news/"
+        />
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {news.map((item) => (
+            <article class="bg-surface border border-hairline rounded-md p-4 hover:border-cobalt transition-colors group">
+              <span class="font-mono text-[10px] text-muted block mb-1 tabular-nums">
+                {formatDate(item.date)}
+              </span>
+              <h4 class="font-serif text-sm font-bold text-ink group-hover:text-cobalt transition-colors line-clamp-2 mb-2">
+                <a href={url(`/news/${item.slug}/`)} class="hover:underline">
+                  {item.title}
+                </a>
+              </h4>
+              <p class="text-xs text-muted font-sans line-clamp-2">
+                {item.careerImpact}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>
