@@ -1,5 +1,772 @@
 [
   {
+    "id": "linkedin-siemens-graduate-trainee-munich",
+    "slug": "linkedin-siemens-graduate-trainee-munich",
+    "title": "Digital Enterprise Management Trainee (International Track)",
+    "company": "siemens",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "manufacturing",
+    "function": "Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-mechanical-engineering"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Graduate Programme",
+    "workMode": "Hybrid",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "corporate-strategy",
+      "plcs-scada",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "LinkedIn",
+    "applyUrl": "https://www.linkedin.com/jobs/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "linkedin-asml-software-engineer-veldhoven",
+    "slug": "linkedin-asml-software-engineer-veldhoven",
+    "title": "EUV Metrology Control Software Engineer (C++ / Python)",
+    "company": "asml",
+    "country": "netherlands",
+    "city": "Veldhoven",
+    "industry": "semiconductors",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai",
+      "msc-robotics"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "LinkedIn",
+    "applyUrl": "https://www.linkedin.com/jobs/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "indeed-supply-chain-coordinator-lille",
+    "slug": "indeed-supply-chain-coordinator-lille",
+    "title": "Omnichannel Supply Chain & Demand Coordinator",
+    "company": "decathlon",
+    "country": "france",
+    "city": "Lille",
+    "industry": "retail",
+    "function": "Supply Chain",
+    "degrees": [
+      "msc-supply-chain",
+      "mim"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "supply-chain-planning",
+      "sql-analytics",
+      "lean-six-sigma"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Indeed France",
+    "applyUrl": "https://fr.indeed.com/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "francetravail-ingenieur-qualite-fournisseurs-toulouse",
+    "slug": "francetravail-ingenieur-qualite-fournisseurs-toulouse",
+    "title": "Ingénieur Qualité Fournisseurs Aéronautiques (CDI)",
+    "company": "airbus",
+    "country": "france",
+    "city": "Toulouse",
+    "industry": "aerospace",
+    "function": "Manufacturing",
+    "degrees": [
+      "msc-mechanical-engineering",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "On-site",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "lean-six-sigma",
+      "cad-modelling",
+      "supply-chain-planning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "France Travail",
+    "applyUrl": "https://candidat.francetravail.fr/rechercheoffre/emploi",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "apec-responsable-conformite-reglementaire-paris",
+    "slug": "apec-responsable-conformite-reglementaire-paris",
+    "title": "Responsable Conformité & Transition Énergétique UE (Cadre)",
+    "company": "totalenergies",
+    "country": "france",
+    "city": "Paris La Défense",
+    "industry": "energy",
+    "function": "Management",
+    "degrees": [
+      "mba",
+      "mim"
+    ],
+    "experience": "5+ Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "corporate-strategy",
+      "financial-modelling",
+      "csrd-reporting"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Apec",
+    "applyUrl": "https://www.apec.fr/candidat/recherche-emploi.html/emploi",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "wttj-data-analytics-engineer-paris",
+    "slug": "wttj-data-analytics-engineer-paris",
+    "title": "Analytics Engineer (dbt & Snowflake Modern Data Stack)",
+    "company": "alan",
+    "country": "france",
+    "city": "Paris",
+    "industry": "healthcare",
+    "function": "Data Science",
+    "degrees": [
+      "msc-data-science-ai",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "sql-analytics",
+      "python",
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Welcome to the Jungle",
+    "applyUrl": "https://www.welcometothejungle.com/fr/jobs",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "wttj-backend-engineer-go-paris",
+    "slug": "wttj-backend-engineer-go-paris",
+    "title": "Backend Cloud Infrastructure Engineer (Go / Kubernetes)",
+    "company": "payfit",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "cloud-architecture",
+      "agile-delivery",
+      "sql-analytics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Welcome to the Jungle",
+    "applyUrl": "https://www.welcometothejungle.com/fr/jobs",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-junior-ai-software-engineer-toulouse",
+    "slug": "englishjobs-junior-ai-software-engineer-toulouse",
+    "title": "Junior Autonomous Systems Software Engineer (English)",
+    "company": "thales",
+    "country": "france",
+    "city": "Toulouse",
+    "industry": "aerospace",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai",
+      "msc-robotics"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "ros-robotics",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-growth-marketing-manager-paris",
+    "slug": "englishjobs-growth-marketing-manager-paris",
+    "title": "Pan-European Growth Marketing Specialist",
+    "company": "loreal",
+    "country": "france",
+    "city": "Paris",
+    "industry": "fashion",
+    "function": "Marketing",
+    "degrees": [
+      "mim",
+      "msc-marketing",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "sql-analytics",
+      "product-management",
+      "user-research"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-customer-success-lead-paris",
+    "slug": "englishjobs-customer-success-lead-paris",
+    "title": "International Customer Success Manager (Native English)",
+    "company": "spendesk",
+    "country": "france",
+    "city": "Paris",
+    "industry": "finance-banking",
+    "function": "Operations",
+    "degrees": [
+      "mim",
+      "msc-marketing"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "user-research",
+      "corporate-strategy",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "linkedin-associate-product-manager-stockholm",
+    "slug": "linkedin-associate-product-manager-stockholm",
+    "title": "Associate Product Manager - Creator Tools",
+    "company": "spotify",
+    "country": "sweden",
+    "city": "Stockholm",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "msc-data-science-ai"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "product-management",
+      "agile-delivery",
+      "user-research"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "LinkedIn",
+    "applyUrl": "https://www.linkedin.com/jobs/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "linkedin-international-graduate-electromobility-gothenburg",
+    "slug": "linkedin-international-graduate-electromobility-gothenburg",
+    "title": "International Graduate: Electromobility & Battery Systems",
+    "company": "volvo",
+    "country": "sweden",
+    "city": "Gothenburg",
+    "industry": "automotive",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Graduate Programme",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "finite-element-analysis",
+      "cad-modelling",
+      "battery-cell-bms"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "LinkedIn",
+    "applyUrl": "https://www.linkedin.com/jobs/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "indeed-junior-financial-analyst-paris",
+    "slug": "indeed-junior-financial-analyst-paris",
+    "title": "Junior Financial Analyst - M&A Advisory",
+    "company": "bnp-paribas",
+    "country": "france",
+    "city": "Paris",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mim"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "financial-modelling",
+      "corporate-strategy",
+      "sql-analytics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Indeed France",
+    "applyUrl": "https://fr.indeed.com/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "francetravail-consultant-supply-chain-marseille",
+    "slug": "francetravail-consultant-supply-chain-marseille",
+    "title": "Maritime Supply Chain & S&OP Coordinator",
+    "company": "cma-cgm",
+    "country": "france",
+    "city": "Marseille",
+    "industry": "logistics-supply-chain",
+    "function": "Supply Chain",
+    "degrees": [
+      "msc-supply-chain",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "supply-chain-planning",
+      "sql-analytics",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "France Travail",
+    "applyUrl": "https://candidat.francetravail.fr/rechercheoffre/emploi",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "francetravail-ingenieur-systeme-embarque-bordeaux",
+    "slug": "francetravail-ingenieur-systeme-embarque-bordeaux",
+    "title": "Embedded Systems & Mechatronics Engineer",
+    "company": "safran",
+    "country": "france",
+    "city": "Bordeaux",
+    "industry": "aerospace",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "On-site",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "cad-modelling",
+      "finite-element-analysis",
+      "ros-robotics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "France Travail",
+    "applyUrl": "https://candidat.francetravail.fr/rechercheoffre/emploi",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "apec-senior-robotics-automation-lead-grenoble",
+    "slug": "apec-senior-robotics-automation-lead-grenoble",
+    "title": "Senior Robotics & Automated Cell Architect",
+    "company": "schneider-electric",
+    "country": "france",
+    "city": "Grenoble",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics",
+      "msc-mechanical-engineering"
+    ],
+    "experience": "5+ Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "ros-robotics",
+      "plcs-scada",
+      "machine-vision"
+    ],
+    "postedDate": "2026-09-27",
+    "source": "Apec",
+    "applyUrl": "https://www.apec.fr/candidat/recherche-emploi.html/emploi",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "apec-head-of-sustainability-csrd-paris",
+    "slug": "apec-head-of-sustainability-csrd-paris",
+    "title": "Head of ESG & CSRD Enterprise Reporting",
+    "company": "lvmh",
+    "country": "france",
+    "city": "Paris",
+    "industry": "fashion",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "3-5 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "csrd-reporting",
+      "corporate-strategy",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Apec",
+    "applyUrl": "https://www.apec.fr/candidat/recherche-emploi.html/emploi",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "apec-directeur-operations-industrielles-lyon",
+    "slug": "apec-directeur-operations-industrielles-lyon",
+    "title": "Industrial Operations Manager (Cadre)",
+    "company": "michelin",
+    "country": "france",
+    "city": "Clermont-Ferrand / Lyon",
+    "industry": "manufacturing",
+    "function": "Operations",
+    "degrees": [
+      "mba",
+      "mim",
+      "msc-mechanical-engineering"
+    ],
+    "experience": "5+ Years",
+    "employmentType": "Full-time",
+    "workMode": "On-site",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "supply-chain-planning",
+      "lean-six-sigma",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Apec",
+    "applyUrl": "https://www.apec.fr/candidat/recherche-emploi.html/emploi",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "wttj-product-marketing-manager-paris",
+    "slug": "wttj-product-marketing-manager-paris",
+    "title": "Product Marketing Manager - SaaS Platform",
+    "company": "doctolib",
+    "country": "france",
+    "city": "Paris",
+    "industry": "healthcare",
+    "function": "Marketing",
+    "degrees": [
+      "mim",
+      "msc-marketing",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "corporate-strategy",
+      "product-management",
+      "user-research"
+    ],
+    "postedDate": "2026-09-27",
+    "source": "Welcome to the Jungle",
+    "applyUrl": "https://www.welcometothejungle.com/fr/jobs",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "wttj-frontend-tech-lead-remote-france",
+    "slug": "wttj-frontend-tech-lead-remote-france",
+    "title": "Lead Frontend Engineer (React / TypeScript)",
+    "company": "qonto",
+    "country": "france",
+    "city": "Paris / Remote",
+    "industry": "finance-banking",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "3-5 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "typescript",
+      "cloud-architecture",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Welcome to the Jungle",
+    "applyUrl": "https://www.welcometothejungle.com/fr/jobs",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "wttj-ai-engineer-computer-vision-paris",
+    "slug": "wttj-ai-engineer-computer-vision-paris",
+    "title": "AI Computer Vision Engineer (Scaleup)",
+    "company": "mistral-ai",
+    "country": "france",
+    "city": "Paris",
+    "industry": "ai",
+    "function": "AI/ML",
+    "degrees": [
+      "msc-data-science-ai",
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "deep-learning",
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Welcome to the Jungle",
+    "applyUrl": "https://www.welcometothejungle.com/fr/jobs",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-business-analyst-emea-paris",
+    "slug": "englishjobs-business-analyst-emea-paris",
+    "title": "EMEA Operations Business Analyst",
+    "company": "schneider-electric",
+    "country": "france",
+    "city": "Paris",
+    "industry": "manufacturing",
+    "function": "Business Analysis",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-finance"
+    ],
+    "experience": "Graduate / Entry",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "sql-analytics",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-aerospace-propulsion-engineer-toulouse",
+    "slug": "englishjobs-aerospace-propulsion-engineer-toulouse",
+    "title": "Aerospace Propulsion Integration Engineer",
+    "company": "airbus",
+    "country": "france",
+    "city": "Toulouse",
+    "industry": "aerospace",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "On-site",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "cad-modelling",
+      "finite-element-analysis",
+      "aerodynamics"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-data-science-lead-lyon",
+    "slug": "englishjobs-data-science-lead-lyon",
+    "title": "Data Science & NLP Lead (International Team)",
+    "company": "sanofi",
+    "country": "france",
+    "city": "Lyon",
+    "industry": "healthcare",
+    "function": "Data Science",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "3-5 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
+    "id": "englishjobs-senior-product-manager-paris",
+    "slug": "englishjobs-senior-product-manager-paris",
+    "title": "Senior Product Manager (100% English Environment)",
+    "company": "dassault-systemes",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
+    "experience": "3-5 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "product-management",
+      "agile-delivery",
+      "user-research"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "EnglishJobs.fr",
+    "applyUrl": "https://englishjobs.fr/",
+    "featured": true,
+    "isDemo": false
+  },
+  {
     "id": "airbus-global-graduate-aerospace-engineer",
     "slug": "airbus-global-graduate-aerospace-engineer",
     "title": "Aerospace Systems Engineering Graduate Trainee",
@@ -8,12 +775,23 @@
     "city": "Toulouse",
     "industry": "aerospace",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English", "French"],
-    "skills": ["cad-modelling", "finite-element-analysis", "aerodynamics", "aviation-part21"],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "cad-modelling",
+      "finite-element-analysis",
+      "aerodynamics",
+      "aviation-part21"
+    ],
     "postedDate": "2026-09-29",
     "source": "Airbus Early Careers",
     "applyUrl": "https://www.airbus.com/en/careers",
@@ -29,12 +807,22 @@
     "city": "Blagnac (Toulouse)",
     "industry": "aerospace",
     "function": "Consulting",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["market-research", "financial-modelling", "stakeholder-management", "csrd-reporting"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "market-research",
+      "financial-modelling",
+      "stakeholder-management",
+      "csrd-reporting"
+    ],
     "postedDate": "2026-09-29",
     "source": "Airbus Strategy Directorate",
     "applyUrl": "https://www.airbus.com/en/careers",
@@ -50,12 +838,22 @@
     "city": "Munich",
     "industry": "automotive",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "On-site",
-    "languages": ["English", "German"],
-    "skills": ["battery-engineering", "cad-modelling", "finite-element-analysis"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "battery-engineering",
+      "cad-modelling",
+      "finite-element-analysis"
+    ],
     "postedDate": "2026-09-29",
     "source": "BMW Group Careers",
     "applyUrl": "https://www.bmwgroup.jobs",
@@ -71,12 +869,22 @@
     "city": "Munich",
     "industry": "automotive",
     "function": "Business Analysis",
-    "degrees": ["mim", "msc-supply-chain"],
+    "degrees": [
+      "mim",
+      "msc-supply-chain"
+    ],
     "experience": "Student",
     "employmentType": "Working Student",
     "workMode": "Hybrid",
-    "languages": ["English", "German"],
-    "skills": ["supply-chain-planning", "business-analytics", "sql"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "supply-chain-planning",
+      "business-analytics",
+      "sql"
+    ],
     "postedDate": "2026-09-29",
     "source": "BMW Group Campus",
     "applyUrl": "https://www.bmwgroup.jobs",
@@ -92,12 +900,22 @@
     "city": "Veldhoven",
     "industry": "semiconductors",
     "function": "Robotics & Automation",
-    "degrees": ["msc-robotics", "msc-mechanical-engineering"],
+    "degrees": [
+      "msc-robotics",
+      "msc-mechanical-engineering"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["English"],
-    "skills": ["embedded-systems", "semiconductor-fab", "python", "computer-vision"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "embedded-systems",
+      "semiconductor-fab",
+      "python",
+      "computer-vision"
+    ],
     "postedDate": "2026-09-29",
     "source": "ASML Careers",
     "applyUrl": "https://www.asml.com/en/careers",
@@ -113,12 +931,22 @@
     "city": "Veldhoven",
     "industry": "semiconductors",
     "function": "Supply Chain",
-    "degrees": ["msc-supply-chain", "mim"],
+    "degrees": [
+      "msc-supply-chain",
+      "mim"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["vendor-procurement", "supply-chain-planning", "sap-erp", "stakeholder-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "vendor-procurement",
+      "supply-chain-planning",
+      "sap-erp",
+      "stakeholder-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "ASML Sourcing",
     "applyUrl": "https://www.asml.com/en/careers",
@@ -134,12 +962,24 @@
     "city": "Vélizy-Villacoublay (Paris)",
     "industry": "technology",
     "function": "Product Management",
-    "degrees": ["mim", "mba", "msc-data-science-ai"],
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "French"],
-    "skills": ["product-strategy", "agile-scrum", "cad-modelling", "business-analytics"],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "product-strategy",
+      "agile-scrum",
+      "cad-modelling",
+      "business-analytics"
+    ],
     "postedDate": "2026-09-29",
     "source": "Dassault Systèmes R&D",
     "applyUrl": "https://careers.3ds.com",
@@ -155,12 +995,21 @@
     "city": "Paris-Saclay",
     "industry": "aerospace",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering"],
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
     "experience": "Student",
     "employmentType": "Thesis",
     "workMode": "On-site",
-    "languages": ["French", "English"],
-    "skills": ["aerodynamics", "finite-element-analysis", "cad-modelling"],
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "aerodynamics",
+      "finite-element-analysis",
+      "cad-modelling"
+    ],
     "postedDate": "2026-09-29",
     "source": "Safran Research",
     "applyUrl": "https://www.safran-group.com/talent",
@@ -176,12 +1025,23 @@
     "city": "Paris",
     "industry": "fashion",
     "function": "Operations",
-    "degrees": ["mim", "msc-supply-chain"],
+    "degrees": [
+      "mim",
+      "msc-supply-chain"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "On-site",
-    "languages": ["French", "English"],
-    "skills": ["operations-management", "luxury-brand-mgmt", "lean-operations", "supply-chain-planning"],
+    "languages": [
+      "French",
+      "English"
+    ],
+    "skills": [
+      "operations-management",
+      "luxury-brand-mgmt",
+      "lean-operations",
+      "supply-chain-planning"
+    ],
     "postedDate": "2026-09-29",
     "source": "LVMH Talent Hub",
     "applyUrl": "https://www.lvmh.com/talents",
@@ -197,12 +1057,23 @@
     "city": "Paris",
     "industry": "fashion",
     "function": "Project Management",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "3-5 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "French"],
-    "skills": ["digital-product-passport", "csrd-reporting", "project-management", "luxury-brand-mgmt"],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "digital-product-passport",
+      "csrd-reporting",
+      "project-management",
+      "luxury-brand-mgmt"
+    ],
     "postedDate": "2026-09-29",
     "source": "LVMH Group Environmental",
     "applyUrl": "https://www.lvmh.com/talents",
@@ -218,12 +1089,23 @@
     "city": "Clichy (Paris)",
     "industry": "fashion",
     "function": "Marketing",
-    "degrees": ["mim", "msc-marketing"],
+    "degrees": [
+      "mim",
+      "msc-marketing"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English", "French"],
-    "skills": ["customer-segmentation", "market-research", "luxury-brand-mgmt", "business-analytics"],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "customer-segmentation",
+      "market-research",
+      "luxury-brand-mgmt",
+      "business-analytics"
+    ],
     "postedDate": "2026-09-29",
     "source": "L'Oréal Campus",
     "applyUrl": "https://careers.loreal.com",
@@ -239,12 +1121,23 @@
     "city": "Grenoble",
     "industry": "manufacturing",
     "function": "Business Analysis",
-    "degrees": ["mim", "msc-finance"],
+    "degrees": [
+      "mim",
+      "msc-finance"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "French"],
-    "skills": ["business-analytics", "financial-modelling", "csrd-reporting", "sql"],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "skills": [
+      "business-analytics",
+      "financial-modelling",
+      "csrd-reporting",
+      "sql"
+    ],
     "postedDate": "2026-09-29",
     "source": "Schneider Electric Early Careers",
     "applyUrl": "https://www.se.com/careers",
@@ -260,12 +1153,22 @@
     "city": "Rueil-Malmaison (Paris)",
     "industry": "manufacturing",
     "function": "Robotics & Automation",
-    "degrees": ["msc-robotics", "msc-mechanical-engineering"],
+    "degrees": [
+      "msc-robotics",
+      "msc-mechanical-engineering"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["plcs-scada", "cloud-infrastructure", "python", "cybersecurity"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "plcs-scada",
+      "cloud-infrastructure",
+      "python",
+      "cybersecurity"
+    ],
     "postedDate": "2026-09-29",
     "source": "Schneider Electric Tech Hub",
     "applyUrl": "https://www.se.com/careers",
@@ -281,12 +1184,23 @@
     "city": "Stuttgart",
     "industry": "automotive",
     "function": "AI/ML",
-    "degrees": ["msc-data-science-ai", "msc-robotics"],
+    "degrees": [
+      "msc-data-science-ai",
+      "msc-robotics"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "German"],
-    "skills": ["computer-vision", "machine-learning", "automotive-safety-iso26262", "python"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "computer-vision",
+      "machine-learning",
+      "automotive-safety-iso26262",
+      "python"
+    ],
     "postedDate": "2026-09-29",
     "source": "Mercedes-Benz Tech Innovation",
     "applyUrl": "https://group.mercedes-benz.com/careers",
@@ -302,12 +1216,22 @@
     "city": "Stuttgart",
     "industry": "automotive",
     "function": "Finance",
-    "degrees": ["msc-finance", "mim"],
+    "degrees": [
+      "msc-finance",
+      "mim"
+    ],
     "experience": "Student",
     "employmentType": "Working Student",
     "workMode": "Hybrid",
-    "languages": ["German", "English"],
-    "skills": ["financial-modelling", "business-analytics", "sql"],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "skills": [
+      "financial-modelling",
+      "business-analytics",
+      "sql"
+    ],
     "postedDate": "2026-09-29",
     "source": "Mercedes-Benz Finance",
     "applyUrl": "https://group.mercedes-benz.com/careers",
@@ -323,12 +1247,23 @@
     "city": "Salzgitter",
     "industry": "automotive",
     "function": "Manufacturing",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "3-5 Years",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["English", "German"],
-    "skills": ["battery-engineering", "plcs-scada", "operations-management", "iso-standards"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "battery-engineering",
+      "plcs-scada",
+      "operations-management",
+      "iso-standards"
+    ],
     "postedDate": "2026-09-29",
     "source": "PowerCo SE",
     "applyUrl": "https://www.volkswagen-group.com/en/careers",
@@ -344,12 +1279,23 @@
     "city": "Wolfsburg",
     "industry": "automotive",
     "function": "Management",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "On-site",
-    "languages": ["English", "German"],
-    "skills": ["stakeholder-management", "project-management", "business-analytics", "multilingual-comms"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "stakeholder-management",
+      "project-management",
+      "business-analytics",
+      "multilingual-comms"
+    ],
     "postedDate": "2026-09-29",
     "source": "VW Group Talent",
     "applyUrl": "https://www.volkswagen-group.com/en/careers",
@@ -365,12 +1311,23 @@
     "city": "Erlangen",
     "industry": "manufacturing",
     "function": "Management",
-    "degrees": ["mim", "msc-mechanical-engineering"],
+    "degrees": [
+      "mim",
+      "msc-mechanical-engineering"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English", "German"],
-    "skills": ["project-management", "stakeholder-management", "plcs-scada", "multilingual-comms"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "project-management",
+      "stakeholder-management",
+      "plcs-scada",
+      "multilingual-comms"
+    ],
     "postedDate": "2026-09-29",
     "source": "Siemens Talent Network",
     "applyUrl": "https://www.siemens.com/global/en/company/jobs.html",
@@ -386,12 +1343,22 @@
     "city": "Nuremberg",
     "industry": "robotics",
     "function": "Software Engineering",
-    "degrees": ["msc-robotics", "msc-data-science-ai"],
+    "degrees": [
+      "msc-robotics",
+      "msc-data-science-ai"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["plcs-scada", "ros-robotics", "cloud-infrastructure", "python"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "plcs-scada",
+      "ros-robotics",
+      "cloud-infrastructure",
+      "python"
+    ],
     "postedDate": "2026-09-29",
     "source": "Siemens Digital Industries",
     "applyUrl": "https://www.siemens.com/global/en/company/jobs.html",
@@ -407,12 +1374,23 @@
     "city": "Stuttgart",
     "industry": "manufacturing",
     "function": "Operations",
-    "degrees": ["mim", "msc-mechanical-engineering"],
+    "degrees": [
+      "mim",
+      "msc-mechanical-engineering"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "On-site",
-    "languages": ["German", "English"],
-    "skills": ["operations-management", "lean-operations", "iso-standards", "plcs-scada"],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "skills": [
+      "operations-management",
+      "lean-operations",
+      "iso-standards",
+      "plcs-scada"
+    ],
     "postedDate": "2026-09-29",
     "source": "Bosch Corporate HR",
     "applyUrl": "https://www.bosch.com/careers",
@@ -428,12 +1406,22 @@
     "city": "Abstatt",
     "industry": "automotive",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "German"],
-    "skills": ["automotive-safety-iso26262", "embedded-systems", "finite-element-analysis"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "automotive-safety-iso26262",
+      "embedded-systems",
+      "finite-element-analysis"
+    ],
     "postedDate": "2026-09-29",
     "source": "Bosch Mobility Solutions",
     "applyUrl": "https://www.bosch.com/careers",
@@ -449,12 +1437,21 @@
     "city": "Best (Eindhoven)",
     "industry": "healthcare",
     "function": "Data Science",
-    "degrees": ["msc-data-science-ai"],
+    "degrees": [
+      "msc-data-science-ai"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["python", "machine-learning", "computer-vision", "medical-device-mdr"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "computer-vision",
+      "medical-device-mdr"
+    ],
     "postedDate": "2026-09-29",
     "source": "Philips HealthTech",
     "applyUrl": "https://www.careers.philips.com",
@@ -470,12 +1467,21 @@
     "city": "Amsterdam",
     "industry": "healthcare",
     "function": "Consulting",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["medical-device-mdr", "data-governance", "stakeholder-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "medical-device-mdr",
+      "data-governance",
+      "stakeholder-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "Philips Regulatory Group",
     "applyUrl": "https://www.careers.philips.com",
@@ -491,12 +1497,21 @@
     "city": "Maranello",
     "industry": "automotive",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering"],
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["Italian", "English"],
-    "skills": ["aerodynamics", "finite-element-analysis", "cad-modelling"],
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "skills": [
+      "aerodynamics",
+      "finite-element-analysis",
+      "cad-modelling"
+    ],
     "postedDate": "2026-09-29",
     "source": "Gestione Sportiva Ferrari",
     "applyUrl": "https://www.ferrari.com/en-EN/corporate/careers",
@@ -512,12 +1527,22 @@
     "city": "Maranello",
     "industry": "automotive",
     "function": "Supply Chain",
-    "degrees": ["mim", "msc-supply-chain"],
+    "degrees": [
+      "mim",
+      "msc-supply-chain"
+    ],
     "experience": "Student",
     "employmentType": "Internship",
     "workMode": "On-site",
-    "languages": ["Italian", "English"],
-    "skills": ["vendor-procurement", "supply-chain-planning", "business-analytics"],
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "skills": [
+      "vendor-procurement",
+      "supply-chain-planning",
+      "business-analytics"
+    ],
     "postedDate": "2026-09-29",
     "source": "Ferrari Campus",
     "applyUrl": "https://www.ferrari.com/en-EN/corporate/careers",
@@ -533,12 +1558,22 @@
     "city": "Rome",
     "industry": "aerospace",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["Italian", "English"],
-    "skills": ["aviation-part21", "embedded-systems", "cybersecurity"],
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "skills": [
+      "aviation-part21",
+      "embedded-systems",
+      "cybersecurity"
+    ],
     "postedDate": "2026-09-29",
     "source": "Leonardo Early Careers",
     "applyUrl": "https://www.leonardo.com/en/careers",
@@ -554,12 +1589,23 @@
     "city": "Milan",
     "industry": "fashion",
     "function": "Supply Chain",
-    "degrees": ["mim", "msc-supply-chain"],
+    "degrees": [
+      "mim",
+      "msc-supply-chain"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "Italian"],
-    "skills": ["circular-economy", "supply-chain-planning", "digital-product-passport", "csrd-reporting"],
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "skills": [
+      "circular-economy",
+      "supply-chain-planning",
+      "digital-product-passport",
+      "csrd-reporting"
+    ],
     "postedDate": "2026-09-29",
     "source": "Prada People & Culture",
     "applyUrl": "https://www.pradagroup.com/en/people/careers.html",
@@ -575,12 +1621,22 @@
     "city": "Milan",
     "industry": "fashion",
     "function": "Marketing",
-    "degrees": ["mim", "msc-marketing"],
+    "degrees": [
+      "mim",
+      "msc-marketing"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["English", "Italian"],
-    "skills": ["luxury-brand-mgmt", "customer-segmentation", "market-research"],
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "skills": [
+      "luxury-brand-mgmt",
+      "customer-segmentation",
+      "market-research"
+    ],
     "postedDate": "2026-09-29",
     "source": "Prada Group HQ",
     "applyUrl": "https://www.pradagroup.com/en/people/careers.html",
@@ -596,12 +1652,21 @@
     "city": "Stockholm",
     "industry": "technology",
     "function": "AI/ML",
-    "degrees": ["msc-data-science-ai"],
+    "degrees": [
+      "msc-data-science-ai"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["python", "machine-learning", "cloud-infrastructure", "sql"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-infrastructure",
+      "sql"
+    ],
     "postedDate": "2026-09-29",
     "source": "Life at Spotify",
     "applyUrl": "https://www.lifeatspotify.com",
@@ -617,12 +1682,22 @@
     "city": "Stockholm",
     "industry": "technology",
     "function": "Product Management",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["product-strategy", "agile-scrum", "business-analytics", "customer-segmentation"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "product-strategy",
+      "agile-scrum",
+      "business-analytics",
+      "customer-segmentation"
+    ],
     "postedDate": "2026-09-29",
     "source": "Spotify Product Cohort",
     "applyUrl": "https://www.lifeatspotify.com",
@@ -638,12 +1713,22 @@
     "city": "Stockholm (Kista)",
     "industry": "technology",
     "function": "Software Engineering",
-    "degrees": ["msc-data-science-ai", "msc-robotics"],
+    "degrees": [
+      "msc-data-science-ai",
+      "msc-robotics"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["cloud-infrastructure", "cybersecurity", "devops-cicd", "embedded-systems"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-infrastructure",
+      "cybersecurity",
+      "devops-cicd",
+      "embedded-systems"
+    ],
     "postedDate": "2026-09-29",
     "source": "Ericsson Careers",
     "applyUrl": "https://www.ericsson.com/en/careers",
@@ -659,12 +1744,21 @@
     "city": "Stockholm",
     "industry": "technology",
     "function": "Consulting",
-    "degrees": ["mim", "mba"],
+    "degrees": [
+      "mim",
+      "mba"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["market-research", "financial-modelling", "stakeholder-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "market-research",
+      "financial-modelling",
+      "stakeholder-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "Ericsson Graduate Track",
     "applyUrl": "https://www.ericsson.com/en/careers",
@@ -680,12 +1774,21 @@
     "city": "Gothenburg",
     "industry": "automotive",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-robotics"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-robotics"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["battery-engineering", "cad-modelling", "operations-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "battery-engineering",
+      "cad-modelling",
+      "operations-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "Volvo Group Graduate Hub",
     "applyUrl": "https://www.volvogroup.com/en/careers.html",
@@ -701,12 +1804,21 @@
     "city": "Gothenburg",
     "industry": "logistics-supply-chain",
     "function": "Supply Chain",
-    "degrees": ["msc-supply-chain", "mim"],
+    "degrees": [
+      "msc-supply-chain",
+      "mim"
+    ],
     "experience": "Student",
     "employmentType": "Working Student",
     "workMode": "Hybrid",
-    "languages": ["English"],
-    "skills": ["supply-chain-planning", "csrd-reporting", "business-analytics"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "supply-chain-planning",
+      "csrd-reporting",
+      "business-analytics"
+    ],
     "postedDate": "2026-09-29",
     "source": "Volvo Logistics",
     "applyUrl": "https://www.volvogroup.com/en/careers.html",
@@ -722,12 +1834,22 @@
     "city": "Västerås",
     "industry": "robotics",
     "function": "Robotics & Automation",
-    "degrees": ["msc-robotics", "msc-mechanical-engineering"],
+    "degrees": [
+      "msc-robotics",
+      "msc-mechanical-engineering"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Graduate Programme",
     "workMode": "On-site",
-    "languages": ["English"],
-    "skills": ["ros-robotics", "computer-vision", "plcs-scada", "operations-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "ros-robotics",
+      "computer-vision",
+      "plcs-scada",
+      "operations-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "ABB Discovery Program",
     "applyUrl": "https://careers.abb",
@@ -743,12 +1865,23 @@
     "city": "Zurich",
     "industry": "manufacturing",
     "function": "Project Management",
-    "degrees": ["mim", "mba", "msc-mechanical-engineering"],
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-mechanical-engineering"
+    ],
     "experience": "3-5 Years",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["German", "English"],
-    "skills": ["project-management", "vendor-procurement", "iso-standards"],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "skills": [
+      "project-management",
+      "vendor-procurement",
+      "iso-standards"
+    ],
     "postedDate": "2026-09-29",
     "source": "ABB Electrification",
     "applyUrl": "https://careers.abb",
@@ -764,12 +1897,23 @@
     "city": "Berlin",
     "industry": "energy",
     "function": "Finance",
-    "degrees": ["msc-finance", "mim"],
+    "degrees": [
+      "msc-finance",
+      "mim"
+    ],
     "experience": "Student",
     "employmentType": "Working Student",
     "workMode": "Hybrid",
-    "languages": ["German", "English"],
-    "skills": ["energy-trading", "financial-modelling", "python", "sql"],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "skills": [
+      "energy-trading",
+      "financial-modelling",
+      "python",
+      "sql"
+    ],
     "postedDate": "2026-09-29",
     "source": "Siemens Energy Management",
     "applyUrl": "https://www.siemens.com/global/en/company/jobs.html",
@@ -785,12 +1929,22 @@
     "city": "Bremen",
     "industry": "aerospace",
     "function": "Mechanical Engineering",
-    "degrees": ["msc-mechanical-engineering", "msc-data-science-ai"],
+    "degrees": [
+      "msc-mechanical-engineering",
+      "msc-data-science-ai"
+    ],
     "experience": "1-3 Years",
     "employmentType": "Full-time",
     "workMode": "On-site",
-    "languages": ["English", "German"],
-    "skills": ["aviation-part21", "cad-modelling", "finite-element-analysis"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "aviation-part21",
+      "cad-modelling",
+      "finite-element-analysis"
+    ],
     "postedDate": "2026-09-29",
     "source": "Airbus Defence and Space",
     "applyUrl": "https://www.airbus.com/en/careers",
@@ -806,12 +1960,22 @@
     "city": "Regensburg",
     "industry": "automotive",
     "function": "Data Science",
-    "degrees": ["msc-data-science-ai"],
+    "degrees": [
+      "msc-data-science-ai"
+    ],
     "experience": "Graduate / Entry",
     "employmentType": "Full-time",
     "workMode": "Hybrid",
-    "languages": ["English", "German"],
-    "skills": ["python", "machine-learning", "sql", "plcs-scada"],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql",
+      "plcs-scada"
+    ],
     "postedDate": "2026-09-29",
     "source": "BMW Smart Plant",
     "applyUrl": "https://www.bmwgroup.jobs",
@@ -827,16 +1991,4198 @@
     "city": "Veldhoven",
     "industry": "semiconductors",
     "function": "Manufacturing",
-    "degrees": ["msc-mechanical-engineering"],
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
     "experience": "Student",
     "employmentType": "Apprenticeship",
     "workMode": "On-site",
-    "languages": ["English"],
-    "skills": ["semiconductor-fab", "iso-standards", "operations-management"],
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "semiconductor-fab",
+      "iso-standards",
+      "operations-management"
+    ],
     "postedDate": "2026-09-29",
     "source": "ASML Academy",
     "applyUrl": "https://www.asml.com/en/careers",
     "featured": false,
     "isDemo": true
+  },
+  {
+    "id": "preiswecker-software-engineer",
+    "slug": "preiswecker-software-engineer",
+    "title": "Software Engineer",
+    "company": "preiswecker",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-08-12",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.preiswecker.com/",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ekipa-agency-gmbh-freelance-hr-consultant",
+    "slug": "ekipa-agency-gmbh-freelance-hr-consultant",
+    "title": "Freelance HR Consultant",
+    "company": "ekipa-agency-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ekipa-agency-gmbh/freelance-hr-consultant-berlin-143458",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "clariness-senior-operations-manager-fmd",
+    "slug": "clariness-senior-operations-manager-fmd",
+    "title": "Senior Operations Manager (f/m/d)",
+    "company": "clariness",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/clariness/senior-operations-manager-hamburg-356573",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "tebi-account-specialist---berlin",
+    "slug": "tebi-account-specialist---berlin",
+    "title": "Account Specialist - Berlin",
+    "company": "tebi",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/tebi/account-specialist-berlin-471942",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "uplane-ai-native-static-ad-designer",
+    "slug": "uplane-ai-native-static-ad-designer",
+    "title": "AI-Native Static Ad Designer",
+    "company": "uplane",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/uplane/ai-native-static-ad-designer-berlin-497780",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "uplane-ai-native-video-producer",
+    "slug": "uplane-ai-native-video-producer",
+    "title": "AI-Native Video Producer",
+    "company": "uplane",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/uplane/ai-native-video-producer-berlin-32194",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "uplane-ai-native-landing-page-designer",
+    "slug": "uplane-ai-native-landing-page-designer",
+    "title": "AI-Native Landing Page Designer",
+    "company": "uplane",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/uplane/ai-native-landing-page-designer-berlin-178959",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "cts-composite-technologie-systeme-gmbh-werkstudent-bauingenieurwesen-mwd",
+    "slug": "cts-composite-technologie-systeme-gmbh-werkstudent-bauingenieurwesen-mwd",
+    "title": "Werkstudent Bauingenieurwesen (m/w/d)",
+    "company": "cts-composite-technologie-systeme-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "csrd-reporting",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/cts-composite-technologie-systeme-gmbh/werkstudent-bauingenieurwesen-geesthacht-22550",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "accilium-group-gmbh-consultant---automotive-value-chain-transformation-fmx",
+    "slug": "accilium-group-gmbh-consultant---automotive-value-chain-transformation-fmx",
+    "title": "Consultant - Automotive Value Chain Transformation (f/m/x)",
+    "company": "accilium-group-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "corporate-strategy",
+      "product-management",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/accilium-group-gmbh/consultant-automotive-value-chain-transformation-berlin-6817",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-senior-it-security-administrator-gn",
+    "slug": "workidentity-senior-it-security-administrator-gn",
+    "title": "Senior IT Security Administrator (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/senior-it-security-administrator-gn-hamburg-297128",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-senior-cloud-engineer-gn",
+    "slug": "workidentity-senior-cloud-engineer-gn",
+    "title": "Senior Cloud Engineer (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/senior-cloud-engineer-gn-hamburg-369822",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-senior-cloud-architect-gn",
+    "slug": "workidentity-senior-cloud-architect-gn",
+    "title": "Senior Cloud Architect (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/senior-cloud-architect-gn-hamburg-291468",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-network-infrastructure-engineer-gn",
+    "slug": "workidentity-network-infrastructure-engineer-gn",
+    "title": "Network & Infrastructure Engineer (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/network-infrastructure-engineer-gn-hamburg-293581",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-it-security-engineer-gn",
+    "slug": "workidentity-it-security-engineer-gn",
+    "title": "IT-Security Engineer (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/it-security-engineer-gn-hamburg-227497",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-it-infrastructure-engineer-gn",
+    "slug": "workidentity-it-infrastructure-engineer-gn",
+    "title": "IT Infrastructure Engineer (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/it-infrastructure-engineer-gn-hamburg-106592",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "workidentity-ai-lead-gn",
+    "slug": "workidentity-ai-lead-gn",
+    "title": "AI Lead (gn)",
+    "company": "workidentity",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/ai-lead-gn-hamburg-227707",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "meondi-lead-product-engineer-a",
+    "slug": "meondi-lead-product-engineer-a",
+    "title": "Lead Product Engineer (a)",
+    "company": "meondi",
+    "country": "germany",
+    "city": "Stuttgart",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/meondi/lead-product-engineer-a-stuttgart-23371",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "agora-thinktanks-project-manager-or-project-officer-biomass-value-chains-fmd",
+    "slug": "agora-thinktanks-project-manager-or-project-officer-biomass-value-chains-fmd",
+    "title": "Project Manager or Project Officer Biomass Value Chains (f/m/d)",
+    "company": "agora-thinktanks",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "supply-chain-planning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/agora-thinktanks/project-manager-or-project-officer-biomass-value-chains-berlin-120366",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "memodo-gmbh-supply-chain-managerin-mwd",
+    "slug": "memodo-gmbh-supply-chain-managerin-mwd",
+    "title": "Supply Chain Manager*in (m/w/d)",
+    "company": "memodo-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "logistics-supply-chain",
+    "function": "Supply Chain",
+    "degrees": [
+      "msc-supply-chain",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "supply-chain-planning",
+      "product-management",
+      "csrd-reporting"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/memodo-gmbh/supply-chain-managerin-munchen-451016",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "european-it-consultancy-eitco-gmbh-division-director-arveo-services-mwd",
+    "slug": "european-it-consultancy-eitco-gmbh-division-director-arveo-services-mwd",
+    "title": "Division Director arveo services (m/w/d)",
+    "company": "european-it-consultancy-eitco-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/european-it-consultancy-eitco-gmbh/division-director-arveo-services-berlin-272426",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "iges-institut-gmbh-senior-consultant-real-world-evidence---focus-on-healthcare-",
+    "slug": "iges-institut-gmbh-senior-consultant-real-world-evidence---focus-on-healthcare-",
+    "title": "Senior Consultant Real World Evidence - Focus on Healthcare Data Analysis (m/f/d)",
+    "company": "iges-institut-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/iges-institut-gmbh/senior-consultant-real-world-evidence-focus-on-healthcare-data-analysis-berlin-125466",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "lanch-senior-business-operations-manager-mwd",
+    "slug": "lanch-senior-business-operations-manager-mwd",
+    "title": "Senior Business Operations Manager (m/w/d)",
+    "company": "lanch",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "supply-chain-planning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/lanch/senior-business-operations-manager-berlin-199819",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "lovehoney-group-finance-data-systems-analyst-fpa",
+    "slug": "lovehoney-group-finance-data-systems-analyst-fpa",
+    "title": "Finance Data & Systems Analyst (FP&A)",
+    "company": "lovehoney-group",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/lovehoney-group/finance-data-systems-analyst-fpa-berlin-186608",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "getmow-short-form-video-content-creator-mfd",
+    "slug": "getmow-short-form-video-content-creator-mfd",
+    "title": "Short-Form Video & Content Creator (m/f/d)",
+    "company": "getmow",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/getmow/short-form-video-content-creator-berlin-348376",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "finwyz-gmbh-banking-operator-banking-expert-mwd",
+    "slug": "finwyz-gmbh-banking-operator-banking-expert-mwd",
+    "title": "Banking Operator / Banking Expert (m/w/d)",
+    "company": "finwyz-gmbh",
+    "country": "germany",
+    "city": "Cologne",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/finwyz-gmbh/banking-operator-banking-expert-cologne-332432",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "finwyz-gmbh-business-analyst-wertpapierprojekt-mwd",
+    "slug": "finwyz-gmbh-business-analyst-wertpapierprojekt-mwd",
+    "title": "Business Analyst Wertpapierprojekt (m/w/d)",
+    "company": "finwyz-gmbh",
+    "country": "germany",
+    "city": "Cologne",
+    "industry": "technology",
+    "function": "Business Analysis",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/finwyz-gmbh/business-analyst-wertpapierprojekt-cologne-339588",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "secfix-information-security-lead",
+    "slug": "secfix-information-security-lead",
+    "title": "Information Security Lead",
+    "company": "secfix",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/secfix/information-security-lead-berlin-292304",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nviso-senior-security-operations-engineering-manager-mwd",
+    "slug": "nviso-senior-security-operations-engineering-manager-mwd",
+    "title": "Senior Security Operations Engineering Manager (m/w/d)",
+    "company": "nviso",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/nviso/senior-security-operations-engineering-manager-munich-299778",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "virtual7-gmbh-senior-it-architect-mwd",
+    "slug": "virtual7-gmbh-senior-it-architect-mwd",
+    "title": "Senior IT Architect (m/w/d)",
+    "company": "virtual7-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "devops-ci-cd"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-senior-it-architect-karlsruhe-287076",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "virtual7-gmbh-senior-java-fullstack-developer-mwd",
+    "slug": "virtual7-gmbh-senior-java-fullstack-developer-mwd",
+    "title": "Senior Java Fullstack Developer (m/w/d)",
+    "company": "virtual7-gmbh",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "typescript",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "devops-ci-cd"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-java-fullstack-developer-hamburg-471244",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "encontec-gmbh-senior-sourcing-projektmanager-mwd",
+    "slug": "encontec-gmbh-senior-sourcing-projektmanager-mwd",
+    "title": "Senior Sourcing Projektmanager (m/w/d)",
+    "company": "encontec-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "supply-chain-planning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/senior-sourcing-projektmanager-oberkochen-453755",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "encontec-gmbh-embedded-softwareentwickler-mwd-lithographiesysteme",
+    "slug": "encontec-gmbh-embedded-softwareentwickler-mwd-lithographiesysteme",
+    "title": "Embedded Softwareentwickler (m/w/d) Lithographiesysteme",
+    "company": "encontec-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/embedded-softwareentwickler-lithographiesysteme-oberkochen-53652",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "agentur-fr-haushaltshilfe-gmbh-teamleiter-fr-haushaltshilfen-mwd-quereinstieg-einzelhandel",
+    "slug": "agentur-fr-haushaltshilfe-gmbh-teamleiter-fr-haushaltshilfen-mwd-quereinstieg-einzelhandel",
+    "title": "Teamleiter für Haushaltshilfen (m/w/d) Quereinstieg Einzelhandel",
+    "company": "agentur-fr-haushaltshilfe-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/agentur-fur-haushaltshilfe-gmbh/remote-teamleiter-fur-haushaltshilfen-quereinstieg-einzelhandel-bayern-134895",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "apollo-ventures-werkstudent-business-administration-mwd-office-based-in-berl",
+    "slug": "apollo-ventures-werkstudent-business-administration-mwd-office-based-in-berl",
+    "title": "Werkstudent Business Administration (m/w/d) office based in Berlin",
+    "company": "apollo-ventures",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/apollo-ventures/werkstudent-business-administration-office-based-in-berlin-34920",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "atlanticvc-software-engineer-gn-stealth-ai-venture-berlin",
+    "slug": "atlanticvc-software-engineer-gn-stealth-ai-venture-berlin",
+    "title": "Software Engineer (gn) @ Stealth AI Venture, Berlin",
+    "company": "atlanticvc",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/atlanticvc/software-engineer-gn-at-stealth-ai-venture-berlin-100581",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "markt-pilot-senior-platform-engineer-fmd",
+    "slug": "markt-pilot-senior-platform-engineer-fmd",
+    "title": "(Senior) Platform Engineer (f/m/d)",
+    "company": "markt-pilot",
+    "country": "germany",
+    "city": "Stuttgart",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "devops-ci-cd",
+      "product-management",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/markt-pilot/senior-platform-engineer-stuttgart-475783",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "skeletontech-senior-communications-manager",
+    "slug": "skeletontech-senior-communications-manager",
+    "title": "Senior Communications Manager",
+    "company": "skeletontech",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "typescript",
+      "machine-learning",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/skeletontech/remote-senior-communications-manager-germany-25167",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "asg-senior-audit-consultant-prfungsleiter-mwd",
+    "slug": "asg-senior-audit-consultant-prfungsleiter-mwd",
+    "title": "Senior Audit Consultant / Prüfungsleiter (m/w/d)",
+    "company": "asg",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/asg/senior-audit-consultant-prufungsleiter-hamburg-276339",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "maltego-senior-scaled-enablement-manager-mwd",
+    "slug": "maltego-senior-scaled-enablement-manager-mwd",
+    "title": "Senior Scaled Enablement Manager (m/w/d)",
+    "company": "maltego",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/maltego/senior-scaled-enablement-manager-munich-headquarters-268376",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "maltego-onboarding-manager-cybersecuritycti-mwd",
+    "slug": "maltego-onboarding-manager-cybersecuritycti-mwd",
+    "title": "Onboarding Manager, Cybersecurity/CTI (m/w/d)",
+    "company": "maltego",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/maltego/onboarding-manager-cybersecurity-cti-munich-headquarters-75279",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "flex-capital-management-gmbh-ai-engineer-mwd-dealflow",
+    "slug": "flex-capital-management-gmbh-ai-engineer-mwd-dealflow",
+    "title": "AI Engineer (m/w/d) Dealflow",
+    "company": "flex-capital-management-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "ai",
+    "function": "AI/ML",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "devops-ci-cd"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/flex-capital-management-gmbh/ai-engineer-dealflow-berlin-75769",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "schoene-neue-kinder-senior-account-manager-mwd",
+    "slug": "schoene-neue-kinder-senior-account-manager-mwd",
+    "title": "Senior Account Manager (m/w/d)",
+    "company": "schoene-neue-kinder",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/schoene-neue-kinder/senior-account-manager-munchen-giesing-381804",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "brighter-ai-senior-sales-go-to-market-lead",
+    "slug": "brighter-ai-senior-sales-go-to-market-lead",
+    "title": "Senior Sales & Go-to-Market Lead",
+    "company": "brighter-ai",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/brighter-ai/senior-sales-go-to-market-lead-berlin-62203",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "brighter-ai-sales-go-to-market-manager-pipeline-growth",
+    "slug": "brighter-ai-sales-go-to-market-manager-pipeline-growth",
+    "title": "Sales & Go-to-Market Manager – Pipeline & Growth",
+    "company": "brighter-ai",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/brighter-ai/remote-sales-go-to-market-manager-pipeline-growth-berlin-151865",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "reev-senior-business-intelligence-lead-all-genders",
+    "slug": "reev-senior-business-intelligence-lead-all-genders",
+    "title": "Senior Business Intelligence Lead (all genders)",
+    "company": "reev",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Data Science",
+    "degrees": [
+      "msc-data-science-ai",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/reev/senior-business-intelligence-lead-all-genders-munchen-132770",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "denkwerk-gmbh-senior-paid-media-manager-all-genders",
+    "slug": "denkwerk-gmbh-senior-paid-media-manager-all-genders",
+    "title": "Senior Paid Media Manager (all genders)",
+    "company": "denkwerk-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/denkwerk-gmbh/senior-paid-media-manager-all-genders-berlin-296675",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "denkwerk-gmbh-senior-digital-marketing-manager-seogeo-all-genders",
+    "slug": "denkwerk-gmbh-senior-digital-marketing-manager-seogeo-all-genders",
+    "title": "Senior Digital Marketing Manager SEO/GEO (all genders)",
+    "company": "denkwerk-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/denkwerk-gmbh/senior-digital-marketing-manager-seo-geo-all-genders-berlin-156382",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "syzygy-group-senior-marketing-consultant-schwerpunkt-seo-all-genders",
+    "slug": "syzygy-group-senior-marketing-consultant-schwerpunkt-seo-all-genders",
+    "title": "Senior Marketing Consultant – Schwerpunkt SEO (all genders)",
+    "company": "syzygy-group",
+    "country": "germany",
+    "city": "Hamburg",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/syzygy-group/senior-marketing-consultant-schwerpunkt-seo-all-genders-hamburg-syzygy-performance-marketing-gmbh-226205",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "edtelligent-manager-finance-operations-mwd",
+    "slug": "edtelligent-manager-finance-operations-mwd",
+    "title": "Manager Finance & Operations (m/w/d)",
+    "company": "edtelligent",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "csrd-reporting"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/edtelligent/manager-finance-operations-munich-155617",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ionos-se-staff-cyber-security-wmd",
+    "slug": "ionos-se-staff-cyber-security-wmd",
+    "title": "Staff Cyber Security (w/m/d)",
+    "company": "ionos-se",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ionos-se/staff-cyber-security-berlin-113611",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "neurawork-gmbh-co-kg-marketing-content-manager-b2b-mwd",
+    "slug": "neurawork-gmbh-co-kg-marketing-content-manager-b2b-mwd",
+    "title": "Marketing & Content Manager B2B (m/w/d)",
+    "company": "neurawork-gmbh-co-kg",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/neurawork-gmbh-co-kg/marketing-content-manager-b2b-ampfing-216001",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ctg-consulting-gmbh-marketplace-manager-all-genders",
+    "slug": "ctg-consulting-gmbh-marketplace-manager-all-genders",
+    "title": "Marketplace Manager (all genders)",
+    "company": "ctg-consulting-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ctg-consulting-gmbh/marketplace-manager-all-genders-berlin-354084",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "pflegia-werkstudent-mwd-onboarding-customer-success",
+    "slug": "pflegia-werkstudent-mwd-onboarding-customer-success",
+    "title": "Werkstudent (m/w/d) Onboarding Customer Success",
+    "company": "pflegia",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/pflegia/werkstudent-onboarding-customer-success-berlin-281358",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "pflegia-junior-onboarding-customer-success-manager-mwd---remote",
+    "slug": "pflegia-junior-onboarding-customer-success-manager-mwd---remote",
+    "title": "(Junior) Onboarding Customer Success Manager (m/w/d) - Remote",
+    "company": "pflegia",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/pflegia/junior-onboarding-customer-success-manager-remote-berlin-307387",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "privatize-corporate-development-manager---strategy-finance-ai-operatio",
+    "slug": "privatize-corporate-development-manager---strategy-finance-ai-operatio",
+    "title": "Corporate Development Manager - Strategy, Finance & AI Operations (m/f/d)",
+    "company": "privatize",
+    "country": "germany",
+    "city": "Frankfurt",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/privatize/corporate-development-manager-strategy-finance-ai-operations-frankfurt-am-main-467743",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "unaice-gmbh-mitarbeiter-mwd-in-verwaltung---administration-mwd-25hw",
+    "slug": "unaice-gmbh-mitarbeiter-mwd-in-verwaltung---administration-mwd-25hw",
+    "title": "Mitarbeiter (m/w/d) in Verwaltung - Administration (m/w/d) 25h/W",
+    "company": "unaice-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/unaice-gmbh/mitarbeiter-in-verwaltung-administration-25h-w-werther-54200",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "collaboration-betters-the-world-gmbh-fullstack-developer-camunda-mwd",
+    "slug": "collaboration-betters-the-world-gmbh-fullstack-developer-camunda-mwd",
+    "title": "Fullstack Developer Camunda (m/w/d)",
+    "company": "collaboration-betters-the-world-gmbh",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "typescript",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/fullstack-developer-camunda-berlin-290137",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "collaboration-betters-the-world-gmbh-senior-consultant-cloud-data-engineering-mwd",
+    "slug": "collaboration-betters-the-world-gmbh-senior-consultant-cloud-data-engineering-mwd",
+    "title": "Senior Consultant Cloud Data Engineering (m/w/d)",
+    "company": "collaboration-betters-the-world-gmbh",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/senior-consultant-cloud-data-engineering-munich-465021",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "collaboration-betters-the-world-gmbh-java-developer-mwd",
+    "slug": "collaboration-betters-the-world-gmbh-java-developer-mwd",
+    "title": "Java Developer (m/w/d)",
+    "company": "collaboration-betters-the-world-gmbh",
+    "country": "germany",
+    "city": "Munich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/java-developer-munich-309764",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "collaboration-betters-the-world-gmbh-senior-java-developer-java-architekt-mwd",
+    "slug": "collaboration-betters-the-world-gmbh-senior-java-developer-java-architekt-mwd",
+    "title": "Senior Java Developer / Java Architekt (m/w/d)",
+    "company": "collaboration-betters-the-world-gmbh",
+    "country": "germany",
+    "city": "Frankfurt",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/senior-java-developer-java-architekt-frankfurt-am-main-202120",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "everydays-senior-performance-marketing-manager-mwd---meta-ads-full-fun",
+    "slug": "everydays-senior-performance-marketing-manager-mwd---meta-ads-full-fun",
+    "title": "Senior Performance Marketing Manager (m/w/d) - Meta Ads & Full-Funnel Growth - 100% remote",
+    "company": "everydays",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/everydays/senior-performance-marketing-manager-meta-ads-full-funnel-growth-100-remote-berlin-28423",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "7-marketplace-gmbh-social-media-managerin-content-creatorin-mwd",
+    "slug": "7-marketplace-gmbh-social-media-managerin-content-creatorin-mwd",
+    "title": "Social Media Managerin / Content Creatorin (m/w/d)",
+    "company": "7-marketplace-gmbh",
+    "country": "germany",
+    "city": "Köln",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/7-marketplace-gmbh/social-media-managerin-content-creatorin-koln-249536",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "solactive-ag-vice-president-mfd-equity-rebalancing",
+    "slug": "solactive-ag-vice-president-mfd-equity-rebalancing",
+    "title": "Vice President (m/f/d) Equity Rebalancing",
+    "company": "solactive-ag",
+    "country": "germany",
+    "city": "Frankfurt",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/solactive-ag/vice-president-equity-rebalancing-frankfurt-am-main-400561",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-software-development-engineer-mwd",
+    "slug": "ecoza-gmbh-software-development-engineer-mwd",
+    "title": "Software Development Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/software-development-engineer-munchen-52796",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-senior-software-developer-mwd",
+    "slug": "ecoza-gmbh-senior-software-developer-mwd",
+    "title": "Senior Software Developer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/senior-software-developer-munchen-202123",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-senior-ecommerce-consultant-mwd",
+    "slug": "ecoza-gmbh-senior-ecommerce-consultant-mwd",
+    "title": "Senior eCommerce Consultant (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/senior-ecommerce-consultant-munchen-272575",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-fullstack-engineer-mwd",
+    "slug": "ecoza-gmbh-fullstack-engineer-mwd",
+    "title": "Fullstack Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/fullstack-engineer-munchen-345492",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-senior-e-commerce-manager-mwd-ecommerce-growth-consulting",
+    "slug": "ecoza-gmbh-senior-e-commerce-manager-mwd-ecommerce-growth-consulting",
+    "title": "Senior E-Commerce Manager (m/w/d) – eCommerce Growth Consulting",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/senior-e-commerce-manager-ecommerce-growth-consulting-munchen-55524",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-automation-ai-operations-engineer-mwd",
+    "slug": "ecoza-gmbh-automation-ai-operations-engineer-mwd",
+    "title": "Automation & AI Operations Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/automation-ai-operations-engineer-munchen-249301",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-ai-automation-engineer-mwd",
+    "slug": "ecoza-gmbh-ai-automation-engineer-mwd",
+    "title": "AI Automation Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/ai-automation-engineer-munchen-361040",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-associate-software-engineer-mwd",
+    "slug": "ecoza-gmbh-associate-software-engineer-mwd",
+    "title": "Associate Software Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/associate-software-engineer-munchen-384454",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-software-architecture-development-mwd",
+    "slug": "ecoza-gmbh-software-architecture-development-mwd",
+    "title": "Software Architecture & Development (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/software-architecture-development-munchen-489716",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-machine-learning-applied-ai-engineer-mwd",
+    "slug": "ecoza-gmbh-machine-learning-applied-ai-engineer-mwd",
+    "title": "Machine Learning / Applied AI Engineer (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "ai",
+    "function": "AI/ML",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/machine-learning-applied-ai-engineer-munchen-190181",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ecoza-gmbh-account-executive---vollzeit-mwd",
+    "slug": "ecoza-gmbh-account-executive---vollzeit-mwd",
+    "title": "Account Executive - Vollzeit (m/w/d)",
+    "company": "ecoza-gmbh",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/account-executive-vollzeit-munchen-108559",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "superchat-head-of-finance-mfd",
+    "slug": "superchat-head-of-finance-mfd",
+    "title": "Head of Finance (m/f/d)",
+    "company": "superchat",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "finance-banking",
+    "function": "Finance",
+    "degrees": [
+      "msc-finance",
+      "mba",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "product-management",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/superchat/head-of-finance-berlin-309813",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "skalar-steuerassistentin-wmd",
+    "slug": "skalar-steuerassistentin-wmd",
+    "title": "Steuerassistent:in (w/m/d)",
+    "company": "skalar",
+    "country": "germany",
+    "city": "München",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "agile-delivery"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/skalar/steuerassistentin-munich-236471",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "clipboard-operations-strategy-associate",
+    "slug": "clipboard-operations-strategy-associate",
+    "title": "Operations Strategy Associate",
+    "company": "clipboard",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/clipboard/operations-strategy-associate-london-112279",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "malt-alternance-rh---talent-acquisition-specialist-january-2027fr",
+    "slug": "malt-alternance-rh---talent-acquisition-specialist-january-2027fr",
+    "title": "Alternance RH - Talent Acquisition Specialist (January 2027)(French &English speaker)",
+    "company": "malt",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/malt/alternance-rh-talent-acquisition-specialist-january-2027french-english-speaker-paris-92485",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "schiller-international-university-director-international-relations-and-diplomacy-programs",
+    "slug": "schiller-international-university-director-international-relations-and-diplomacy-programs",
+    "title": "Director – International Relations and Diplomacy Programs",
+    "company": "schiller-international-university",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "financial-modelling",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/schiller-international-university/director-international-relations-and-diplomacy-programs-paris-145960",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "artefactlinkedin-freelance-assistante-communication-vnementiel-hackathons-ado",
+    "slug": "artefactlinkedin-freelance-assistante-communication-vnementiel-hackathons-ado",
+    "title": "Freelance – Assistant(e) Communication & Événementiel (Hackathons Adopt AI)",
+    "company": "artefactlinkedin",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/freelance-assistante-communication-evenementiel-hackathons-adopt-ai-9th-arrondissement-of-paris-75009-paris-383519",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "zefir-founder-associate-internship",
+    "slug": "zefir-founder-associate-internship",
+    "title": "Founder Associate (internship)",
+    "company": "zefir",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/zefir/founder-associate-internship-paris-322282",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "kog-agentic-compiler-engineer",
+    "slug": "kog-agentic-compiler-engineer",
+    "title": "Agentic Compiler Engineer",
+    "company": "kog",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/kog/agentic-compiler-engineer-paris-247204",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "gorgias-account-manager-commercial",
+    "slug": "gorgias-account-manager-commercial",
+    "title": "Account Manager, Commercial",
+    "company": "gorgias",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/gorgias/account-manager-commercial-paris-339413",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "bereal-marketing-content-specialist---bereal",
+    "slug": "bereal-marketing-content-specialist---bereal",
+    "title": "Marketing Content Specialist - BeReal",
+    "company": "bereal",
+    "country": "france",
+    "city": "Paris",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/bereal/marketing-content-specialist-bereal-paris-283155",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "bereal-social-media-manager---bereal",
+    "slug": "bereal-social-media-manager---bereal",
+    "title": "Social Media Manager - BeReal",
+    "company": "bereal",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "typescript",
+      "machine-learning",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/bereal/social-media-manager-bereal-paris-45798",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "unisoninfra-key-account-manager---france",
+    "slug": "unisoninfra-key-account-manager---france",
+    "title": "Key Account Manager - France",
+    "company": "unisoninfra",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/unisoninfra/key-account-manager-france-paris-210658",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "deliveroo-account-manager---ile-de-france---cdi",
+    "slug": "deliveroo-account-manager---ile-de-france---cdi",
+    "title": "Account Manager - Ile de France - CDI",
+    "company": "deliveroo",
+    "country": "france",
+    "city": "Paris",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/deliveroo/account-manager-ile-de-france-cdi-paris-193716",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "idnow-senior-product-manager-trust-platform--digital-identies-fmd-",
+    "slug": "idnow-senior-product-manager-trust-platform--digital-identies-fmd-",
+    "title": "(Senior) Product Manager, Trust Platform- Digital Identies (f/m/d) - 1 year fixed contract",
+    "company": "idnow",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/idnow/senior-product-manager-trust-platform-digital-identies-1-year-fixed-contract-paris-paris-rennes-ille-et-vilaine-169392",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "doctrine-stage---junior-sre-foundation-squad",
+    "slug": "doctrine-stage---junior-sre-foundation-squad",
+    "title": "STAGE - Junior SRE (Foundation squad)",
+    "company": "doctrine",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/doctrine/stage-junior-sre-foundation-squad-paris-334619",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "alta-ares-fpga-engineer---electronic-warfare",
+    "slug": "alta-ares-fpga-engineer---electronic-warfare",
+    "title": "FPGA Engineer - Electronic Warfare",
+    "company": "alta-ares",
+    "country": "france",
+    "city": "Paris",
+    "industry": "manufacturing",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/alta-ares/fpga-engineer-electronic-warfare-paris-472804",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "alta-ares-fpga-engineer---radar",
+    "slug": "alta-ares-fpga-engineer---radar",
+    "title": "FPGA Engineer - Radar",
+    "company": "alta-ares",
+    "country": "france",
+    "city": "Paris",
+    "industry": "manufacturing",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/alta-ares/fpga-engineer-radar-paris-412779",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "qonto-seniorstaff---go-backend-engineer---remote-friendly",
+    "slug": "qonto-seniorstaff---go-backend-engineer---remote-friendly",
+    "title": "Senior/Staff - Go Backend Engineer - remote friendly",
+    "company": "qonto",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/qonto/senior-staff-go-backend-engineer-remote-friendly-paris-27338",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "mistralai-ai-scientist---domain-expert-crashworthiness",
+    "slug": "mistralai-ai-scientist---domain-expert-crashworthiness",
+    "title": "AI Scientist - Domain Expert Crashworthiness",
+    "company": "mistralai",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "financial-modelling",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/mistralai/ai-scientist-domain-expert-crashworthiness-paris-246382",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "mistralai-product-operations-manager-designops",
+    "slug": "mistralai-product-operations-manager-designops",
+    "title": "Product Operations Manager (DesignOps)",
+    "company": "mistralai",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "product-management",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/mistralai/product-operations-manager-designops-paris-213666",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "mistralai-applied-ai-software-engineer---defense",
+    "slug": "mistralai-applied-ai-software-engineer---defense",
+    "title": "Applied AI Software Engineer - Defense",
+    "company": "mistralai",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "typescript",
+      "machine-learning",
+      "sql-analytics",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/mistralai/applied-ai-software-engineer-defense-paris-50223",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "ledger-analytics-engineer",
+    "slug": "ledger-analytics-engineer",
+    "title": "Analytics Engineer",
+    "company": "ledger",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "financial-modelling",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/ledger/analytics-engineer-paris-4050",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "checkoutcom-software-engineer-ii",
+    "slug": "checkoutcom-software-engineer-ii",
+    "title": "Software Engineer II",
+    "company": "checkoutcom",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/checkoutcom/software-engineer-ii-paris-118625",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "doctolib-senior-ai-data-engineer-xfm",
+    "slug": "doctolib-senior-ai-data-engineer-xfm",
+    "title": "Senior AI Data Engineer  (x/f/m)",
+    "company": "doctolib",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "typescript",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/doctolib/senior-ai-data-engineer-paris-paris-394082",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "thiga-head-of-product-hf",
+    "slug": "thiga-head-of-product-hf",
+    "title": "Head of Product (H/F)",
+    "company": "thiga",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management",
+      "agile-delivery",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/thiga/head-of-product-h-f-paris-221874",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "photoroom-senior-product-manager-core-product",
+    "slug": "photoroom-senior-product-manager-core-product",
+    "title": "Senior Product Manager, Core Product",
+    "company": "photoroom",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/photoroom/senior-product-manager-core-product-paris-392131",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "photoroom-senior-backend-engineer",
+    "slug": "photoroom-senior-backend-engineer",
+    "title": "Senior Backend Engineer",
+    "company": "photoroom",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/photoroom/senior-backend-engineer-paris-30009",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "photoroom-staff-product-manager-agentic-ai-platform",
+    "slug": "photoroom-staff-product-manager-agentic-ai-platform",
+    "title": "Staff Product Manager, Agentic & AI Platform",
+    "company": "photoroom",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/photoroom/staff-product-manager-agentic-ai-platform-paris-266066",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "photoroom-senior-product-manager-smb-e-commerce-growth",
+    "slug": "photoroom-senior-product-manager-smb-e-commerce-growth",
+    "title": "Senior Product Manager, SMB e-commerce Growth",
+    "company": "photoroom",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Product Management",
+    "degrees": [
+      "mim",
+      "mba",
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/photoroom/senior-product-manager-smb-e-commerce-growth-paris-116123",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "pigment-tech-talent-acquisition-manager",
+    "slug": "pigment-tech-talent-acquisition-manager",
+    "title": "Tech Talent Acquisition Manager",
+    "company": "pigment",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/pigment/tech-talent-acquisition-manager-paris-8720",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "openai-hr-business-partner-emea",
+    "slug": "openai-hr-business-partner-emea",
+    "title": "HR Business Partner, EMEA",
+    "company": "openai",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/openai/hr-business-partner-emea-paris-57840",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "swile-senior-social-legal-counsel---cdd-hf",
+    "slug": "swile-senior-social-legal-counsel---cdd-hf",
+    "title": "Senior Social Legal Counsel - CDD (H/F)",
+    "company": "swile",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/swile/senior-social-legal-counsel-cdd-h-f-paris-france-250316",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "voodoo-it-administrator---ai-cybersecurity",
+    "slug": "voodoo-it-administrator---ai-cybersecurity",
+    "title": "IT Administrator - AI & Cybersecurity",
+    "company": "voodoo",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/voodoo/it-administrator-ai-cybersecurity-paris-39909",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "voodoo-marketing-video-artist---growth",
+    "slug": "voodoo-marketing-video-artist---growth",
+    "title": "Marketing Video Artist - Growth",
+    "company": "voodoo",
+    "country": "france",
+    "city": "Paris",
+    "industry": "retail",
+    "function": "Marketing",
+    "degrees": [
+      "msc-marketing",
+      "mim"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/voodoo/marketing-video-artist-growth-paris-39219",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "alan-data-engineer",
+    "slug": "alan-data-engineer",
+    "title": "Data Engineer",
+    "company": "alan",
+    "country": "france",
+    "city": "Paris",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/alan/data-engineer-paris-france-424097",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "crowdsec-sales-account-executive---cybersecurity",
+    "slug": "crowdsec-sales-account-executive---cybersecurity",
+    "title": "Sales Account Executive - Cybersecurity",
+    "company": "crowdsec",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/crowdsec/remote-sales-account-executive-cybersecurity-montrouge-67712",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "share-network-developer",
+    "slug": "share-network-developer",
+    "title": "Network Developer",
+    "company": "share",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "supply-chain-planning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/share/remote-network-developer-269751",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "share-network-operation-engineer",
+    "slug": "share-network-operation-engineer",
+    "title": "Network Operation Engineer",
+    "company": "share",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/share/remote-network-operation-engineer-411432",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "deepjudge-backend-software-engineer---indexing",
+    "slug": "deepjudge-backend-software-engineer---indexing",
+    "title": "Backend Software Engineer - Indexing",
+    "company": "deepjudge",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/deepjudge/backend-software-engineer-indexing-zurich-240473",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "blp-digital-ag-software-engineer---delta-platform",
+    "slug": "blp-digital-ag-software-engineer---delta-platform",
+    "title": "Software Engineer - Delta Platform",
+    "company": "blp-digital-ag",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management",
+      "cad-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/blp-digital-ag/software-engineer-delta-platform-zurich-204451",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "laelaps-software-engineer-robot-autonomy-planning-navigation",
+    "slug": "laelaps-software-engineer-robot-autonomy-planning-navigation",
+    "title": "Software Engineer, Robot Autonomy (Planning & Navigation)",
+    "company": "laelaps",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "product-management",
+      "ros-robotics"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/laelaps/software-engineer-robot-autonomy-planning-navigation-zurich-480605",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "laelaps-software-engineer-robot-autonomy-localisation-state-estimati",
+    "slug": "laelaps-software-engineer-robot-autonomy-localisation-state-estimati",
+    "title": "Software Engineer, Robot Autonomy (Localisation & State Estimation)",
+    "company": "laelaps",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "financial-modelling",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/laelaps/software-engineer-robot-autonomy-localisation-state-estimation-zurich-286746",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "laelaps-software-engineer-robot-autonomy-actuator-control-locomotion",
+    "slug": "laelaps-software-engineer-robot-autonomy-actuator-control-locomotion",
+    "title": "Software Engineer, Robot Autonomy (Actuator Control & Locomotion), Intern",
+    "company": "laelaps",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "devops-ci-cd",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/laelaps/software-engineer-robot-autonomy-actuator-control-locomotion-intern-zurich-419100",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "domera-labs-member-of-technical-staff---device-software-engineer",
+    "slug": "domera-labs-member-of-technical-staff---device-software-engineer",
+    "title": "Member of Technical Staff - Device Software Engineer",
+    "company": "domera-labs",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/domera-labs/member-of-technical-staff-device-software-engineer-zurich-229782",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "what-ag-growth-marketing-consultantmanager-german-required",
+    "slug": "what-ag-growth-marketing-consultantmanager-german-required",
+    "title": "Growth Marketing Consultant/Manager (German required)",
+    "company": "what-ag",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-29",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/what-ag/growth-marketing-consultant-manager-german-required-zurich-15607",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "camunda-senior-software-engineer-quality",
+    "slug": "camunda-senior-software-engineer-quality",
+    "title": "Senior Software Engineer, Quality",
+    "company": "camunda",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "typescript",
+      "machine-learning",
+      "cloud-architecture",
+      "devops-ci-cd"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/camunda/remote-senior-software-engineer-quality-4113",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "weekday-1-voice-actor-cx-agent-voice-cloning-swiss-german",
+    "slug": "weekday-1-voice-actor-cx-agent-voice-cloning-swiss-german",
+    "title": "Voice Actor: CX Agent Voice Cloning (Swiss German)",
+    "company": "weekday-1",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/weekday-1/remote-voice-actor-cx-agent-voice-cloning-swiss-german-switzerland-438891",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "fireblocks-sales-engineer-banking",
+    "slug": "fireblocks-sales-engineer-banking",
+    "title": "Sales Engineer, Banking",
+    "company": "fireblocks",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/fireblocks/sales-engineer-banking-zurich-363959",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "fireblocks-director-of-operations-payments-emea",
+    "slug": "fireblocks-director-of-operations-payments-emea",
+    "title": "Director of Operations, Payments EMEA",
+    "company": "fireblocks",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/fireblocks/director-of-operations-payments-emea-zurich-216973",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-staff-senior-software-engineer-agentic-search---runtime",
+    "slug": "nebius-staff-senior-software-engineer-agentic-search---runtime",
+    "title": "Staff / Senior Software Engineer (Agentic Search) - Runtime",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/staff-senior-software-engineer-agentic-search-runtime-zurich-424302",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-staff-senior-software-engineer-agentic-search---index",
+    "slug": "nebius-staff-senior-software-engineer-agentic-search---index",
+    "title": "Staff / Senior Software Engineer (Agentic Search) - Index",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/staff-senior-software-engineer-agentic-search-index-zurich-247828",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-staff-senior-software-engineer-agentic-search---crawler",
+    "slug": "nebius-staff-senior-software-engineer-agentic-search---crawler",
+    "title": "Staff / Senior Software Engineer (Agentic Search) - Crawler",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/staff-senior-software-engineer-agentic-search-crawler-zurich-480813",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-staff-principal-applied-ai-researcher-agentic-search",
+    "slug": "nebius-staff-principal-applied-ai-researcher-agentic-search",
+    "title": "Staff / Principal Applied AI Researcher (Agentic Search)",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "deep-learning",
+      "cloud-architecture",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/staff-principal-applied-ai-researcher-agentic-search-zurich-372991",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-senior-machine-learning-engineer-llm-inference-optimization",
+    "slug": "nebius-senior-machine-learning-engineer-llm-inference-optimization",
+    "title": "Senior Machine Learning Engineer, LLM Inference Optimization",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "ai",
+    "function": "AI/ML",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/senior-machine-learning-engineer-llm-inference-optimization-zurich-221952",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "nebius-senior-applied-ml-engineer-agentic-search",
+    "slug": "nebius-senior-applied-ml-engineer-agentic-search",
+    "title": "Senior Applied ML Engineer (Agentic Search)",
+    "company": "nebius",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "deep-learning",
+      "cloud-architecture",
+      "financial-modelling"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/nebius/senior-applied-ml-engineer-agentic-search-zurich-458957",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "artefact-senior-consultant-strategy-dataai-transformation",
+    "slug": "artefact-senior-consultant-strategy-dataai-transformation",
+    "title": "Senior Consultant (Strategy & Data/AI Transformation)",
+    "company": "artefact",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/artefact/senior-consultant-strategy-data-ai-transformation-zurich-269489",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "artefact-engagement-manager-strategy-dataai-transformation",
+    "slug": "artefact-engagement-manager-strategy-dataai-transformation",
+    "title": "Engagement Manager (Strategy & Data/AI Transformation)",
+    "company": "artefact",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/artefact/engagement-manager-strategy-data-ai-transformation-lausanne-vaud-zurich-443497",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "tenstorrent-staff-design-verification-engineer-ai-hw",
+    "slug": "tenstorrent-staff-design-verification-engineer-ai-hw",
+    "title": "Staff Design Verification Engineer, AI HW",
+    "company": "tenstorrent",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "manufacturing",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/tenstorrent/staff-design-verification-engineer-ai-hw-zurich-77609",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "thoughtworks-principal-data-strategist-mfd",
+    "slug": "thoughtworks-principal-data-strategist-mfd",
+    "title": "Principal Data Strategist (m/f/d)",
+    "company": "thoughtworks",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/thoughtworks/principal-data-strategist-zurich-182572",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "artefactlinkedin-senior-consultant-strategy-dataai-transformation",
+    "slug": "artefactlinkedin-senior-consultant-strategy-dataai-transformation",
+    "title": "Senior Consultant (Strategy & Data/AI Transformation)",
+    "company": "artefactlinkedin",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "corporate-strategy",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/artefactlinkedin/senior-consultant-strategy-data-ai-transformation-zurich-134394",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "artefactlinkedin-engagement-manager-strategy-dataai-transformation",
+    "slug": "artefactlinkedin-engagement-manager-strategy-dataai-transformation",
+    "title": "Engagement Manager (Strategy & Data/AI Transformation)",
+    "company": "artefactlinkedin",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Consulting",
+    "degrees": [
+      "mim",
+      "mba"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/artefactlinkedin/engagement-manager-strategy-data-ai-transformation-lausanne-vaud-zurich-483818",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "datadog-senior-software-engineer---redapl-graph-engine",
+    "slug": "datadog-senior-software-engineer---redapl-graph-engine",
+    "title": "Senior Software Engineer - REDAPL Graph Engine",
+    "company": "datadog",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "cloud-architecture",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/datadog/remote-senior-software-engineer-redapl-graph-engine-47394",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "datadog-major-account-manager-emea",
+    "slug": "datadog-major-account-manager-emea",
+    "title": "Major Account Manager (EMEA)",
+    "company": "datadog",
+    "country": "germany",
+    "city": "Berlin",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Remote",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "product-management"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/datadog/remote-major-account-manager-emea-126206",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "destinusgroup-senior-quality-manager",
+    "slug": "destinusgroup-senior-quality-manager",
+    "title": "Senior Quality Manager",
+    "company": "destinusgroup",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "manufacturing",
+    "function": "Mechanical Engineering",
+    "degrees": [
+      "msc-mechanical-engineering"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/destinusgroup/senior-quality-manager-zurich-126447",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "destinusgroup-engineering-intern-traineeship",
+    "slug": "destinusgroup-engineering-intern-traineeship",
+    "title": "Engineering Intern / Traineeship",
+    "company": "destinusgroup",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/destinusgroup/engineering-intern-traineeship-zurich-149056",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "intrinsicrobotics-robotics-software-engineer---grasping",
+    "slug": "intrinsicrobotics-robotics-software-engineer---grasping",
+    "title": "Robotics Software Engineer - Grasping",
+    "company": "intrinsicrobotics",
+    "country": "switzerland",
+    "city": "Zurich",
+    "industry": "robotics",
+    "function": "Robotics & Automation",
+    "degrees": [
+      "msc-robotics"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "machine-learning",
+      "cloud-architecture",
+      "product-management",
+      "ros-robotics"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/intrinsicrobotics/robotics-software-engineer-grasping-zurich-398707",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "databricks-sr-forward-deployed-engineer---fde-fullstack",
+    "slug": "databricks-sr-forward-deployed-engineer---fde-fullstack",
+    "title": "Sr. Forward Deployed Engineer - FDE (Fullstack)",
+    "company": "databricks",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "python",
+      "typescript",
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/databricks/sr-forward-deployed-engineer-fde-fullstack-zurich-124736",
+    "featured": false,
+    "isDemo": false
+  },
+  {
+    "id": "databricks-solutions-architect---cpg-and-manufacturing",
+    "slug": "databricks-solutions-architect---cpg-and-manufacturing",
+    "title": "Solutions Architect - CPG and Manufacturing",
+    "company": "databricks",
+    "country": "switzerland",
+    "city": "Zürich",
+    "industry": "technology",
+    "function": "Software Engineering",
+    "degrees": [
+      "msc-data-science-ai"
+    ],
+    "experience": "1-3 Years",
+    "employmentType": "Full-time",
+    "workMode": "Hybrid",
+    "languages": [
+      "English"
+    ],
+    "skills": [
+      "machine-learning",
+      "sql-analytics",
+      "cloud-architecture",
+      "financial-modelling",
+      "corporate-strategy"
+    ],
+    "postedDate": "2026-09-28",
+    "source": "Arbeitnow European Career Feed",
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/databricks/solutions-architect-cpg-and-manufacturing-zurich-79219",
+    "featured": false,
+    "isDemo": false
   }
 ]

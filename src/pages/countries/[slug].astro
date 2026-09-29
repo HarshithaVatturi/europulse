@@ -315,6 +315,212 @@ const macroIndicators = getCountryMacroIndicators(country.iso2);
       </section>
     )}
 
+    {/* Connected French Career Portals & English-Friendly Resources */}
+    {country.slug === 'france' && (
+      <section class="space-y-4 pt-4 border-t border-hairline">
+        <SectionHeader
+          kicker="Connected Ecosystem"
+          title="Major French Career Portals & English-Friendly Mobility"
+          actionText="Filter French Jobs"
+          actionHref="/jobs/?country=france"
+        />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- EnglishJobs.fr -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">EnglishJobs.fr</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-emerald-900/10 text-emerald-800 dark:text-emerald-300 font-bold border border-emerald-500/30">
+                  English Only
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                Curated exclusively for English-speaking professionals, graduates, and expats seeking positions in France where English is the required business language.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://englishjobs.fr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>englishjobs.fr</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=EnglishJobs.fr')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+
+          <!-- Welcome to the Jungle -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">Welcome to the Jungle</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-amber-900/10 text-amber-800 dark:text-amber-300 font-bold border border-amber-500/30">
+                  Tech &amp; Startups
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                The premier career platform for French tech scaleups, SaaS, AI, product design, and digital innovation with transparent company culture profiles.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://www.welcometothejungle.com/fr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>welcometothejungle.com</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=Welcome+to+the+Jungle')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+
+          <!-- France Travail -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">France Travail</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-indigo-900/10 text-indigo-800 dark:text-indigo-300 font-bold border border-indigo-500/30">
+                  Public Service
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                Official French national employment agency (formerly Pôle Emploi). Comprehensive repository of all accredited CDI, CDD, and Alternance vacancies nationwide.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://candidat.francetravail.fr/rechercheoffre/emploi"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>francetravail.fr</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=France+Travail')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+
+          <!-- Apec -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">Apec</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-blue-900/10 text-blue-800 dark:text-blue-300 font-bold border border-blue-500/30">
+                  Cadres &amp; Executives
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                Dedicated institution for managers, engineers, and executive-level professionals (Statut Cadre) with salary barometers and career mobility advisory.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://www.apec.fr/candidat/recherche-emploi.html/emploi"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>apec.fr</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=Apec')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+
+          <!-- Indeed France -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">Indeed France</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-purple-900/10 text-purple-800 dark:text-purple-300 font-bold border border-purple-500/30">
+                  Aggregator
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                France's largest employment aggregator combining job listings across thousands of employer career sites, staffing agencies, and regional boards.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://fr.indeed.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>fr.indeed.com</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=Indeed')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+
+          <!-- LinkedIn France -->
+          <div class="bg-surface border border-hairline rounded-md p-5 flex flex-col justify-between hover:border-cobalt transition-colors group">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-serif font-bold text-base text-ink group-hover:text-cobalt">LinkedIn Jobs France</span>
+                <span class="font-mono text-[10px] uppercase px-1.5 py-0.5 rounded bg-sky-900/10 text-sky-800 dark:text-sky-300 font-bold border border-sky-500/30">
+                  Multinational
+                </span>
+              </div>
+              <p class="text-xs text-muted font-sans leading-relaxed mb-4">
+                Primary portal for multinational corporations, international graduate recruitment, and European headquarters based in Paris and regional hubs.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-hairline font-mono text-xs">
+              <a
+                href="https://www.linkedin.com/jobs/search/?location=France"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cobalt hover:underline font-semibold flex items-center gap-1"
+              >
+                <span>linkedin.com</span>
+                <span>↗</span>
+              </a>
+              <a
+                href={url('/jobs/?source=LinkedIn')}
+                class="text-muted hover:text-ink"
+              >
+                View in EuroPulse →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
     <!-- Active Jobs in Country -->
     <section class="space-y-4 pt-4 border-t border-hairline">
       <SectionHeader

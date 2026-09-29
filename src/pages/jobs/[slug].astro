@@ -57,12 +57,18 @@ const relatedJobs = allJobs
           <CompanyMonogram name={company?.name || job.company} size="lg" />
           <div class="space-y-1">
             <div class="flex flex-wrap items-center gap-2">
-              <a
-                href={url(`/companies/${job.company}/`)}
-                class="font-mono text-sm font-bold text-cobalt hover:underline uppercase"
-              >
-                {company?.name || job.company}
-              </a>
+              {company ? (
+                <a
+                  href={url(`/companies/${job.company}/`)}
+                  class="font-mono text-sm font-bold text-cobalt hover:underline uppercase"
+                >
+                  {company.name}
+                </a>
+              ) : (
+                <span class="font-mono text-sm font-bold text-ink uppercase">
+                  {job.company}
+                </span>
+              )}
               <span class="text-hairline select-none">·</span>
               <span class="font-mono text-xs text-muted">
                 Posted: {formatDate(job.postedDate)}

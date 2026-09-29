@@ -38,6 +38,66 @@ const EMPLOYMENT_TYPES = [
 ];
 const WORK_MODES = ['On-site', 'Hybrid', 'Remote'];
 
+interface PortalMeta {
+  id: string;
+  name: string;
+  tagline: string;
+  icon: string;
+  badgeClass: string;
+  searchUrl: (q: string, loc: string) => string;
+}
+
+const CONNECTED_PORTALS: PortalMeta[] = [
+  {
+    id: 'EnglishJobs.fr',
+    name: 'EnglishJobs.fr',
+    tagline: 'English-speaking roles in France',
+    icon: '🌐',
+    badgeClass: 'bg-emerald-900/10 text-emerald-800 dark:text-emerald-300 border-emerald-500/30',
+    searchUrl: (q: string) => `https://englishjobs.fr/?s=${encodeURIComponent(q || 'jobs')}`,
+  },
+  {
+    id: 'Welcome to the Jungle',
+    name: 'Welcome to the Jungle',
+    tagline: 'Tech, Product & Startup Culture',
+    icon: '🌴',
+    badgeClass: 'bg-amber-900/10 text-amber-800 dark:text-amber-300 border-amber-500/30',
+    searchUrl: (q: string) => `https://www.welcometothejungle.com/fr/jobs?query=${encodeURIComponent(q || '')}`,
+  },
+  {
+    id: 'France Travail',
+    name: 'France Travail',
+    tagline: 'Official French Public Service (All Sectors)',
+    icon: '🏛️',
+    badgeClass: 'bg-indigo-900/10 text-indigo-800 dark:text-indigo-300 border-indigo-500/30',
+    searchUrl: (q: string) => `https://candidat.francetravail.fr/rechercheoffre/emploi?motsCles=${encodeURIComponent(q || '')}`,
+  },
+  {
+    id: 'Apec',
+    name: 'Apec',
+    tagline: 'Managers, Cadres & High-Skilled FR',
+    icon: '👔',
+    badgeClass: 'bg-blue-900/10 text-blue-800 dark:text-blue-300 border-blue-500/30',
+    searchUrl: (q: string) => `https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles=${encodeURIComponent(q || '')}`,
+  },
+  {
+    id: 'Indeed France',
+    name: 'Indeed France',
+    tagline: 'National Employment Aggregator',
+    icon: '🔍',
+    badgeClass: 'bg-purple-900/10 text-purple-800 dark:text-purple-300 border-purple-500/30',
+    searchUrl: (q: string, loc: string) => `https://fr.indeed.com/emplois?q=${encodeURIComponent(q || '')}&l=${encodeURIComponent(loc || 'France')}`,
+  },
+  {
+    id: 'LinkedIn',
+    name: 'LinkedIn Jobs',
+    tagline: 'Pan-European & Multinational',
+    icon: '💼',
+    badgeClass: 'bg-sky-900/10 text-sky-800 dark:text-sky-300 border-sky-500/30',
+    searchUrl: (q: string, loc: string) => `https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(q || '')}&location=${encodeURIComponent(loc || 'Europe')}`,
+  },
+];
+
 export default function JobsExplorer({ initialJobs, countries, industries, degrees }: Props) {
   const [selectedCountry, setSelectedCountry] = useState<string>('');
   const [selectedIndustry, setSelectedIndustry] = useState<string>('');
@@ -46,6 +106,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
   const [selectedExperience, setSelectedExperience] = useState<string>('');
   const [selectedEmploymentType, setSelectedEmploymentType] = useState<string>('');
   const [selectedWorkMode, setSelectedWorkMode] = useState<string>('');
+  const [selectedSource, setSelectedSource] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState<boolean>(false);
@@ -63,6 +124,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     if (params.get('experience')) setSelectedExperience(params.get('experience') || '');
     if (params.get('employmentType')) setSelectedEmploymentType(params.get('employmentType') || '');
     if (params.get('workMode')) setSelectedWorkMode(params.get('workMode') || '');
+    if (params.get('source')) setSelectedSource(params.get('source') || '');
     if (params.get('query')) setSearchQuery(params.get('query') || '');
     if (params.get('page')) setCurrentPage(Number(params.get('page')) || 1);
   }, []);
@@ -78,6 +140,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     if (selectedExperience) params.set('experience', selectedExperience);
     if (selectedEmploymentType) params.set('employmentType', selectedEmploymentType);
     if (selectedWorkMode) params.set('workMode', selectedWorkMode);
+    if (selectedSource) params.set('source', selectedSource);
     if (searchQuery.trim()) params.set('query', searchQuery.trim());
     if (currentPage > 1) params.set('page', String(currentPage));
 
@@ -92,6 +155,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     selectedExperience,
     selectedEmploymentType,
     selectedWorkMode,
+    selectedSource,
     searchQuery,
     currentPage,
   ]);
@@ -104,6 +168,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     setSelectedExperience('');
     setSelectedEmploymentType('');
     setSelectedWorkMode('');
+    setSelectedSource('');
     setSearchQuery('');
     setCurrentPage(1);
   };
@@ -116,6 +181,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
       selectedExperience ||
       selectedEmploymentType ||
       selectedWorkMode ||
+      selectedSource ||
       searchQuery.trim()
   );
 
@@ -145,6 +211,11 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
         return false;
       if (selectedWorkMode && job.workMode.toLowerCase() !== selectedWorkMode.toLowerCase())
         return false;
+      if (
+        selectedSource &&
+        !job.source.toLowerCase().includes(selectedSource.toLowerCase())
+      )
+        return false;
 
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
@@ -153,6 +224,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
           job.company.toLowerCase().includes(q) ||
           job.city.toLowerCase().includes(q) ||
           job.function.toLowerCase().includes(q) ||
+          job.source.toLowerCase().includes(q) ||
           job.skills.some((s) => s.toLowerCase().includes(q));
         if (!matches) return false;
       }
@@ -168,6 +240,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     selectedExperience,
     selectedEmploymentType,
     selectedWorkMode,
+    selectedSource,
     searchQuery,
   ]);
 
@@ -182,6 +255,36 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
     setCurrentPage(1);
   };
 
+  const getPortalInfo = (sourceStr: string) => {
+    const matched = CONNECTED_PORTALS.find((p) =>
+      sourceStr.toLowerCase().includes(p.id.toLowerCase())
+    );
+    if (matched) {
+      return {
+        label: matched.name,
+        icon: matched.icon,
+        badgeClass: matched.badgeClass,
+      };
+    }
+    if (sourceStr.toLowerCase().includes('arbeitnow')) {
+      return {
+        label: 'Arbeitnow Feed',
+        icon: '🇪🇺',
+        badgeClass: 'bg-zinc-800/10 text-ink border-hairline',
+      };
+    }
+    return {
+      label: sourceStr.split(' ')[0] || 'Corporate Direct',
+      icon: '🏢',
+      badgeClass: 'bg-zinc-800/10 text-muted border-hairline',
+    };
+  };
+
+  const activeCountryObj = countries.find(
+    (c) => c.slug.toLowerCase() === selectedCountry.toLowerCase()
+  );
+  const locationLabel = activeCountryObj ? activeCountryObj.name : 'France';
+
   return (
     <div className="space-y-6">
       {/* Top Header & Search Input */}
@@ -191,7 +294,7 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
             type="text"
             value={searchQuery}
             onChange={(e) => handleFilterChange(setSearchQuery, e.target.value)}
-            placeholder="Search jobs by keyword, title, skill (e.g. Battery, Python, S&OP)..."
+            placeholder="Search roles by title, skill (e.g. Python, Product, Supply Chain, Paris, English)..."
             className="w-full pl-9 pr-4 py-2 text-sm bg-paper border border-hairline rounded text-ink placeholder:text-muted focus:border-cobalt outline-none font-sans"
             aria-label="Search jobs query"
           />
@@ -256,6 +359,27 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
                 Reset
               </button>
             )}
+          </div>
+
+          {/* Connected Portal / Source Filter */}
+          <div>
+            <label className="block font-mono text-[11px] uppercase tracking-wider text-muted mb-1.5 font-semibold">
+              Source Portal
+            </label>
+            <select
+              value={selectedSource}
+              onChange={(e) => handleFilterChange(setSelectedSource, e.target.value)}
+              className="w-full text-xs bg-paper border border-hairline rounded p-2 text-ink focus:border-cobalt outline-none font-sans font-medium"
+            >
+              <option value="">All Connected Sources ({initialJobs.length})</option>
+              <option value="EnglishJobs.fr">EnglishJobs.fr (English FR)</option>
+              <option value="Welcome to the Jungle">Welcome to the Jungle (Tech / Startup)</option>
+              <option value="Apec">Apec (Cadres &amp; Executives FR)</option>
+              <option value="France Travail">France Travail (Public Employment)</option>
+              <option value="Indeed">Indeed France</option>
+              <option value="LinkedIn">LinkedIn European Careers</option>
+              <option value="Arbeitnow">Arbeitnow European Feed</option>
+            </select>
           </div>
 
           {/* Country Filter */}
@@ -420,6 +544,24 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
               {/* Mobile options */}
               <div className="space-y-3">
                 <div>
+                  <label className="block font-mono text-[11px] text-muted mb-1">Source Portal</label>
+                  <select
+                    value={selectedSource}
+                    onChange={(e) => handleFilterChange(setSelectedSource, e.target.value)}
+                    className="w-full text-sm bg-paper border border-hairline rounded p-2 text-ink font-medium"
+                  >
+                    <option value="">All Connected Sources</option>
+                    <option value="EnglishJobs.fr">EnglishJobs.fr (English FR)</option>
+                    <option value="Welcome to the Jungle">Welcome to the Jungle</option>
+                    <option value="Apec">Apec (Cadres FR)</option>
+                    <option value="France Travail">France Travail</option>
+                    <option value="Indeed">Indeed France</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Arbeitnow">Arbeitnow</option>
+                  </select>
+                </div>
+
+                <div>
                   <label className="block font-mono text-[11px] text-muted mb-1">Country</label>
                   <select
                     value={selectedCountry}
@@ -522,11 +664,85 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
 
         {/* Listings Content Column */}
         <main className="lg:col-span-3 space-y-4">
+          {/* Connected European Job Portals Multi-Portal Quick Search Launcher */}
+          <section className="bg-surface border border-hairline rounded-md p-4 sm:p-5 space-y-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-hairline">
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <h2 className="font-mono text-xs font-bold uppercase tracking-wider text-ink">
+                  Connected European Job Portals · Multi-Portal Search Launcher
+                </h2>
+              </div>
+              <span className="font-mono text-[11px] text-muted">
+                6 Major Employment Engines Integrated
+              </span>
+            </div>
+
+            <p className="text-xs text-muted font-sans leading-relaxed">
+              Expand your search beyond our curated European database. Instantly launch your active query{' '}
+              {searchQuery.trim() ? (
+                <strong className="text-ink">"{searchQuery.trim()}"</strong>
+              ) : (
+                <span className="italic text-ink font-medium">(current search)</span>
+              )}{' '}
+              across French and Pan-European employment platforms in 1 click:
+            </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 pt-1">
+              {CONNECTED_PORTALS.map((portal) => {
+                const searchLink = portal.searchUrl(searchQuery.trim(), locationLabel);
+                const isSelected = selectedSource.toLowerCase() === portal.id.toLowerCase();
+
+                return (
+                  <div
+                    key={portal.id}
+                    className="flex flex-col justify-between p-2.5 rounded bg-paper border border-hairline hover:border-cobalt transition-colors group"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className="text-base select-none">{portal.icon}</span>
+                        <a
+                          href={searchLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted group-hover:text-cobalt hover:underline text-[10px] font-mono flex items-center gap-0.5"
+                          title={`Launch search on ${portal.name}`}
+                        >
+                          <span>Open</span>
+                          <span>↗</span>
+                        </a>
+                      </div>
+                      <div className="font-serif font-bold text-xs text-ink group-hover:text-cobalt leading-snug">
+                        {portal.name}
+                      </div>
+                      <div className="text-[10px] text-muted font-sans leading-tight mt-0.5 line-clamp-1">
+                        {portal.tagline}
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() => handleFilterChange(setSelectedSource, isSelected ? '' : portal.id)}
+                      className={`w-full mt-2.5 py-1 px-1.5 rounded text-[10px] font-mono font-semibold transition-colors ${
+                        isSelected
+                          ? 'bg-cobalt text-white'
+                          : 'bg-surface border border-hairline text-ink hover:border-cobalt'
+                      }`}
+                    >
+                      {isSelected ? '✓ In Feed' : 'Filter Feed'}
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          {/* Active Job Cards */}
           {paginatedJobs.length === 0 ? (
             <div className="bg-surface border border-dashed border-hairline rounded-md p-12 text-center my-4">
               <div className="font-mono text-sm text-muted mb-2">ø No listings match these filters</div>
               <p className="text-sm text-muted max-w-sm mx-auto mb-4 font-sans">
-                Try resetting individual filters or clearing all criteria to browse available European opportunities.
+                Try resetting individual filters or clearing criteria to browse all available opportunities.
               </p>
               <button
                 type="button"
@@ -539,24 +755,33 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
           ) : (
             paginatedJobs.map((job) => {
               const country = countries.find((c) => c.slug.toLowerCase() === job.country.toLowerCase());
+              const portalInfo = getPortalInfo(job.source);
+
               return (
                 <article
                   key={job.id}
-                  className="bg-surface border border-hairline rounded-md p-5 hover:border-cobalt transition-colors text-ink group"
+                  className="bg-surface border border-hairline rounded-md p-5 hover:border-cobalt transition-colors text-ink group space-y-3"
                 >
-                  <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 mb-2.5">
+                  <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
                     <div>
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="font-mono text-xs font-semibold uppercase tracking-wider text-muted">
+                      <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                        <span className="font-mono text-xs font-bold uppercase tracking-wider text-ink">
                           {job.company.toUpperCase()}
                         </span>
                         <span className="text-hairline select-none">·</span>
                         <span className="font-mono text-xs text-muted">
                           [{country?.iso2 || job.country.toUpperCase()}] {job.city}
                         </span>
+                        {/* Source Portal Badge */}
+                        <span
+                          className={`font-mono text-[10px] px-2 py-0.5 rounded border font-semibold inline-flex items-center gap-1 ${portalInfo.badgeClass}`}
+                        >
+                          <span>{portalInfo.icon}</span>
+                          <span>{portalInfo.label}</span>
+                        </span>
                         {job.isDemo && (
-                          <span className="font-mono text-[9px] uppercase px-1 py-0.5 rounded bg-amber/15 text-ink font-semibold">
-                            Demo Listing
+                          <span className="font-mono text-[9px] uppercase px-1.5 py-0.5 rounded bg-amber/15 text-ink font-semibold">
+                            Demo
                           </span>
                         )}
                       </div>
@@ -578,8 +803,8 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
                     </div>
                   </div>
 
-                  {/* Skills & Degrees Tags */}
-                  <div className="flex flex-wrap items-center gap-1.5 mt-3 pt-3 border-t border-hairline">
+                  {/* Skills, Target Degrees & Action Links */}
+                  <div className="flex flex-wrap items-center gap-1.5 pt-3 border-t border-hairline">
                     <span className="font-mono text-[10px] text-muted uppercase tracking-wider mr-1">
                       Target:
                     </span>
@@ -600,12 +825,23 @@ export default function JobsExplorer({ initialJobs, countries, industries, degre
                       </span>
                     ))}
 
-                    <div className="ml-auto">
+                    <div className="ml-auto flex items-center gap-3">
+                      {job.applyUrl && (
+                        <a
+                          href={job.applyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs font-mono font-semibold text-emerald-800 dark:text-emerald-300 hover:underline inline-flex items-center gap-1"
+                        >
+                          <span>Apply on {portalInfo.label.split(' ')[0]}</span>
+                          <span>↗</span>
+                        </a>
+                      )}
                       <a
                         href={url(`/jobs/${job.slug}/`)}
                         className="text-xs font-mono font-semibold text-cobalt hover:underline inline-flex items-center gap-1"
                       >
-                        <span>View Details</span>
+                        <span>Details</span>
                         <span>→</span>
                       </a>
                     </div>
