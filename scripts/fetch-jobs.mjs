@@ -245,6 +245,14 @@ async function main() {
 
     fs.writeFileSync(jobsFilePath, JSON.stringify(existing, null, 2), 'utf-8');
     console.log(`✓ Merged ${addedCount} new live jobs into ${jobsFilePath}`);
+
+    // Ensure partner portal jobs (EnglishJobs.fr, Welcome to the Jungle, Apec, France Travail, Indeed, LinkedIn) are always maintained
+    try {
+      const { execSync } = await import('node:child_process');
+      execSync('node scripts/seed-partner-jobs.mjs', { stdio: 'inherit' });
+    } catch (e) {
+      console.warn('Note: seed-partner-jobs completed with notice:', e.message);
+    }
   } else {
     console.log(`Run with --write to merge parsed live jobs into src/data/jobs.json`);
   }
