@@ -78,9 +78,21 @@ export async function getFeaturedJobs(): Promise<Job[]> {
   return jobs.filter((j) => j.featured);
 }
 
-export async function getJobsPostedOnDate(date: string = '2026-09-29'): Promise<Job[]> {
+export async function getLatestJobDate(): Promise<string> {
   const jobs = await getJobs();
-  return jobs.filter((j) => j.postedDate === date);
+  const dates = Array.from(new Set(jobs.map((j) => j.postedDate).filter(Boolean))).sort().reverse();
+  return dates[0] || '2026-09-30';
+}
+
+export async function getJobsPostedOnDate(date?: string): Promise<Job[]> {
+  const jobs = await getJobs();
+  const targetDate = date || (await getLatestJobDate());
+  const matched = jobs.filter((j) => j.postedDate === targetDate);
+  if (matched.length === 0) {
+    const latest = await getLatestJobDate();
+    return jobs.filter((j) => j.postedDate === latest);
+  }
+  return matched;
 }
 
 /**

@@ -1,8 +1,8 @@
 {
   "date": "2026-09-30",
-  "editionNumber": 41,
+  "editionNumber": 42,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "European Commission Speech Brussels, 30 Sep 2026 Thank you, Henna. Today, we deliver on another proposal that makes our Union stronger. Step by step, we are delivering on our internal security strategy, Protec......",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -46,9 +46,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },

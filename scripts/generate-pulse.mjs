@@ -7,7 +7,17 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const targetDate = process.argv.find(arg => /^\d{4}-\d{2}-\d{2}$/.test(arg)) || '2026-09-29';
+function getEuropeDate() {
+  const formatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Paris',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+  return formatter.format(new Date());
+}
+
+const targetDate = process.argv.find(arg => /^\d{4}-\d{2}-\d{2}$/.test(arg)) || getEuropeDate();
 const writeToFile = process.argv.includes('--write');
 
 const pulseDir = path.resolve(process.cwd(), 'src/data/pulse');

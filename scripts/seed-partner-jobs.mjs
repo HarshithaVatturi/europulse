@@ -561,9 +561,24 @@ const partnerJobs = [
   }
 ];
 
+function getEuropeDate() {
+  const formatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Paris',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+  return formatter.format(new Date());
+}
+
+const today = getEuropeDate();
 let added = 0;
 for (const pj of partnerJobs) {
-  if (!existingIds.has(pj.id)) {
+  pj.postedDate = today;
+  const existingIdx = existingJobs.findIndex(j => j.id === pj.id);
+  if (existingIdx !== -1) {
+    existingJobs[existingIdx].postedDate = today;
+  } else {
     existingJobs.unshift(pj);
     existingIds.add(pj.id);
     added++;
