@@ -2,7 +2,7 @@
   "date": "2026-09-30",
   "editionNumber": 42,
   "isDemo": false,
-  "leadSummary": "European Commission Speech Brussels, 30 Sep 2026 Thank you, Henna. Today, we deliver on another proposal that makes our Union stronger. Step by step, we are delivering on our internal security strategy, Protec......",
+  "leadSummary": "European Commission Statement Tirana, 30 Sep 2026 Dear Edi,\r\nIt is always a pleasure to see you and to be in Tirana. My experience is that Albanians carry Europe in their hearts. It's wonderful to be back. And y......",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +22,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },

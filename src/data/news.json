@@ -1,5 +1,39 @@
 [
   {
+    "id": "statement-by-president-von-der-leyen-at-the-joint-",
+    "slug": "statement-by-president-von-der-leyen-at-the-joint-",
+    "title": "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama",
+    "date": "2026-09-30",
+    "source": {
+      "name": "European Commission Press Corner",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2031"
+    },
+    "countries": [
+      "belgium",
+      "france",
+      "germany"
+    ],
+    "industries": [
+      "technology"
+    ],
+    "companies": [],
+    "topics": [
+      "eu-policy"
+    ],
+    "skills": [
+      "csrd-reporting",
+      "corporate-strategy"
+    ],
+    "roles": [
+      "strategy-consultant",
+      "business-analyst"
+    ],
+    "careerImpact": "Expands cross-border regulatory compliance, policy advisory, and technology management opportunities across European member states.",
+    "summary": "European Commission Statement Tirana, 30 Sep 2026 Dear Edi,\r\nIt is always a pleasure to see you and to be in Tirana. My experience is that Albanians carry Europe in their hearts. It's wonderful to be back. And y......",
+    "featured": false,
+    "isDemo": false
+  },
+  {
     "id": "remarks-by-commissioner-brunner-at-the-press-confe",
     "slug": "remarks-by-commissioner-brunner-at-the-press-confe",
     "title": "Remarks by Commissioner Brunner at the press conference on the European Union Critical Communication System",
