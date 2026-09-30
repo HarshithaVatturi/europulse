@@ -37,7 +37,7 @@ export default function SearchResults() {
       .finally(() => setIsLoading(false));
   }, []);
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
+  const handleSearchSubmit = (e: import('react').FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!miniSearchRef.current) return;
 

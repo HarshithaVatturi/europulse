@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'zod';
 import { file, glob } from 'astro/loaders';
 
 const countries = defineCollection({
@@ -172,6 +173,7 @@ const news = defineCollection({
       url: z.string().optional(),
     }),
     summary: z.string(),
+    excerpt: z.string().optional(),
     careerImpact: z.string().default('Expands cross-border industrial and technology opportunities across European member states.'),
     countries: z.array(z.string()).default([]),
     industries: z.array(z.string()).default([]),
@@ -181,6 +183,9 @@ const news = defineCollection({
     roles: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     isDemo: z.boolean().default(false),
+    fetchedAt: z.string().optional(),
+    language: z.string().default('en'),
+    originalLanguage: z.string().optional(),
   }),
 });
 
@@ -203,9 +208,20 @@ const jobs = defineCollection({
     skills: z.array(z.string()).default([]),
     postedDate: z.string(),
     source: z.string(),
+    sourceUrl: z.string().optional(),
     applyUrl: z.string().default('https://englishjobs.fr/'),
     featured: z.boolean().default(false),
     isDemo: z.boolean().default(false),
+    fetchedAt: z.string().optional(),
+    language: z.string().default('en'),
+    originalLanguage: z.string().optional(),
+    salary: z.object({
+      amount: z.union([z.number(), z.string()]),
+      currency: z.string(),
+      period: z.string().optional(),
+    }).optional(),
+    alsoSeenOn: z.array(z.string()).default([]),
+    visaSponsorship: z.boolean().default(false),
   }),
 });
 

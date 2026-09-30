@@ -3,9 +3,9 @@
   "dailySyncCount": 33,
   "totalExpectedCycles": 48,
   "pipelineIntervalMinutes": 30,
-  "lastSyncIso": "2026-09-30T20:56:10.509Z",
-  "lastSyncParis": "30 Sept 2026, 22:56 CEST",
-  "todayNewsCount": 8,
-  "todayJobsCount": 273,
+  "lastSyncIso": "2026-09-30T21:27:12.073Z",
+  "lastSyncParis": "30 Sept 2026, 23:27 CEST",
+  "todayNewsCount": 653,
+  "todayJobsCount": 790,
   "status": "Operational"
 }

@@ -2,7 +2,7 @@
   "date": "2026-09-30",
   "editionNumber": 42,
   "isDemo": false,
-  "leadSummary": "European Commission Statement Tirana, 30 Sep 2026 Dear Edi,\r\nIt is always a pleasure to see you and to be in Tirana. My experience is that Albanians carry Europe in their hearts. It's wonderful to be back. And y......",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this September 30th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama",
+          "text": "Thousands of firefighters march in Paris demanding more resources",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "TAP: final bids from Air France-KLM and Lufthansa have been submitted",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Chinese-run Brussels networking club raises intelligence concerns",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,7 +32,18 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama",
+          "text": "BMW's strategy: Job cuts, AI and a €2bn bet on ‘Made in Germany’",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "bmw"
+        },
+        {
+          "text": "Exclusive: Germany shields parts of Deutsche Börse from EU oversight",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,9 +55,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Prosecutors seek five years for driver accused of killing 4-year-old in Maastricht crash",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Delft startup's lamp targets side-on crashes that make up to 71% of bike accidents",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rail workers’ union urges action over growing violence on Dutch trains",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -45,6 +76,17 @@
       "countryIso2": "IT",
       "countryName": "Italy",
       "items": [
+        {
+          "text": "BMW's strategy: Job cuts, AI and a €2bn bet on ‘Made in Germany’",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "bmw"
+        },
+        {
+          "text": "Inflation accelerates again in Italy: September rate hits 4.2%, a three-year high",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
         {
           "text": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
           "industrySlug": "technology",
@@ -58,9 +100,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "John Klingberg om Frölundas problem: ”Kommer inte gå”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Malmö FF klart för åttondelsfinal i Europa Cup",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Michael Andersson om dottern Carolines våldsamma krasch: ”Tur i oturen”",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }

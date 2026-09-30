@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "slug": "celonis-lead-software-engineer-berlin-12345",
+      "company_name": "Celonis",
+      "title": "Lead Software Engineer - Process Mining",
+      "description": "<p>We are seeking a Lead Software Engineer in Berlin to drive high-performance analytics pipelines with Python, TypeScript, and Docker.</p>",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/view/celonis-lead-engineer-12345",
+      "tags": ["Python", "Docker", "Analytics"],
+      "job_types": ["Full-time"],
+      "location": "Berlin, Germany",
+      "created_at": 1790700000,
+      "visa_sponsorship": true
+    },
+    {
+      "slug": "remote-ai-researcher-67890",
+      "company_name": "Deep Tech Labs",
+      "title": "Senior AI Evaluation Specialist",
+      "description": "Remote European role focusing on AI Act conformity testing, machine learning benchmarking and governance.",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/view/remote-ai-researcher-67890",
+      "tags": ["Machine Learning", "AI", "Python"],
+      "job_types": ["Full-time"],
+      "location": "Europe",
+      "created_at": 1790710000,
+      "visa_sponsorship": false
+    }
+  ],
+  "links": {
+    "next": null
+  }
+}

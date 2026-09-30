@@ -120,6 +120,7 @@ export interface NewsArticle {
   date: string; // YYYY-MM-DD
   source: NewsSource;
   summary: string;
+  excerpt?: string;
   careerImpact: string;
   countries: string[]; // country slugs
   industries: string[]; // industry slugs
@@ -129,6 +130,15 @@ export interface NewsArticle {
   roles: string[]; // role slugs
   featured: boolean;
   isDemo: boolean;
+  fetchedAt?: string;
+  language?: string;
+  originalLanguage?: string;
+}
+
+export interface JobSalary {
+  amount: number | string;
+  currency: string;
+  period?: string;
 }
 
 export interface Job {
@@ -148,9 +158,16 @@ export interface Job {
   skills: string[]; // skill slugs
   postedDate: string; // YYYY-MM-DD
   source: string;
+  sourceUrl?: string;
   applyUrl: string;
   featured: boolean;
   isDemo: boolean;
+  fetchedAt?: string;
+  language?: string;
+  originalLanguage?: string;
+  salary?: JobSalary;
+  alsoSeenOn?: string[];
+  visaSponsorship?: boolean;
 }
 
 export interface DegreeRoadmapStage {

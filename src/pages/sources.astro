@@ -1,0 +1,192 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import SectionHeader from '@/components/ui/SectionHeader.astro';
+import { feedSources } from '@/config/sources';
+import fs from 'node:fs';
+import path from 'node:path';
+import { ExternalLink, ShieldCheck } from 'lucide-react';
+
+// Read latest health status report if available
+let healthReport: any = null;
+try {
+  const healthPath = path.resolve(process.cwd(), 'src/data/_health/feed-status.json');
+  if (fs.existsSync(healthPath)) {
+    healthReport = JSON.parse(fs.readFileSync(healthPath, 'utf-8'));
+  }
+} catch {
+  // Graceful fallback
+}
+
+const sourcesWithHealth = feedSources.map((source) => {
+  const healthItem = healthReport?.sources?.find((h: any) => h.id === source.id);
+  const status = healthItem?.status || (source.feedType === 'link-out' ? 'link-out' : source.requiredSecret ? 'skipped-missing-key' : 'active');
+  const itemsCount = healthItem?.itemsCount ?? 0;
+  const lastSuccess = healthItem?.lastSuccess;
+  const error = healthItem?.error;
+
+  return {
+    ...source,
+    status,
+    itemsCount,
+    lastSuccess,
+    error,
+  };
+});
+
+const totalSources = sourcesWithHealth.length;
+const activeSources = sourcesWithHealth.filter((s) => s.status === 'active').length;
+const linkOutSources = sourcesWithHealth.filter((s) => s.status === 'link-out').length;
+const keyRequiredSources = sourcesWithHealth.filter((s) => s.status === 'skipped-missing-key').length;
+---
+
+<Layout
+  title="Feed Sources & Transparency — EuroPulse"
+  description="Verified European news, official public feeds, and direct ATS job endpoints powering the EuroPulse live intelligence network."
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10 text-stone-900 dark:text-stone-100 font-sans">
+    <Breadcrumbs items={[{ label: 'Sources & Transparency' }]} />
+
+    {/* Header */}
+    <header class="border-b border-stone-200 dark:border-stone-800 pb-8 space-y-4">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-900 text-stone-700 dark:text-stone-300 font-mono text-xs font-semibold uppercase tracking-wider">
+        <ShieldCheck className="w-3.5 h-3.5 text-primary" />
+        <span>Verified European Syndication Network</span>
+      </div>
+
+      <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight">
+        Sources, Syndication &amp; Health Registry
+      </h1>
+
+      <p class="text-base sm:text-xl text-stone-600 dark:text-stone-400 leading-relaxed max-w-3xl">
+        EuroPulse operates as an open, privacy-first European intelligence compiler. Every piece of intelligence connects directly to its original publisher or employer ATS portal.
+      </p>
+
+      {/* Metrics Row */}
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+        <div class="p-4 rounded-lg bg-stone-50 dark:bg-stone-900/60 border border-stone-200 dark:border-stone-800">
+          <div class="text-2xl font-bold font-mono">{totalSources}</div>
+          <div class="text-xs text-stone-500 mt-1 uppercase font-semibold">Configured Sources</div>
+        </div>
+        <div class="p-4 rounded-lg bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-800/40">
+          <div class="text-2xl font-bold font-mono text-emerald-700 dark:text-emerald-400">{activeSources}</div>
+          <div class="text-xs text-emerald-600 dark:text-emerald-400 mt-1 uppercase font-semibold">Active Ingest Feeds</div>
+        </div>
+        <div class="p-4 rounded-lg bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40">
+          <div class="text-2xl font-bold font-mono text-blue-700 dark:text-blue-400">{linkOutSources}</div>
+          <div class="text-xs text-blue-600 dark:text-blue-400 mt-1 uppercase font-semibold">Link-Out Portals</div>
+        </div>
+        <div class="p-4 rounded-lg bg-amber-50/50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/40">
+          <div class="text-2xl font-bold font-mono text-amber-700 dark:text-amber-400">{keyRequiredSources}</div>
+          <div class="text-xs text-amber-600 dark:text-amber-400 mt-1 uppercase font-semibold">Free API Key Optional</div>
+        </div>
+      </div>
+    </header>
+
+    {/* How the Live Feed Works & Legal Statement */}
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-stone-50 dark:bg-stone-900/40 border border-stone-200 dark:border-stone-800 rounded-xl p-6">
+      <div class="space-y-3">
+        <h3 class="font-serif text-lg font-bold">How the Live Feed Works</h3>
+        <p class="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+          An autonomous scheduled pipeline runs every 30 minutes in GitHub Actions. It fetches verified European RSS/Atom feeds and public job endpoints, normalizes dates and titles, maps company and industry taxonomy nodes, and validates every item against strict TypeScript/Zod schemas.
+        </p>
+        <p class="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+          All data is stored directly in git and compiled into a 100% static site on GitHub Pages. No backend server, no database, no cookies, and no tracking scripts are ever used.
+        </p>
+      </div>
+
+      <div class="space-y-3 border-t md:border-t-0 md:border-l border-stone-200 dark:border-stone-800 md:pl-6 pt-4 md:pt-0">
+        <h3 class="font-serif text-lg font-bold">Ethics, Copyright &amp; Linking Policy</h3>
+        <p class="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+          <strong>EuroPulse never republishes full article texts or images.</strong> We display solely the original headline, publication timestamp, publisher attribution, and a concise excerpt strictly limited to 200 characters, accompanied by a prominent direct link back to the publisher’s original article.
+        </p>
+        <p class="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+          For job boards whose terms forbid automated access (such as LinkedIn, Indeed, and StepStone), we strictly generate direct browser search deep links with zero automated scraping.
+        </p>
+      </div>
+    </section>
+
+    {/* Sources Directory Table */}
+    <section class="space-y-6">
+      <SectionHeader
+        kicker="Registry"
+        title="All Syndicated Outlets &amp; Job Endpoints"
+        description="Comprehensive list of active RSS feeds, official institutions, employer ATS endpoints, and link-out portals."
+      />
+
+      <div class="overflow-x-auto rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 shadow-sm">
+        <table class="w-full text-left text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50 text-stone-600 dark:text-stone-400 text-xs uppercase font-mono tracking-wider">
+              <th class="py-3 px-4">Source Name</th>
+              <th class="py-3 px-4">Type</th>
+              <th class="py-3 px-4">Country / Region</th>
+              <th class="py-3 px-4">Lang</th>
+              <th class="py-3 px-4">Feed Type</th>
+              <th class="py-3 px-4">Health Status</th>
+              <th class="py-3 px-4">Usage &amp; Attribution</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-stone-100 dark:divide-stone-800 text-xs">
+            {sourcesWithHealth.map((src) => {
+              let badgeColor = 'bg-stone-100 text-stone-700 dark:bg-stone-800 dark:text-stone-300';
+              let badgeLabel = 'Configured';
+
+              if (src.status === 'active') {
+                badgeColor = 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-400 border border-emerald-300 dark:border-emerald-800';
+                badgeLabel = src.itemsCount > 0 ? `Active (${src.itemsCount} items)` : 'Active';
+              } else if (src.status === 'skipped-missing-key') {
+                badgeColor = 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-400 border border-amber-300 dark:border-amber-800';
+                badgeLabel = `Secret: ${src.requiredSecret}`;
+              } else if (src.status === 'link-out') {
+                badgeColor = 'bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-blue-400 border border-blue-300 dark:border-blue-800';
+                badgeLabel = 'Link-Out Portal';
+              } else if (src.status === 'disabled-failed') {
+                badgeColor = 'bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-400 border border-rose-300 dark:border-rose-800';
+                badgeLabel = 'Temporarily Inactive';
+              }
+
+              return (
+                <tr class="hover:bg-stone-50 dark:hover:bg-stone-800/30 transition-colors">
+                  <td class="py-3 px-4 font-semibold text-stone-900 dark:text-stone-100 whitespace-nowrap">
+                    <a
+                      href={src.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 hover:text-primary transition-colors"
+                    >
+                      <span>{src.name}</span>
+                      <ExternalLink className="w-3 h-3 text-stone-400 shrink-0" />
+                    </a>
+                  </td>
+                  <td class="py-3 px-4 uppercase font-mono text-[11px]">
+                    <span class="px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300">
+                      {src.type}
+                    </span>
+                  </td>
+                  <td class="py-3 px-4 whitespace-nowrap font-medium text-stone-700 dark:text-stone-300">
+                    {src.country}
+                  </td>
+                  <td class="py-3 px-4 uppercase font-mono text-[11px] text-stone-500">
+                    {src.language}
+                  </td>
+                  <td class="py-3 px-4 font-mono text-[11px] text-stone-500">
+                    {src.feedType}
+                  </td>
+                  <td class="py-3 px-4 whitespace-nowrap">
+                    <span class={`inline-block px-2 py-0.5 rounded text-[11px] font-medium ${badgeColor}`}>
+                      {badgeLabel}
+                    </span>
+                  </td>
+                  <td class="py-3 px-4 text-stone-600 dark:text-stone-400 max-w-xs truncate" title={src.attribution}>
+                    {src.termsNote || src.attribution}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</Layout>

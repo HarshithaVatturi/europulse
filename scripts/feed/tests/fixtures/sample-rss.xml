@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>European Business Dispatch</title>
+    <link>https://ec.europa.eu/commission/presscorner/</link>
+    <description>Daily European economic and industrial news.</description>
+    <item>
+      <title><![CDATA[EU AI Act Implementation Accelerates Across Member States]]></title>
+      <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1001</link>
+      <description><![CDATA[<p>The European Commission today announced updated guidelines for artificial intelligence conformity assessments and model auditing across European innovation hubs in France and Germany.</p>]]></description>
+      <pubDate>Wed, 30 Sep 2026 09:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Semiconductor Lithography Investment Announced in Eindhoven</title>
+      <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1002</link>
+      <description>ASML and European partners unveil new research cleanroom for advanced chip design and wafer fabrication.</description>
+      <pubDate>Wed, 30 Sep 2026 10:15:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

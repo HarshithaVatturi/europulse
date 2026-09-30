@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>European Innovation Feed</title>
+  <link href="https://example.eu/atom" rel="self"/>
+  <updated>2026-09-30T10:00:00Z</updated>
+  <entry>
+    <title>Offshore Wind Expansion in the North Sea</title>
+    <link href="https://example.eu/articles/offshore-wind"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2026-09-30T08:00:00Z</updated>
+    <summary>European energy consortium scales subsea interconnectors connecting Denmark, Germany, and the Netherlands to regional power grids.</summary>
+  </entry>
+</feed>

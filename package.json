@@ -16,6 +16,9 @@
     "update:news": "node scripts/ingest-daily.mjs --write",
     "update:pulse": "node scripts/generate-pulse.mjs --write",
     "update:all": "node scripts/fetch-eurostat.mjs && node scripts/fetch-jobs.mjs --write && node scripts/ingest-daily.mjs --write && node scripts/generate-pulse.mjs --write && npm run build",
+    "feed:refresh": "node --experimental-strip-types scripts/feed/index.mjs --write",
+    "feed:check": "node --experimental-strip-types scripts/feed/check-registry.mjs",
+    "test:feed": "node scripts/feed/tests/run-tests.mjs",
     "astro": "astro"
   },
   "dependencies": {

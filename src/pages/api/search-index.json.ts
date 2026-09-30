@@ -9,6 +9,7 @@ import {
   getRoles,
   getSkills,
 } from '@/services';
+import { feedSources } from '@/config/sources';
 
 export const prerender = true;
 
@@ -89,6 +90,14 @@ export const GET: APIRoute = async () => {
       subtitle: `Category: ${s.category} · ${s.aliases.join(', ')}`,
       url: `/jobs/?query=${encodeURIComponent(s.name)}`,
       keywords: `${s.name} ${s.category} ${s.aliases.join(' ')}`,
+    })),
+    ...feedSources.map((s) => ({
+      id: `source-${s.id}`,
+      type: 'Source',
+      title: s.name,
+      subtitle: `${s.country} · ${s.type.toUpperCase()} · ${s.feedType.toUpperCase()}`,
+      url: `/sources/`,
+      keywords: `${s.name} ${s.country} ${s.language} ${s.type} ${s.attribution}`,
     })),
   ];
 

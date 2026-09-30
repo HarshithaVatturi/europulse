@@ -10,6 +10,7 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
 import SectionHeader from '@/components/ui/SectionHeader.astro';
 import JobsExplorer from '@/components/islands/JobsExplorer';
 import TopCompaniesExplorer from '@/components/islands/TopCompaniesExplorer';
+import { LinkOutPanel } from '@/components/islands/LinkOutPanel';
 
 const [jobs, countries, industries, degrees] = await Promise.all([
   getJobs(),
@@ -282,6 +283,8 @@ const [jobs, countries, industries, degrees] = await Promise.all([
         industries={industries}
         degrees={degrees}
       />
+
+      <LinkOutPanel client:load />
     </section>
   </div>
 </Layout>

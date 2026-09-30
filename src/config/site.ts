@@ -57,6 +57,7 @@ export const siteConfig: SiteConfig = {
     { label: 'Career Hub', href: '/careers/' },
   ],
   footerNav: [
+    { label: 'Sources & Transparency', href: '/sources/' },
     { label: 'About & Methodology', href: '/about/' },
     { label: 'My Lab', href: '/my-lab/' },
     { label: 'Search', href: '/search/' },
