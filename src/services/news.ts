@@ -5,8 +5,41 @@ export async function getNews(filters?: NewsFilterParams): Promise<NewsArticle[]
   const entries = await getCollection('news');
   let news = entries.map((e) => e.data as NewsArticle);
 
-  // Default sorting: descending by date
-  news.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  // Filter out non-business/sports/crime dispatches from general news wires
+  const noiseTerms = [
+    'cristiano ronaldo',
+    'futebol',
+    'treino da selec',
+    'estádio',
+    'artilheiro',
+    'copa do',
+    'homicídio',
+    'assassinat',
+    'fotboll',
+    'ishockey',
+    'frölunda',
+    'malmö ff',
+    'krasch',
+  ];
+  news = news.filter((n) => {
+    const text = `${n.title} ${n.summary}`.toLowerCase();
+    return !noiseTerms.some((term) => text.includes(term));
+  });
+
+  // Sorting: 1) Date descending, 2) Business relevance (has companies/industries/topics), 3) fetchedAt descending
+  news.sort((a, b) => {
+    const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
+    if (dateDiff !== 0) return dateDiff;
+
+    const aScore = (a.featured ? 10 : 0) + (a.companies?.length || 0) * 3 + (a.industries?.length || 0) * 2 + (a.topics?.length || 0);
+    const bScore = (b.featured ? 10 : 0) + (b.companies?.length || 0) * 3 + (b.industries?.length || 0) * 2 + (b.topics?.length || 0);
+    if (bScore !== aScore) return bScore - aScore;
+
+    if (b.fetchedAt && a.fetchedAt) {
+      return new Date(b.fetchedAt).getTime() - new Date(a.fetchedAt).getTime();
+    }
+    return a.title.localeCompare(b.title);
+  });
 
   if (!filters) return news;
 
