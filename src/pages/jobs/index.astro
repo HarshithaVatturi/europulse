@@ -1,5 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import { url } from '@/lib/url';
 import { getJobs } from '@/services/jobs';
 import { getCountries } from '@/services/countries';
 import { getIndustries } from '@/services/industries';
@@ -8,6 +9,7 @@ import { getDegrees } from '@/services/degrees';
 import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
 import SectionHeader from '@/components/ui/SectionHeader.astro';
 import JobsExplorer from '@/components/islands/JobsExplorer';
+import TopCompaniesExplorer from '@/components/islands/TopCompaniesExplorer';
 
 const [jobs, countries, industries, degrees] = await Promise.all([
   getJobs(),
@@ -18,24 +20,268 @@ const [jobs, countries, industries, degrees] = await Promise.all([
 ---
 
 <Layout
-  title="European Job Pipeline & Early Career Opportunities"
-  description="Explore active graduate programmes, working student placements, apprenticeships, and engineering openings across Europe."
+  title="Pan-European Job Pipeline & Top 250 Enterprise Career Portals"
+  description="Connect directly to Europe's open job market: official EU mobility portals (EURES 3M+), direct career sites of the top 250 European multinationals, and active graduate schemes."
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
     <Breadcrumbs items={[{ label: 'Jobs' }]} />
 
-    <SectionHeader
-      kicker="Hiring Pipeline"
-      title="European Job Explorer"
-      description="Direct vacancies across verified employers with structured filters for international degrees, visa-friendly graduate programmes, and work modes."
-    />
+    <!-- Page Title & Value Prop -->
+    <div class="space-y-4">
+      <SectionHeader
+        kicker="Pan-European Employment Network"
+        title="European Job Pipeline & Career Portals"
+        description="Connecting candidates across the continent: 3M+ listings via official EU mobility systems, direct official career portals of Europe's top 250 multinationals, and verified curated requisitions across 16 countries."
+      />
 
-    <JobsExplorer
-      client:idle
-      initialJobs={jobs}
-      countries={countries}
-      industries={industries}
-      degrees={degrees}
-    />
+      <!-- Quick Section Anchor Links -->
+      <div class="flex flex-wrap items-center gap-2 pt-1 font-mono text-xs text-muted">
+        <span class="font-semibold uppercase tracking-wider text-[11px] text-ink">Jump to:</span>
+        <a href="#pan-eu-portals" class="px-2.5 py-1 rounded bg-surface border border-hairline hover:border-cobalt hover:text-cobalt transition-colors">
+          🇪🇺 Pan-European Job Boards ↓
+        </a>
+        <a href="#top-250-employers" class="px-2.5 py-1 rounded bg-surface border border-hairline hover:border-cobalt hover:text-cobalt transition-colors">
+          🏢 Top 250 Corporate Career Sites ↓
+        </a>
+        <a href="#verified-openings" class="px-2.5 py-1 rounded bg-surface border border-hairline hover:border-cobalt hover:text-cobalt transition-colors">
+          🎯 Verified Pipeline Listings ↓
+        </a>
+      </div>
+    </div>
+
+    <!-- 1. Major Pan-European Portals Grid -->
+    <section id="pan-eu-portals" class="space-y-4 pt-4 border-t border-hairline">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+        <div>
+          <span class="font-mono text-xs uppercase tracking-wider text-cobalt font-semibold">Continental Platforms</span>
+          <h2 class="font-serif text-2xl font-bold text-ink">Pan-European Job Search Network</h2>
+          <p class="font-sans text-xs text-muted max-w-2xl mt-0.5">
+            Official cross-border portals connecting all 27 European Union member states plus Switzerland, Norway, and the UK.
+          </p>
+        </div>
+        <span class="font-mono text-xs text-muted tabular-nums">Multi-Country Coverage</span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <!-- EURES (European Commission) -->
+        <a
+          href="https://eures.europa.eu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">🇪🇺</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Official EU ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              EURES
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              All 27 EU Member States
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            3M+ EU Vacancies →
+          </div>
+        </a>
+
+        <!-- Eurojobs -->
+        <a
+          href="https://www.eurojobs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">🌐</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Pan-EU ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              Eurojobs
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              Continental Multi-Country
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- LinkedIn Europe -->
+        <a
+          href="https://www.linkedin.com/jobs/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">💼</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Global ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              LinkedIn Europe
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              Multinational Requisitions
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            Professional Roles →
+          </div>
+        </a>
+
+        <!-- StepStone Europe -->
+        <a
+          href="https://www.stepstone.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">🇩🇪</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">DACH & EU ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              StepStone
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              Germany & Central Europe
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            DACH Openings →
+          </div>
+        </a>
+
+        <!-- Welcome to the Jungle Europe -->
+        <a
+          href="https://www.welcometothejungle.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">🌴</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Tech & AI ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              Welcome to the Jungle
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              Paris, Berlin, London, Madrid
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            Tech Ecosystem →
+          </div>
+        </a>
+
+        <!-- Indeed Europe -->
+        <a
+          href="https://www.indeed.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3.5 rounded-md bg-surface border border-hairline hover:border-cobalt hover:shadow-sm transition-all group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1.5">
+              <span class="text-xl select-none">🔍</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Aggregator ↗</span>
+            </div>
+            <div class="font-serif font-bold text-sm text-ink group-hover:text-cobalt">
+              Indeed Europe
+            </div>
+            <div class="text-[11px] text-muted font-sans line-clamp-1 mt-0.5">
+              Cross-Border Search
+            </div>
+          </div>
+          <div class="mt-3 pt-2 border-t border-hairline/60 text-[11px] font-mono text-cobalt font-semibold">
+            Cross-Border Jobs →
+          </div>
+        </a>
+      </div>
+
+      <!-- National Public Gateways Sub-Bar -->
+      <div class="p-3 rounded-md bg-paper border border-hairline text-xs font-mono flex flex-wrap items-center justify-between gap-3 text-muted">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="font-semibold text-ink uppercase text-[11px]">Regional Gateways:</span>
+          <a href="https://candidat.francetravail.fr/rechercheoffre/emploi" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt hover:underline">
+            🇫🇷 France Travail
+          </a>
+          <span>·</span>
+          <a href="https://www.apec.fr/" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt hover:underline">
+            👔 Apec (France Cadres)
+          </a>
+          <span>·</span>
+          <a href="https://www.arbeitsagentur.de/jobsuche/" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt hover:underline">
+            🇩🇪 Arbeitsagentur (Germany)
+          </a>
+          <span>·</span>
+          <a href="https://www.gradcracker.com/" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt hover:underline">
+            🇬🇧 Gradcracker (STEM Grads)
+          </a>
+          <span>·</span>
+          <a href="https://www.werk.nl/" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt hover:underline">
+            🇳🇱 Werk.nl (UWV Netherlands)
+          </a>
+        </div>
+        <div class="text-[11px] text-ink font-semibold">
+          🇪🇺 Free movement of workers under EU Article 45 TFEU
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Top 250 Corporate Direct Career Sites Section -->
+    <section id="top-250-employers" class="space-y-6 pt-6 border-t border-hairline">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-3">
+        <div class="space-y-1">
+          <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-cobalt/10 text-cobalt font-mono text-[11px] font-bold uppercase tracking-wider">
+            Direct Enterprise Portal Directory
+          </div>
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold text-ink">
+            Top 250 European Enterprise Career Sites
+          </h2>
+          <p class="font-sans text-sm text-muted max-w-3xl leading-relaxed">
+            Direct 1-click links to the verified corporate career platforms, global talent networks, and graduate schemes of Europe's largest 250 employers across 16 nations. Bypass third-party aggregator noise and apply directly to headquarters.
+          </p>
+        </div>
+        <div class="shrink-0 flex items-center gap-3">
+          <a
+            href={url('/companies/')}
+            class="px-3.5 py-2 rounded bg-surface border border-hairline hover:border-cobalt text-ink font-mono text-xs font-semibold transition-colors flex items-center gap-1.5"
+          >
+            <span>View In-Depth Dossiers</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Live Top 250 Search Island -->
+      <TopCompaniesExplorer client:load />
+    </section>
+
+    <!-- 3. Verified Openings & Early Career Schemes -->
+    <section id="verified-openings" class="space-y-6 pt-6 border-t border-hairline">
+      <SectionHeader
+        kicker="Curated Pipeline"
+        title="Verified European Requisitions & Graduate Tracks"
+        description="Structured early career postings, apprenticeships, and engineering roles cross-referenced with university qualifications and visa support."
+      />
+
+      <JobsExplorer
+        client:idle
+        initialJobs={jobs}
+        countries={countries}
+        industries={industries}
+        degrees={degrees}
+      />
+    </section>
   </div>
 </Layout>

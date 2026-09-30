@@ -10,6 +10,7 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
 import SectionHeader from '@/components/ui/SectionHeader.astro';
 import CompanyMonogram from '@/components/ui/CompanyMonogram.astro';
 import CountryBadge from '@/components/ui/CountryBadge.astro';
+import TopCompaniesExplorer from '@/components/islands/TopCompaniesExplorer';
 
 const [companies, countries, industries, jobs] = await Promise.all([
   getCompanies(),
@@ -25,20 +26,34 @@ jobs.forEach((j) => {
 ---
 
 <Layout
-  title="European Corporate Directory & Monograms"
-  description="Directory of leading European multinational and industrial enterprises with verified public facts and hiring pipelines."
+  title="Top 250 European Corporate Career Directory & Official Portals"
+  description="Connect directly to official career sites of the top 250 European multinationals across Germany, France, Netherlands, Nordics, Switzerland, and Italy."
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
     <Breadcrumbs items={[{ label: 'Companies' }]} />
 
-    <SectionHeader
-      kicker="Enterprise Directory"
-      title="Profiled European Employers"
-      description="20 verified enterprise employers across aerospace, automotive, semiconductors, robotics, energy, and luxury goods."
-    />
+    <!-- Top 250 Corporate Hub Header -->
+    <div class="space-y-4">
+      <SectionHeader
+        kicker="Pan-European Employment Network"
+        title="Top 250 European Enterprise Career Directory"
+        description="Direct 1-click links to the verified corporate career platforms and graduate schemes of Europe's largest 250 employers across 16 nations."
+      />
 
-    <!-- Companies Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Interactive Top 250 Explorer -->
+      <TopCompaniesExplorer client:load />
+    </div>
+
+    <!-- Detailed Profiled Employers -->
+    <div class="pt-8 border-t border-hairline space-y-6">
+      <SectionHeader
+        kicker="Deep Profiles"
+        title="In-Depth Profiled European Flagships"
+        description="Detailed dossier profiles including tech stacks, graduate programs, hiring pipelines, and direct job openings."
+      />
+
+      <!-- Companies Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {
         companies.map((comp) => {
           const jobCount = jobCountMap.get(comp.slug.toLowerCase()) || 0;
@@ -106,6 +121,7 @@ jobs.forEach((j) => {
           );
         })
       }
+      </div>
     </div>
   </div>
 </Layout>

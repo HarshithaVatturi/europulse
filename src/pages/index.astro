@@ -163,35 +163,60 @@ const websiteJsonLd = {
 
   <!-- Connected European Job Portals Multi-Portal Quick Search Launcher -->
   <section class="border-b border-hairline bg-paper py-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-hairline">
         <div class="flex items-center gap-2.5">
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <h2 class="font-mono text-xs font-bold uppercase tracking-wider text-ink">
-            Connected European Job Portals · Multi-Portal Search Launcher
+            Pan-European Employment Network · Continental Job Portals &amp; Top 250 Careers
           </h2>
         </div>
         <div class="flex items-center gap-3">
           <span class="font-mono text-xs text-cobalt font-bold tabular-nums">
-            {allJobs.length} Live Positions In Database
+            {allJobs.length} Live Vacancies In Database
           </span>
           <a
-            href={url('/jobs/')}
-            class="text-xs font-mono text-cobalt hover:underline font-semibold"
+            href={url('/companies/')}
+            class="text-xs font-mono bg-cobalt text-paper px-3 py-1 rounded hover:opacity-90 transition-opacity font-semibold"
           >
-            Explore All Jobs →
+            Top 250 Corporate Careers →
           </a>
         </div>
       </div>
 
-      <p class="text-xs text-muted font-sans leading-relaxed max-w-3xl">
-        Access comprehensive employment databases across France and Europe in 1-click. Search our <strong>{allJobs.length} curated listings</strong> or launch direct queries across our 6 connected partner platforms:
+      <p class="text-xs text-muted font-sans leading-relaxed max-w-4xl">
+        Access comprehensive employment databases across all 27 European Union member states and direct career portals of Europe's <strong>Top 250 largest enterprises</strong>. Search our <strong>{allJobs.length} verified listings</strong> or launch direct queries across Europe's leading platforms:
       </p>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-1">
-        <!-- EnglishJobs.fr -->
+      <!-- Pan-European Major Portals -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <!-- EURES (European Commission) -->
         <a
-          href="https://englishjobs.fr/"
+          href="https://eures.europa.eu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🇪🇺</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Official EU ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              EURES
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              All 27 EU Member States
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            3M+ EU Jobs →
+          </div>
+        </a>
+
+        <!-- Eurojobs -->
+        <a
+          href="https://www.eurojobs.com/"
           target="_blank"
           rel="noopener noreferrer"
           class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
@@ -199,13 +224,13 @@ const websiteJsonLd = {
           <div>
             <div class="flex items-center justify-between text-xs mb-1">
               <span class="text-base select-none">🌐</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Pan-EU ↗</span>
             </div>
             <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              EnglishJobs.fr
+              Eurojobs
             </div>
             <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
-              English in France
+              Continental Multi-Country
             </div>
           </div>
           <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
@@ -213,103 +238,7 @@ const websiteJsonLd = {
           </div>
         </a>
 
-        <!-- Welcome to the Jungle -->
-        <a
-          href="https://www.welcometothejungle.com/fr/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
-        >
-          <div>
-            <div class="flex items-center justify-between text-xs mb-1">
-              <span class="text-base select-none">🌴</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
-            </div>
-            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              Welcome to the Jungle
-            </div>
-            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
-              Tech &amp; Startups
-            </div>
-          </div>
-          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
-            Search Portal →
-          </div>
-        </a>
-
-        <!-- France Travail -->
-        <a
-          href="https://candidat.francetravail.fr/rechercheoffre/emploi"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
-        >
-          <div>
-            <div class="flex items-center justify-between text-xs mb-1">
-              <span class="text-base select-none">🏛️</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
-            </div>
-            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              France Travail
-            </div>
-            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
-              Public Employment
-            </div>
-          </div>
-          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
-            Search Portal →
-          </div>
-        </a>
-
-        <!-- Apec -->
-        <a
-          href="https://www.apec.fr/candidat/recherche-emploi.html/emploi"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
-        >
-          <div>
-            <div class="flex items-center justify-between text-xs mb-1">
-              <span class="text-base select-none">👔</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
-            </div>
-            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              Apec
-            </div>
-            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
-              Cadres &amp; Executives
-            </div>
-          </div>
-          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
-            Search Portal →
-          </div>
-        </a>
-
-        <!-- Indeed France -->
-        <a
-          href="https://fr.indeed.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
-        >
-          <div>
-            <div class="flex items-center justify-between text-xs mb-1">
-              <span class="text-base select-none">🔍</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
-            </div>
-            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              Indeed France
-            </div>
-            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
-              National Aggregator
-            </div>
-          </div>
-          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
-            Search Portal →
-          </div>
-        </a>
-
-        <!-- LinkedIn Jobs -->
+        <!-- LinkedIn Europe -->
         <a
           href="https://www.linkedin.com/jobs/"
           target="_blank"
@@ -319,10 +248,10 @@ const websiteJsonLd = {
           <div>
             <div class="flex items-center justify-between text-xs mb-1">
               <span class="text-base select-none">💼</span>
-              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Global ↗</span>
             </div>
             <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
-              LinkedIn Jobs
+              LinkedIn Europe
             </div>
             <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
               Multinational Roles
@@ -332,6 +261,105 @@ const websiteJsonLd = {
             Search Portal →
           </div>
         </a>
+
+        <!-- StepStone Europe -->
+        <a
+          href="https://www.stepstone.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🇩🇪</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Central EU ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              StepStone
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Germany &amp; Central Europe
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- Welcome to the Jungle Europe -->
+        <a
+          href="https://www.welcometothejungle.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🌴</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Tech &amp; AI ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              Welcome to the Jungle
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Paris, Berlin, London, Madrid
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- Indeed Europe -->
+        <a
+          href="https://www.indeed.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🔍</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Aggregator ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              Indeed Europe
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Cross-Border Search
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+      </div>
+
+      <!-- Top 250 Corporate Direct Career Banner -->
+      <div class="p-4 rounded-lg bg-surface border border-cobalt/40 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="space-y-1">
+          <div class="flex items-center gap-2">
+            <span class="font-mono text-[11px] font-bold uppercase tracking-wider text-cobalt bg-cobalt/10 px-2 py-0.5 rounded">
+              Direct Enterprise Hiring Network
+            </span>
+            <span class="font-mono text-xs text-muted">250 Companies Connected</span>
+          </div>
+          <p class="font-serif text-sm font-bold text-ink">
+            Direct Corporate Career Portals of Europe's Top 250 Employers
+          </p>
+          <p class="text-xs text-muted font-sans max-w-3xl">
+            Bypass third-party boards. Apply directly on verified careers sites and graduate programs for <strong>BMW, Airbus, ASML, Novo Nordisk, SAP, LVMH, Roche, Siemens, Spotify, Schneider Electric, Ferrari</strong>, and 239 more across 16 European nations.
+          </p>
+        </div>
+        <div class="shrink-0 flex items-center gap-3">
+          <a
+            href={url('/companies/')}
+            class="px-4 py-2 rounded bg-cobalt text-paper font-mono text-xs font-semibold hover:opacity-90 transition-opacity inline-flex items-center gap-1.5"
+          >
+            <span>Open Top 250 Directory</span>
+            <span>→</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
