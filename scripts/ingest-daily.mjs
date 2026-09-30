@@ -142,6 +142,7 @@ function classifyItem(item) {
     companies: [],
     topics: matchedTopics.slice(0, 2),
     skills: ['csrd-reporting', 'corporate-strategy'],
+    roles: ['strategy-consultant', 'business-analyst'],
     careerImpact,
     summary: item.description ? item.description.slice(0, 250) + '...' : item.title,
     featured: false,

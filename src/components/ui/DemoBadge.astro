@@ -1,27 +1,7 @@
 ---
+// DemoBadge disabled for live production edition
 interface Props {
   type?: 'news' | 'job' | 'pulse' | 'profile' | 'guidance' | 'general';
   class?: string;
 }
-
-const { type = 'general', class: className = '' } = Astro.props;
-
-const labels: Record<string, string> = {
-  news: 'Demo article',
-  job: 'Demo listing',
-  pulse: 'Sample edition',
-  profile: 'Example profile',
-  guidance: 'Sample guidance',
-  general: 'Sample data',
-};
-
-const label = labels[type] || 'Sample data';
 ---
-
-<span
-  class={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-mono tracking-wider uppercase font-semibold border border-amber/40 bg-amber/10 text-ink ${className}`}
-  title="This record is an illustrative sample demonstration adhering to EuroPulse honesty guidelines."
->
-  <span class="w-1.5 h-1.5 rounded-full bg-amber mr-1.5 inline-block"></span>
-  {label}
-</span>

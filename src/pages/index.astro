@@ -161,6 +161,181 @@ const websiteJsonLd = {
     </div>
   </section>
 
+  <!-- Connected European Job Portals Multi-Portal Quick Search Launcher -->
+  <section class="border-b border-hairline bg-paper py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-hairline">
+        <div class="flex items-center gap-2.5">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <h2 class="font-mono text-xs font-bold uppercase tracking-wider text-ink">
+            Connected European Job Portals · Multi-Portal Search Launcher
+          </h2>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="font-mono text-xs text-cobalt font-bold tabular-nums">
+            {allJobs.length} Live Positions In Database
+          </span>
+          <a
+            href={url('/jobs/')}
+            class="text-xs font-mono text-cobalt hover:underline font-semibold"
+          >
+            Explore All Jobs →
+          </a>
+        </div>
+      </div>
+
+      <p class="text-xs text-muted font-sans leading-relaxed max-w-3xl">
+        Access comprehensive employment databases across France and Europe in 1-click. Search our <strong>{allJobs.length} curated listings</strong> or launch direct queries across our 6 connected partner platforms:
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-1">
+        <!-- EnglishJobs.fr -->
+        <a
+          href="https://englishjobs.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🌐</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              EnglishJobs.fr
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              English in France
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- Welcome to the Jungle -->
+        <a
+          href="https://www.welcometothejungle.com/fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🌴</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              Welcome to the Jungle
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Tech &amp; Startups
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- France Travail -->
+        <a
+          href="https://candidat.francetravail.fr/rechercheoffre/emploi"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🏛️</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              France Travail
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Public Employment
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- Apec -->
+        <a
+          href="https://www.apec.fr/candidat/recherche-emploi.html/emploi"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">👔</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              Apec
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Cadres &amp; Executives
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- Indeed France -->
+        <a
+          href="https://fr.indeed.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">🔍</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              Indeed France
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              National Aggregator
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+
+        <!-- LinkedIn Jobs -->
+        <a
+          href="https://www.linkedin.com/jobs/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-3 rounded bg-surface border border-hairline hover:border-cobalt transition-colors group flex flex-col justify-between"
+        >
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="text-base select-none">💼</span>
+              <span class="text-muted group-hover:text-cobalt text-[10px] font-mono">Open ↗</span>
+            </div>
+            <div class="font-serif font-bold text-xs text-ink group-hover:text-cobalt">
+              LinkedIn Jobs
+            </div>
+            <div class="text-[10px] text-muted font-sans line-clamp-1 mt-0.5">
+              Multinational Roles
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] font-mono text-cobalt font-semibold">
+            Search Portal →
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- Europe Business Pulse Condensed Briefing -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-b border-hairline">
     <SectionHeader

@@ -1,8 +1,8 @@
 {
   "date": "2026-09-29",
-  "editionNumber": 42,
-  "isDemo": true,
-  "leadSummary": "European industrial momentum pivots on battery gigafactory commissioning and sovereign semiconductor lithography, while the EU AI Act accelerates governance and product management hiring across continental hubs.",
+  "editionNumber": 41,
+  "isDemo": false,
+  "leadSummary": "European Commission Press release Brussels, 29 Sep 2026 Today, the European Commission allocated an additional €500 million to Horizon Europe, the EU's flagship research and innovation programme, for 2026 and 2027....",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,21 +10,21 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Toulouse aerospace cluster initiates cryogenic fuel storage demonstrator trials for next-generation turbofans.",
+          "text": "Commission greenlights France's final payment request of €6.1 billion under NextGenerationEU",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Toulouse aerospace cluster initiates cryogenic fuel storage demonstrator trials",
           "industrySlug": "aerospace",
           "industryName": "Aerospace",
           "companySlug": "airbus"
         },
         {
-          "text": "Paris luxury houses accelerate digital product passport integration ahead of EU circular economy mandates.",
+          "text": "European luxury houses roll out digital product passports ahead of ecodesign deadline",
           "industrySlug": "fashion",
           "industryName": "Fashion & Luxury",
           "companySlug": "lvmh"
-        },
-        {
-          "text": "Grenoble and Paris-Saclay research campuses expand AI Act conformity auditing and verification teams.",
-          "industrySlug": "ai",
-          "industryName": "AI"
         }
       ]
     },
@@ -34,22 +34,16 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Bavarian automotive plants retool powertrain lines for high-voltage cylindrical cell production.",
+          "text": "A German automaker expands EV battery production: what it means for engineers",
           "industrySlug": "automotive",
           "industryName": "Automotive",
           "companySlug": "bmw"
         },
         {
-          "text": "Baden-Württemberg manufacturers deploy spatial vision collaborative robots for zero-defect machining.",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation",
-          "companySlug": "bosch"
-        },
-        {
-          "text": "Ruhr valley green steel reduction pilot commissions hydrogen electrolyser capacity.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing",
-          "companySlug": "siemens"
+          "text": "Toulouse aerospace cluster initiates cryogenic fuel storage demonstrator trials",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace",
+          "companySlug": "airbus"
         }
       ]
     },
@@ -59,21 +53,10 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Brainport Eindhoven advances volume shipments of High-NA EUV lithography systems for sub-2nm nodes.",
+          "text": "Advanced semiconductor lithography expansion accelerates Brainport deep-tech hiring",
           "industrySlug": "semiconductors",
           "industryName": "Semiconductors",
           "companySlug": "asml"
-        },
-        {
-          "text": "Amsterdam healthcare diagnostic imaging suites secure European CE marks for deep learning oncology suites.",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare",
-          "companySlug": "philips"
-        },
-        {
-          "text": "Rotterdam port authority inaugurates heavy battery-electric drayage truck charging plazas.",
-          "industrySlug": "logistics-supply-chain",
-          "industryName": "Logistics & Supply Chain"
         }
       ]
     },
@@ -83,22 +66,10 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Motor Valley supercar manufacturers expand internal hybrid powertrain and computational aerodynamics teams.",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "ferrari"
-        },
-        {
-          "text": "Tuscan textile consortia achieve commercial-scale chemical recycling of post-consumer regenerated wool.",
+          "text": "European luxury houses roll out digital product passports ahead of ecodesign deadline",
           "industrySlug": "fashion",
           "industryName": "Fashion & Luxury",
-          "companySlug": "prada"
-        },
-        {
-          "text": "Rome aerospace facilities finalize optical communications payload modules for sovereign satellite constellation.",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace",
-          "companySlug": "leonardo"
+          "companySlug": "lvmh"
         }
       ]
     },
@@ -108,51 +79,44 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Gothenburg heavy vehicle lines expand assembly of heavy-duty electric regional trucks.",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "volvo"
-        },
-        {
-          "text": "Stockholm digital engineering platforms release open-source distributed developer portal tooling.",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "spotify"
-        },
-        {
-          "text": "Västerås robotics labs scale cobot motion planning firmware for high-throughput European fulfillment.",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation",
-          "companySlug": "abb"
+          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     }
   ],
   "sideRail": {
-    "companiesToWatch": ["asml", "bmw", "airbus", "lvmh", "abb"],
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
     "industriesToWatch": [
       {
         "slug": "semiconductors",
         "name": "Semiconductors",
         "trend": "up",
-        "note": "High-NA EUV qualification drives nanotech hiring across NL and BE."
-      },
-      {
-        "slug": "robotics",
-        "name": "Robotics & Automation",
-        "trend": "up",
-        "note": "Vision-guided cobot deployments surge in industrial manufacturing."
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
       },
       {
         "slug": "automotive",
         "name": "Automotive",
-        "trend": "down",
-        "note": "Legacy ICE engineering downscales as EV battery retooling accelerates."
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
       }
     ],
     "careerInsightOfDay": {
-      "title": "The Rise of Dual-Competency Engineers in European Industry",
-      "content": "Major European multinationals are phasing out siloed engineering roles. Mechanical and industrial engineers who master embedded ROS 2 or Python telemetry are converting interviews at double the historical rate.",
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
       "linkedRoleSlug": "robotics-automation-engineer",
       "linkedRoleName": "Robotics Automation Engineer"
     },
