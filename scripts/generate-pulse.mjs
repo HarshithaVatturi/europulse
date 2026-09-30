@@ -237,6 +237,45 @@ function generatePulse() {
   if (writeToFile) {
     fs.writeFileSync(pulseFile, JSON.stringify(pulseData, null, 2), 'utf-8');
     console.log(`✓ Wrote Pulse edition to: ${pulseFile}`);
+
+    // Update telemetry sync-stats.json
+    try {
+      const statsFile = path.resolve(process.cwd(), 'src/data/sync-stats.json');
+      const now = new Date();
+      let stats = {
+        date: targetDate,
+        dailySyncCount: 1,
+        totalExpectedCycles: 48,
+        pipelineIntervalMinutes: 30,
+        lastSyncIso: now.toISOString(),
+        lastSyncParis: new Intl.DateTimeFormat('en-GB', {
+          timeZone: 'Europe/Paris',
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          timeZoneName: 'short'
+        }).format(now),
+        todayNewsCount: dayNews.length,
+        todayJobsCount: jobsToday.length,
+        status: 'Operational'
+      };
+
+      if (fs.existsSync(statsFile)) {
+        const existingStats = JSON.parse(fs.readFileSync(statsFile, 'utf-8'));
+        if (existingStats.date === targetDate) {
+          stats.dailySyncCount = (existingStats.dailySyncCount || 0) + 1;
+        } else {
+          stats.dailySyncCount = 1;
+        }
+      }
+
+      fs.writeFileSync(statsFile, JSON.stringify(stats, null, 2), 'utf-8');
+      console.log(`✓ Updated sync telemetry stats (Cycle #${stats.dailySyncCount} for ${targetDate}) to: ${statsFile}`);
+    } catch (err) {
+      console.warn('Warning updating sync-stats:', err.message);
+    }
   } else {
     console.log('Run with --write to save edition to src/data/pulse/YYYY-MM-DD.json');
   }

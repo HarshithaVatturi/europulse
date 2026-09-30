@@ -27,6 +27,8 @@ import ImpactTrail from '@/components/ui/ImpactTrail.astro';
 import Sparkline from '@/components/ui/Sparkline.astro';
 import EuropeTileMap from '@/components/ui/EuropeTileMap.astro';
 import PathExplorer from '@/components/islands/PathExplorer';
+import DailyTrackerBadge from '@/components/islands/DailyTrackerBadge';
+import syncStatsData from '@/data/sync-stats.json';
 
 const [
   allNews,
@@ -87,9 +89,14 @@ const websiteJsonLd = {
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <!-- Headline & Value Prop -->
         <div class="lg:col-span-8 space-y-4">
-          <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded border border-hairline bg-paper text-ink font-mono text-[11px] font-semibold uppercase tracking-wider">
-            <span class="w-2 h-2 rounded-full bg-amber live-pulse-dot" />
-            <span>Pan-European Intelligence · {formatDate(pulse.date)}</span>
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded border border-hairline bg-paper text-ink font-mono text-[11px] font-semibold uppercase tracking-wider">
+              <span class="w-2 h-2 rounded-full bg-amber live-pulse-dot" />
+              <span>Pan-European Intelligence · {formatDate(pulse.date)}</span>
+            </div>
+
+            <!-- Daily Telemetry Tracker Badge -->
+            <DailyTrackerBadge client:load syncStats={syncStatsData} />
           </div>
 
           <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-ink leading-[1.15]">
