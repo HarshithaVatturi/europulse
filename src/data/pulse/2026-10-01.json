@@ -2,7 +2,7 @@
   "date": "2026-10-01",
   "editionNumber": 43,
   "isDemo": false,
-  "leadSummary": "Pike was 18 when she and her boyfriend beat and killed Colleen Slemmer, 19, at a job training camp for young people.",
+  "leadSummary": "Young students from China and abroad train in tai chi and kung fu on the Wudang Mountains, where Taoist philosophy shapes martial arts and daily life.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,20 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Trolling Trump: Why Macron and Carney became ‘leaders of the resistance’",
+          "text": "French government calls crisis meeting as some school blockades turn violent",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Portugal: Ronaldo walks away",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France increases defense budget despite strained public finances",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         },
         {
-          "text": "Live: FlyDubai suspends flights to and from Israel after pilot attack",
+          "text": "[Interview] Le Pen and Mélenchon are ‘economically illiterate’ and weaponising migration, says French scholar ahead of 2027 race",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     },
@@ -38,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Trump made ‘a lot of mistakes,’ sighs Portugal’s far-right leader",
+          "text": "Neuer \"Tankrabatt\" startet mit stark fallenden Preisen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Freiwilliger Spritpreisdeckel - auch in Deutschland denkbar?",
+          "text": "Warum Schwarz-Rot auf den \"Tankrabatt\" setzt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -55,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "De aanval op de Aziatische robot begint in Stuttgart",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Live: Europese beurzen op weg naar lagere opening",
+          "text": "Amsterdam museum visits fall 5.2% as visitors spend less, stay for shorter time in city",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Van Brexit naar ‘rejoin’: moeten we dat willen?",
+          "text": "Ebola-infected aid worker heading to Netherlands for treatment",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "PVV government's internal border controls come to an end",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -82,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Ai e sicurezza informatica sottovalutate: un’azienda su 4 non fa formazione",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Legami, nel 2025 investiti 2,3 milioni nella sostenibilità",
+          "text": "Netanyahu, il copilota è stato radicalizzato, a equipaggio ha detto \"uccidetemi''",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Via libera alle norme sui rimpatri, aprono la strada agli hub extra Ue",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -99,17 +98,18 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Avrättning i USA misslyckades",
+          "text": "Poland, Sweden, Belgium, Estonia and Cyprus receive more than €9.8 billion under NextGenerationEU",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Därför köpte Palantir-chefen fjällmark i Härjedalen",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "Abdullah drabbades av utsläppet: ”Som knivar i halsen”",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         },
         {
-          "text": "SVT sänder succétävlingen i München: ”Kommer ställa upp med de bästa”",
+          "text": "Influencern Olivia Oras dog efter skönhetsingrepp i Finland",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
