@@ -100,7 +100,7 @@
   },
   "DK": {
     "iso2": "DK",
-    "gdpGrowthRate": 0.3,
+    "gdpGrowthRate": 0.9,
     "gdpPeriod": "2026-Q2",
     "unemploymentRate": 5.9,
     "unemploymentPeriod": "2026-08",
