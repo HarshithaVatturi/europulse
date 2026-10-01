@@ -2,7 +2,7 @@
   "date": "2026-10-01",
   "editionNumber": 43,
   "isDemo": false,
-  "leadSummary": "The Public Prosecution Service (OM) has recommended a five-year prison sentence for Janus K., 30, over a fatal crash in Maastricht on March 27 that <a...",
+  "leadSummary": "Pike was 18 when she and her boyfriend beat and killed Colleen Slemmer, 19, at a job training camp for young people.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,20 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Trolling Trump: Why Macron and Carney became ‘leaders of the resistance’",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Portugal: Ronaldo walks away",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: FlyDubai suspends flights to and from Israel after pilot attack",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     },
@@ -22,7 +33,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany targets money laundering network, Hells Angels in raids including Netherlands",
+          "text": "Grüne und SPD: Die Linke-Gewissensfrage in Berlin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump made ‘a lot of mistakes,’ sighs Portugal’s far-right leader",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Freiwilliger Spritpreisdeckel - auch in Deutschland denkbar?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Prosecutors seek five years for driver accused of killing 4-year-old in Maastricht crash",
+          "text": "De aanval op de Aziatische robot begint in Stuttgart",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Delft startup's lamp targets side-on crashes that make up to 71% of bike accidents",
+          "text": "Live: Europese beurzen op weg naar lagere opening",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rail workers’ union urges action over growing violence on Dutch trains",
+          "text": "Van Brexit naar ‘rejoin’: moeten we dat willen?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,12 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Azora cierra un fondo para invertir hasta 4.500 millones en inmobiliario",
+          "text": "Execution of convicted US killer Christa Pike fails despite two lethal injections",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "OE. PCP quer reforçar direitos de pais e crianças",
+          "text": "Ai e sicurezza informatica sottovalutate: un’azienda su 4 non fa formazione",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Legami, nel 2025 investiti 2,3 milioni nella sostenibilità",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -73,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Avrättning i USA misslyckades",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Därför köpte Palantir-chefen fjällmark i Härjedalen",
+          "industrySlug": "ai",
+          "industryName": "AI"
+        },
+        {
+          "text": "SVT sänder succétävlingen i München: ”Kommer ställa upp med de bästa”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
