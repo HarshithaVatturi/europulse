@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "editionNumber": 44,
   "isDemo": false,
-  "leadSummary": "The Saudi-led coalition said a drone hit the Taibah electricity distribution station, which supplies power to the Prophet's Mosque, one of Islam's holiest sites. The Houthis denied the claim,...",
+  "leadSummary": "A fleet of 5,000 drones forms fighter jets, robots, planes and horses over Nanchang as China marks National Day with a spectacular night show.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "New York hosts secret dîner en blanc with Parisian belle époque theme",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Uzbekistan wins home gold at record-breaking Chess Olympiad in Samarkand",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France unveils cost-cutting budget amid protests",
+          "text": "G7 agrees major release of oil stocks following pressure from the US",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Will AI write our books? Row over bestseller fuels fear over future of literature",
-          "industrySlug": "ai",
-          "industryName": "AI"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Europe war-games life after Merz",
+          "text": "Frankreich erwägt Freigabe von Öl- und Dieselreserven nach US-Druck",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Lots of rail and roadworks scheduled in Netherlands this weekend",
+          "text": "From the Netherlands to Sierra Leone: EU aid, a president’s daughter and Europe’s most‑wanted cocaine boss",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Finance Min. pushed to again adjust Box 3 tax plans only 48 hours after presenting them",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Matisse comes to Amsterdam in major new show",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Dutch man suspected of drugging and raping partner, sharing footage online",
+          "text": "PM Jetten rules out reparations as activist returns royal ribbon over colonial study",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "17 countries join forces to oppose EU budget cuts",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Listen: Are EU countries allowed to bring back border controls whenever they want?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nations League: Zidane returns to face Italy and the Stade de France",
+          "text": "Zidane says 'no regrets' over World Cup headbutt as France prepare to meet Italy",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Fondi europei 28-34: le regioni più ricche sfidano l’indecisione del governo e vanno in “autogestione”",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Se när berget sprängs för nya E22 – förbi Söderköping",
+          "text": "Beslutet: Så många vargar ska det få finnas i Sörmland",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Havererad avrättning i USA – dödsdömd kvinnas tillstånd kritiskt",
+          "text": "Det här gäller när du kör elsparkcykel",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pekas ut av Graham Potter: ”Imponerat”",
+          "text": "Efter 100 år av S-styre – Linda Mattsson kan bli historisk i Ånge",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
