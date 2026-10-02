@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "editionNumber": 44,
   "isDemo": false,
-  "leadSummary": "Europe’s gray-zone war with Russia is getting harder to ignore. Sarah Wheaton speaks to security expert and author Elisabeth Braw about how Europe should respond as sabotage, arson, cyberattacks...",
+  "leadSummary": "The Saudi-led coalition said a drone hit the Taibah electricity distribution station, which supplies power to the Prophet's Mosque, one of Islam's holiest sites. The Houthis denied the claim,...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "More than half of Europe faced intense summer heat stress, EU monitor says",
+          "text": "Uzbekistan wins home gold at record-breaking Chess Olympiad in Samarkand",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "G20 trade ministers deadlocked over industrial overcapacity, says US trade chief",
-          "industrySlug": "logistics-supply-chain",
-          "industryName": "Logistics & Supply Chain"
-        },
-        {
-          "text": "Air France-KLM and Lufthansa submit final bids for 44.9% of Portugese airline TAP",
+          "text": "France unveils cost-cutting budget amid protests",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Will AI write our books? Row over bestseller fuels fear over future of literature",
+          "industrySlug": "ai",
+          "industryName": "AI"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Europe war-games life after Merz",
+          "text": "World's tallest wind turbine rises to 365 metres in Germany",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Uzbekistan wins home gold at record-breaking Chess Olympiad in Samarkand",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pharmakonzern: „Mein Vertrauen ist zerstört“: Eli-Lilly-Chef rechnet mit deutscher Gesundheitspolitik ab",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
-        },
-        {
-          "text": "Pflegeversicherung: Bundesregierung muss Hunderte Millionen nachschieben – sonst drohen Pflegebedürftigen Zahlungsausfälle",
+          "text": "Europe war-games life after Merz",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Oranje come back from 2-0 down to salvage draw against Greece in UEFA Nations League",
+          "text": "Lots of rail and roadworks scheduled in Netherlands this weekend",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "\"Request from higher up” made Curacao refuse Venezuelan opposition leader’s flight",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Finance Min. pushed to again adjust Box 3 tax plans only 48 hours after presenting them",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "Air France-KLM and Lufthansa submit final bids for 44.9% of Portugese airline TAP",
+          "text": "Dutch man suspected of drugging and raping partner, sharing footage online",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Nagasaki, la testa della Madonna atomica torna negli Usa",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Brasile, la tv Globo cancella il dibattito presidenziale",
+          "text": "Listen: Are EU countries allowed to bring back border controls whenever they want?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, lancia uno zaino vicino la Corte Suprema, scatta allarme bomba",
+          "text": "Nations League: Zidane returns to face Italy and the Stade de France",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Fondi europei 28-34: le regioni più ricche sfidano l’indecisione del governo e vanno in “autogestione”",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Se när berget sprängs för nya E22 – förbi Söderköping",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Havererad avrättning i USA – dödsdömd kvinnas tillstånd kritiskt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pekas ut av Graham Potter: ”Imponerat”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
