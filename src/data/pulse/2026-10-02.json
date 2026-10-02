@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "editionNumber": 44,
   "isDemo": false,
-  "leadSummary": "A fleet of 5,000 drones forms fighter jets, robots, planes and horses over Nanchang as China marks National Day with a spectacular night show.",
+  "leadSummary": "Argentina on Friday announced plans to offer citizenship to wealthy foreigners in exchange for cash contributions or investments in government bonds, as libertarian President Javier Milei seeks new...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "French students clash with police as school protests spread nationwide",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "New York hosts secret dîner en blanc with Parisian belle époque theme",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Uzbekistan wins home gold at record-breaking Chess Olympiad in Samarkand",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "G7 agrees major release of oil stocks following pressure from the US",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -59,12 +59,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Matisse comes to Amsterdam in major new show",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch government prepares vape tax as EU-wide measure remains pending",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "PM Jetten rules out reparations as activist returns royal ribbon over colonial study",
+          "text": "Four arrested over alleged 8.5 million euro VAT fraud involving alcohol-free drinks",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Beslutet: Så många vargar ska det få finnas i Sörmland",
+          "text": "Ännu en smäll för Sverige – Carl Starfelt skadad",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Det här gäller när du kör elsparkcykel",
+          "text": "Misstänkt mördare misstänkt för terrorplan mot Nigel Farage",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Efter 100 år av S-styre – Linda Mattsson kan bli historisk i Ånge",
+          "text": "Indiska piloten får samtal från Modi: ”Ropar mantran för dig”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
