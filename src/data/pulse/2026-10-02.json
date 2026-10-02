@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "editionNumber": 44,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Europe’s gray-zone war with Russia is getting harder to ignore. Sarah Wheaton speaks to security expert and author Elisabeth Braw about how Europe should respond as sabotage, arson, cyberattacks...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "More than half of Europe faced intense summer heat stress, EU monitor says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "G20 trade ministers deadlocked over industrial overcapacity, says US trade chief",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
+        },
+        {
+          "text": "Air France-KLM and Lufthansa submit final bids for 44.9% of Portugese airline TAP",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Europe war-games life after Merz",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pharmakonzern: „Mein Vertrauen ist zerstört“: Eli-Lilly-Chef rechnet mit deutscher Gesundheitspolitik ab",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
+        },
+        {
+          "text": "Pflegeversicherung: Bundesregierung muss Hunderte Millionen nachschieben – sonst drohen Pflegebedürftigen Zahlungsausfälle",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Oranje come back from 2-0 down to salvage draw against Greece in UEFA Nations League",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "\"Request from higher up” made Curacao refuse Venezuelan opposition leader’s flight",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Air France-KLM and Lufthansa submit final bids for 44.9% of Portugese airline TAP",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Nagasaki, la testa della Madonna atomica torna negli Usa",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Brasile, la tv Globo cancella il dibattito presidenziale",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, lancia uno zaino vicino la Corte Suprema, scatta allarme bomba",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
