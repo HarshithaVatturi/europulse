@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "editionNumber": 45,
   "isDemo": false,
-  "leadSummary": "G7 leaders agreed on Friday to release 100 million barrels of diesel and crude after US pressure on Europe, with supplies squeezed by Iran's restrictions on shipping through the Strait of Hormuz.",
+  "leadSummary": "Brazilian President Luiz Inácio Lula da Silva and Flávio Bolsonaro have a final chance on Saturday to sway voters at rallies in crucial São Paulo before a tight election marked by scandals and...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Houthis blame Saudi air strikes as loud blasts rock Yemen's capital Sanaa",
+          "text": "Tennessee prison chief who oversaw botched Christa Pike execution resigns",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
+          "text": "Italy’s Ustica enigma: Can French files solve mystery crash blamed on stray missile?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
+          "text": "Loud blasts rock Sanaa as Houthis accuse Saudi forces of pounding Yemeni capital",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Bosnia and Herzegovina is still shaped by war, separatism, EU ambitions",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "Gen Z: „Die Demut kehrt zurück – aber nicht bei allen“",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Fachkräfte fehlen - doch es gibt auch Chancen in Ostdeutschland",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "Ukraine-Krieg: Ukraine-Friedensgespräche sollen an großen Öl-Deal geknüpft werden",
+          "text": "Wer an KI-Songs verdient - und wer leer ausgeht",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Amsterdam man, 43, found dead in Hoofddorp woods; Suspect, 28, arrested",
+          "text": "Queen Beatrix wanted Slavery Monument in Amsterdam to focus on liberation, not victims",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Five men released, remain suspects after unattended bags turn up at 4 train stations",
+          "text": "Customers ignore hackers' demand to pay around €15 or have Flink data leaked to dark web",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch fugitive Leijdekkers allegedly funnels billions in drug money into Sierra Leone",
+          "text": "Dutch man, 37, from Hoeksche Waard arrested for drugging, raping, filming partner",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,6 +76,11 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Italy’s Ustica enigma: Can French files solve mystery crash blamed on stray missile?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "No fairytale return for Zidane as Italy hold France at the Stade de France",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -84,12 +89,6 @@
           "text": "HDE-Konsumbarometer: Die deutsche Wirtschaft wächst, der Frust der Verbraucher auch",
           "industrySlug": "technology",
           "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "L’ex fabbrica di rame diventa luogo di cura per più di 100 patologie",
-          "industrySlug": "semiconductors",
-          "industryName": "Semiconductors",
           "companySlug": "abb"
         }
       ]
@@ -100,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Efter misslyckade avrättningen av Christa Pike – fängelsechef avgår",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ryska attacker mot broar – tre dagar i rad",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Djurens dag firades på Mariebergskogen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Det här talar emot att regeringsbildningen slutar i extraval",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Tullverket: Ny lag gör skillnad – beslag av stöldgods i Göteborg",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
