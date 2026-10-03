@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "editionNumber": 45,
   "isDemo": false,
-  "leadSummary": "Eine Drohne mit Sprengstoff an einer ukrainischen Frachtmaschine in Leipzig, Explosionen in Munitionsfabriken und Sabotage auf See. Russland intensiviert seine hybride Kriegsführung mitten in...",
+  "leadSummary": "Running a €1 billion-a-day deficit with China, Brussels has nearly tripled the rate of its own trade investigations and is warning of \"harsher measures\" unless Beijing offers something concrete.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "L’impact du régime fiscal sur le traitement des loyers impayés en location meublée",
+          "text": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Comment les agents IA feront les courses à votre place",
+          "text": "Barricades & the blame game: the French school protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "No fairytale return for Zidane as Italy hold France at the Stade de France",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -27,17 +32,18 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Handelspolitik: Widerstand gegen US-Forderungen bei G20-Treffen",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kaffeekette: Starbucks wegen neuer Filialen in Xinjiang unter Druck",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Volkswagen: Rückruf von Millionen Autos: VW kannte das Schrauben-Problem seit Herbst 2024",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volkswagen"
         },
         {
-          "text": "Korea: Nordkorea feuert ballistische Rakete ab",
+          "text": "Morning Briefing Plus: Es lebe der Übernahmepoker!",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -49,19 +55,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch government prepares vape tax as EU-wide measure remains pending",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
-        },
-        {
-          "text": "Four arrested over alleged 8.5 million euro VAT fraud involving alcohol-free drinks",
+          "text": "Person shot dead in Amsterdam-West; Police look for 1.80 meter tall man in his 30s",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Economic impact of climate change can no longer be denied: Dutch central bank pres.",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Ministry warns Dutch in France to avoid sometimes violent student protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Mild, mostly dry weekend ahead; Next week to be wetter, cooler",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -71,12 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Brasile, il Senato esamina martedì la fine della settimana lavorativa di sei giorni",
+          "text": "No fairytale return for Zidane as Italy hold France at the Stade de France",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump pronto all'escalation, una terza portaerei verso l'Iran",
+          "text": "Bilancio UE: 17 paesi contro nuovi tagli a Coesione e Agricoltura",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Puglia, debutta l’aero cargo Taranto Grottaglie per l’agroalimentare del Sud",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -88,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Bil har kört in i folkmassa i Sydney – 10 skadade",
+          "text": "Tullverket: Ny lag gör skillnad – beslag av stöldgods i Göteborg",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Här är smuggelkontona som försöker locka migranter in i EU",
+          "text": "SD: Nej till att be samer om ursäkt",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Tv-chefen: Världen behöver urfolkens kunskap och perspektiv",
+          "text": "Bil har kört in i folkmassa norr om Sydney – 10 skadade",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
