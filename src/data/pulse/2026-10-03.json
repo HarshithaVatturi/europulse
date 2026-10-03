@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "editionNumber": 45,
   "isDemo": false,
-  "leadSummary": "0h Agência Scope melhorou a avaliação de Portugal para \"A+\" com uma perspetiva \"estável\"",
+  "leadSummary": "Eine Drohne mit Sprengstoff an einer ukrainischen Frachtmaschine in Leipzig, Explosionen in Munitionsfabriken und Sabotage auf See. Russland intensiviert seine hybride Kriegsführung mitten in...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,14 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "L’impact du régime fiscal sur le traitement des loyers impayés en location meublée",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Comment les agents IA feront les courses à votre place",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +27,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Handelspolitik: Widerstand gegen US-Forderungen bei G20-Treffen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kaffeekette: Starbucks wegen neuer Filialen in Xinjiang unter Druck",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Korea: Nordkorea feuert ballistische Rakete ab",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +49,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Dutch government prepares vape tax as EU-wide measure remains pending",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "Four arrested over alleged 8.5 million euro VAT fraud involving alcohol-free drinks",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Economic impact of climate change can no longer be denied: Dutch central bank pres.",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         }
       ]
     },
@@ -46,9 +71,14 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Brasile, il Senato esamina martedì la fine della settimana lavorativa di sei giorni",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump pronto all'escalation, una terza portaerei verso l'Iran",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +88,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Bil har kört in i folkmassa i Sydney – 10 skadade",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Här är smuggelkontona som försöker locka migranter in i EU",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tv-chefen: Världen behöver urfolkens kunskap och perspektiv",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
