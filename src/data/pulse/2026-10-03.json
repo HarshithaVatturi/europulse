@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "editionNumber": 45,
   "isDemo": false,
-  "leadSummary": "Running a €1 billion-a-day deficit with China, Brussels has nearly tripled the rate of its own trade investigations and is warning of \"harsher measures\" unless Beijing offers something concrete.",
+  "leadSummary": "G7 leaders agreed on Friday to release 100 million barrels of diesel and crude after US pressure on Europe, with supplies squeezed by Iran's restrictions on shipping through the Strait of Hormuz.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Houthis blame Saudi air strikes as loud blasts rock Yemen's capital Sanaa",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Barricades & the blame game: the French school protests",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "No fairytale return for Zidane as Italy hold France at the Stade de France",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,13 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Volkswagen: Rückruf von Millionen Autos: VW kannte das Schrauben-Problem seit Herbst 2024",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "volkswagen"
+          "text": "Gen Z: „Die Demut kehrt zurück – aber nicht bei allen“",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Morning Briefing Plus: Es lebe der Übernahmepoker!",
+          "text": "Ukraine-Krieg: Ukraine-Friedensgespräche sollen an großen Öl-Deal geknüpft werden",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -55,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Person shot dead in Amsterdam-West; Police look for 1.80 meter tall man in his 30s",
+          "text": "Amsterdam man, 43, found dead in Hoofddorp woods; Suspect, 28, arrested",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ministry warns Dutch in France to avoid sometimes violent student protests",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Five men released, remain suspects after unattended bags turn up at 4 train stations",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Mild, mostly dry weekend ahead; Next week to be wetter, cooler",
+          "text": "Dutch fugitive Leijdekkers allegedly funnels billions in drug money into Sierra Leone",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -82,14 +81,16 @@
           "industryName": "Technology"
         },
         {
-          "text": "Bilancio UE: 17 paesi contro nuovi tagli a Coesione e Agricoltura",
+          "text": "HDE-Konsumbarometer: Die deutsche Wirtschaft wächst, der Frust der Verbraucher auch",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "abb"
         },
         {
-          "text": "Puglia, debutta l’aero cargo Taranto Grottaglie per l’agroalimentare del Sud",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "L’ex fabbrica di rame diventa luogo di cura per più di 100 patologie",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors",
+          "companySlug": "abb"
         }
       ]
     },
@@ -99,17 +100,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Djurens dag firades på Mariebergskogen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Det här talar emot att regeringsbildningen slutar i extraval",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Tullverket: Ny lag gör skillnad – beslag av stöldgods i Göteborg",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "SD: Nej till att be samer om ursäkt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Bil har kört in i folkmassa norr om Sydney – 10 skadade",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
