@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Le calendrier chargé d’Emmanuel Macron complique sa venue à la COP31",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "A Profile of Brazil's Potential President",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Brazil heads to the polls for high-stakes election between Lula and Flavio Bolsonaro",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Woman at centre of Cornell gang rape lawsuit targeted with threats, lawyer says",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "German Chancellor in Kyiv: \"Ukraine will need our support\"",
-          "industrySlug": "construction",
-          "industryName": "Construction"
         }
       ]
     },
@@ -37,14 +37,14 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "DW",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "German Chancellor in Kyiv: \"Ukraine will need our support\"",
           "industrySlug": "construction",
           "industryName": "Construction"
+        },
+        {
+          "text": "Russian strike hits Kyiv amid Chancellor Merz visit",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -77,7 +77,12 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Yemen's leader announces counter-offensive as Houthis cut off supply route to besieged city",
+          "text": "Evenepoel snatches photo-finish win to clinch European road cycling crown",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Yemen's government declares counter-offensive as Houthis cut vital route to besieged city",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -85,11 +90,6 @@
           "text": "Insiderbarometer: Diese drei Dax-Aktien sind bei ihren Chefs gefragt – und auch für Privatanleger interessant",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Sbarca a Olbia il Sardinia boat show",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
