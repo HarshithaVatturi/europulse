@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "editionNumber": 46,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Queen Beatrix wanted the National Slavery Monument in Amsterdam to commemorate only the end of slavery, not its victims.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Queen Beatrix wanted Slavery Monument in Amsterdam to focus on liberation, not victims",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Customers ignore hackers' demand to pay around €15 or have Flink data leaked to dark web",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch man, 37, from Hoeksche Waard arrested for drugging, raping, filming partner",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
