@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "editionNumber": 46,
   "isDemo": false,
-  "leadSummary": "Queen Beatrix wanted the National Slavery Monument in Amsterdam to commemorate only the end of slavery, not its victims.",
+  "leadSummary": "European destinations scored highly in a new global retirement ranking, with six countries among the top ten, as people looking to retire abroad weigh higher taxes against quality of life.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,14 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Présidentielle 2027 : dans l’audiovisuel, les rédactions en ébullition sur la question du pluralisme",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marché du timbre : Une lettre de Victor Hugo et des dessins signés Albert Decaris pour les amateurs d’histoire",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +27,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Germany’s Merz visits Kyiv amid fears of ‘hardest’ winter in war",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Deutsche Bahn will Familienticket dauerhaft anbieten",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ukraine-Krieg: Merz überraschend in die Ukraine gereist: Kanzler am Morgen in Kiew eingetroffen – Drohnen-Deal geplant",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,17 +49,17 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "The area in the Netherlands where drivers must pay for parking grew 50% in 4 years",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Utrecht student convicted of rape does not have to go back to prison, appeal court rules",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Queen Beatrix wanted Slavery Monument in Amsterdam to focus on liberation, not victims",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Customers ignore hackers' demand to pay around €15 or have Flink data leaked to dark web",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Dutch man, 37, from Hoeksche Waard arrested for drugging, raping, filming partner",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +71,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "La stagione più lunga: l’Arena di Verona raggiunge il record di incassi",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Merz, 'a Kiev perché l'Ucraina ha bisogno di tutto il nostro sostegno'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nuovi raid tra Houthi e sauditi. Riunione segreta a Camp David",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +93,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Skjutning i norska Halden – nära svenska gränsen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Bagaren Amalias bästa tips: Så gör du en riktigt god kanelbulle",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nära 300 skandinaver är med i den israeliska militären – SVT har träffat en av dem",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
