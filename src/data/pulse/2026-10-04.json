@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "editionNumber": 46,
   "isDemo": false,
-  "leadSummary": "European destinations scored highly in a new global retirement ranking, with six countries among the top ten, as people looking to retire abroad weigh higher taxes against quality of life.",
+  "leadSummary": "With more than 99.9 per cent of votes counted, Prime Minister Andris Kulbergs' United List party was in the lead with 35.4 percent, according to state TV.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Présidentielle 2027 : dans l’audiovisuel, les rédactions en ébullition sur la question du pluralisme",
+          "text": "Rwandan genocide suspect 'hunter' Dafroza Gauthier dies at 72",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Marché du timbre : Une lettre de Victor Hugo et des dessins signés Albert Decaris pour les amateurs d’histoire",
+          "text": "West Bank: Palestinians ‘harassed’ by settlers’ increasing use of drones",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lula and Bolsonaro face off in Brazil presidential race",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,12 +37,12 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Deutsche Bahn will Familienticket dauerhaft anbieten",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ukraine-Krieg: Merz überraschend in die Ukraine gereist: Kanzler am Morgen in Kiew eingetroffen – Drohnen-Deal geplant",
+          "text": "Influencer werden für ethische Jagd zum Problem",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -49,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "The area in the Netherlands where drivers must pay for parking grew 50% in 4 years",
+          "text": "Poll: 83% of Dutch oppose slavery reparations",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Utrecht student convicted of rape does not have to go back to prison, appeal court rules",
+          "text": "Ex-SGP MP buys Israeli wine day after settlement ban takes effect to make a \"statement\"",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Queen Beatrix wanted Slavery Monument in Amsterdam to focus on liberation, not victims",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Max Verstappen picks up first victory of the season in Malaysia",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         }
       ]
     },
@@ -71,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "La stagione più lunga: l’Arena di Verona raggiunge il record di incassi",
+          "text": "Insiderbarometer: Diese drei Dax-Aktien sind bei ihren Chefs gefragt – und auch für Privatanleger interessant",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Merz, 'a Kiev perché l'Ucraina ha bisogno di tutto il nostro sostegno'",
+          "text": "Gewonden bij brand op camping Gardameer, vakantiegangers helpen brandweer",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nuovi raid tra Houthi e sauditi. Riunione segreta a Camp David",
+          "text": "Flavio Bolsonaro vota a Rio e attacca il governo Lula",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -93,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Skjutning i norska Halden – nära svenska gränsen",
+          "text": "Lista: Tre röda flaggor på börsen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Bagaren Amalias bästa tips: Så gör du en riktigt god kanelbulle",
+          "text": "Tågstopp mellan Göteborg och Stockholm – träd hänger mot kontaktledning",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nära 300 skandinaver är med i den israeliska militären – SVT har träffat en av dem",
+          "text": "Över 5 000 gripna efter studentprotester i Frankrike",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
