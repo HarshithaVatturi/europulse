@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-04",
-  "dailySyncCount": 12,
+  "date": "2026-10-05",
+  "dailySyncCount": 2,
   "totalExpectedCycles": 48,
   "pipelineIntervalMinutes": 30,
-  "lastSyncIso": "2026-10-04T20:21:25.388Z",
-  "lastSyncParis": "04 Oct 2026, 22:21 CEST",
-  "todayNewsCount": 405,
-  "todayJobsCount": 375,
+  "lastSyncIso": "2026-10-04T23:29:27.821Z",
+  "lastSyncParis": "05 Oct 2026, 01:29 CEST",
+  "todayNewsCount": 1,
+  "todayJobsCount": 0,
   "status": "Operational"
 }
