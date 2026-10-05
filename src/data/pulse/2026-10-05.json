@@ -2,7 +2,7 @@
   "date": "2026-10-05",
   "editionNumber": 47,
   "isDemo": false,
-  "leadSummary": "Most of the companies building the robots of the future are still private, leaving ordinary investors with limited options such as Tesla, diversified industrial groups or new vehicles like...",
+  "leadSummary": "The FlyDubai co-pilot behind the hijacking attempt wanted to crash the jet into Ben Gurion Airport and previously flew the sensitive Israel route, according to multiple sources close to the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Push to ban EU left group over French riots",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "US meeting in Poland excluding France, UK, Baltics risks dividing NATO",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         },
         {
-          "text": "Up to 500 French schools to be closed Monday as protests continue",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Clashes in French cities as students continue to protest over education funding",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Bolsonaro in 'very strong position' as Brazil election heads to run-off",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Merz and Macron want the EU to hit back harder — and faster — against trade threats",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -37,14 +37,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Deutschland im Verteidigungsmodus",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Merz and Macron want the EU to hit back harder — and faster — against trade threats",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Commissioner Roswall's keynote speech at the event \"Water - A Key Resource for Competitiveness, Quality of Live, and Resilience\"",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Germany risks being drawn into ‘violent conflict’ with Russia, spy chief warns",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "U.S. prediction site Polymarket to fight Dutch ban in court",
+          "text": "Defense urges court to spare shooter life sentence in Weiteveen double-murder",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Parents too drunk to take care of their infant arrested on train at Dordrecht station",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Netherlands has 1,100 fewer bus stops than six years ago",
+          "text": "Amsterdam to test 20 km/h speed limit on 300-meter bike path in Zuid to reduce accidents",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Study: Aging bridges, locks could cost Netherlands 20 billion euros by 2035",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Trump heads to Nebraska as Republicans fear strongholds could flip",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kalme schatbewaarder in stabiele Italiaanse regering",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Een meevaller voor China in Brussel, maar tegenvallers in de maak",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Ex Ilva, la Corte d’Appello di Milano conferma il blocco degli altiforni",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Dalle criptovalute alle cliniche, ecco le liquidazioni dei principali Tribunali",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "De får årets Nobelpris i medicin",
+          "text": "Rumänske ikonen Hagi under press – mot Sverige: ”Har inte tålamod”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Högg av hand med machete – två män får längre fängelsestraff",
+          "text": "Alexander Ovetjkin gör sin sista säsong i NHL",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Släktgårdens produktiva jordbruksmark ska offras för gigantiskt AI-center i Töva",
+          "text": "Bussolycka på väg 25 mellan Växjö och Alvesta",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
