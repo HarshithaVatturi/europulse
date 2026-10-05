@@ -2,7 +2,7 @@
   "date": "2026-10-05",
   "editionNumber": 47,
   "isDemo": false,
-  "leadSummary": "O ainda senador e ex-juiz no processo Lava Jato Sergio Moro foi eleito hoje governador do estado do Paraná, no Sul do Brasil, para um mandato de quatro anos.",
+  "leadSummary": "🔴 Brazil presidential election heads to runoff with Bolsonaro ahead of Lula",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "🔴 Brazil presidential election heads to runoff with Bolsonaro ahead of Lula",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +22,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "EU: Deutschland und Frankreich wollen „Kill-Switch“ für China-Handel",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wahlen: Stichwahl in Brasilien – Lula gegen Bolsonaro-Sohn Flávio",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Uber-Chef: „Wir werden mit Robotaxis in Deutschland viele Jobs schaffen“",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -34,9 +44,20 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Oranje beat Serbia 2-1 to move top of Nations League group",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Victim files sex-harassment complain against suspect in ABN Amro worker's killing",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Police seize 573 kilograms of fireworks in Rotterdam-area home after anonymous tip",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +67,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "How India became dangerously addicted to Chinese imports",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +79,9 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Andra valomgång väntar i Brasilien",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
