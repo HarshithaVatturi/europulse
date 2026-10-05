@@ -2,7 +2,7 @@
   "date": "2026-10-05",
   "editionNumber": 47,
   "isDemo": false,
-  "leadSummary": "🔴 Brazil presidential election heads to runoff with Bolsonaro ahead of Lula",
+  "leadSummary": "Most of the companies building the robots of the future are still private, leaving ordinary investors with limited options such as Tesla, diversified industrial groups or new vehicles like...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "🔴 Brazil presidential election heads to runoff with Bolsonaro ahead of Lula",
+          "text": "Push to ban EU left group over French riots",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Up to 500 French schools to be closed Monday as protests continue",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Bolsonaro in 'very strong position' as Brazil election heads to run-off",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "EU: Deutschland und Frankreich wollen „Kill-Switch“ für China-Handel",
+          "text": "Europe Today: Russia hits Kyiv as Merz visits; Bolsonaro wins Brazil's first round election",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Wahlen: Stichwahl in Brasilien – Lula gegen Bolsonaro-Sohn Flávio",
+          "text": "Deutschland im Verteidigungsmodus",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Uber-Chef: „Wir werden mit Robotaxis in Deutschland viele Jobs schaffen“",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Commissioner Roswall's keynote speech at the event \"Water - A Key Resource for Competitiveness, Quality of Live, and Resilience\"",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -44,20 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Oranje beat Serbia 2-1 to move top of Nations League group",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Victim files sex-harassment complain against suspect in ABN Amro worker's killing",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "Police seize 573 kilograms of fireworks in Rotterdam-area home after anonymous tip",
+          "text": "U.S. prediction site Polymarket to fight Dutch ban in court",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Netherlands has 1,100 fewer bus stops than six years ago",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Study: Aging bridges, locks could cost Netherlands 20 billion euros by 2035",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -67,7 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "How India became dangerously addicted to Chinese imports",
+          "text": "Een meevaller voor China in Brussel, maar tegenvallers in de maak",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ex Ilva, la Corte d’Appello di Milano conferma il blocco degli altiforni",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dalle criptovalute alle cliniche, ecco le liquidazioni dei principali Tribunali",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -79,7 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Andra valomgång väntar i Brasilien",
+          "text": "De får årets Nobelpris i medicin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Högg av hand med machete – två män får längre fängelsestraff",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Släktgårdens produktiva jordbruksmark ska offras för gigantiskt AI-center i Töva",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
