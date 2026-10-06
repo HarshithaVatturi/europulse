@@ -62,13 +62,12 @@ export const siteConfig: SiteConfig = {
     { label: 'My Lab', href: '/my-lab/' },
     { label: 'Search', href: '/search/' },
   ],
-  // Owner fields ship empty as required by the brief.
-  // The About page's owner section and any social links stay hidden until they are filled in.
+  // Owner details
   owner: {
-    name: '',
-    role: '',
-    bio: '',
-    location: '',
+    name: 'Ghowarthan Karunanidhi',
+    role: 'Lead Architect & Creator',
+    bio: 'Software engineer and platform architect passionate about European industrial competitiveness, macroeconomics, and career navigation.',
+    location: 'Europe',
     socials: {
       github: '',
       linkedin: '',

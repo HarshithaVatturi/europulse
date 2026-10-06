@@ -30,7 +30,7 @@ const owner = siteConfig.owner;
         {/* Owner profile link if populated */}
         {hasOwner && (
           <div class="pt-2 text-xs font-mono text-muted">
-            Curated by <span class="text-ink font-semibold">{owner.name}</span>
+            Curated &amp; Developed by <span class="text-ink font-semibold">{owner.name}</span>
             {owner.role && <span> · {owner.role}</span>}
           </div>
         )}
@@ -130,7 +130,7 @@ const owner = siteConfig.owner;
     <!-- Bottom hairline separator & copyright -->
     <div class="pt-8 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-muted">
       <div>
-        © 2026 {siteConfig.name}. Designed for international students &amp; professionals targeting Europe.
+        © 2026 {siteConfig.name} · Copyright © 2026 <span class="text-ink font-semibold">Ghowarthan Karunanidhi</span>. All rights reserved.
       </div>
       <div class="flex items-center gap-4">
         <a href={url('/about/#ethics')} class="hover:text-ink">Terms &amp; Ethics</a>

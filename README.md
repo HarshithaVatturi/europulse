@@ -1,73 +1,241 @@
-# EuroPulse
+# 🇪🇺 EuroPulse
 
-> Europe's business news, connected to your career.
+<div align="center">
 
-EuroPulse is an editorial intelligence and career navigation platform focused on the European industrial and macroeconomic landscape. It connects every major business development directly to skills, career paths, and live job opportunities:
+[![Astro](https://img.shields.io/badge/Astro-v7.3.5-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
+[![React](https://img.shields.io/badge/React-v19.3.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.3.3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated_Pipeline-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-$$\text{News} \longrightarrow \text{Company} \longrightarrow \text{Industry} \longrightarrow \text{Country} \longrightarrow \text{Skills} \longrightarrow \text{Roles} \longrightarrow \text{Jobs}$$
+### **Europe's business news, connected directly to your career.**
 
-Designed for Master’s, MIM, MBA, and engineering students, international job seekers, and young professionals targeting Europe, EuroPulse operates as a 100% static platform hosted free on GitHub Pages with zero operational overhead, zero tracking cookies, and broadsheet typography paired with financial terminal data density.
+An autonomous editorial intelligence and career navigation platform linking European industrial developments, macroeconomic shifts, company moves, and live job opportunities.
 
----
+[Explore Live Demo](https://harshithavatturi.github.io/europulse/) · [Report Bug](https://github.com/HarshithaVatturi/europulse/issues) · [Request Feature](https://github.com/HarshithaVatturi/europulse/issues)
 
-## 🌟 Key Features
-
-1. **Europe Business Pulse (`/pulse/`)**: A daily dated briefing (masthead, edition number, country briefs for FR, DE, NL, IT, and SE) with side-rails tracking companies to watch, industry momentum, today's hiring, and startup funding.
-2. **Career Impact Trail**: On every news dispatch, a dedicated panel maps the direct career implication, providing interactive hops across Company → Industry → Country → Skills → Roles → Computed Related Jobs.
-3. **Career Hub Path Explorer (`/careers/`)**: Select any European graduate degree (e.g., MIM, MBA, MSc Robotics, MSc Data Science) to trace recommended skills, target roles, top hiring sectors, employer monograms, and matched opportunities, plus stage-by-stage career roadmaps.
-4. **Command Palette & Smart Search (⌘K / Ctrl+K)**: Instant offline search powered by MiniSearch with build-time indexing and alias detection (e.g., *"chips"* → Semiconductors, *"Robotics jobs in France"* → direct filtered jump).
-5. **Multi-Facet Jobs Explorer (`/jobs/`)**: URL-synced filtering across country, city, industry, function, degree, experience level, employment type (graduate programmes, working student, thesis), work mode, and language, with responsive mobile drawer support.
-6. **Europe Tile Map**: An interactive 5×5 geographical grid visualizing activity across 14 European economies without relying on heavy canvas or vector mapping libraries.
-7. **My Lab (`/my-lab/`)**: Personal engineering and research log with category filters, a skill competencies matrix, project timeline, and draft-mode protection.
-8. **Editorial Visual Identity**: Newsreader serif headlines, IBM Plex Sans body, and tabular IBM Plex Mono numerals; class-based dark mode with zero-flash inline script.
+</div>
 
 ---
 
-## 📋 Prerequisites
+## 📖 Table of Contents
 
-- **Node.js**: `v20.0.0` or later (tested on Node v24 LTS)
-- **Package Manager**: `npm` (v10+ recommended)
+- [Vision & Value Proposition](#-vision--value-proposition)
+- [Key Features](#-key-features)
+- [System Architecture](#-system-architecture)
+- [Autonomous Data Pipeline](#-autonomous-data-pipeline)
+- [Complete Technology Stack](#-complete-technology-stack)
+- [Project Directory Structure](#-project-directory-structure)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Local Installation](#local-installation)
+  - [Build & Preview](#build--preview)
+  - [Validating Links](#validating-links)
+- [Deployment & GitHub Actions](#-deployment--github-actions)
+- [Configuration & Customization](#-configuration--customization)
+- [Data Privacy, Copyright & Ethics](#-data-privacy-copyright--ethics)
+- [License & Acknowledgements](#-license--acknowledgements)
+
+---
+
+## 💡 Vision & Value Proposition
+
+EuroPulse is designed for Master's, MIM, MBA, and engineering students, cross-border job seekers, and young professionals targeting careers across Europe. 
+
+Traditional job boards present listings in a vacuum. EuroPulse bridges the gap between macroeconomic events and actionable career steps through the **Career Impact Trail**:
+
+```
+Macro / News Event ──► Company ──► Industry ──► Country ──► Required Skills ──► Target Roles ──► Live Jobs
+```
+
+### Core Tenets:
+- **100% Static Web Distribution (SSG):** Over 2,500+ static HTML pages pre-rendered via Astro with sub-millisecond edge response times and zero database hosting costs.
+- **Privacy by Design:** Zero tracking scripts, zero third-party cookies, and 100% self-hosted typography via Fontsource (GDPR compliant).
+- **Autonomous Intelligence:** Scheduled GitHub Actions runners ingest, deduplicate, classify, and validate feeds every 30 minutes.
+- **Editorial Broad-sheet Aesthetic:** Financial terminal data density balanced with classic European editorial typography.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description | Route |
+| :--- | :--- | :--- |
+| **Europe Business Pulse** | Dated daily briefing editions with country briefs (FR, DE, NL, IT, SE), startup rounds, and market trends. | `/pulse/` |
+| **Career Impact Trail** | Interactive contextual hop panel embedded in every dispatch mapping events to skills and jobs. | `/news/[slug]/` |
+| **Multi-Facet Jobs Explorer** | Real-time URL-synced search across country, industry, experience, degree, and visa sponsorship. | `/jobs/` |
+| **Degree Path Explorer** | Interactive career roadmaps for European degrees (MIM, MBA, MSc Robotics, MSc Data Science, etc.). | `/careers/` |
+| **Command Palette (⌘K / Ctrl+K)** | Instant offline search with alias detection (e.g., *"chips"* → Semiconductors, *"Robotics jobs in France"*). | Global Modal |
+| **Europe Tile Map** | Pure CSS 5×5 geographical grid mapping industrial intensity across 14 European economies. | Homepage & Countries |
+| **Live Macro Indicators** | Real GDP growth and harmonized youth unemployment figures fetched directly from the Eurostat API. | `/countries/[slug]/` |
+| **Top 250 Company Dossiers** | Curated intelligence on top European employers, hiring sectors, technologies, and internship routes. | `/companies/` |
+| **My Lab Research Log** | Developer & research log tracking ongoing engineering experiments, architecture notes, and tools. | `/my-lab/` |
+
+---
+
+## 🏛️ System Architecture
+
+EuroPulse utilizes an **Islands Architecture**. Static content is pre-rendered to pure HTML at build time, while rich interactive elements are hydrated on-demand using lightweight React components.
+
+```mermaid
+graph TD
+    subgraph Data Sources
+        RS[70+ RSS/Atom News Feeds]
+        JA[Arbeitnow & Remote Job APIs]
+        AT[Public ATS Endpoints: Lever / Greenhouse]
+        ES[Eurostat REST API]
+    end
+
+    subgraph Autonomous Ingestion Pipeline [scripts/feed/]
+        HTTP[Resilient HTTP Client: ETag / Retry / Backoff]
+        PARSE[XML & JSON Feed Parsers]
+        DEDUPE[MinHash & Canonical Deduplication]
+        CLASS[Taxonomy Keyword Classifier]
+        ZOD[Strict Zod Schema Validation]
+    end
+
+    subgraph Repository Database [src/data/]
+        JSON[(Type-Safe JSON Collections)]
+        MD[(Markdown Lab Notes)]
+        GRAPH[Build-Time Graph Traversal: src/lib/graph.ts]
+    end
+
+    subgraph Static Build Engine [Astro + Vite]
+        ASTRO[Astro SSG Compiler]
+        REACT[React 19 Interactive Islands]
+        TAILWIND[Tailwind CSS v4 Tokens]
+        MINI[MiniSearch Offline Indexer]
+    end
+
+    subgraph Distribution
+        PAGES[GitHub Pages CDN Edge - 2,500+ HTML Pages]
+    end
+
+    RS & JA & AT & ES --> HTTP
+    HTTP --> PARSE --> DEDUPE --> CLASS --> ZOD
+    ZOD --> JSON
+    JSON & MD --> GRAPH
+    GRAPH --> ASTRO
+    ASTRO & REACT & TAILWIND & MINI --> PAGES
+```
+
+---
+
+## ⚙️ Autonomous Data Pipeline
+
+The live data pipeline runs automatically via GitHub Actions ([`.github/workflows/daily-pipeline.yml`](.github/workflows/daily-pipeline.yml)):
+
+1. **Extraction:** Concurrently polls 90+ verified European newsrooms, public job boards, and Eurostat datasets.
+2. **Hygiene & Resilience:** Uses conditional `ETag` / `If-Modified-Since` caching, 10s request timeouts, and exponential backoff under `EuroPulseBot/1.0`.
+3. **Deduplication:** Normalizes URLs and titles, discarding re-syndicated articles and redundant job requisitions.
+4. **Classification:** Deterministically matches news and jobs to EuroPulse's validated taxonomy (`countries`, `industries`, `companies`, `skills`, `roles`).
+5. **Quality Gate:** Passes data through strict Zod schemas. If valid, changes are committed and pushed directly to `main`, triggering a zero-downtime GitHub Pages build.
+
+---
+
+## 🛠️ Complete Technology Stack
+
+### Frontend & Core Engine
+- **[Astro v7.3](https://astro.build/)**: Core framework and static site generator (SSG) outputting deterministic HTML.
+- **[React v19.3](https://react.dev/)**: Client-side interactive islands hydrated with `client:idle` and `client:visible`.
+- **[TypeScript (Strict)](https://www.typescriptlang.org/)**: Full type safety across components, graph structures, and domain entities.
+- **[Tailwind CSS v4.3](https://tailwindcss.com/)**: Modern CSS-first utility framework with custom design tokens (`@theme`).
+- **[Lucide React](https://lucide.dev/)**: Clean, consistent interface icons.
+- **[Fontsource](https://fontsource.org/)**: Self-hosted web fonts (`Newsreader`, `IBM Plex Sans`, `IBM Plex Mono`).
+
+### Data Layer & Search
+- **[Astro Content Collections](https://docs.astro.build/en/guides/content-collections/)**: Type-safe data-as-code repository.
+- **[Zod](https://zod.dev/)**: Runtime schema validation for data ingestion and compile-time integrity checks.
+- **[MiniSearch](https://lucaong.github.io/minisearch/)**: Fast, client-side, offline-capable search engine with build-time index pre-generation.
+
+### Data Ingestion & Automation
+- **Node.js (>=22.12.0)**: Ingestion runner with native support for `--experimental-strip-types`.
+- **Eurostat API Integration**: Automated extraction of European GDP growth and unemployment metrics.
+- **GitHub Actions**: Fully autonomous scheduled workflows for feed fetching, linting, building, and publishing.
+
+---
+
+## 📁 Project Directory Structure
+
+```text
+europulse/
+├── .github/workflows/      # Automated CI/CD & scheduled ingestion pipelines
+├── docs/                   # Architecture blueprints and technical specifications
+├── public/                 # Static assets, manifests, and favicon
+├── scripts/                # Data ingestion, Eurostat fetchers, and verification
+│   ├── check-links.mjs     # Post-build broken link verification crawler
+│   ├── fetch-eurostat.mjs  # Eurostat REST API consumer
+│   └── feed/               # Master autonomous ingestion engine
+│       ├── lib/            # HTTP client, deduplicator, classifier, RSS parser
+│       └── sources/        # News and job board endpoint adapters
+├── src/
+│   ├── components/
+│   │   ├── islands/        # Hydrated React 19 interactive components
+│   │   └── ui/             # Pre-rendered zero-JS Astro components
+│   ├── config/             # Site configuration, sources registry, and navigation
+│   ├── data/               # Authoritative JSON & Markdown content collections
+│   ├── layouts/            # Base HTML and article layout templates
+│   ├── lib/                # In-memory graph engine, URL helpers, and MiniSearch
+│   ├── pages/              # Static file-based routes (2,500+ generated pages)
+│   ├── services/           # Decoupled data access layer
+│   ├── styles/             # Tailwind CSS v4 design tokens and global styles
+│   └── types/              # Domain models and TypeScript contracts
+├── astro.config.mjs        # Astro configuration & Vite plugins
+├── package.json            # Dependencies and npm scripts
+└── tsconfig.json           # Strict TypeScript configuration
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js**: `v22.12.0` or higher (LTS recommended)
+- **Package Manager**: `npm` (v10+)
 - **Operating System**: Windows, macOS, or Linux
 
----
+### Local Installation
 
-## 🚀 Running Locally
-
-1. **Clone and Install Dependencies**:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/europulse.git
+   git clone https://github.com/HarshithaVatturi/europulse.git
    cd europulse
+   ```
+
+2. **Install dependencies:**
+   ```bash
    npm install
    ```
 
-2. **Start the Development Server**:
+3. **Start the local development server:**
    ```bash
    npm run dev
    ```
-   Open your browser at `http://localhost:4321/`.
+   Open `http://localhost:4321/` in your browser.
 
-3. **Verify Types and Templates**:
+4. **Verify types and template syntax:**
    ```bash
    npm run check
    ```
 
 ---
 
-## 🏗️ Building and Previewing
+### Build & Preview
 
-To generate the static production build:
+To compile the static production build:
 
 ```bash
-# Build static site to ./dist (149 pages)
+# Build static site to ./dist
 npm run build
 
 # Preview the production output locally
 npm run preview
 ```
 
-### Validating Internal Links
+### Validating Links
 
-EuroPulse includes an automated link validation script that scans all static HTML files in `./dist`:
+EuroPulse includes an automated link validator that scans all generated HTML files in `./dist`:
 
 ```bash
 node scripts/check-links.mjs
@@ -75,139 +243,90 @@ node scripts/check-links.mjs
 
 ### Testing Sub-Path Deployments
 
-To simulate hosting under a repository sub-path (such as `https://username.github.io/europulse/`):
+To simulate deployment under a GitHub Pages sub-path (e.g., `https://username.github.io/europulse/`):
 
 ```bash
-# In PowerShell:
+# Windows (PowerShell):
 $env:BASE_PATH="/europulse"; npm run build; node scripts/check-links.mjs
 
-# In Bash / macOS:
+# macOS / Linux (Bash):
 BASE_PATH="/europulse" npm run build && node scripts/check-links.mjs
 ```
 
 ---
 
-## 🚢 Deploying to GitHub Pages
+## 🚢 Deployment & GitHub Actions
 
-EuroPulse includes a turnkey GitHub Actions deployment workflow at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+EuroPulse includes turnkey GitHub Actions workflows:
 
-### Step-by-Step Setup:
+1. **Publish to GitHub Pages:**
+   - Go to your repository **Settings** → **Pages**.
+   - Under **Build and deployment** → **Source**, select **GitHub Actions**.
+   - Push to `main` to trigger the build and deployment workflow ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)).
 
-1. Push the repository to GitHub:
-   ```bash
-   git remote add origin https://github.com/your-username/europulse.git
-   git branch -M main
-   git push -u origin main
-   ```
-2. Navigate to your GitHub repository in the browser.
-3. Go to **Settings** → **Pages**.
-4. Under **Build and deployment** → **Source**, select **GitHub Actions**.
-5. The workflow automatically reads the repository name to configure `SITE` and `BASE_PATH`. Every push to `main` will build and publish the site.
+2. **Optional API Keys for Expanded Ingestion:**
+   EuroPulse ingests hundreds of jobs without any API keys. To unlock additional high-volume feeds, add these optional secrets in repository settings (`Settings > Secrets and variables > Actions`):
+
+   | Secret Name | Provider | Purpose |
+   | :--- | :--- | :--- |
+   | `ADZUNA_APP_ID` & `ADZUNA_APP_KEY` | [Adzuna](https://developer.adzuna.com/) | Live jobs across DE, FR, NL, IT, ES, AT, PL |
+   | `FRANCE_TRAVAIL_CLIENT_ID` & `_SECRET` | [France Travail](https://francetravail.io/) | French public and private requisitions |
+   | `REED_API_KEY` | [Reed.co.uk](https://www.reed.co.uk/developers/jobseeker) | UK and cross-border European vacancies |
+   | `JOOBLE_API_KEY` | [Jooble](https://jooble.org/api/about) | International aggregation across Europe |
+
+> [!NOTE]
+> When optional secrets are absent, the build completes with zero errors, and EuroPulse continues ingesting live data from all open feeds.
 
 ---
 
-## ⚙️ Customization & Renaming
+## ⚙️ Configuration & Customization
 
-EuroPulse is built to be completely rename-ready. All brand names, taglines, URLs, navigation menus, and owner details live in a single configuration file: [`src/config/site.ts`](src/config/site.ts).
+EuroPulse is designed to be easily white-labeled or personalized. All brand identities, navigation links, and owner bios live in [`src/config/site.ts`](src/config/site.ts):
 
 ```typescript
 export const siteConfig = {
   name: 'EuroPulse',
   tagline: "Europe's business news, connected to your career.",
-  description: 'Europe-focused business and career intelligence platform...',
-  url: 'https://europulse.github.io',
-  basePath: '/',
-  // ...
+  url: 'https://harshithavatturi.github.io',
+  basePath: '/europulse',
+  owner: {
+    name: 'Harshitha Vatturi',
+    title: 'Lead Architect & Editor',
+    location: 'Europe',
+    links: {
+      github: 'https://github.com/HarshithaVatturi',
+      linkedin: 'https://linkedin.com/in/...',
+    },
+  },
 };
 ```
 
-### Filling in Owner Details
+---
 
-By default, owner fields ship empty. The owner section on the `/about/` page and social links in the footer remain completely hidden until you populate them:
+## ⚖️ Data Privacy, Copyright & Ethics
 
-```typescript
-// in src/config/site.ts:
-owner: {
-  name: 'Your Name',
-  title: 'Lead Architect & Editor',
-  bio: 'Product engineer passionate about European industrial competitiveness...',
-  location: 'Paris / Berlin',
-  links: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://linkedin.com/in/your-profile',
-    twitter: 'https://x.com/your-handle',
-    email: 'contact@example.com',
-  },
-}
-```
+EuroPulse adheres to European data protection standards and fair-use intellectual property guidelines:
+
+- **No Article Scraping or Mirroring:** We store only headlines and brief excerpts ($\le 200$ characters) with explicit source attribution and direct canonical links to publishers.
+- **Strict Compliance for Job Boards:** Closed platforms (LinkedIn, Indeed, StepStone) are **never scraped**. Instead, the interactive `<LinkOutPanel />` dynamically constructs live search queries to route users directly to source platforms.
+- **Zero Third-Party Tracking:** No Google Analytics, no tracking pixels, and no third-party cookies.
+- **Open Data Integrity:** Macroeconomic datasets are sourced directly from official European Commission (Eurostat) public APIs.
 
 ---
 
-## 🧪 Working with Data & Content Collections
+## 📄 License & Acknowledgements
 
-All data files live in [`src/data/`](src/data/) and are validated against Zod schemas in [`src/content.config.ts`](src/content.config.ts).
-
-### Replacing Demo Data with Real Data
-
-Illustrative records carry `isDemo: true`:
-- Displays amber badges (*"Demo article"*, *"Demo listing"*, *"Example profile"*).
-- Injects `<meta name="robots" content="noindex" />`.
-- Excludes the record from the public `sitemap.xml`.
-- Suppresses `NewsArticle` / `JobPosting` schema markup to maintain pristine search console health.
-
-To publish real data:
-1. Update or append records in `src/data/news.json` or `src/data/jobs.json`.
-2. Set `isDemo: false`.
-3. Provide valid real-world URLs (`applyUrl`, `source.url`). The site will automatically display standard "Apply" buttons and indexable metadata with zero code modifications.
-
-### Adding a "My Lab" Entry
-
-The owner's personal research lab lives in `src/data/lab/`. To add an entry:
-1. Create a new Markdown file, e.g. `src/data/lab/my-new-project.md`:
-   ```markdown
-   ---
-   title: "Cross-Border Tax Simulator"
-   type: "Project" # 'Project' | 'Experiment' | 'Architecture' | 'Research'
-   status: "In Progress" # 'In Progress' | 'Shipped' | 'Exploring'
-   date: "2026-10-15"
-   tags: ["TypeScript", "WebAssembly", "Finance"]
-   draft: false
-   links:
-     - label: "GitHub"
-       url: "https://github.com/username/project"
-   summary: "A client-side tax and social security estimator for European remote workers."
-   ---
-
-   Detailed documentation, architecture notes, and learnings go here...
-   ```
-2. Setting `draft: true` keeps the entry visible only during development.
+- **Source Code:** Copyright © 2026 **Ghowarthan Karunanidhi**. Released under the [MIT License](LICENSE).
+- **Data & Fonts:**
+  - News headlines and excerpts are property of their respective publishers.
+  - Fonts licensed under the SIL Open Font License (`Newsreader`, `IBM Plex Sans`, `IBM Plex Mono`).
 
 ---
 
-## 🏛️ Project Architecture
+<div align="center">
 
-```
-src/
-├── components/
-│   ├── islands/        # Interactive React components (hydrated with client:idle / client:visible)
-│   └── ui/             # Pre-rendered Astro components (zero client JS overhead)
-├── config/             # Central site settings and navigation
-├── data/               # Type-safe JSON and Markdown content collections
-├── lib/
-│   ├── graph.ts        # Graph traversal and reverse link derivation
-│   ├── search.ts       # MiniSearch configuration and alias query parser
-│   └── url.ts          # Central URL helper and en-GB date formatting
-├── services/           # Data access layer (abstracted swap points for future APIs)
-├── styles/             # Tailwind CSS v4 design tokens and theme variables
-├── types/              # Domain models and TypeScript contracts
-└── pages/              # Static file-based routing (149 generated HTML pages)
-```
+Crafted with ❤️ by **Ghowarthan Karunanidhi** for European students, researchers, and international job seekers.
 
-See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the planned automated daily ingestion pipeline, Eurostat REST API integration, and ethical data guidelines.
+**[Back to Top ↑](#-europulse)**
 
----
-
-## ⚖️ License & Ethics
-
-- Source code licensed under the MIT License.
-- Adheres strictly to European data privacy standards: no tracking scripts, no third-party cookies, and self-hosted fonts via Fontsource.
+</div>
