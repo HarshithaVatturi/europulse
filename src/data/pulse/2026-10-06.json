@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "editionNumber": 48,
   "isDemo": false,
-  "leadSummary": "People who care for a loved one need more support from the government, states the Netherlands Institute for Social Research (SCP).",
+  "leadSummary": "Barcelona’s housing protest turned violent with fires and arrests, highlighting Spain’s affordability crisis ahead of a general strike and snap election in November.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Google, JPMorgan and two governments fixed the same MCP flaw",
+          "text": "France’s debt troubles stir memories of the euro crisis",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France’s Mélenchon doubles down on student protests despite violent clashes",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nations League: France defeat Belgium in second-half comeback",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Warum ein Studium keine Jobgarantie mehr ist",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump erlaubt angesichts hoher Spritpreise Nutzung von steuerfreiem Diesel",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Frankfurter Buchmesse von Existenzangst und KI-Sorgen überschattet",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Informal caregivers need more support from the government: SCP",
+          "text": "Video: Ship saved from sinking in Eemshaven; Two crew members hurt",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch payments company Mollie launches bank transfer service to rival iDEAL and Wero",
+          "text": "Large majority of Dutch young people feel unsafe, including 83% of girls and young women",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Defense urges court to spare shooter's life sentence in Weiteveen double-murder",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Nudes and data of 190 of Dutch woman for sale as \"sextortion packages\" on dark web",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Fuel in Italy, tax cuts expire: diesel prices rise as hauliers threaten strikes",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Russia, 'sale a 2 morti il bilancio del maxi attacco droni ucraini su regione Mosca'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Messico e Usa negoziano l'accordo commerciale 'senza tensioni politiche'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "En gripen efter Norrahammarsskotten",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Graham Potter förklarar framgången i Nations League: ”Jobbat på det”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Hemtjänstpersonal upptäckte pistol hos brukare",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
