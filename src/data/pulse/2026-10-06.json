@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "editionNumber": 48,
   "isDemo": false,
-  "leadSummary": "Barcelona’s housing protest turned violent with fires and arrests, highlighting Spain’s affordability crisis ahead of a general strike and snap election in November.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 6th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France’s debt troubles stir memories of the euro crisis",
+          "text": "France’s Le Pen unveils economic platform stuffed with cuts — but few new ideas",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France’s Mélenchon doubles down on student protests despite violent clashes",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "French students: What do they want?",
+          "industrySlug": "construction",
+          "industryName": "Construction"
         },
         {
-          "text": "Nations League: France defeat Belgium in second-half comeback",
+          "text": "Ethiopia 'fears Tigray conflict could get out of control'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Warum ein Studium keine Jobgarantie mehr ist",
+          "text": "Ex-German intelligence chief arrested over suspected espionage",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Former German spy chief arrested for treason and espionage",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump erlaubt angesichts hoher Spritpreise Nutzung von steuerfreiem Diesel",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Frankfurter Buchmesse von Existenzangst und KI-Sorgen überschattet",
+          "text": "Von der Leyen warns against EU budget cuts",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Video: Ship saved from sinking in Eemshaven; Two crew members hurt",
+          "text": "Over 300,000 Dutch households and businesses pay for more power capacity than needed",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "ANWB, Consumers' Association warn of serious defects in two baby car seats",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Large majority of Dutch young people feel unsafe, including 83% of girls and young women",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Nudes and data of 190 of Dutch woman for sale as \"sextortion packages\" on dark web",
+          "text": "Another area in Schiedam cordoned off after sixth dog dies following walk",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "UniCredit gets Putin’s approval to sell part of its Russian business",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Fuel in Italy, tax cuts expire: diesel prices rise as hauliers threaten strikes",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Russia, 'sale a 2 morti il bilancio del maxi attacco droni ucraini su regione Mosca'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Messico e Usa negoziano l'accordo commerciale 'senza tensioni politiche'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Priceless book designed by Dali stolen in France",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "En gripen efter Norrahammarsskotten",
+          "text": "Novak Djokovic tog årets första titel – efter motståndarens skada",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Graham Potter förklarar framgången i Nations League: ”Jobbat på det”",
+          "text": "Präst i Norrbotten dömdes för barnporr – avkragas",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Hemtjänstpersonal upptäckte pistol hos brukare",
+          "text": "Truls Möregårdh slog ut kines i Peking – nu väntar bäste kinesen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
