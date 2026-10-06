@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "editionNumber": 48,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 6th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "In London three Iranians go on trial accused of targeting UK-based journalists opposed to the regime in Tehran",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France’s Le Pen unveils economic platform stuffed with cuts — but few new ideas",
+          "text": "‘Accidents happen’: French PM defends police after teenagers injured in protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "French students: What do they want?",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "France’s Le Pen unveils economic platform brimming with eye-watering cuts — but few new ideas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Ethiopia 'fears Tigray conflict could get out of control'",
+          "text": "How bad does it have to get for the ECB to save France?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,14 +37,14 @@
           "industryName": "Energy"
         },
         {
-          "text": "Former German spy chief arrested for treason and espionage",
+          "text": "German ex-spy chief arrested over espionage and treason allegations involving leaked BND files",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Von der Leyen warns against EU budget cuts",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France’s conundrum: How to cut spending amid protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Over 300,000 Dutch households and businesses pay for more power capacity than needed",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "ANWB, Consumers' Association warn of serious defects in two baby car seats",
+          "text": "More testing needed to reduce hepatitis B and C infections, warns Health Institute",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Another area in Schiedam cordoned off after sixth dog dies following walk",
+          "text": "Dutch political parties breaking privacy rules by sharing voter data without consent",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "EU ruling forces Netherlands to process 140,000 shelved Ukrainian asylum applications",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Fuel in Italy, tax cuts expire: diesel prices rise as hauliers threaten strikes",
+          "text": "Fuel prices in Italy: tax cuts end, diesel rises and hauliers threaten strikes",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Priceless book designed by Dali stolen in France",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "ANWB, Consumers' Association warn of serious defects in two baby car seats",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Novak Djokovic tog årets första titel – efter motståndarens skada",
+          "text": "Ryssland förnekar pest: Det vet vi om den misstänkta smittan i Sibirien",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Präst i Norrbotten dömdes för barnporr – avkragas",
+          "text": "Zigiotti Olme och Beata Olsson avslöjar skitsnacket på planen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Truls Möregårdh slog ut kines i Peking – nu väntar bäste kinesen",
+          "text": "Chockförlust för Mjällby i svenska cupen-kvalet",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
