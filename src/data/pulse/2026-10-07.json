@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "editionNumber": 49,
   "isDemo": false,
-  "leadSummary": "0h Na última semana, as escolas receberam perto de 400 pedidos de matrícula",
+  "leadSummary": "Russia’s hybrid attacks across Europe — cyberattacks, sabotage, drone incursions — have been ramping up in recent months. But European governments are quietly preparing for something much worse. On...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Israel marks third anniversary of October 7 attack as election looms",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Messi bids farewell to Argentina fans in emotional international finale",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Haiti postpones elections indefinitely as gang violence hampers preparations",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Merz in der Therapiestunde Koalitionsausschuss",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Can ‘Berlin’s Mamdani’ convince Jewish Berliners to trust the Left?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Was die Metall-Tarifrunde so kompliziert macht",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Amsterdam climate company gets €1 mil. gov’t investment for CO2 project in Iceland",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "More testing needed to reduce hepatitis B and C infections, warns Health Institute",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch political parties breaking privacy rules by sharing voter data without consent",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "ANWB, Consumers' Association warn of serious defects in two baby car seats",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cile, bufera sul bilancio di Kast per il 2027 tra debiti e tagli",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wsj: 'Washington preme su Mosca, serve nota ufficiale sul decesso legato alla peste'",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -58,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Hemligheten bakom klockspelsmusiken i Nyköping – så funkar det",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Därför har Fagersta landets billigaste dricksvatten – trots flera höjningar",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sonen fick regissören Mike Flanagan att vilja göra ny ”Carrie”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
