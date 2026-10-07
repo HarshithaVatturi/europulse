@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "editionNumber": 49,
   "isDemo": false,
-  "leadSummary": "Kyiv residents took refuge in metro stations, preparing to sleep underground before a Russian missile and drone attack killed at least eight people.",
+  "leadSummary": "Nailympia London showcased fantasy nail art inspired by folklore, forests and steampunk, as global artists raced to create miniature worlds on nails.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "October 7: Israelis mark three years since Hamas attacks",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "'Resilience' of Israelis as they mourn the loss of loved ones and 'the sense that we can be safe'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "France suspends stun grenade use at student protests ahead of PM speech",
+          "text": "France summons Iranian ambassador over 'disinformation' on student protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Merz in der Therapiestunde Koalitionsausschuss",
+          "text": "Die Brandmauer vor dem Aus",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Can ‘Berlin’s Mamdani’ convince Jewish Berliners to trust the Left?",
+          "text": "Mercedes global sales fall 6% as electric car sales hit record high",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "mercedes-benz"
         },
         {
-          "text": "Where is Spain headed after the snap election announcement?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Keynote speech by Commissioner Kubilius in the conference \"Military Schengen 2026. Military Logistics: Requirements for Infrastructure and Carriers\"",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -54,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Cancer cases rising among young people, research finds",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Vandals paint Swastikas in anti-Israel flag protests across Nieuw-Lekkerland",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Viral videos of mice at Schiphol spark outrage among travelers",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Most expensive month for fuel costs ever has Dutch drivers changing habits",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Dutch government making hybrid heatpumps mandatory from 2029",
+          "text": "Wild boars tearing up soil around graves in Limburg cemetery",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Italy lets diesel tax cut expire as Europe tackles fuel costs",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Geroofde vaas terug naar Sicilië: 'Afscheid pijnlijk, maar dient hoger doel'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Salone del Mobile 2027, al centro il mercato dei grandi progetti",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Smart working, la pausa pranzo viene penalizzata",
+          "text": "Zelensky, 'oggi 25 vittime in Ucraina, 5 i bimbi uccisi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Jonas Eriksson: Så var det att döma Lionel Messi",
+          "text": "Teorin: Så överlevde Christa Pike två dödliga doser",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cyklist påkörd av bil i Åre – bilen har kört i diket",
+          "text": "Internt tryck inför rödgrönt toppmöte: ”Skarpaste gränsen”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Christian Zedigs fru inför rättegången: ”Sorgen präglar vår vardag”",
+          "text": "Ryssland saktar in i Ukraina – pressats tillbaka i Donbas",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
