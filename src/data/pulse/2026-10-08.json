@@ -2,7 +2,7 @@
   "date": "2026-10-08",
   "editionNumber": 50,
   "isDemo": false,
-  "leadSummary": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a...",
+  "leadSummary": "The revised indictment includes several mentions of the involvement of Venezuela’s feared DGCIM military intelligence agency",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "French students clash with police as school protests continue",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Burnham signals ‘openness’ to Germany joining GCAP jet fighter program",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "French school protests to continue, after prime minister ignores demands",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "EU disowns Vilnius event that warned of US political interference, but France maintains support",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Listen: Are student protests in France actually being fuelled by Mélenchon’s party LFI?",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Will Berlin help Britain rejoin the EU?",
+          "text": "Burnham signals ‘openness’ to Germany joining GCAP jet fighter program",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Commerzbank-Übernahme: Was auf Beschäftigte und Mittelstand zukommt",
+          "text": "Germany wants UK to raise tariffs on Chinese EVs",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Europäischer Rechnungshof warnt vor hohen Schulden",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Germany’s most promising industries depend on China, clashing with Berlin’s derisking push, study finds",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     },
@@ -54,17 +54,18 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Report: Criminals bought up to 11,000 homes in the Netherlands with forged paperwork",
+          "text": "Repair delays forcing KLM to cancel flights over the next five months, says airline",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Some wiggle room in housing market in Q3 due to more supply; Prices up 1.8% to €503,000",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Russian hackers publish stolen Shell, Philips data on dark web",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "philips"
         },
         {
-          "text": "More Dutch residents considering Germany for New Year's to avoid fireworks ban",
+          "text": "PM Jetten misinformed parliament about using AI for social media posts",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -86,9 +87,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Intesa Sanpaolo stanzia 20 miliardi per le Pmi del terziario",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Aerospazio, dal business satellitare spinta ai progetti hi tech",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Kvinna frias från misstanke om vållande till annans död efter dödsolycka",
+          "text": "'Ten, nine, eight...': local library hosts its very own Nobel watch party",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Vårdbiträdet Birat brottade ner misstänkte mördaren: ”Slog honom så han släppte kniven”",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Canadian poet Anne Carson awarded Nobel Prize in Literature",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "764-fallet: 18-åringen från Umeå överklagar domen",
+          "text": "Swedish potential for data centre expansion puts 'energy poverty' in focus",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
