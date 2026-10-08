@@ -2,7 +2,7 @@
   "date": "2026-10-08",
   "editionNumber": 50,
   "isDemo": false,
-  "leadSummary": "Zack Polanski leverages ex-Labour voters — and his barber — in his bid to snatch a seat from the governing party in Thursday’s by-election.",
+  "leadSummary": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "text": "French school protests to continue, after prime minister ignores demands",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "EU disowns Vilnius event that warned of US political interference, but France maintains support",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Listen: Are student protests in France actually being fuelled by Mélenchon’s party LFI?",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
         }
@@ -22,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Immobilien: „Kalter Gegenwind“ – LEG‑Chef warnt vor Folgen des Zinsanstiegs",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "SEC: US-Börsenaufsicht warnt Wall-Street-Firmen vor zu viel Klima-Aktivismus",
+          "text": "Will Berlin help Britain rejoin the EU?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Sicherheit: Wird Deutschland zur Gefahr für Europa, Liana Fix?",
+          "text": "Commerzbank-Übernahme: Was auf Beschäftigte und Mittelstand zukommt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Europäischer Rechnungshof warnt vor hohen Schulden",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -44,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Five arrested as youths cause weeks of trouble on fat bikes in Hoogeveen",
+          "text": "Report: Criminals bought up to 11,000 homes in the Netherlands with forged paperwork",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Chocomel maker wins trademark rights to its distinctive yellow color",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Some wiggle room in housing market in Q3 due to more supply; Prices up 1.8% to €503,000",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         },
         {
-          "text": "At least 56 wolf cubs born in Gelderland, Utrecht and Drenthe this year",
+          "text": "More Dutch residents considering Germany for New Year's to avoid fireworks ban",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -66,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Giustiziato in Texas con iniezione letale, prima esecuzione dopo il caso Pike",
+          "text": "Daily News 08 / 10 / 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, migliaia di studenti in piazza a Rio per Lula",
+          "text": "« Le prix de l’électricité ne doit pas augmenter cet hiver » : la promesse encore floue de Sébastien Lecornu",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Venezuela, Delcy Rodríguez al Forum mondiale dell'alimentazione a Roma",
+          "text": "Intesa Sanpaolo stanzia 20 miliardi per le Pmi del terziario",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -88,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Kvinna frias från misstanke om vållande till annans död efter dödsolycka",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Vårdbiträdet Birat brottade ner misstänkte mördaren: ”Slog honom så han släppte kniven”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "764-fallet: 18-åringen från Umeå överklagar domen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
