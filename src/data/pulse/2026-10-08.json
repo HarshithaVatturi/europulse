@@ -2,7 +2,7 @@
   "date": "2026-10-08",
   "editionNumber": 50,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Zack Polanski leverages ex-Labour voters — and his barber — in his bid to snatch a seat from the governing party in Thursday’s by-election.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -22,9 +22,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Immobilien: „Kalter Gegenwind“ – LEG‑Chef warnt vor Folgen des Zinsanstiegs",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "SEC: US-Börsenaufsicht warnt Wall-Street-Firmen vor zu viel Klima-Aktivismus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sicherheit: Wird Deutschland zur Gefahr für Europa, Liana Fix?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +44,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Five arrested as youths cause weeks of trouble on fat bikes in Hoogeveen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Chocomel maker wins trademark rights to its distinctive yellow color",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "At least 56 wolf cubs born in Gelderland, Utrecht and Drenthe this year",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +66,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Giustiziato in Texas con iniezione letale, prima esecuzione dopo il caso Pike",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, migliaia di studenti in piazza a Rio per Lula",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Venezuela, Delcy Rodríguez al Forum mondiale dell'alimentazione a Roma",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },

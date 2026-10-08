@@ -8,7 +8,7 @@
     "youthUnemploymentRate": 20.6,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "DE": {
     "iso2": "DE",
@@ -19,7 +19,7 @@
     "youthUnemploymentRate": 7.4,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "NL": {
     "iso2": "NL",
@@ -30,7 +30,7 @@
     "youthUnemploymentRate": 8.8,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "IT": {
     "iso2": "IT",
@@ -41,7 +41,7 @@
     "youthUnemploymentRate": 20.3,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "ES": {
     "iso2": "ES",
@@ -52,7 +52,7 @@
     "youthUnemploymentRate": 22.7,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "SE": {
     "iso2": "SE",
@@ -63,7 +63,7 @@
     "youthUnemploymentRate": 23,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "CH": {
     "iso2": "CH",
@@ -74,7 +74,7 @@
     "youthUnemploymentRate": 9,
     "youthUnemploymentPeriod": "2026-06",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "IE": {
     "iso2": "IE",
@@ -85,7 +85,7 @@
     "youthUnemploymentRate": 12.3,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "BE": {
     "iso2": "BE",
@@ -96,7 +96,7 @@
     "youthUnemploymentRate": 19.1,
     "youthUnemploymentPeriod": "2026-06",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "DK": {
     "iso2": "DK",
@@ -107,7 +107,7 @@
     "youthUnemploymentRate": 15,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "FI": {
     "iso2": "FI",
@@ -118,7 +118,7 @@
     "youthUnemploymentRate": 22.8,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "AT": {
     "iso2": "AT",
@@ -129,7 +129,7 @@
     "youthUnemploymentRate": 13.1,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "NO": {
     "iso2": "NO",
@@ -140,7 +140,7 @@
     "youthUnemploymentRate": 13.6,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   },
   "PT": {
     "iso2": "PT",
@@ -151,6 +151,6 @@
     "youthUnemploymentRate": 19.8,
     "youthUnemploymentPeriod": "2026-08",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
-    "lastUpdated": "2026-10-07"
+    "lastUpdated": "2026-10-08"
   }
 }
