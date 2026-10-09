@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "editionNumber": 51,
   "isDemo": false,
-  "leadSummary": "Five years after the height of the Covid pandemic, how much better prepared is the EU for the next health crisis? Host Sarah Wheaton is joined by POLITICO health reporter Helen Collis and global...",
+  "leadSummary": "QatarEnergy is advancing its LNG expansion and has reportedly secured a $3 billion (€2.68bn) loan from Chinese banks as war damage and shipping risks constrain exports. Shipments through Hormuz are...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "3h Polícia francesa detém centenas de pessoas depois de nova vaga de protestos",
+          "text": "Europe Today: French students 'retake Bastille', Trump 'unwilling' to help Ukraine",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "French kitchenware giant Tefal faces legal ultimatum over harmful chemicals, as Europeans’ health at stake",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "🔴 South Africa's Navanethem ‘Navi’ Pillay wins 2026 Nobel Peace Prize",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Elif Eralp und Friedrich Merz’ neues Berlin-Problem",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Berechenbare Risiken – unberechenbare Politik? Warum Deutschland jetzt aus Worten Gesetze machen muss",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
+        },
+        {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Landgraaf to open a temporary asylum shelter on Pinkpop site",
+          "text": "English FA fines Dutch footballer Martin Sherif £5,000 for betting on 61 matches",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Construction firm BAM completes takeover of Gelderland-based A.Hak in €500 million deal",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "Sole Dutch medicinal cannabis firm declared bankrupt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Man accused of killing wife, hiding body in fridge before fleeing to India faces trial",
+          "text": "Video: Limburg town lifting homes with hydraulic jacks to protect against high water",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Cuba, 'Agli Usa manca l'autorità morale per decidere chi commercia con noi'",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Perù, il Papa incontrerà i giovani allo Stadio nazionale di Lima",
+          "text": "Energie: Gegen den Trend: EWE und Verbund planen Wasserstoff-Elektrolyseur in industrieller Dimension",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Stretto di Magellano, il traffico marittimo cresce del 70%",
+          "text": "Brasile, passa alla destra anche lo stato chiave di Rio de Janeiro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Scambio di denunce agli organi elettorali tra Bolsonaro e Lula",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -78,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Före detta vd från Vimmerby krävs på 54 miljoner kronor",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Uppgifter: Grovt sexuellt övergrepp utreds efter polisinsats på Sigtuna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Författarförbundet varnar för skandalförlaget Lava – igen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
