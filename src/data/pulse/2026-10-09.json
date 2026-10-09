@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "editionNumber": 51,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Five years after the height of the Covid pandemic, how much better prepared is the EU for the next health crisis? Host Sarah Wheaton is joined by POLITICO health reporter Helen Collis and global...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "3h Polícia francesa detém centenas de pessoas depois de nova vaga de protestos",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Landgraaf to open a temporary asylum shelter on Pinkpop site",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Construction firm BAM completes takeover of Gelderland-based A.Hak in €500 million deal",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
+          "text": "Man accused of killing wife, hiding body in fridge before fleeing to India faces trial",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +56,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Cuba, 'Agli Usa manca l'autorità morale per decidere chi commercia con noi'",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Perù, il Papa incontrerà i giovani allo Stadio nazionale di Lima",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Stretto di Magellano, il traffico marittimo cresce del 70%",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
