@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "editionNumber": 51,
   "isDemo": false,
-  "leadSummary": "A letter sent weeks before August Hanning’s arrest adds to concerns over the BND’s credibility among allies.",
+  "leadSummary": "EU Trade Commissioner Maroš Šefčovič described the deal as marking the end of the “first phase” of negotiations. Brussels is pushing for a fundamental rebalancing in trade relations with Beijing.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,12 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France, Germany try to save face on joint tank project",
+          "text": "Europe Today: French students 'retake Bastille', Trump 'unwilling' to help Ukraine",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Europe Today: French students 'retake Bastille', Trump 'unwilling' to help Ukraine",
+          "text": "France, Germany try to save face on joint tank project",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "German logistics group Rhenus plans up to 14 terminals along the Middle Corridor",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Arrested German spy chief lashed out at his old agency over allegations he spied for Russia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "France, Germany try to save face on joint tank project",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "German logistics group Rhenus plans up to 14 terminals along the Middle Corridor",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -59,14 +59,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Dutch government delays new plan to cover billions in Box 3 tax shortfall",
+          "text": "PSV beat Heerenveen 2-0 in first game after the international break",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "U.S. threatens to cripple ICC as Trump administration imposes new sanctions",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch retailers launch scam monitor after 1.2 million victims of fake webshops",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,6 +76,11 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Italy's biggest-ever wine heist",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "De vijand is er al, nu nog het moderne leger en politici die offers brengen",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -84,11 +89,6 @@
           "text": "Dieven stelen 30.000 flessen wijn bij beroemd Italiaans wijnhuis",
           "industrySlug": "automotive",
           "industryName": "Automotive"
-        },
-        {
-          "text": "Equo compenso, il Tar respinge il ricorso di Meta",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Drunkningslarm öster om Karlskrona – man förd till sjukhus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Gaslarmet på SSAB i Luleå – stoppar allt arbete på område",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Färjetrafiken i Strömsund dröjer – viktiga tillstånd saknas",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Makten kvar hos sossarna – måste ta med MP i styret",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
