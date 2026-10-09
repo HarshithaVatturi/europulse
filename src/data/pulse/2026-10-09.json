@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "editionNumber": 51,
   "isDemo": false,
-  "leadSummary": "QatarEnergy is advancing its LNG expansion and has reportedly secured a $3 billion (€2.68bn) loan from Chinese banks as war damage and shipping risks constrain exports. Shipments through Hormuz are...",
+  "leadSummary": "A letter sent weeks before August Hanning’s arrest adds to concerns over the BND’s credibility among allies.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "France, Germany try to save face on joint tank project",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Europe Today: French students 'retake Bastille', Trump 'unwilling' to help Ukraine",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "French kitchenware giant Tefal faces legal ultimatum over harmful chemicals, as Europeans’ health at stake",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "🔴 South Africa's Navanethem ‘Navi’ Pillay wins 2026 Nobel Peace Prize",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Elif Eralp und Friedrich Merz’ neues Berlin-Problem",
+          "text": "Arrested German spy chief lashed out at his old agency over allegations he spied for Russia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Berechenbare Risiken – unberechenbare Politik? Warum Deutschland jetzt aus Worten Gesetze machen muss",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
+          "text": "France, Germany try to save face on joint tank project",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "German logistics group Rhenus plans up to 14 terminals along the Middle Corridor",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "English FA fines Dutch footballer Martin Sherif £5,000 for betting on 61 matches",
+          "text": "Dutch PM slams ‘absurd’ US decision to livestream execution",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Sole Dutch medicinal cannabis firm declared bankrupt",
+          "text": "Dutch government delays new plan to cover billions in Box 3 tax shortfall",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Video: Limburg town lifting homes with hydraulic jacks to protect against high water",
+          "text": "U.S. threatens to cripple ICC as Trump administration imposes new sanctions",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Energie: Gegen den Trend: EWE und Verbund planen Wasserstoff-Elektrolyseur in industrieller Dimension",
+          "text": "De vijand is er al, nu nog het moderne leger en politici die offers brengen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, passa alla destra anche lo stato chiave di Rio de Janeiro",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dieven stelen 30.000 flessen wijn bij beroemd Italiaans wijnhuis",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Scambio di denunce agli organi elettorali tra Bolsonaro e Lula",
+          "text": "Equo compenso, il Tar respinge il ricorso di Meta",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Före detta vd från Vimmerby krävs på 54 miljoner kronor",
+          "text": "Gaslarmet på SSAB i Luleå – stoppar allt arbete på område",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Uppgifter: Grovt sexuellt övergrepp utreds efter polisinsats på Sigtuna",
+          "text": "Färjetrafiken i Strömsund dröjer – viktiga tillstånd saknas",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Författarförbundet varnar för skandalförlaget Lava – igen",
+          "text": "Makten kvar hos sossarna – måste ta med MP i styret",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
