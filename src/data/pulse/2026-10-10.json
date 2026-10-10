@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "editionNumber": 52,
   "isDemo": false,
-  "leadSummary": "PSV pick up a 2-0 win against Heerenveen in the first Eredivisie game after the international break.",
+  "leadSummary": "The US' National Weather Service (NWS) has warned a life-threatening storm surge is expected from Dauphin Island, Alabama, to Suwannee, Florida.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "‘So safe you could drink it’: Scientists and pesticide victims fear an EU rollback",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "India's 'cockroach' movement chief detained ahead of major protest",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "A race against time to prevent an outbreak follows Kenya's first Ebola death",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Immobilienmarkt: Steigende Preise trotz sinkender Nachfrage",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Anthropic-KI stellt Visa-Anträge bei US-Außenministerium",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Interview: Clemens Fuest: „Es droht eine fortgesetzte Erosion des Vertrauens“",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -34,20 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "PSV beat Heerenveen 2-0 in first game after the international break",
+          "text": "Dutch PM Jetten calls U.S. sanctions on ICC \"highly regrettable,\" seeks dialogue",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch retailers launch scam monitor after 1.2 million victims of fake webshops",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Video: Arson near Delfshaven railway bridge halts all trains between Rotterdam, Delft",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Man sentenced to 10 years for 2017 killing of Tilburg woman",
+          "text": "MP’s want to set minimum amount for mandatory wages for interns",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     },
@@ -57,19 +76,20 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "'Il marito di Kamala Harris confida, preferirei non si candidasse alla Casa Bianca'",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Waarom ligt het vliegverkeer nog niet stil? En moeten we bang zijn voor hedgefondsen?",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Brasile, Raphinha condivide video contro la settimana lavorativa di sei giorni",
+          "text": "L’export resiste alla crisi energetica. Diversificare chiave per la crescita",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, Record cancella il dibattito tv tra Lula e Flávio Bolsonaro",
+          "text": "Parte a Torino il progetto per il “super caccia”. In arrivo duemila posti",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "leonardo"
         }
       ]
     },
@@ -79,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Två fall av misstänkt valfusk i Västerås",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "SD-toppen: Slöjförbudet kostade oss unga väljare",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Så hittade polisens dna-detektiv Linda ”Brattåsmannen”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
