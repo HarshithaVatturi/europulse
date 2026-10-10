@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "editionNumber": 52,
   "isDemo": false,
-  "leadSummary": "The US' National Weather Service (NWS) has warned a life-threatening storm surge is expected from Dauphin Island, Alabama, to Suwannee, Florida.",
+  "leadSummary": "Police detained “cockroach movement” leader Abhijeet Dipke and two others as hundreds of protesters defied a heavy security clampdown in New Delhi.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "‘So safe you could drink it’: Scientists and pesticide victims fear an EU rollback",
+          "text": "[Interview] France school protests go deeper than rioting or reactionism, says Sciences Po lecturer",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "India's 'cockroach' movement chief detained ahead of major protest",
+          "text": "Portugal hits Ronaldo with provisional suspension for walking out on national team",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "A race against time to prevent an outbreak follows Kenya's first Ebola death",
+          "text": "Yemen says advancing against Houthis around key Bab al-Mandab strait",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Immobilienmarkt: Steigende Preise trotz sinkender Nachfrage",
+          "text": "Wie Start-ups in Deutschland trotz Hürden Erfolg haben können",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Anthropic-KI stellt Visa-Anträge bei US-Außenministerium",
+          "text": "Deutschland bleibt beim Nein zu russischem Öl",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Interview: Clemens Fuest: „Es droht eine fortgesetzte Erosion des Vertrauens“",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Trump kündigt russische Diesellieferungen an",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,19 +54,20 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch PM Jetten calls U.S. sanctions on ICC \"highly regrettable,\" seeks dialogue",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Power outage halts trains around Schiphol, cancels services to Utrecht, Venlo, Dordrecht",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Video: Arson near Delfshaven railway bridge halts all trains between Rotterdam, Delft",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Real estate agents now also report that grid congestion is delaying housing projects",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "MP’s want to set minimum amount for mandatory wages for interns",
+          "text": "Police arrest driver after 200 km/h chase near Den Bosch",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "bosch"
         }
       ]
     },
@@ -81,15 +82,14 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "L’export resiste alla crisi energetica. Diversificare chiave per la crescita",
+          "text": "‘Veilige haven’ Amerika moet nu smeken om toeristen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Parte a Torino il progetto per il “super caccia”. In arrivo duemila posti",
+          "text": "L’export resiste alla crisi energetica. Diversificare chiave per la crescita",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "leonardo"
+          "industryName": "Technology"
         }
       ]
     },
