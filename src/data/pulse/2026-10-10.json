@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "editionNumber": 52,
   "isDemo": false,
-  "leadSummary": "Police detained “cockroach movement” leader Abhijeet Dipke and two others as hundreds of protesters defied a heavy security clampdown in New Delhi.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 10th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Portugal hits Ronaldo with provisional suspension for walking out on national team",
+          "text": "Riyadh airport suspends operations after attack leaves multiple people wounded",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Yemen says advancing against Houthis around key Bab al-Mandab strait",
+          "text": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Germany warns EU that €159B budget cuts are not enough",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Wie Start-ups in Deutschland trotz Hürden Erfolg haben können",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Deutschland bleibt beim Nein zu russischem Öl",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Trump kündigt russische Diesellieferungen an",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,20 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Power outage halts trains around Schiphol, cancels services to Utrecht, Venlo, Dordrecht",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Real estate agents now also report that grid congestion is delaying housing projects",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Police arrest driver after 200 km/h chase near Den Bosch",
+          "text": "Paywalls have become the dominant revenue engine for Dutch newspaper publishers",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "bosch"
+          "industryName": "Technology"
+        },
+        {
+          "text": "Netherlands to return 20 looted objects, including 38-carat diamond, to Indonesia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Belgian court praises Dutch police in case of toddler allegedly killed by babysitter",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -87,9 +86,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "L’export resiste alla crisi energetica. Diversificare chiave per la crescita",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Ex Ilva: «Stop per l’ordine dei giudici e perché siamo senza materie prime»",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -99,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Två fall av misstänkt valfusk i Västerås",
+          "text": "Justin Kloos tvåmålsskytt när HV71 tog första trepoängaren",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "SD-toppen: Slöjförbudet kostade oss unga väljare",
+          "text": "Här blommar öknen – efter El Niño-regn",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Så hittade polisens dna-detektiv Linda ”Brattåsmannen”",
+          "text": "AIK föll med 5–6 i historisk match mot BP",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
