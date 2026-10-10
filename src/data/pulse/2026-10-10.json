@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-10",
+  "editionNumber": 52,
+  "isDemo": false,
+  "leadSummary": "PSV pick up a 2-0 win against Heerenveen in the first Eredivisie game after the international break.",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "PSV beat Heerenveen 2-0 in first game after the international break",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch retailers launch scam monitor after 1.2 million victims of fake webshops",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Man sentenced to 10 years for 2017 killing of Tilburg woman",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "'Il marito di Kamala Harris confida, preferirei non si candidasse alla Casa Bianca'",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Brasile, Raphinha condivide video contro la settimana lavorativa di sei giorni",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, Record cancella il dibattito tv tra Lula e Flávio Bolsonaro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
