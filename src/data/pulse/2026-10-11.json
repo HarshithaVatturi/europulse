@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "editionNumber": 53,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Feyenoord beat AZ Alkmaar 2-0 at De Kuip in Rotterdam on Saturday in the Eredivisie.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Feyenoord climb to first place in the Eredivisie after 2-0 win over AZ in De Kuip",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Paywalls have become the dominant revenue engine for Dutch newspaper publishers",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Netherlands to return 20 looted objects, including 38-carat diamond, to Indonesia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
