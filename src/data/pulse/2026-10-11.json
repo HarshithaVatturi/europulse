@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "editionNumber": 53,
   "isDemo": false,
-  "leadSummary": "Feyenoord beat AZ Alkmaar 2-0 at De Kuip in Rotterdam on Saturday in the Eredivisie.",
+  "leadSummary": "Isaias made landfall as a Category 2 hurricane in the city of Destin in the Florida Panhandle on Friday evening. It has since weakened into a post-tropical cyclone.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Riyadh airport strike kills 12, Saudi Arabia threatens 'decisive' response",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "India court orders release of 'cockroach' movement leaders after detention",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Middle East live: Riyadh airport attack 'not acceptable,' Trump says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Nostalgie und Nachhaltigkeit: Ein zweites Leben für die Vespa",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ukraine: Nach Trump-Attacke zur Ablösung von Selenskyj: Ukrainische Regierung stützt den eigenen Präsidenten",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Naher Osten: Zwölf Tote bei Angriff: Huthis attackieren Flughafen der saudischen Hauptstadt Riad",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Feyenoord climb to first place in the Eredivisie after 2-0 win over AZ in De Kuip",
+          "text": "Northern lights appear in parts of the country, but only on camera",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Paywalls have become the dominant revenue engine for Dutch newspaper publishers",
+          "text": "Rotterdam-Delft trains still halted until at least Sunday evening after alleged arson",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Netherlands to return 20 looted objects, including 38-carat diamond, to Indonesia",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Record $500,000 oil tanker rates push up Dutch fuel prices",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         }
       ]
     },
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Caccia ai talenti dell’AI: quanto costano e quanto rendono alle imprese italiane",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ambasciata Usa alza il livello di allerta per i connazionali in Arabia Saudita",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump: 'L'attacco all'aeroporto di Riad non è accettabile'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Premiär för ”Hövdingen” – dokumentär om sekt i Sollefteå",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Man greps misstänkt för grov våldtäkt på nattklubb i Malmö",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tre personer till sjukhus efter olycka i rondell i Vimmerby",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
