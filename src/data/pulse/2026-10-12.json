@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "editionNumber": 54,
   "isDemo": false,
-  "leadSummary": "The Council wanted social media stars to cover its meetings, but EU countries failed to pick any for this week's big meeting.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 12th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "El Nino breaks Pacific temperature record as weather pattern intensifies",
+          "text": "France scrambles to deploy supply teachers, but will it be enough to quell student anger?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
+          "text": "🔴 Americans Robert E. Hall and Michael Woodford win Nobel Prize in Economics",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "NATO top commander to warn Russia over alliance’s ability to counter-attack",
+          "text": "France: Founder of small centre-left party wins presidential primary",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Zinsen: So treffen die Anleihen-Turbulenzen Deutschlands Konzerne",
+          "text": "Berechenbare Risiken – unberechenbare Politik? Warum Deutschland jetzt aus Worten Gesetze machen muss",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
+        },
+        {
+          "text": "The EU budget battle just got nastier",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kommentar: Friedrich Merz hat nur noch zwei schlechte Optionen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Unionsfraktion: 27-Punkte-Plan an die EU: CDU und CSU fordern billigen Strom für Unternehmen",
+          "text": "Was hinter der aktuellen Euro-Schwäche steckt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Foreign Minister criticizes deal with Trump that lets Russia profit on diesel sales",
+          "text": "9 in 10 city schools near shops with unhealthy food that kids almost always pick: UNICEF",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch government allowed to halt controversial Long Covid treatment, court rules",
+          "text": "Doesburg house fire triggers evacuation of 25 homes; Locals warned to stay out of smoke",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Thousand protesters march through Amsterdam in national pro-Palestinian demonstration",
+          "text": "New Schiphol noise zones to allow more housing construction, but also increase nuisance",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Cile, crolla la popolarità del presidente Kast",
+          "text": "Assemblea Assolombarda, Biffi: «Milano motore della nuova rivoluzione industriale»",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
+          "text": "Gas, Orsini: «Ritorno a forniture dalla Russia? Non può esserci ideologia sull’energia»",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Seoul: lanciati dalla Corea del Nord 'diversi missili balistici'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Fujimori al Congresso peruviano, 'diteci se state con la violenza o con la pace'",
+          "text": "In collaborazione con",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Russian-speaking networks suspected of money laundering in Sweden",
+          "text": "ISP om Palantir-vd:ns köp i Härjedalen: Inte skadligt för Sveriges säkerhet",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Tarantino gör teaterdebut i London i mars",
+          "text": "Robert E. Hall och Michael Woodford får ekonomipriset 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nordkorea avfyrade projektil",
+          "text": "Efterlyst svensk medborgare gripen i Spanien",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
