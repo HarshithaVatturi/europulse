@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "editionNumber": 54,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 12th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Spain's National Day on Monday, 12 October, was marked by demonstrations in Barcelona in support of Spanish unity, while far-right leader Santiago Abascal visited Ceuta, the Spanish enclave on the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France scrambles to deploy supply teachers, but will it be enough to quell student anger?",
+          "text": "Paris’s oldest covered food market gutted by major overnight fire",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "🔴 Americans Robert E. Hall and Michael Woodford win Nobel Prize in Economics",
+          "text": "Video shows major fire ravaging 400-year-old Paris food market",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France: Founder of small centre-left party wins presidential primary",
+          "text": "French supermarkets face food crisis after cyberattack hits refrigerators",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,18 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Berechenbare Risiken – unberechenbare Politik? Warum Deutschland jetzt aus Worten Gesetze machen muss",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
+          "text": "German firms outline new infrastructure and green energy plans in Baku",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "siemens"
         },
         {
-          "text": "The EU budget battle just got nastier",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Germany, Italy request ‘emergency brake’ power to stop new EU laws",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Was hinter der aktuellen Euro-Schwäche steckt",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "9 in 10 city schools near shops with unhealthy food that kids almost always pick: UNICEF",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Grid congestion hampering Dutch factories' sustainability efforts",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Doesburg house fire triggers evacuation of 25 homes; Locals warned to stay out of smoke",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Prosecutors seek psychiatric order for man, 68, accused of groping kids as young as 8",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "New Schiphol noise zones to allow more housing construction, but also increase nuisance",
+          "text": "EU seeks dialogue with U.S. to lift ICC sanctions within 6 months",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +77,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Assemblea Assolombarda, Biffi: «Milano motore della nuova rivoluzione industriale»",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Germany, Italy request ‘emergency brake’ power to stop new EU laws",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Gas, Orsini: «Ritorno a forniture dalla Russia? Non può esserci ideologia sull’energia»",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Europa, sluit de cryptoachterdeur voor Rusland",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "In collaborazione con",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Granarolo, finanziamento da 450 milioni legato a obiettivi di sostenibilità",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "ISP om Palantir-vd:ns köp i Härjedalen: Inte skadligt för Sveriges säkerhet",
+          "text": "Efter rödgröna mötet – detta väntar Magdalena Andersson",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Robert E. Hall och Michael Woodford får ekonomipriset 2026",
+          "text": "Andy Burnham pekar ut Iran – ambassadör kallas upp",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Efterlyst svensk medborgare gripen i Spanien",
+          "text": "S krisar i historiskt röda Ådalen: ”Vi måste vara mer lyhörda”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
