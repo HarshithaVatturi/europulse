@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "editionNumber": 54,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "The Council wanted social media stars to cover its meetings, but EU countries failed to pick any for this week's big meeting.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "El Nino breaks Pacific temperature record as weather pattern intensifies",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "NATO top commander to warn Russia over alliance’s ability to counter-attack",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Zinsen: So treffen die Anleihen-Turbulenzen Deutschlands Konzerne",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kommentar: Friedrich Merz hat nur noch zwei schlechte Optionen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Unionsfraktion: 27-Punkte-Plan an die EU: CDU und CSU fordern billigen Strom für Unternehmen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Foreign Minister criticizes deal with Trump that lets Russia profit on diesel sales",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch government allowed to halt controversial Long Covid treatment, court rules",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Thousand protesters march through Amsterdam in national pro-Palestinian demonstration",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Cile, crolla la popolarità del presidente Kast",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Seoul: lanciati dalla Corea del Nord 'diversi missili balistici'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fujimori al Congresso peruviano, 'diteci se state con la violenza o con la pace'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Russian-speaking networks suspected of money laundering in Sweden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tarantino gör teaterdebut i London i mars",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nordkorea avfyrade projektil",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
