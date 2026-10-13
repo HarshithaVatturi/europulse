@@ -2,7 +2,7 @@
   "date": "2026-10-13",
   "editionNumber": 55,
   "isDemo": false,
-  "leadSummary": "Qatar's emir outlined in a speech to the nation how the Gulf nation has managed to overcome the consequences of the Iran war and will emerge stronger and better equipped to adapt to global changes...",
+  "leadSummary": "Cornell has also appointed former US Deputy Attorney General Sally Yates to conduct a \"comprehensive independent review\" of the university's response to the rape allegations.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,14 +15,14 @@
           "industryName": "Technology"
         },
         {
+          "text": "“Nous les Français” : pourquoi les politiques se l’arrachent",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "France should seek rebate on EU contribution, says presidential candidate Retailleau",
           "industrySlug": "finance-banking",
           "industryName": "Finance & Banking"
-        },
-        {
-          "text": "Il faut “absolument” réduire la contribution française au budget de l’UE, selon Bruno Retailleau",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Germany's China calculation shifts as import pressures eclipse export benefits",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Elderly people with dementia severely neglected at Utrecht nursing home, loved ones say",
+          "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Russia furious after world champion denied visa for Rotterdam gymnastics Worlds",
+          "text": "Two more arrested over fatal shooting during Nijmegen Vierdaagse festivities",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Terrorism alleged in Pride Amsterdam arson; Suspect praised ISIS, received mystery cash",
+          "text": "400 Dutch public broadcaster employees urge NPO to reconsider Eurovision return",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,18 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Paus in ziekenhuis voor operatie aan longknobbel",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Robot: corsa degli ordini all’estero, male l’Italia",
+          "text": "Présidentielle 2027 : la conversion partielle de Marine Le Pen aux recettes économiques d’Emmanuel Macron",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Il dossier Iveco al Mimit, Tata conferma la centralità dell’Italia",
+          "text": "Ex Ilva, Cig per 4.200 nell’indotto. Gli altiforni restano in riscaldo",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Nasce la carta di identità geologica delle aree urbane per conoscere la fragilità del sottosuolo",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,20 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Volvo återkallar 234 000 elbilar",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "volvo"
-        },
-        {
-          "text": "Andreas Almgren: ”Jag kanske är naiv och blir satt på plats”",
+          "text": "Vem är Katie Zacharia – Trumps nya pressekreterare?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Här sprängs ryska datacenter – är trollbotarna borta nu?",
+          "text": "Lena Dunhams succéserie ”Girls” återuppstår",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Sanslöst målkalas när Sverige krossade Litauen i VM-playoff",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     }
