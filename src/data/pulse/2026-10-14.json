@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "editionNumber": 56,
   "isDemo": false,
-  "leadSummary": "Ukrainian authorities say some of the Russian strikes targeted energy infrastructures, a few days after US President Donald Trump announced an \"energy ceasefire\".",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 14th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,14 +15,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "France’s Mélenchon sees Spain’s Sánchez as inspiration for fixing public finances",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Macron and Merz hold keys to an EU budget deal — but may be too weak to use them",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "In Phoenix, young ultra-conservatives look to carry on Charlie Kirk’s legacy",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Le Pen vows to downsize EU as she brings contribution cut fight to Brussels",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "DW",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Macron and Merz hold keys to an EU budget deal — but may be too weak to use them",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "'Super-Earths' might be better than our planet. But are they reachable?",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -65,7 +65,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Court: Malaysia authorities not negligent in Dutch model Ivana Smit's suspicious death",
+          "text": "Amsterdam server seized at request of U.S. authorities after antifa allegations",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -82,12 +82,12 @@
           "industryName": "AI"
         },
         {
-          "text": "Découvrez les 20 startups françaises les plus prometteuses en 2026, selon LinkedIn",
+          "text": "Aux Etats-Unis, l’inflation atteint 3,7 % en septembre, portée par la flambée des cours du pétrole",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mosca, 'l'accordo sul gasolio non è affare di Meloni'",
+          "text": "Découvrez les 20 startups françaises les plus prometteuses en 2026, selon LinkedIn",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -109,7 +109,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "SSAB:s vd om polisrazzian: Arbetarna har rätt att jobba här",
+          "text": "IK Uppsala lägger ned klubben efter säsongen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
