@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "editionNumber": 56,
   "isDemo": false,
-  "leadSummary": "Ukraine's President Volodymyr Zelensky said Tuesday that a Russian ballistic missile struck a Kyiv power plant without advance warning from Western allies, killing at least two people and wounding...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 14th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Kyiv power plant hit by Russian missile without warning from allies",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Live: Saudi Arabia reports Aramco building hit and four wounded in Houthi missile attacks",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
+          "text": "What we know about Pope Leo XIV's lung cancer diagnosis",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump asks US ambassador to Greece Kimberly Guilfoyle to resign over allegations",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -21,6 +31,16 @@
       "countryIso2": "DE",
       "countryName": "Germany",
       "items": [
+        {
+          "text": "Finnland: KI-Boom auf Kosten der Natur?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marktbericht: DAX leicht höher gesehen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
         {
           "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
           "industrySlug": "technology",
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands beat Hungary 3-0 to move within one tie of Women's World Cup",
+          "text": "Public transport strike: No buses, regional trains running in most of the Netherlands",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Dutch lawmakers back plan for rapid response to Russian hybrid sabotage",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Two more arrested over fatal shooting during Nijmegen Vierdaagse festivities",
+          "text": "Experts stress small numbers behind sharp rise in abortions among girls under 15",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,7 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Uruguay, Sturla non esclude rinvio visita del Papa dopo intervento chirurgico",
+          "text": "Découvrez les 20 startups françaises les plus prometteuses en 2026, selon LinkedIn",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Raid sull'Ucraina, almeno 6 morti nella notte e blackout a Kiev",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wsj: 'Gli Houthi tentano di produrre missili balistici con componenti cinesi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -68,9 +98,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Bauhausgalan skräddarsyr lopp – för Andreas Almgren: ”Kan gå till historien”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Smilla Sundell klar för UFC efter seger",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brist på förare – då kör lastbilarna själva",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "volvo"
         }
       ]
     }
