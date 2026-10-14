@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "editionNumber": 56,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 14th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "According to Russian security services, he gathered data on \"Russia's military readiness\" and on mobilised troops and volunteers for the war in Ukraine.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Live: Saudi Arabia reports Aramco building hit and four wounded in Houthi missile attacks",
-          "industrySlug": "construction",
-          "industryName": "Construction"
-        },
-        {
-          "text": "What we know about Pope Leo XIV's lung cancer diagnosis",
+          "text": "EU capitals weaken end-of-year deadline for budget deal",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump asks US ambassador to Greece Kimberly Guilfoyle to resign over allegations",
+          "text": "Republicans weigh midterms strategy, pour money into campaigns even in red states",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Faithful pray for Pope Leo after lung cancer diagnosis",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Finnland: KI-Boom auf Kosten der Natur?",
+          "text": "'Super-Earths' might be better than our planet. But are they reachable?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Marktbericht: DAX leicht höher gesehen",
+          "text": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
+          "text": "Lufthansa expected to beat Air France-KLM to stake in Portuguese airline TAP",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,18 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Public transport strike: No buses, regional trains running in most of the Netherlands",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "ASML posts record €11.7 billion in sales but warns it can’t keep up with AI demand",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "asml"
         },
         {
-          "text": "Dutch lawmakers back plan for rapid response to Russian hybrid sabotage",
+          "text": "Daily News 14 / 10 / 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Experts stress small numbers behind sharp rise in abortions among girls under 15",
+          "text": "Albert Heijn recovery underway as cyberattack damage likely tops €10 million",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "EU capitals weaken end-of-year deadline for budget deal",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Eurobarometer survey highlights growing use of AI in European companies",
+          "industrySlug": "ai",
+          "industryName": "AI"
+        },
+        {
           "text": "Découvrez les 20 startups françaises les plus prometteuses en 2026, selon LinkedIn",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Raid sull'Ucraina, almeno 6 morti nella notte e blackout a Kiev",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Wsj: 'Gli Houthi tentano di produrre missili balistici con componenti cinesi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,20 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Bauhausgalan skräddarsyr lopp – för Andreas Almgren: ”Kan gå till historien”",
+          "text": "Opening Remarks by Commissioner Hansen at the Farmers' Congress in Sweden",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Smilla Sundell klar för UFC efter seger",
+          "text": "Daily News 14 / 10 / 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brist på förare – då kör lastbilarna själva",
+          "text": "Extremismen ökar bland unga – öppnar avhopparverksamhet i Umeå",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "volvo"
+          "industryName": "Technology"
         }
       ]
     }
