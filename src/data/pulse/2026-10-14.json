@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-14",
+  "editionNumber": 56,
+  "isDemo": false,
+  "leadSummary": "Ukraine's President Volodymyr Zelensky said Tuesday that a Russian ballistic missile struck a Kyiv power plant without advance warning from Western allies, killing at least two people and wounding...",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "Kyiv power plant hit by Russian missile without warning from allies",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "Netherlands beat Hungary 3-0 to move within one tie of Women's World Cup",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "PSV beaten 1-0 by German side RB Leipzig in second game of UEFA Champions League season",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Two more arrested over fatal shooting during Nijmegen Vierdaagse festivities",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "Uruguay, Sturla non esclude rinvio visita del Papa dopo intervento chirurgico",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
