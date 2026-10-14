@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "editionNumber": 56,
   "isDemo": false,
-  "leadSummary": "According to Russian security services, he gathered data on \"Russia's military readiness\" and on mobilised troops and volunteers for the war in Ukraine.",
+  "leadSummary": "Ukrainian authorities say some of the Russian strikes targeted energy infrastructures, a few days after US President Donald Trump announced an \"energy ceasefire\".",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "EU capitals weaken end-of-year deadline for budget deal",
+          "text": "Lufthansa beats Air France-KLM to €1.2bn stake in TAP Air Portugal",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Republicans weigh midterms strategy, pour money into campaigns even in red states",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France’s Mélenchon sees Spain’s Sánchez as inspiration for fixing public finances",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "Faithful pray for Pope Leo after lung cancer diagnosis",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "In Phoenix, young ultra-conservatives look to carry on Charlie Kirk’s legacy",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Germany: Supporters rally in Hamburg as trial opens over Nord Stream pipeline blasts",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "'Super-Earths' might be better than our planet. But are they reachable?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Lufthansa expected to beat Air France-KLM to stake in Portuguese airline TAP",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -65,7 +65,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Albert Heijn recovery underway as cyberattack damage likely tops €10 million",
+          "text": "Court: Malaysia authorities not negligent in Dutch model Ivana Smit's suspicious death",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -77,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "EU capitals weaken end-of-year deadline for budget deal",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "Eurobarometer survey highlights growing use of AI in European companies",
           "industrySlug": "ai",
           "industryName": "AI"
         },
         {
           "text": "Découvrez les 20 startups françaises les plus prometteuses en 2026, selon LinkedIn",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mosca, 'l'accordo sul gasolio non è affare di Meloni'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -109,7 +109,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Extremismen ökar bland unga – öppnar avhopparverksamhet i Umeå",
+          "text": "SSAB:s vd om polisrazzian: Arbetarna har rätt att jobba här",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
