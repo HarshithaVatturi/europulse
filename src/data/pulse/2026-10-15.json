@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "editionNumber": 57,
   "isDemo": false,
-  "leadSummary": "Iran said monitoring teams found the unnamed vessel ablaze after it entered a prohibited zone with its tracking systems disabled, two days after the container ship GFS Pride sank following a fire...",
+  "leadSummary": "A separate Treasury license on Thursday also authorized certain transactions involving Lukoil's Bulgaria entities through April 24, 2027.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Macron warns EU leaders they need to agree budget by end of year",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "‘We give back’: Zelenskyy replies to Le Pen’s pledge to cut aid",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Election delay 'a terrible disappointment', Palestinian activist Samer Sinijlawi says",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "'We're done': Ukraine resumes strikes on Russian oil refineries as 'only leverage' for peace talks",
+          "text": "Oxfam takes France to court over 'tax inequality': 'Problem' with tax system, public service funding",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Europeans ‘far more united’ on tougher China trade stance after German shift, Barkin says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Unicredit cleared by ECB to take control of Commerzbank",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
           "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "EU summit to focus on China, Ukraine and bloc budget",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
         }
       ]
     },
@@ -59,14 +59,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Sterke stijging stroomvraag voor nieuwe datacenters",
+          "text": "AZ Alkmaar defeat Israeli side Hapoel Be'er Sheva at home in Europa League fixture",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Air France-KLM dreigt op achterstand te raken na misgrijpen bij TAP, zeggen experts",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Extremely explosive Cobra 20 fireworks bombs found in Utrecht garage",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Puglia, coi blocchi del trasporto a rischio la filiera del grano",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Stellantis, incontro con i sindacati, nuovo motore ibrido a Pratola Serra",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
           "text": "Incidente nel cantiere dell’Alta velocità a Firenze: muore un operaio. A Chieti un’altra vittima",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "La finanza globale investe sulle fiere. E l’Italia (per ora) resta a guardare",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Il caro gasolio getta l’autotrasporto nel caos. E le imprese minacciano il fermo nazionale",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -103,14 +103,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Russian security service detains Swedish citizen for espionage",
+          "text": "Commissioner Roswall's keynote address at the 12th Congress of European Farmers",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Commissioner Roswall's keynote address at the 12th Congress of European Farmers",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Mjällby vann klubbens första Europamatch i historien",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
