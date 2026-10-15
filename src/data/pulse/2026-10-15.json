@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "editionNumber": 57,
   "isDemo": false,
-  "leadSummary": "Medienberichten zufolge hat der Entwickler von Claude seinen Umsatz im dritten Quartal deutlich gesteigert und war bereinigt profitabel. Der IPO wird noch in diesem Jahr erwartet.",
+  "leadSummary": "Hundreds of protesters marched through Bangkok on Thursday, 15 October, in opposition to the annual meetings of the International Monetary Fund and World Bank being held in the Thai capital.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "France 'can no longer finance' Ukraine, far-right presidential frontrunner Le Pen says",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "PSG put on a show with win at Manchester City in Champions League thriller",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: Russia strikes several regions in Ukraine, hits two cargo ships in Black Sea",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,7 +32,18 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Künstliche Intelligenz: Anthropic erzielt vor Börsengang 16,8 Milliarden Dollar Quartalsumsatz",
+          "text": "Das Rot-Grün-Rot-Dilemma in der Hauptstadt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marktbericht: Börsen zwischen KI-Euphorie und Inflationssorgen",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "asml"
+        },
+        {
+          "text": "Nikkei, Kospi, Topix: Sorge um KI und US-Inflation – Aktienkurse in Asien stürzen ab",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Feyenoord beat Como 3-2 to claim first Champions League win of the season",
+          "text": "Kandinsky painting looted from Amsterdam by Nazis auctioned for nearly €32 million",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Provinces fall 33,000 hectares short of 2030 forest goal",
+          "text": "Locals set fire in Amsterdam, throw fireworks after rejection of New Year's bonfire plan",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Amsterdam server seized at request of U.S. authorities after antifa allegations",
+          "text": "Former freelancers quickly find employment, often in other sector: DNB",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Haiti prepara le elezioni, il Governo chiede sicurezza",
+          "text": "Reuters, Usa valutano allentamento delle sanzioni su navi della 'flotta ombra'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, Senato approva proposta di Lula su riduzione orario di lavoro",
+          "text": "Musk, questo massacro continuerà, è ora che Zelensky se ne vada",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Messico, smentiti i roghi umani nel 'ranch degli orrori'",
+          "text": "Zelensky al Ft, 'riprenderemo gli attacchi alle raffinerie russe'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -78,9 +99,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Flera döda efter kraftiga översvämningar i Istanbul",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Kvinna anhållen för att ha rånat man i Nässjö: ”Han saknade en hel del kläder”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fyra bilar har brunnit i Grimsta",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
