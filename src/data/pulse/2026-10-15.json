@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "editionNumber": 57,
   "isDemo": false,
-  "leadSummary": "Israel and Iran have met for a rare “confidence-building measures” summit in Baku, with Azerbaijan saying it serves as “a connecting hub in the Eurasian space.”",
+  "leadSummary": "Iran said monitoring teams found the unnamed vessel ablaze after it entered a prohibited zone with its tracking systems disabled, two days after the container ship GFS Pride sank following a fire...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Ukraine's Zelensky defies Trump with Russian refinery strikes",
+          "text": "‘We give back’: Zelenskyy replies to Le Pen’s pledge to cut aid",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Outcry over US plans to livestream firing squad execution of Fort Hood shooter",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Election delay 'a terrible disappointment', Palestinian activist Samer Sinijlawi says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "China, North Korea open long-delayed trade bridge",
+          "text": "'We're done': Ukraine resumes strikes on Russian oil refineries as 'only leverage' for peace talks",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,11 +32,6 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Das Rot-Grün-Rot-Dilemma in der Hauptstadt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -45,6 +40,11 @@
           "text": "EU summit to focus on China, Ukraine and bloc budget",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Road rage driver chases woman to her TIlburg home, assaults her",
+          "text": "West Nile virus creeps north in record year for EU cases",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Second fire at Berkel en Rodenrijs farm where dead body, drug lab were found 2 years ago",
+          "text": "Sterke stijging stroomvraag voor nieuwe datacenters",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Former pro-cyclists and staff reveal unsafe culture at Dutch team PicnicPostNL",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Air France-KLM dreigt op achterstand te raken na misgrijpen bij TAP, zeggen experts",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "War in Ukraine: Kyiv residents decry shortage of bomb shelters",
+          "text": "Incidente nel cantiere dell’Alta velocità a Firenze: muore un operaio. A Chieti un’altra vittima",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Bagno di folla per Harry e Meghan nel primo impegno pubblico dopo rientro in Gb",
+          "text": "La finanza globale investe sulle fiere. E l’Italia (per ora) resta a guardare",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Media, 'perquisito e fermato il caporedattore di Novaya Gazeta",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Il caro gasolio getta l’autotrasporto nel caos. E le imprese minacciano il fermo nazionale",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -103,14 +103,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Commissioner Roswall's keynote address at the 12th Congress of European Farmers",
+          "text": "Russian security service detains Swedish citizen for espionage",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Rysk chefredaktör gripen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Commissioner Roswall's keynote address at the 12th Congress of European Farmers",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     }
