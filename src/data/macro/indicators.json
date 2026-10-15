@@ -89,7 +89,7 @@
   },
   "BE": {
     "iso2": "BE",
-    "gdpGrowthRate": 0.1,
+    "gdpGrowthRate": 0,
     "gdpPeriod": "2026-Q2",
     "unemploymentRate": 5.9,
     "unemploymentPeriod": "2026-08",
