@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "editionNumber": 57,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Medienberichten zufolge hat der Entwickler von Claude seinen Umsatz im dritten Quartal deutlich gesteigert und war bereinigt profitabel. Der IPO wird noch in diesem Jahr erwartet.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -22,9 +22,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Künstliche Intelligenz: Anthropic erzielt vor Börsengang 16,8 Milliarden Dollar Quartalsumsatz",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Feyenoord beat Como 3-2 to claim first Champions League win of the season",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Provinces fall 33,000 hectares short of 2030 forest goal",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Amsterdam server seized at request of U.S. authorities after antifa allegations",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +56,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Haiti prepara le elezioni, il Governo chiede sicurezza",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, Senato approva proposta di Lula su riduzione orario di lavoro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Messico, smentiti i roghi umani nel 'ranch degli orrori'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
