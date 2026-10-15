@@ -26,9 +26,9 @@
     "gdpGrowthRate": 0.6,
     "gdpPeriod": "2026-Q2",
     "unemploymentRate": 4,
-    "unemploymentPeriod": "2026-08",
+    "unemploymentPeriod": "2026-09",
     "youthUnemploymentRate": 8.8,
-    "youthUnemploymentPeriod": "2026-08",
+    "youthUnemploymentPeriod": "2026-09",
     "source": "Eurostat Official API (namq_10_gdp, une_rt_m)",
     "lastUpdated": "2026-10-15"
   },
