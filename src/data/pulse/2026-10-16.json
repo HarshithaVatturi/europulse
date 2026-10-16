@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "editionNumber": 58,
   "isDemo": false,
-  "leadSummary": "Customs union, single market, rejoin, second referendum. It’s all feeling a little Ground Hog day in Westminster after Andy Burnham reopened the Europe question at Labour Party conference. Hosts...",
+  "leadSummary": "With the planned tax increase, the German government is aiming to raise an additional €12 billion over four years.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Live: Trump calls renewed Ukraine attacks on Russian oil refineries 'a disgrace'",
+          "text": "Students join Yellow Vest protest: Greater collective strength versus risk of losing distinct voice",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Four dead, including three children, in Oregon school shooting",
+          "text": "Indian authorities heighten security, close park ahead of 'cockroach' movement rally",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "19 injured as minibus crashes into train at Channel Tunnel entrance",
+          "text": "Midterms 2026: Can Democrats capitalise on Latino voter regret?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,18 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "EU-Gipfel: EU will Energiekosten mit neuen Maßnahmen senken",
+          "text": "Germany set to hike tobacco tax: Cigarette packs could reach close to €12 by 2030",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "+++ Ukraine-Krieg +++: Weißes Haus hat offenbar Einschränkung von Starshield angeordnet",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Risk of electric battery fire: VW recalls thousands of cars again",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volkswagen"
         },
         {
-          "text": "Industrie: „Unternehmer warten nicht mehr“: Die Verlagerung ins Ausland ist im Mittelstand kein Tabu mehr",
+          "text": "Merz bei den jungen Wilden: Der nächste Showdown?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "NEC earn first UEFA Europa League point with 1-1 draw against Levski Sofia",
+          "text": "Shootings and explosions: War raging between barbershops in Vlaardingen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Twente capitalize on controversial sending-off to beat FC Thun 1-0",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch government won't let TU Delft implement quota for female students",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "AZ Alkmaar defeat Israeli side Hapoel Be'er Sheva at home in Europa League fixture",
+          "text": "Albert Heijn hasn't reported hack to police; No grocery deliveries until at least Sunday",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Pirateria e AI, in gioco il valore dell’industria creativa",
+          "text": "Ai, le microimprese indietro sulla formazione: solo il 4% la prevede",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "El Salvador verso la ratifica dell'accordo commerciale con il Belize",
+          "text": "Transizione verde, rischio più elevato per le grandi imprese energivore",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Guatemala, l'Ambasciata d'Italia celebra i 30 anni degli accordi di pace",
+          "text": "Vino, le cantine italiane accelerano sul ricambio generazionale. Filiera allargata da 40 milioni",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Barn lånade ”dark romance”-bok – biblioteket gjorde en orosanmälan",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Hund sitter fast i ett grävlingsgryt – räddningspersonal på plats",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Barn drog kniv utanför förskola i Täfteå – händelsen polisanmäld",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
