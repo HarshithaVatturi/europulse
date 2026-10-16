@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "editionNumber": 58,
   "isDemo": false,
-  "leadSummary": "With the planned tax increase, the German government is aiming to raise an additional €12 billion over four years.",
+  "leadSummary": "Russian strikes ignited massive fires at businesses in Odesa and Zaporizhzhia as President Zelensky met European leaders for talks.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Students join Yellow Vest protest: Greater collective strength versus risk of losing distinct voice",
+          "text": "France, Germany strike bargain on Made in Europe, car emissions",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Indian authorities heighten security, close park ahead of 'cockroach' movement rally",
+          "text": "Listen: Are the Gilets Jaunes in France making a comeback?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Midterms 2026: Can Democrats capitalise on Latino voter regret?",
+          "text": "Ethiopia announces interim government in Tigray, aims for polls in six months",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,15 +37,15 @@
           "industryName": "Technology"
         },
         {
+          "text": "France, Germany strike bargain on Made in Europe, car emissions",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Risk of electric battery fire: VW recalls thousands of cars again",
           "industrySlug": "automotive",
           "industryName": "Automotive",
           "companySlug": "volkswagen"
-        },
-        {
-          "text": "Merz bei den jungen Wilden: Der nächste Showdown?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -55,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Shootings and explosions: War raging between barbershops in Vlaardingen",
+          "text": "Rotterdam extends overnight ban in De Esch after drop in nuisance reports",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch government won't let TU Delft implement quota for female students",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "U.S. ambassador to Netherlands donated $1 million to Trump’s White House ballroom",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Albert Heijn hasn't reported hack to police; No grocery deliveries until at least Sunday",
+          "text": "Rotterdam keeps Erasmus Bridge fireworks after drone show proves too costly",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -77,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Ai, le microimprese indietro sulla formazione: solo il 4% la prevede",
+          "text": "Italy: Nationwide air traffic control issues disrupt flights at Rome airport",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Transizione verde, rischio più elevato per le grandi imprese energivore",
+          "text": "Denmark, Italy, Poland urge EU leaders to harden stance on irregular migration",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Vino, le cantine italiane accelerano sul ricambio generazionale. Filiera allargata da 40 milioni",
+          "text": "Oro in Svizzera e Usa spingono l’export",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Barn lånade ”dark romance”-bok – biblioteket gjorde en orosanmälan",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Hund sitter fast i ett grävlingsgryt – räddningspersonal på plats",
+          "text": "Ebba Busch tror inte på utplåning av mänskligheten",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Barn drog kniv utanför förskola i Täfteå – händelsen polisanmäld",
+          "text": "Mads Thychosens stenhårda självkritik: ”Tar allt ansvar”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Saab har ”rullat ut” Sveriges första S 106 GlobalEye",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
