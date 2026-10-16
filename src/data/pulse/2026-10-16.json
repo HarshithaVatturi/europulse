@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "editionNumber": 58,
   "isDemo": false,
-  "leadSummary": "A satisfação dos coordenadores das Unidades de Saúde Familiares (USF) com a reforma nos Cuidados de Saúde Primários desceu cinco pontos percentuais no último ano, de 31,9% para 26%, interrompendo...",
+  "leadSummary": "Customs union, single market, rejoin, second referendum. It’s all feeling a little Ground Hog day in Westminster after Andy Burnham reopened the Europe question at Labour Party conference. Hosts...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Live: Trump calls renewed Ukraine attacks on Russian oil refineries 'a disgrace'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Four dead, including three children, in Oregon school shooting",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "19 injured as minibus crashes into train at Channel Tunnel entrance",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "EU-Gipfel: EU will Energiekosten mit neuen Maßnahmen senken",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "+++ Ukraine-Krieg +++: Weißes Haus hat offenbar Einschränkung von Starshield angeordnet",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Industrie: „Unternehmer warten nicht mehr“: Die Verlagerung ins Ausland ist im Mittelstand kein Tabu mehr",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "NEC earn first UEFA Europa League point with 1-1 draw against Levski Sofia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Twente capitalize on controversial sending-off to beat FC Thun 1-0",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "AZ Alkmaar defeat Israeli side Hapoel Be'er Sheva at home in Europa League fixture",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Pirateria e AI, in gioco il valore dell’industria creativa",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "El Salvador verso la ratifica dell'accordo commerciale con il Belize",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Guatemala, l'Ambasciata d'Italia celebra i 30 anni degli accordi di pace",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
