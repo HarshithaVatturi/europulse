@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "editionNumber": 58,
   "isDemo": false,
-  "leadSummary": "Russian strikes ignited massive fires at businesses in Odesa and Zaporizhzhia as President Zelensky met European leaders for talks.",
+  "leadSummary": "Foreign firms including ACWA Power, EDF and Toyota Tsusho are involved in projects covering 3,000 MW of generating capacity and 400 MW of storage. Tashkent is also preparing 128 oil and gas...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Listen: Are the Gilets Jaunes in France making a comeback?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Germany and France want own ‘Made in Europe’ rules for cars, outside EU industrial policy",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Ethiopia announces interim government in Tigray, aims for polls in six months",
+          "text": "Listen: Are the Gilets Jaunes in France making a comeback?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,6 +32,12 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Risk of electric battery fire: VW recalls thousands of cars again",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volkswagen"
+        },
+        {
           "text": "Germany set to hike tobacco tax: Cigarette packs could reach close to €12 by 2030",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -40,12 +46,6 @@
           "text": "France, Germany strike bargain on Made in Europe, car emissions",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Risk of electric battery fire: VW recalls thousands of cars again",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "volkswagen"
         }
       ]
     },
@@ -55,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Rotterdam extends overnight ban in De Esch after drop in nuisance reports",
+          "text": "55 homes remain evacuated as Amsterdam deputy mayor warns over escalating violence",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "U.S. ambassador to Netherlands donated $1 million to Trump’s White House ballroom",
+          "text": "Transavia seeks €200 million in savings as union warns of staff shortages",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rotterdam keeps Erasmus Bridge fireworks after drone show proves too costly",
+          "text": "Dutch government to keep using Facebook despite unresolved privacy risks",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -87,9 +87,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Oro in Svizzera e Usa spingono l’export",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Italy cuts air traffic in half amid data transmission issue",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         }
       ]
     },
@@ -99,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Ebba Busch tror inte på utplåning av mänskligheten",
+          "text": "Linus Carlstrand ställs mot sitt förra lag: ”Folk har blivit utbuade för mindre”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mads Thychosens stenhårda självkritik: ”Tar allt ansvar”",
+          "text": "Elias Ranefur förlorar efter stjärnans vädjan: ”Hade jag käftat emot...”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Saab har ”rullat ut” Sveriges första S 106 GlobalEye",
+          "text": "Jägaren Johan kom öga mot öga med älg i skogen: ”Riktigt nära”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
