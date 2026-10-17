@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "editionNumber": 59,
   "isDemo": false,
-  "leadSummary": "The drop in meat consumption in the Netherlands continued last year, researchers at Wageningen University & Research (WUR) have said. There has been a noteworthy drop in pork being eaten.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 17th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Live: France's Yellow Vests throw their weight behind mounting student protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Pour les vacances de la Toussaint, ces Français trop contraints par leur budget : « J’ai dû renoncer à ce bol d’air »",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Marché du timbre : un bloc de quatre exemplaires du 15 centimes vert au type « Cérès » vendu à 120 000 euros",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "+++ USA +++: Trump würde Informanten für Geheimnisverrat erschießen lassen",
+          "text": "Inside America: Wer für Trump spricht, den bestraft das Leben",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "+++ Ukraine-Krieg +++: Trump setzt per Dekret Teile der Russland-Sanktionen aus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Konjunktur: Bericht – IW sieht steigendes Wachstumspotenzial der deutschen Wirtschaft ab 2030",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Snus popular among professional football players; Club doctors concerned",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cyberattacks pose major threat to Dutch infrastructure, IMF board member warns",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
           "text": "Dutch meat consumption continues to decline, with pork seeing biggest drop",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Former Feyenoord, Vitesse player suspended for 30 months after punching player during HT",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Foul play suspected: Amsterdam police find body of Hajar, 29, missing since Oct. 4",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Crosetto alla Bbc, 'grave errore limitare a Kiev l'accesso ai satelliti'",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Clima e specie aliene, la tempesta perfetta sulla pesca",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Più ordini dall’Europa per Danieli",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fedit: «Conflittualità troppo alta nella logistica, si rispettino le regole»",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Jonas Andersson förbluffas över förslaget: ”Måste ha ett högre pris”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Misstänkt gruppvåldtäkt i Göteborg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brand i livsmedelsbutik i Gamlestaden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
