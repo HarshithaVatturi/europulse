@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Live: France's Yellow Vests throw their weight behind mounting student protests",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Ligue 1: Paris Saint-Germain aim to build on recent progress at Strasbourg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Pour les vacances de la Toussaint, ces Français trop contraints par leur budget : « J’ai dû renoncer à ce bol d’air »",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Zelensky drums up European backing as Trump ties slump",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Marché du timbre : un bloc de quatre exemplaires du 15 centimes vert au type « Cérès » vendu à 120 000 euros",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Trump waives new Russia sanctions as Ukraine ties slump",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Inside America: Wer für Trump spricht, den bestraft das Leben",
+          "text": "Steigende Preise für Benzin, Heizöl, Gas - wie teuer wird der Winter?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "+++ Ukraine-Krieg +++: Trump setzt per Dekret Teile der Russland-Sanktionen aus",
+          "text": "Technologie: Verkaufsstart für neue Notebooks – Nvidia-Chef wird in Berlin wie ein Rockstar empfangen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Konjunktur: Bericht – IW sieht steigendes Wachstumspotenzial der deutschen Wirtschaft ab 2030",
+          "text": "Morning Briefing Plus: Über Betroffenheit, Empörung und jubelnde Gründerinnen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Snus popular among professional football players; Club doctors concerned",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Cyberattacks pose major threat to Dutch infrastructure, IMF board member warns",
+          "text": "Dutch provinces criticize Cabinet's infrastructure budget over delay of key projects",
           "industrySlug": "construction",
           "industryName": "Construction"
         },
         {
-          "text": "Dutch meat consumption continues to decline, with pork seeing biggest drop",
+          "text": "Albert Heijn extends delivery halt until at least Tuesday after “cybersecurity incident”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Thousands of Novo Nordisk insulin pens stolen from Dutch wholesaler",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Jonas Andersson förbluffas över förslaget: ”Måste ha ett högre pris”",
+          "text": "Charlie Paveys förändring: ”Annars går kroppen sönder”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Misstänkt gruppvåldtäkt i Göteborg",
+          "text": "Uppgifter: Grovt brott vid Ön på Limhamn",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brand i livsmedelsbutik i Gamlestaden",
+          "text": "”Samarbetet med Ryssland har gjort Nordkorea mycket starkare”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
