@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Dutch cloud services concerned after U.S. request leads to Amsterdam server seizure",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wolves make deer and boars on the Veluwe more alert, study finds",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Dutch cities report rising nuisance from street preachers",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Rising demand for aid causes poverty relief groups to start putting people on a waitlist",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Fire hits Arnhem building after it was cleared of squatters days prior",
-          "industrySlug": "construction",
-          "industryName": "Construction"
         }
       ]
     },
@@ -76,6 +76,11 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Paus Leo XIV ontslagen uit het ziekenhuis, kan zijn taken volledig hervatten",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
           "text": "Clima e specie aliene, la tempesta perfetta sulla pesca",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -84,11 +89,6 @@
           "text": "Più ordini dall’Europa per Danieli",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Fedit: «Conflittualità troppo alta nella logistica, si rispettino le regole»",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Taha Ayari missade öppet mål när AIK kryssade mot IFK Göteborg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fejkade nyheter om V-ledamoten Mohamed Ali sprids",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Alexander Isak målskytt i comebacken",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Kvinna hittad död i Linköping – polisen utreder mord",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Anton Källberg klar för EM-semifinal – slog norrmannen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
