@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "editionNumber": 59,
   "isDemo": false,
-  "leadSummary": "Zelenskyy's deputy chief of staff told Euronews earlier this week that the Ukrainian leader had been invited to Budapest on 23 October, to join events commemorating the 70th anniversary of the 1956...",
+  "leadSummary": "Protesters broke into Marseille town hall and clashed with police during nationwide demonstrations over rising prices in France.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Police, protesters clash ahead of mass demonstrations in France",
+          "text": "Protesters storm town hall and clash with police in France’s Marseille",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France braces for nationwide protests",
+          "text": "Tourism office set ablaze during cost-of-living protests in Lyon",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Will Paramount’s creation of Skydance test France’s cultural exception?",
+          "text": "Police, demonstrators clash on sidelines of mass French protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
+          "text": "France: Police and protesters clash in nationwide protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France braces for nationwide protests",
+          "text": "Paketversand und Retouren durch Onlinehandel auf Rekordniveau",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "USA: Gesetze, Klagen, Steuervorteil – so streitet Amerika über Trinkgeld",
+          "text": "Steigende Preise für Benzin, Heizöl, Gas - wie teuer wird der Winter?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "81-year-old Schagen man killed in home robbery; 36-year-old arrested after pursuit",
+          "text": "Dutch cities report rising nuisance from street preachers",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Online shops pull 99-year-old's book after claims of Dachau captivity found improbable",
+          "text": "Rising demand for aid causes poverty relief groups to start putting people on a waitlist",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Neighbors allege body of 29-year-old Hajar was found in suitcase in Amsterdam-Zuid",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Fire hits Arnhem building after it was cleared of squatters days prior",
+          "industrySlug": "construction",
+          "industryName": "Construction"
         }
       ]
     },
@@ -76,11 +76,6 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Pope to return to Vatican after cancer surgery",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "Clima e specie aliene, la tempesta perfetta sulla pesca",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -89,6 +84,11 @@
           "text": "Più ordini dall’Europa per Danieli",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Fedit: «Conflittualità troppo alta nella logistica, si rispettino le regole»",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Alexander Isak målskytt i comebacken",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Kvinna hittad död i Linköping – polisen utreder mord",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Anton Källberg klar för EM-semifinal – slog norrmannen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Räddningsinsats inledd efter försvunnen fiskare",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
