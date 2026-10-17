@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "editionNumber": 59,
   "isDemo": false,
-  "leadSummary": "Protesters broke into Marseille town hall and clashed with police during nationwide demonstrations over rising prices in France.",
+  "leadSummary": "Pandora invested $150 million (€132mn) in a Vietnam factory, which it says will operate entirely on renewable electricity. The company also switched to using 100% recycled gold and silver in its...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Historic Limoges town hall engulfed in flames amid protests in France",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
           "text": "Protesters storm town hall and clash with police in France’s Marseille",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Tourism office set ablaze during cost-of-living protests in Lyon",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Police, demonstrators clash on sidelines of mass French protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "France: Police and protesters clash in nationwide protests",
+          "text": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Paketversand und Retouren durch Onlinehandel auf Rekordniveau",
+          "text": "Technologie: Nvidia-Chef wird in Berlin wie ein Rockstar empfangen – geplanter KI-Pakt stößt online auf Kritik",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Steigende Preise für Benzin, Heizöl, Gas - wie teuer wird der Winter?",
+          "text": "Junge Union: „Die Menschen fühlen sich verarscht“ – JU knüpft Unterstützung für Kanzler an Reformen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,12 +81,12 @@
           "industryName": "Automotive"
         },
         {
-          "text": "Clima e specie aliene, la tempesta perfetta sulla pesca",
+          "text": "Zacharia a Trump, 'onore indimenticabile la visita nello Studio Ovale con la famiglia'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Più ordini dall’Europa per Danieli",
+          "text": "Scontri a Tirana, molotov contro Banca centrale e Corte suprema",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
