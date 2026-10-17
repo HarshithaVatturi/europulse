@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "editionNumber": 59,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 17th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Zelenskyy's deputy chief of staff told Euronews earlier this week that the Ukrainian leader had been invited to Budapest on 23 October, to join events commemorating the 70th anniversary of the 1956...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Ligue 1: Paris Saint-Germain aim to build on recent progress at Strasbourg",
+          "text": "Police, protesters clash ahead of mass demonstrations in France",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Zelensky drums up European backing as Trump ties slump",
+          "text": "France braces for nationwide protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump waives new Russia sanctions as Ukraine ties slump",
+          "text": "Will Paramount’s creation of Skydance test France’s cultural exception?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Steigende Preise für Benzin, Heizöl, Gas - wie teuer wird der Winter?",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Technologie: Verkaufsstart für neue Notebooks – Nvidia-Chef wird in Berlin wie ein Rockstar empfangen",
+          "text": "France braces for nationwide protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Morning Briefing Plus: Über Betroffenheit, Empörung und jubelnde Gründerinnen",
+          "text": "USA: Gesetze, Klagen, Steuervorteil – so streitet Amerika über Trinkgeld",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch provinces criticize Cabinet's infrastructure budget over delay of key projects",
-          "industrySlug": "construction",
-          "industryName": "Construction"
-        },
-        {
-          "text": "Albert Heijn extends delivery halt until at least Tuesday after “cybersecurity incident”",
+          "text": "81-year-old Schagen man killed in home robbery; 36-year-old arrested after pursuit",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Thousands of Novo Nordisk insulin pens stolen from Dutch wholesaler",
+          "text": "Online shops pull 99-year-old's book after claims of Dachau captivity found improbable",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Neighbors allege body of 29-year-old Hajar was found in suitcase in Amsterdam-Zuid",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,6 +76,11 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Pope to return to Vatican after cancer surgery",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Clima e specie aliene, la tempesta perfetta sulla pesca",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -84,11 +89,6 @@
           "text": "Più ordini dall’Europa per Danieli",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Fedit: «Conflittualità troppo alta nella logistica, si rispettino le regole»",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Charlie Paveys förändring: ”Annars går kroppen sönder”",
+          "text": "Kvinna hittad död i Linköping – polisen utreder mord",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Uppgifter: Grovt brott vid Ön på Limhamn",
+          "text": "Anton Källberg klar för EM-semifinal – slog norrmannen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "”Samarbetet med Ryssland har gjort Nordkorea mycket starkare”",
+          "text": "Räddningsinsats inledd efter försvunnen fiskare",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
