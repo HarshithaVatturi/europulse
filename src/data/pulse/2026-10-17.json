@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "editionNumber": 59,
   "isDemo": false,
-  "leadSummary": "Trump würde Informanten für Geheimnisverrat erschießen lassen +++ Demokraten planen bei Mehrheitsgewinn ein Blitzprogramm +++ Anthropic integriert Wahlinformationen in KI-Chatbot Claude vor US-Wahl...",
+  "leadSummary": "The drop in meat consumption in the Netherlands continued last year, researchers at Wageningen University & Research (WUR) have said. There has been a noteworthy drop in pork being eaten.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Dutch meat consumption continues to decline, with pork seeing biggest drop",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Former Feyenoord, Vitesse player suspended for 30 months after punching player during HT",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Foul play suspected: Amsterdam police find body of Hajar, 29, missing since Oct. 4",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +56,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Crosetto alla Bbc, 'grave errore limitare a Kiev l'accesso ai satelliti'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
