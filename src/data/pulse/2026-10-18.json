@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "editionNumber": 60,
   "isDemo": false,
-  "leadSummary": "Canadian Prime Minister Mark Carney said a \"serious incident creating a major fire\" had occurred at Canadian Forces Base Wainwright in Alberta.",
+  "leadSummary": "Burnt bicycles, smashed shopfronts and debris-filled streets mark the aftermath of Saturday’s protests in Paris, as cleanup crews begin clearing the damage.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Months-long Indonesia wildfires spew toxic haze across Southeast Asia",
+          "text": "Burnt bicycles, smashed windows and looted shops: Trail of destruction across Paris",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "India's 'cockroach' movement founder released from police custody",
+          "text": "Lyon wakes up to scenes of destruction after violent protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ukraine sets Saint Petersburg refinery ablaze in large-scale drone attack",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,21 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Volkswagen: So ringt Piëchs Familie bis heute um das Erbe des Patriarchen",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "volkswagen"
-        },
-        {
-          "text": "Sozialkonflikte: Schwere Unruhen in Frankreich – Proteste auch in Belgien, Portugal, Italien",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "Übernimmt Schwesig?: Wie die SPD-Krise Lars Klingbeil bis nach Bangkok verfolgt",
+          "text": "Populist Czech PM Babis goes empty-handed in Senate elections",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Doppelsystem Deutschland: Gesetzliche und Private Krankenkasse",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rüstung: Nicht nur „Finne oder Flügel“: Airbus dringt auf wichtige Rolle bei neuem Kampfjet",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "airbus"
         }
       ]
     },
@@ -56,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police arrest 27-year-old man in Vlaardingen barbershop explosion",
+          "text": "Albert Heijn restores website, app after cybersecurity incident; Deliveries start Friday",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "11 fall ill after tasting water at Grolsch brewery in Enschede during a tour",
+          "text": "Prices at the pump drop slightly from last week's record high",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man, 50, dies in Terneuzen apartment fire",
+          "text": "Ethiopia's Diriba breaks Amsterdam Marathon's course record, Berhanu wins men's race",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -78,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Piacentini: «Più Ai in azienda e che sia gestita dall’alto»",
+          "text": "Trump, 'Francia in fiamme, chiuda le frontiere prima che sia troppo tardi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ministro Canada, 'incidente a base militare il peggiore degli ultimi tempi'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Messico, arrestato l'ex procuratore di Chihuahua per il caso degli agenti Cia",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Trump, 'il congelamento delle nuove sanzioni alla Russia è un'ottima decisione'",
+          "text": "Rama, 'neutralizzato drone esplosivo destinato a Palazzo del Governo'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -100,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Svenska landslagsåkarna om Victoria Carls comeback",
+          "text": "Boende efter dödsskjutningen i Älvsjö: ”Sorg och förtvivlan”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Liten orkidé symbol för rödgrön konflikt – skogspolitiken splittrar",
+          "text": "Förödelsen stor efter protesterna i Frankrike",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Tre frågor där tuffa strider väntar mellan de rödgröna partierna",
+          "text": "Dejan Kulusevski med i Tottenhams trupp – första gången på över ett år",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
