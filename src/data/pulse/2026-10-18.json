@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "editionNumber": 60,
   "isDemo": false,
-  "leadSummary": "00h Protestos em França: mais de 1200 detenções e 150 polícias feridos",
+  "leadSummary": "US Secretary of State Marco Rubio said Saturday that President Donald Trump’s decision to waive sanctions and tariffs on Russia would last 60 days, as the move drew bipartisan criticism and raised...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Rubio says Trump to 'analyze' global impact of Russia sanctions during pause",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "‘Standing up for democracy’: Atlanta ‘No Kings’ rally draws Trump critics ahead of midterms",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Watch: Moment historic French town hall spire collapses in flames amid protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +44,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Dutch cloud services concerned after U.S. request leads to Amsterdam server seizure",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wolves make deer and boars on the Veluwe more alert, study finds",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch cities report rising nuisance from street preachers",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +66,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Vance, 'immigrazione e problemi di assimilazione le cause delle violenze in Francia'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rubio, 'molto turbati da aggressione a fotografa Usa, Israele fermi violenza'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rubio, 'stop Trump a nuove sanzioni a Mosca per esame impatto su economia globale'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
