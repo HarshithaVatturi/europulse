@@ -2,13 +2,18 @@
   "date": "2026-10-18",
   "editionNumber": 60,
   "isDemo": false,
-  "leadSummary": "Huge plumes of black smoke billowed over St Petersburg, Russia’s second-largest city, on Sunday, 18 October, as a large-scale Ukrainian drone attack sparked fires at industrial and logistics...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 18th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
       "countryIso2": "FR",
       "countryName": "France",
       "items": [
+        {
+          "text": "France: Paris, Lyon and Marseille count the cost after violent protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
         {
           "text": "Burnt bicycles, smashed windows and looted shops: Trail of destruction across Paris",
           "industrySlug": "robotics",
@@ -18,11 +23,6 @@
           "text": "Lyon wakes up to scenes of destruction after violent protests",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Macron to address France after Trump describes country as ‘burning’",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "How reliant is Ukraine on the US-controlled Starlink internet service?",
           "industrySlug": "aerospace",
           "industryName": "Aerospace"
         },
         {
           "text": "Populist Czech PM Babis goes empty-handed in Senate elections",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Private Equity: Erst Opernabende, dann Anwälte: Der Machtkampf um die Med-Tech-Firma Brainlab eskaliert",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,6 +54,11 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Police arrest 12 activists at Rotterdam coal railway",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "It remains unknown what made 11 people sick at the Grolsch brewery tour",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -62,11 +67,6 @@
           "text": "Trains between Arnhem and Utrecht to be suspended for 12 days starting October 20",
           "industrySlug": "construction",
           "industryName": "Construction"
-        },
-        {
-          "text": "Municipalities are happy with the €355 million investment to support house construction",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Bläckfisken ökar i Nordsjön: ”Sugkopparna gör ingenting – det är jättegott”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Anton Källberg förlorade EM-finalen efter jätterysare",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Martin Ponsiluoma med ny seger i Tyskland: ”Vilken king han är”",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Joakim Persson med dubbla fullträffar när Sirius tappade poäng sent",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Anton Källberg klar för EM-final efter skrällseger",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
