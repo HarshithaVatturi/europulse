@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "editionNumber": 60,
   "isDemo": false,
-  "leadSummary": "Burnt bicycles, smashed shopfronts and debris-filled streets mark the aftermath of Saturday’s protests in Paris, as cleanup crews begin clearing the damage.",
+  "leadSummary": "Huge plumes of black smoke billowed over St Petersburg, Russia’s second-largest city, on Sunday, 18 October, as a large-scale Ukrainian drone attack sparked fires at industrial and logistics...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -20,9 +20,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Ukraine sets Saint Petersburg refinery ablaze in large-scale drone attack",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Macron to address France after Trump describes country as ‘burning’",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -32,20 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "How reliant is Ukraine on the US-controlled Starlink internet service?",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
           "text": "Populist Czech PM Babis goes empty-handed in Senate elections",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Doppelsystem Deutschland: Gesetzliche und Private Krankenkasse",
+          "text": "Private Equity: Erst Opernabende, dann Anwälte: Der Machtkampf um die Med-Tech-Firma Brainlab eskaliert",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Rüstung: Nicht nur „Finne oder Flügel“: Airbus dringt auf wichtige Rolle bei neuem Kampfjet",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "airbus"
         }
       ]
     },
@@ -55,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Albert Heijn restores website, app after cybersecurity incident; Deliveries start Friday",
+          "text": "It remains unknown what made 11 people sick at the Grolsch brewery tour",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Prices at the pump drop slightly from last week's record high",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Trains between Arnhem and Utrecht to be suspended for 12 days starting October 20",
+          "industrySlug": "construction",
+          "industryName": "Construction"
         },
         {
-          "text": "Ethiopia's Diriba breaks Amsterdam Marathon's course record, Berhanu wins men's race",
+          "text": "Municipalities are happy with the €355 million investment to support house construction",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -77,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Trump, 'Francia in fiamme, chiuda le frontiere prima che sia troppo tardi'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Messico, arrestato l'ex procuratore di Chihuahua per il caso degli agenti Cia",
+          "text": "Zero, bloccato o scontato: il prezzo torna al centro dello storytelling",
           "industrySlug": "automotive",
           "industryName": "Automotive"
         },
         {
-          "text": "Rama, 'neutralizzato drone esplosivo destinato a Palazzo del Governo'",
+          "text": "Dall’alluminio alla chimica verde, ecco le vertenze aperte in Sardegna",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Emilia-Romagna, la manifattura (29%) sopra la media italiana",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     },
@@ -99,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Boende efter dödsskjutningen i Älvsjö: ”Sorg och förtvivlan”",
+          "text": "Martin Ponsiluoma med ny seger i Tyskland: ”Vilken king han är”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Förödelsen stor efter protesterna i Frankrike",
+          "text": "Joakim Persson med dubbla fullträffar när Sirius tappade poäng sent",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dejan Kulusevski med i Tottenhams trupp – första gången på över ett år",
+          "text": "Anton Källberg klar för EM-final efter skrällseger",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
