@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "editionNumber": 60,
   "isDemo": false,
-  "leadSummary": "US Secretary of State Marco Rubio said Saturday that President Donald Trump’s decision to waive sanctions and tariffs on Russia would last 60 days, as the move drew bipartisan criticism and raised...",
+  "leadSummary": "Canadian Prime Minister Mark Carney said a \"serious incident creating a major fire\" had occurred at Canadian Forces Base Wainwright in Alberta.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Rubio says Trump to 'analyze' global impact of Russia sanctions during pause",
+          "text": "🔴 A demonstrator died from 'cardiorespiratory arrest' during Paris protests, police say",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "‘Standing up for democracy’: Atlanta ‘No Kings’ rally draws Trump critics ahead of midterms",
+          "text": "Months-long Indonesia wildfires spew toxic haze across Southeast Asia",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Watch: Moment historic French town hall spire collapses in flames amid protests",
+          "text": "India's 'cockroach' movement founder released from police custody",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,9 +32,21 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Volkswagen: So ringt Piëchs Familie bis heute um das Erbe des Patriarchen",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "volkswagen"
+        },
+        {
+          "text": "Sozialkonflikte: Schwere Unruhen in Frankreich – Proteste auch in Belgien, Portugal, Italien",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Übernimmt Schwesig?: Wie die SPD-Krise Lars Klingbeil bis nach Bangkok verfolgt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -44,17 +56,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch cloud services concerned after U.S. request leads to Amsterdam server seizure",
+          "text": "Police arrest 27-year-old man in Vlaardingen barbershop explosion",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Wolves make deer and boars on the Veluwe more alert, study finds",
+          "text": "11 fall ill after tasting water at Grolsch brewery in Enschede during a tour",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch cities report rising nuisance from street preachers",
+          "text": "Man, 50, dies in Terneuzen apartment fire",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -66,17 +78,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Vance, 'immigrazione e problemi di assimilazione le cause delle violenze in Francia'",
+          "text": "Piacentini: «Più Ai in azienda e che sia gestita dall’alto»",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rubio, 'molto turbati da aggressione a fotografa Usa, Israele fermi violenza'",
+          "text": "Ministro Canada, 'incidente a base militare il peggiore degli ultimi tempi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rubio, 'stop Trump a nuove sanzioni a Mosca per esame impatto su economia globale'",
+          "text": "Trump, 'il congelamento delle nuove sanzioni alla Russia è un'ottima decisione'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -88,9 +100,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Svenska landslagsåkarna om Victoria Carls comeback",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Liten orkidé symbol för rödgrön konflikt – skogspolitiken splittrar",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tre frågor där tuffa strider väntar mellan de rödgröna partierna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
