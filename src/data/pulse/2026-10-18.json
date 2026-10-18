@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "How reliant is Ukraine on the US-controlled Starlink internet service?",
           "industrySlug": "aerospace",
           "industryName": "Aerospace"
         },
         {
           "text": "Populist Czech PM Babis goes empty-handed in Senate elections",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fake-Sneaker sind ein riesiges Geschäft - doch Käufer gehen in Risiko",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Zero, bloccato o scontato: il prezzo torna al centro dello storytelling",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Dall’alluminio alla chimica verde, ecco le vertenze aperte in Sardegna",
+          "text": "Trump accusa Zelensky, 'non vuole la fine della guerra'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Emilia-Romagna, la manifattura (29%) sopra la media italiana",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Zelensky, 'Trump spinge l'Ucraina alla capitolazione di fronte alla Russia'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "In Brasile per la prima volta un sondaggio prevede la vittoria di Lula",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
