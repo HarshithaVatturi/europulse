@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "editionNumber": 61,
   "isDemo": false,
-  "leadSummary": "Alberta has the world's fourth-largest proven oil reserves and separatist momentum has been driven by anger over Ottawa's management of the sector.",
+  "leadSummary": "Elon Musk says he will give one SpaceX share to every child in America next year, a pledge worth about $10.7bn (€9.5bn) at Friday’s closing price. He has yet to explain who would qualify or how the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Cyberattack on French supermarkets tells us more about food security than AI safety",
+          "text": "European stocks open in the red as French businesses count the cost of the riots",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "French student protests: 'There's been lack of investment in education for years now'",
+          "text": "Protesters block entrances to Paris’s Louvre museum",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "'Quite horrifying': Afghan economic crisis leaves EU deportees with 'very little' to return to",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "New Chinese brands drive curiosity at the Mondial de l'Auto car show in Paris",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Adipositas: Sparen kann für den Staat teuer werden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Deutschland braucht wieder mehr Spielraum für Wachstum",
+          "text": "Berlin coalition talks hit bumps over Left’s alleged criminal ties",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Marktbericht: DAX steht schwacher Wochenstart bevor",
-          "industrySlug": "energy",
-          "industryName": "Energy"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Thermometers below 15°C everywhere in NL on Sunday; Stormy autumn weather this week",
+          "text": "Police seek 2 suspects after daylight robbery at Maastricht jeweler; 2 others injured",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Parents to pay more for childcare next year as hourly rates outpace gov't allowance",
+          "text": "Police confirm: A'dam woman's body found in a suitcase; Locals frustrated by little info",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Number of cybersecurity companies in Netherlands skyrocketed in 5 years",
+          "text": "Dutch PM Jetten and fiancé Nicolás Keenan are expecting a baby via a surrogate in 2027",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "« La France ne peut pas demander à bénéficier de la puissance collective de l’Europe quand ça l’arrange, sans en assumer les contraintes »",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
-        },
-        {
-          "text": "Bolivia, senatore arrestato per i blocchi stradali di maggio e giugno",
+          "text": "EU eyes Rome for 2027 summit ahead of Italian election",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Macron critica 'carenze' ordine pubblico ma respinge dimissioni ministro Interno",
+          "text": "Commission suspects US fund negligence in Italian telecom deal",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Meloni eyes Rome for EU summit as elections loom",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Eksjö tingsrätt friar kvinna efter fynd av handgranat",
+          "text": "Man hittad död i Kramfors – misstänkt mord",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man blottade sig för passagerare på tåg i Umeå",
+          "text": "Jimmy Jansson (S) lämnar riksdagen – efter en månad",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Lokaler utrymda efter misstänkt gasutsläpp i Linköping",
+          "text": "Rakade kvinnas underliv på äldreboende i Vännäs – vårdare döms till ett års fängelse",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
