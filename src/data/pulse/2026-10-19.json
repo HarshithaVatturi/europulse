@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "editionNumber": 61,
   "isDemo": false,
-  "leadSummary": "Elon Musk says he will give one SpaceX share to every child in America next year, a pledge worth about $10.7bn (€9.5bn) at Friday’s closing price. He has yet to explain who would qualify or how the...",
+  "leadSummary": "Torrential rain triggered severe flooding in eastern Spain, sweeping away cars, submerging roads and leaving at least four people dead.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "European stocks open in the red as French businesses count the cost of the riots",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Macron increasingly isolated amid unrest across France",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
           "text": "Protesters block entrances to Paris’s Louvre museum",
@@ -37,14 +37,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird",
+          "text": "Berlin coalition talks hit bumps over Left’s alleged criminal ties",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Berlin coalition talks hit bumps over Left’s alleged criminal ties",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Europe’s new Franco-German auto pact will protect combustion engines, not European jobs",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police seek 2 suspects after daylight robbery at Maastricht jeweler; 2 others injured",
+          "text": "Stichtse Vecht gives up on removing Asian hornet nests after their numbers explode",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Police confirm: A'dam woman's body found in a suitcase; Locals frustrated by little info",
+          "text": "Man using metal detector finds wedding ring lost 83 years ago, returns it to family",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch PM Jetten and fiancé Nicolás Keenan are expecting a baby via a surrogate in 2027",
+          "text": "Severe floods cut off villages in Dutch holiday region of Spain; 4 dead",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Commission suspects US fund negligence in Italian telecom deal",
+          "text": "All roads lead to Rome",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Meloni eyes Rome for EU summit as elections loom",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Commission suspects US fund negligence in Italian telecom deal",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Man hittad död i Kramfors – misstänkt mord",
+          "text": "AI och slagsmål i Göteborg: De här bilderna visar inte upploppen i Frankrike",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Jimmy Jansson (S) lämnar riksdagen – efter en månad",
+          "text": "Efter 43 år – Christiane Amanpour lämnar CNN",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rakade kvinnas underliv på äldreboende i Vännäs – vårdare döms till ett års fängelse",
+          "text": "Stopp på E45 – lastbil har vält utanför Ollsta",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
