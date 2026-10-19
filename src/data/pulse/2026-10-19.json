@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "editionNumber": 61,
   "isDemo": false,
-  "leadSummary": "Police arrested 12 activists from the group Kappen met Kolen on Saturday at the coal railway of the EECV transshipment terminal in Rotterdam's Europoort.",
+  "leadSummary": "Alberta has the world's fourth-largest proven oil reserves and separatist momentum has been driven by anger over Ottawa's management of the sector.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Prices at the pump drop slightly from last week's record high",
+          "text": "Cyberattack on French supermarkets tells us more about food security than AI safety",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "French student protests: 'There's been lack of investment in education for years now'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "'Quite horrifying': Afghan economic crisis leaves EU deportees with 'very little' to return to",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Deutschland braucht wieder mehr Spielraum für Wachstum",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marktbericht: DAX steht schwacher Wochenstart bevor",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police arrest 12 activists at Rotterdam coal railway",
+          "text": "Thermometers below 15°C everywhere in NL on Sunday; Stormy autumn weather this week",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "It remains unknown what made 11 people sick at the Grolsch brewery tour",
+          "text": "Parents to pay more for childcare next year as hourly rates outpace gov't allowance",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trains between Arnhem and Utrecht to be suspended for 12 days starting October 20",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "Number of cybersecurity companies in Netherlands skyrocketed in 5 years",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,7 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "El Salvador, il presidente Bukele annuncia scarcerazioni solo per 5mila detenuti",
+          "text": "« La France ne peut pas demander à bénéficier de la puissance collective de l’Europe quand ça l’arrange, sans en assumer les contraintes »",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "Bolivia, senatore arrestato per i blocchi stradali di maggio e giugno",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Macron critica 'carenze' ordine pubblico ma respinge dimissioni ministro Interno",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Eksjö tingsrätt friar kvinna efter fynd av handgranat",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Man blottade sig för passagerare på tåg i Umeå",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lokaler utrymda efter misstänkt gasutsläpp i Linköping",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
