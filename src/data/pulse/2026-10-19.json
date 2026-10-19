@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "editionNumber": 61,
   "isDemo": false,
-  "leadSummary": "00h Escolas podem fechar esta segunda-feira",
+  "leadSummary": "Police arrested 12 activists from the group Kappen met Kolen on Saturday at the coal railway of the EECV transshipment terminal in Rotterdam's Europoort.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Prices at the pump drop slightly from last week's record high",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Police arrest 12 activists at Rotterdam coal railway",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "It remains unknown what made 11 people sick at the Grolsch brewery tour",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trains between Arnhem and Utrecht to be suspended for 12 days starting October 20",
+          "industrySlug": "construction",
+          "industryName": "Construction"
         }
       ]
     },
@@ -46,9 +56,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "El Salvador, il presidente Bukele annuncia scarcerazioni solo per 5mila detenuti",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
