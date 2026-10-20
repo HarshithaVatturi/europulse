@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "editionNumber": 62,
   "isDemo": false,
-  "leadSummary": "Ukraine’s 92nd Assault Brigade says it has carried out its first aerial drone evacuation of a wounded soldier, pulling him from a position where mines and Russian drone activity made a conventional...",
+  "leadSummary": "Her family said she passed away in hospital surrounded by loved ones, just months after she welcomed her first child, daughter Snow.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Why pharma giant Roche is putting German investments on hold",
-          "industrySlug": "healthcare-pharma",
-          "industryName": "healthcare-pharma"
-        },
-        {
           "text": "Merz und sein Deutschland-Pitch",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Japan takes aim at the moons of Mars with French and German technology",
+          "text": "Why pharma giant Roche is putting German investments on hold",
+          "industrySlug": "healthcare-pharma",
+          "industryName": "healthcare-pharma"
+        },
+        {
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Layoffs to hit civil servants working at three Dutch ministries: Report",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "PostNL wants €80 million from government to continue mail delivery next year",
+          "text": "Netherlands meets EU gas storage target after government intervention",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kids' accounts from Dutch youth home in Spain bear hallmarks of \"child torture\": expert",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "Amsterdam adds late-night metro services and extra buses for ADE",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mystery drones spotted over Eemshaven, elsewhere in Groningen province",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Ex Ilva: oggi ultimo atto in Corte di Cassazione, si decide sull’area a caldo",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Milano entra nel futuro: al via la Zis sull’Intelligenza Artificiale",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         },
         {
-          "text": "Emilia-Romagna: nel primo semestre manifattura +0,6%",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Somec, ordini per 119 milioni per una nuova generazione di navi da crociera",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -103,12 +103,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Tonårspojkarna anmäldes försvunna – samma dag som mordet i Älvsjö",
+          "text": "”En dålig relation med USA kostar ukrainska liv”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Störningar i regionens verksamheter: ”Man kan inte ringa”",
+          "text": "Anundshög plundrat igen – museiechefen: ”Dags för kameraövervakning”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
