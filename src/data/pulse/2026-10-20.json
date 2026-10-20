@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "editionNumber": 62,
   "isDemo": false,
-  "leadSummary": "Her family said she passed away in hospital surrounded by loved ones, just months after she welcomed her first child, daughter Snow.",
+  "leadSummary": "Qatar welcomed the French president with full state honours on his arrival in Doha as the two countries are strengthening their strategic ties. Facing protests at home, Macron is seeking energy...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Police patrol Paris streets under overnight curfew",
+          "text": "France's Macron begins state visit to Qatar as part of wider Gulf tour",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump says Paris will soon be 'a Muslim city' under Macron's immigration policies",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Heavy rain causes widespread flooding in France’s Marseille",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "France presses resale platforms to remove 'stolen' goods after unrest",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Paris shop owners clean up and repair stores after riots",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Merz und sein Deutschland-Pitch",
+          "text": "Investment summit: German government strikes AI deal with Nvidia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -42,7 +42,7 @@
           "industryName": "healthcare-pharma"
         },
         {
-          "text": "DW",
+          "text": "Japan takes aim at the moons of Mars with French and German technology",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands meets EU gas storage target after government intervention",
+          "text": "Kallas buys time on EU response to US sanctions against the ICC",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Amsterdam adds late-night metro services and extra buses for ADE",
+          "text": "‘Days, not months’ to save ICC, warns Dutch MEP",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mystery drones spotted over Eemshaven, elsewhere in Groningen province",
+          "text": "Dutch primary schools rarely adopt four-day weeks despite teacher shortage",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Milano entra nel futuro: al via la Zis sull’Intelligenza Artificiale",
-          "industrySlug": "logistics-supply-chain",
-          "industryName": "Logistics & Supply Chain"
-        },
-        {
-          "text": "Somec, ordini per 119 milioni per una nuova generazione di navi da crociera",
+          "text": "NetZero Milan vuole diventare il riferimento per la transizione e l’industria",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Riciclo plastica rigida, Aliplast (Hera) inaugura impianto da 49 milioni",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -103,12 +103,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "”En dålig relation med USA kostar ukrainska liv”",
+          "text": "Läckta uppgifter om tomtens hälsa anmäldes till Ivo",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Anundshög plundrat igen – museiechefen: ”Dags för kameraövervakning”",
+          "text": "Frontalkrock på E12 utanför Vännäs – en allvarligt skadad",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
