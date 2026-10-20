@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "editionNumber": 62,
   "isDemo": false,
-  "leadSummary": "Im einstigen Büro von Erich Honecker buhlt die deutsche Politik beim ersten „Invest in Germany“-Gipfel um ausländisches Kapital. Während das Kanzleramt die Konferenz initiiert hat, verspricht...",
+  "leadSummary": "Ukraine’s 92nd Assault Brigade says it has carried out its first aerial drone evacuation of a wounded soldier, pulling him from a position where mines and Russian drone activity made a conventional...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "French riots lay bare risks and opportunities for 2027 election candidates",
+          "text": "Police patrol Paris streets under overnight curfew",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France’s new drug pricing policy ‘not a response’ to US pressure",
+          "text": "Trump says Paris will soon be 'a Muslim city' under Macron's immigration policies",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Live: Curfews come into effect around France to combat looting",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "France presses resale platforms to remove 'stolen' goods after unrest",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Why pharma giant Roche is putting German investments on hold",
+          "industrySlug": "healthcare-pharma",
+          "industryName": "healthcare-pharma"
+        },
+        {
           "text": "Merz und sein Deutschland-Pitch",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Russland-Sanktionen: Deutsche Bank und Linde brechen Geschäftskontakte ab",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Nikkei: Geopolitische Sorgen belasten Börsen in Asien",
+          "text": "Japan takes aim at the moons of Mars with French and German technology",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Hoe rechts Frankrijk profiteert van rellen",
+          "text": "Layoffs to hit civil servants working at three Dutch ministries: Report",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "PostNL wants €80 million from government to continue mail delivery next year",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Stichtse Vecht gives up on removing Asian hornet nests after their numbers explode",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Man using metal detector finds wedding ring lost 83 years ago, returns it to family",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Kids' accounts from Dutch youth home in Spain bear hallmarks of \"child torture\": expert",
+          "industrySlug": "ai",
+          "industryName": "AI"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Diritti d’autore e AI, la bolognese Musixmatch acquisisce Music Reports",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Atm lancia una nuova academy per formare autisti",
+          "text": "La charité soudaine d’Elon Musk et d’Anthropic, entre distribution d’actions et aide caritative",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Messico, il monito di Guillermo del Toro sul ritorno del fascismo",
+          "text": "Ex Ilva: oggi ultimo atto in Corte di Cassazione, si decide sull’area a caldo",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Emilia-Romagna: nel primo semestre manifattura +0,6%",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,12 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Swedes buy record 15 kg textiles per person per year",
-          "industrySlug": "fashion",
-          "industryName": "Fashion & Luxury"
+          "text": "Sweden and Denmark see no MFN hit to drug launches, concerns remain [Partner Content]",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Svensk sykepleier tiltalt for voldtekt av døende pasient",
+          "text": "Tonårspojkarna anmäldes försvunna – samma dag som mordet i Älvsjö",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Störningar i regionens verksamheter: ”Man kan inte ringa”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
