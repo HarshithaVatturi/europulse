@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "editionNumber": 62,
   "isDemo": false,
-  "leadSummary": "O secretário-geral do PS admite que a vontade do Partido Socialista era de votar contra o Orçamento do Estado, mas o partido entende que o seu dever é servir o país.",
+  "leadSummary": "Im einstigen Büro von Erich Honecker buhlt die deutsche Politik beim ersten „Invest in Germany“-Gipfel um ausländisches Kapital. Während das Kanzleramt die Konferenz initiiert hat, verspricht...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "French riots lay bare risks and opportunities for 2027 election candidates",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France’s new drug pricing policy ‘not a response’ to US pressure",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: Curfews come into effect around France to combat looting",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Merz und sein Deutschland-Pitch",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Russland-Sanktionen: Deutsche Bank und Linde brechen Geschäftskontakte ab",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nikkei: Geopolitische Sorgen belasten Börsen in Asien",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Hoe rechts Frankrijk profiteert van rellen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Stichtse Vecht gives up on removing Asian hornet nests after their numbers explode",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Man using metal detector finds wedding ring lost 83 years ago, returns it to family",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Diritti d’autore e AI, la bolognese Musixmatch acquisisce Music Reports",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Atm lancia una nuova academy per formare autisti",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Messico, il monito di Guillermo del Toro sul ritorno del fascismo",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +98,14 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Swedes buy record 15 kg textiles per person per year",
+          "industrySlug": "fashion",
+          "industryName": "Fashion & Luxury"
+        },
+        {
+          "text": "Svensk sykepleier tiltalt for voldtekt av døende pasient",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
