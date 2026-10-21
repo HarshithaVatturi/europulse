@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "editionNumber": 63,
   "isDemo": false,
-  "leadSummary": "Officials in Busan made a third attempt to guide a trapped shark out of a canal and back to sea. The animal has drawn over a million visitors.",
+  "leadSummary": "As EU lawmakers prepare to visit Beijing, the European Parliament's trade chief is calling for a broader agreement that could revive elements of a frozen investment pact and address unfair Chinese...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Suspicious drones spotted flying over French military sites",
+          "text": "Macron calls for extreme caution in Gulf, secures critical gas deal in Qatar state visit",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+          "text": "Mobilisations en Italie, Espagne, Portugal, Belgique, Albanie, Allemagne : l’exemple français est-il en train de faire tache d’huile?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Egypt mulls joining Saudi Arabia in war against Houthis",
+          "text": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch parliament website taken offline as cybersecurity warning triggers precautions",
+          "text": "Police search Amsterdam building where 29-year-old woman was likely killed",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
+          "text": "Property sites charge home seekers to even make contact with realtor",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "First health insurance prices for 2026 show staggering 9.3% increase",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Dutch cybersecurity firm warns of rising data requests from prosecutors",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Critical PHP security fix released: Dutch agency warns websites may need hours to return",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -81,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Italy deploys troops into Milan in response to recent riots",
+          "text": "[Interview] ‘I hear MEPs say Muslims are a threat, with no consequences. I say Free Palestine and I’ll be arrested’. MEP Benedetta Scuderi warns protest repression is being normalised in Europe",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Italy deploys army and approves tougher anti-riot laws after violence",
+          "text": "Italy: Giorgia Meloni approves tougher anti-riot laws after Milan violence 🇮🇹",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Fallolycka på Stegra i Boden",
+          "text": "EXCLUSIVE: November deal on tobacco taxation ‘impossible’",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nu är julgranen på plats i Lycksele – redan i oktober",
+          "text": "Videoquiz: Gissa delstaten!",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Migrationsministern: ”Analyserar förutsättningar att kunna neka visum”",
+          "text": "Efter långsittare – Ica i Tranås inför tidsgräns i caféet",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
