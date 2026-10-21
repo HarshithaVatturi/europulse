@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "editionNumber": 63,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Officials in Busan made a third attempt to guide a trapped shark out of a canal and back to sea. The animal has drawn over a million visitors.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Boeing's 737 Max 10 finally wins FAA approval after years of delays",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Suspicious drones spotted flying over French military sites",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Live: French PM Lecornu to meet with unions ahead of new protests",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Au Brésil, l’ubérisation de l’économie profite à l’extrême droite",
+          "text": "Egypt mulls joining Saudi Arabia in war against Houthis",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Marktbericht: DAX mit leichten Gewinnen erwartet",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "More Russians are settling in the EU with each year of war in Ukraine",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "China-Schock 2.0 - wie sich Europas Industrie schützen kann",
+          "text": "Commission greenlights Germany's final payment request for €6 billion under NextGenerationEU",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Morning Briefing: Tech-Konzerne wetten Billionen auf die Zukunft der Künstlichen Intelligenz",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Gouda house fire spreads to two adjacent homes; Three hospitalized",
+          "text": "Dutch parliament website taken offline as cybersecurity warning triggers precautions",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Amsterdam Dance Event to celebrate 30th anniversary with city-wide events",
+          "text": "First health insurance prices for 2026 show staggering 9.3% increase",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Coos Huijsen, world's first openly gay parliamentarian, dies aged 87",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch cybersecurity firm warns of rising data requests from prosecutors",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -81,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Droni russi su un villaggio vicino a Kharkiv, due morti",
+          "text": "Italy deploys troops into Milan in response to recent riots",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ministero Commercio cinese, Usa violano intesa Xi-Trump con divieto DeepSeek",
+          "text": "Italy deploys army and approves tougher anti-riot laws after violence",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "FN: Omöjligt klara Parisavtalets mål",
+          "text": "Fallolycka på Stegra i Boden",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Svenska skidförbundet vill stoppa ryska åkare från VM i Falun",
+          "text": "Nu är julgranen på plats i Lycksele – redan i oktober",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dominika, 25, tröttnade på skärmarna – startade offlineklubb i Katrineholm",
+          "text": "Migrationsministern: ”Analyserar förutsättningar att kunna neka visum”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
