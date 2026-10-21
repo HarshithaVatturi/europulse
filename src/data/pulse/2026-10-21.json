@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "editionNumber": 63,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Laut „Wall Street Journal“ geht das Minus überwiegend auf Bilanzierungseffekte zurück. Zugleich bindet sich der Claude-Entwickler an milliardenschwere Verträge für Rechenkapazitäten.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -22,9 +22,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Medienbericht: Anthropic macht im ersten Halbjahr offenbar 80 Milliarden Dollar Verlust",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "PSV pick up first UEFA Champions League win of the season away to FC Porto",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Prosecutors seek five years for man accused of arranging child sexual abuse online",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Much contested temporary asylum shelter in Loosdrecht closing again",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +56,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Trump, 'il presidente di solito perde alle midterm ma sfateremo la tradizione'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
