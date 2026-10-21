@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "editionNumber": 63,
   "isDemo": false,
-  "leadSummary": "Laut „Wall Street Journal“ geht das Minus überwiegend auf Bilanzierungseffekte zurück. Zugleich bindet sich der Claude-Entwickler an milliardenschwere Verträge für Rechenkapazitäten.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Boeing's 737 Max 10 finally wins FAA approval after years of delays",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Live: French PM Lecornu to meet with unions ahead of new protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Au Brésil, l’ubérisation de l’économie profite à l’extrême droite",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Medienbericht: Anthropic macht im ersten Halbjahr offenbar 80 Milliarden Dollar Verlust",
+          "text": "Marktbericht: DAX mit leichten Gewinnen erwartet",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "China-Schock 2.0 - wie sich Europas Industrie schützen kann",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Morning Briefing: Tech-Konzerne wetten Billionen auf die Zukunft der Künstlichen Intelligenz",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "PSV pick up first UEFA Champions League win of the season away to FC Porto",
+          "text": "Gouda house fire spreads to two adjacent homes; Three hospitalized",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Prosecutors seek five years for man accused of arranging child sexual abuse online",
+          "text": "Amsterdam Dance Event to celebrate 30th anniversary with city-wide events",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Much contested temporary asylum shelter in Loosdrecht closing again",
+          "text": "Coos Huijsen, world's first openly gay parliamentarian, dies aged 87",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,7 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Trump, 'il presidente di solito perde alle midterm ma sfateremo la tradizione'",
+          "text": "Italy wants EU capitals to keep their grip on foreign policy",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Droni russi su un villaggio vicino a Kharkiv, due morti",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ministero Commercio cinese, Usa violano intesa Xi-Trump con divieto DeepSeek",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "FN: Omöjligt klara Parisavtalets mål",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Svenska skidförbundet vill stoppa ryska åkare från VM i Falun",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dominika, 25, tröttnade på skärmarna – startade offlineklubb i Katrineholm",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
