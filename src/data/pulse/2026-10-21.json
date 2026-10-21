@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "editionNumber": 63,
   "isDemo": false,
-  "leadSummary": "As EU lawmakers prepare to visit Beijing, the European Parliament's trade chief is calling for a broader agreement that could revive elements of a frozen investment pact and address unfair Chinese...",
+  "leadSummary": "Separately, two Dutch nationals wanted by prosecutors in the Netherlands have been arrested in Colombia.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -20,7 +20,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
+          "text": "Riots in France: tourism sector fears drop in foreign visitors",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police search Amsterdam building where 29-year-old woman was likely killed",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "Colombia seizes 7.6 tonnes of Netherlands-bound cocaine at Cartagena port",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Property sites charge home seekers to even make contact with realtor",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Heineken must pay 111 million euros to Greek rival over market abuse",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Critical PHP security fix released: Dutch agency warns websites may need hours to return",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Police arrest two suspects in AI-powered bank fraud that cost victims €380,000",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -81,7 +81,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "[Interview] ‘I hear MEPs say Muslims are a threat, with no consequences. I say Free Palestine and I’ll be arrested’. MEP Benedetta Scuderi warns protest repression is being normalised in Europe",
+          "text": "[Interview] ‘I hear MEPs say Muslims are a threat, with no consequences. I say Free Palestine and I’ll be arrested’ – MEP Benedetta Scuderi warns protest repression is being normalised in Europe",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -103,12 +103,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Videoquiz: Gissa delstaten!",
+          "text": "SVT möter flyktingarna från katastrofbyn: ”Hundar äter döda kroppar”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Efter långsittare – Ica i Tranås inför tidsgräns i caféet",
+          "text": "Videoquiz: Gissa delstaten!",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
