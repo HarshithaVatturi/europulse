@@ -2,7 +2,7 @@
   "date": "2026-10-22",
   "editionNumber": 64,
   "isDemo": false,
-  "leadSummary": "Elon Musk has opened the door to merging Tesla and SpaceX into a $3.5 trillion (€3.1tn) giant, the latest step in years of folding his companies into one another, with a deal reportedly aimed at...",
+  "leadSummary": "Several Spanish unions had already called a general strike for 11 November. But, according to the CCOO leader, it could now spread to Portugal.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "France: Artists and collectors gather at Art Basel Paris despite unrest",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "First known human case of Shamonda virus confirmed in France",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Macron tells local authorities to ban non-union protests on Saturday",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "French budget bill sets aside €2.3M for Macron’s future offices",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany sceptical of EU plan to reboot online consumer rules",
+          "text": "Germany: Humanoid robots and AI supercomputers take centre stage in Berlin",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Berlin Process unity talk meets Balkan reality",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Balkans summit puts ‘Berlin Process’ to the test",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "DW",
+          "text": "Denmark stocks up on long-range missiles from US, Norway",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "What is happening in France? Unpacking the recent waves of protests",
+          "text": "Scientists turn art detectives to date van Gogh's 'Starry Night' to actual sky from 1889",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "International Criminal Court wins European Parliament's Sakharov Prize",
+          "text": "France: 'Legitimate' grievances over education & inflation risk being overshadowed by violent unrest",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Hope for nearly bankrupt seal center as Groningen province offers help",
+          "text": "West Nile virus infections reach 72 as mosquito season ends",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,12 +81,12 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Spain and Italy end post-Ceuta border checks",
+          "text": "Trucker blockades in southern Italy ramp up pressure on Meloni",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Italian MEP on hunger strike over humanitarian crisis in Russian-occupied Oleshky",
+          "text": "Parliament trolls Trump",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "AI-bilder tar över – fotografer i Umeå protesterar: ”Dynga”",
+          "text": "Oskrivna caféregler: ”Man bör köpa något mer efter 2 timmar”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Konsthandlarens kompanjon frias från konststölden på Lindgården",
+          "text": "Migrationsverket öppnar för att pausa tonårsutvisningar",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Därför är det så många nyckelpigor i Uppsala",
+          "text": "Tre misstänkta i valfusk-utredning efter gryningsräd",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
