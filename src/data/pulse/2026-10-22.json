@@ -2,7 +2,7 @@
   "date": "2026-10-22",
   "editionNumber": 64,
   "isDemo": false,
-  "leadSummary": "0h Sporting perde com o LASK Linz, sofre a primeira derrota na Liga dos Campeões",
+  "leadSummary": "Künstliche Intelligenz verschärft die Bedrohungslage für Unternehmen und stellt klassische Schutzkonzepte auf die Probe. Wie sich IT-Systeme dennoch wirksam und rund um die Uhr schützen lassen,...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "French manufacturers warn of surge in Chinese dental prostheses",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Live: Paris bans protests after violent unrest as Macron takes swipe at Trump",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Merz’s eastern nightmare is far from over",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Balkans summit puts ‘Berlin Process’ to the test",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ausschüsse im EU-Parlament stimmen ab zum Verbrenner-Kompromiss",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Elon Musk wil grootste fusie ooit met SpaceX en Tesla",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Feyenoord lose to Real Betis after Isco penalty, extend European away losing streak",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Heineken must pay 111 million euros to Greek rival over market abuse",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -46,9 +76,20 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Far-right Italian general hunts the manosphere vote",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sindaco Mosca, 'nella notte oltre 600 droni lanciati contro la città'",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "L’indotto dell’automotive perde 3 miliardi di fatturato",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
