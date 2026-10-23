@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "editionNumber": 65,
   "isDemo": false,
-  "leadSummary": "Das ukrainische Militär beklagt eine Drosselung von Elon Musks Satelliteninternet. Jetzt nimmt der US-Präsident Stellung dazu – doch viele Fragen bleiben offen.",
+  "leadSummary": "Around 280 companies from 33 countries gathered at Milipol Qatar, displaying drones, robots and AI systems. Exhibitors discussed changing security needs, while officials examined how to protect...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "La crisis de la deuda francesa tensa el coste de financiación de bancos y empresas",
+          "text": "Europe has a big cheese problem",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mélenchon’s ‘new France’ triggers identity clash with Le Pen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Germany’s digital health overhaul faces scrutiny from EU, France",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Satelliteninternet: Musk hat Starlink-Drosselung für Ukraine laut Trump aufgehoben",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Germany’s digital health overhaul faces scrutiny from EU, France",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marktbericht: Tech-Ausverkauf drückt auf die Anlegerstimmung",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Autobauer: Der langfristige Rettungsplan des Ola Källenius – wie Mercedes die Krise überwinden will",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Minstens 16 doden bij aardbeving in Tibet",
+          "text": "Dutch government can't afford to limit interest on student loans to 2.5% as promised",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "FC Twente maintain perfect European start with 4-1 win in Gibraltar",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "More rubber boats used for people smuggling imported to Netherlands; Customs intervening",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Ajax bounce back from last week's Conference League defeat with late win over Atalanta",
+          "text": "Dutchman’s road to a Vienna wedding leads straight to prison after drug bust",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,12 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Sondaggio Brasile, Lula e Bolsonaro testa a testa al 50% a 3 giorni dal ballottaggio",
+          "text": "Europe has a big cheese problem",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "BBVA supera el millón de clientes en Italia tras cinco años en el país",
+          "text": "Cattura della CO2, accordo tra CapeCarbon e Michelin per primo impianto industriale",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
+          "text": "Intelligenza artificiale, a Palermo un patto per formare chi guiderà l’innovazione",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -73,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "text": "Green transition of heavy industry loses momentum – several projects",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
+        },
+        {
+          "text": "Långa köer på Kastrup flygplats – hundratals missade sina flyg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Grovt rån i Norrköping – flera anhållna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
