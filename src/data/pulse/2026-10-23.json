@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "editionNumber": 65,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Das ukrainische Militär beklagt eine Drosselung von Elon Musks Satelliteninternet. Jetzt nimmt der US-Präsident Stellung dazu – doch viele Fragen bleiben offen.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "La crisis de la deuda francesa tensa el coste de financiación de bancos y empresas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +22,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Satelliteninternet: Musk hat Starlink-Drosselung für Ukraine laut Trump aufgehoben",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Minstens 16 doden bij aardbeving in Tibet",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "FC Twente maintain perfect European start with 4-1 win in Gibraltar",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ajax bounce back from last week's Conference League defeat with late win over Atalanta",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +56,14 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Sondaggio Brasile, Lula e Bolsonaro testa a testa al 50% a 3 giorni dal ballottaggio",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "BBVA supera el millón de clientes en Italia tras cinco años en el país",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
