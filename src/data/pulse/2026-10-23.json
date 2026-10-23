@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "editionNumber": 65,
   "isDemo": false,
-  "leadSummary": "Around 280 companies from 33 countries gathered at Milipol Qatar, displaying drones, robots and AI systems. Exhibitors discussed changing security needs, while officials examined how to protect...",
+  "leadSummary": "Experts interviewed by Euronews explained why improving children's lives requires more than simply expanding access to essential services.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "France slips into contraction as Europe’s growth slows: How bad could it get?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Europe has a big cheese problem",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Mélenchon’s ‘new France’ triggers identity clash with Le Pen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Germany’s digital health overhaul faces scrutiny from EU, France",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "FIRST AID: German health data push to face delays",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
+        },
+        {
           "text": "Germany’s digital health overhaul faces scrutiny from EU, France",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Marktbericht: Tech-Ausverkauf drückt auf die Anlegerstimmung",
+          "text": "Frankreichs Schuldenkrise: Droht eine neue Eurokrise?",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Autobauer: Der langfristige Rettungsplan des Ola Källenius – wie Mercedes die Krise überwinden will",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch government can't afford to limit interest on student loans to 2.5% as promised",
+          "text": "Dutch cybersecurity center investigating first signs hackers abused PHP issues",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "More rubber boats used for people smuggling imported to Netherlands; Customs intervening",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Mortgage guarantee limit massively outpaces what homebuyers can afford to borrow",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Dutchman’s road to a Vienna wedding leads straight to prison after drug bust",
+          "text": "Van Gogh's Starry Night maybe based on pre-dawn French village on July 22, 1889",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Cattura della CO2, accordo tra CapeCarbon e Michelin per primo impianto industriale",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
-        },
-        {
-          "text": "Intelligenza artificiale, a Palermo un patto per formare chi guiderà l’innovazione",
+          "text": "Politics in 'materialist terms': Gen Z in Albania, Italy, France and India protesting for 'fairness'",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "‘Generational rage’ drives young Europeans to fight to be heard",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Green transition of heavy industry loses momentum – several projects",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
-        },
-        {
-          "text": "Långa köer på Kastrup flygplats – hundratals missade sina flyg",
+          "text": "Expertgranskning: SSAB kan inte fastställa sjukdomsorsaken",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Grovt rån i Norrköping – flera anhållna",
+          "text": "Skjutning utanför Paris – en död",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "AI-tjänster spärras på Regeringskansliet",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
