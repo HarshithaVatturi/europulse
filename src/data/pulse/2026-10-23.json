@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "editionNumber": 65,
   "isDemo": false,
-  "leadSummary": "Experts interviewed by Euronews explained why improving children's lives requires more than simply expanding access to essential services.",
+  "leadSummary": "A multi-storey building under construction has collapsed in Nairobi, leaving a vast pile of rubble. Red Cross workers have arrived at the scene, where excavators are being used among the debris.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France slips into contraction as Europe’s growth slows: How bad could it get?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Storm Austen batters France and UK with winds of up to 160 km/h",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Europe has a big cheese problem",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France: shops barricaded in Lyon and Orléans for possible unrest as protests loom",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Mélenchon’s ‘new France’ triggers identity clash with Le Pen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "French prosecutors open hate crime probe after deadly drive-by shooting",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Frankreichs Schuldenkrise: Droht eine neue Eurokrise?",
+          "text": "Jewish groups clash over whether EU antisemitism envoy should influence Israel policy, as controversial von Schnurbein goes back to Berlin",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch cybersecurity center investigating first signs hackers abused PHP issues",
+          "text": "Police investigate cyberattack as Albert Heijn works to restore full deliveries",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mortgage guarantee limit massively outpaces what homebuyers can afford to borrow",
+          "text": "Petrol station in Gelderland to sell fuel for €1 per llter during final hour",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Van Gogh's Starry Night maybe based on pre-dawn French village on July 22, 1889",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Prosecutors: Missing Amsterdam woman Hajar killed the day she sent “Help me” message",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Europe has a big cheese problem",
+          "text": "New EU-wide asylum law ends up in court in Italy",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Politics in 'materialist terms': Gen Z in Albania, Italy, France and India protesting for 'fairness'",
+          "text": "Au Brésil, les milieux financiers penchent pour les promesses d’extrême droite de Flavio Bolsonaro",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "‘Generational rage’ drives young Europeans to fight to be heard",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "ZDF-Politbarometer: Union bei 23 Prozent und AfD bei 26: Abstand zwischen den Parteien wird laut Umfrage geringer",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Expertgranskning: SSAB kan inte fastställa sjukdomsorsaken",
+          "text": "Så blev elitens internatskola en misstänkt brottsplats",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Skjutning utanför Paris – en död",
+          "text": "En person skjuten i södra Stockholm",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "AI-tjänster spärras på Regeringskansliet",
+          "text": "Anneli hittade döda höns på återvinningsstation i Åseda",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
