@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "editionNumber": 65,
   "isDemo": false,
-  "leadSummary": "A multi-storey building under construction has collapsed in Nairobi, leaving a vast pile of rubble. Red Cross workers have arrived at the scene, where excavators are being used among the debris.",
+  "leadSummary": "The US has declared helium a critical material as war in the Middle East and export curbs by Russia and China squeeze global supplies of a gas vital to chipmaking, leaving Europe scrambling to...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,14 +15,14 @@
           "industryName": "Energy"
         },
         {
-          "text": "France: shops barricaded in Lyon and Orléans for possible unrest as protests loom",
+          "text": "France: shops barricaded in Lyon and Orléans for possible unrest",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "French prosecutors open hate crime probe after deadly drive-by shooting",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "France slips into contraction as Europe’s growth slows: How bad could it get?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police investigate cyberattack as Albert Heijn works to restore full deliveries",
+          "text": "Vidi grant awarded to over 100 researchers and scientists",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Petrol station in Gelderland to sell fuel for €1 per llter during final hour",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Prosecutors: Missing Amsterdam woman Hajar killed the day she sent “Help me” message",
+          "text": "Dutch prosecutors seek prison term for man who posted TikToks glorifying Islamic State",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Domestic intelligence chief warns AI could become a threat in its own right",
+          "industrySlug": "ai",
+          "industryName": "AI"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Polisernas vansinnesfärd på E4 i Luleå – körde i 280 km/h",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Moa ritade långfilmen själv – nu kan den vinna pris i Norge",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Så blev elitens internatskola en misstänkt brottsplats",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "En person skjuten i södra Stockholm",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Anneli hittade döda höns på återvinningsstation i Åseda",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
