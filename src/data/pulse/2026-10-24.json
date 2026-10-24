@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "editionNumber": 66,
   "isDemo": false,
-  "leadSummary": "More and more Dutch people are looking for ways to provide extra heating for their homes this winter, RTL Nieuwspanel<a href=\"https://www.rtl.nl/nieuws/economie/artikel/5659914/elektrisch-verwarmen...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "French police deploy in big numbers and Paris shuts major museums ahead of new protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: Hundreds of protests expected in France amid high tensions and heavy police presence",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "La raffinerie nigériane de Dangote entre en Bourse, portée par l’envolée des prix des carburants",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Ein Spaziergang mit Martin Blessing",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +44,19 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Dutch new-build home sales stall 25% as high interest rates stall market",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "Clocks go back one hour in the Netherlands early Sunday morning",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Dutch turn to electric heaters amid highest natural gas prices in years",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Vidi grant awarded to over 100 researchers and scientists",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Dutch prosecutors seek prison term for man who posted TikToks glorifying Islamic State",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -56,9 +66,20 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Piero Cipollone: Interview with Milano Finanza",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Francesco Macrì: «Bisogna investire nella difesa comune europea»",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "leonardo"
+        },
+        {
+          "text": "Cuba, 'appelli a collaborare con la Cia? Gli Usa sono alla disperazione'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,7 +89,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "14 år gammel jente pågrepet etter drap i Sverige",
+          "text": "Mytomspunna derbyt i Västerbotten: ”Alla spelarna fightades”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tsunamivarning lyft efter skalv utanför Vanuatu",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Hundratals skadade i Taiwan efter tyfon",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
