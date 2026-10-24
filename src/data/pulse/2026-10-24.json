@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "editionNumber": 66,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Lula against Flavio - both candidates in the second-round presidential election in Brazil hold rallies in major cities on the last day of campaigning. With around 20% of the electorate having...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -54,7 +54,7 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Man faces months in jail for sexually assaulting a horse in Oss",
+          "text": "Man faces a month in jail for sexually assaulting a horse in Oss",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
@@ -81,14 +81,14 @@
           "industryName": "Energy"
         },
         {
+          "text": "Milan braces for protests as police flood streets",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
           "text": "Piero Cipollone: Interview with Milano Finanza",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Italy hit by new cost of living protests",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
