@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "editionNumber": 66,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "More and more Dutch people are looking for ways to provide extra heating for their homes this winter, RTL Nieuwspanel<a href=\"https://www.rtl.nl/nieuws/economie/artikel/5659914/elektrisch-verwarmen...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Dutch turn to electric heaters amid highest natural gas prices in years",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Vidi grant awarded to over 100 researchers and scientists",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch prosecutors seek prison term for man who posted TikToks glorifying Islamic State",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -58,9 +68,9 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "14 år gammel jente pågrepet etter drap i Sverige",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
