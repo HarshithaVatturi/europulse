@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-10-24T14:45:52.820Z",
+  "lastUpdated": "2026-10-24T17:51:57.436Z",
   "totalSources": 89,
   "activeSources": 55,
   "skippedSources": 4,
   "failedSources": 24,
   "linkOutSources": 6,
-  "totalNewsItems": 12286,
-  "totalJobPostings": 17421,
-  "durationSeconds": 56,
+  "totalNewsItems": 12364,
+  "totalJobPostings": 17450,
+  "durationSeconds": 59,
   "sources": [
     {
       "id": "euronews-business",
@@ -17,8 +17,8 @@
       "status": "active",
       "httpStatus": 304,
       "itemsCount": 50,
-      "durationMs": 105,
-      "lastSuccess": "2026-10-24T14:44:57.172Z"
+      "durationMs": 125,
+      "lastSuccess": "2026-10-24T17:50:58.428Z"
     },
     {
       "id": "euronews-europe",
@@ -28,8 +28,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 50,
-      "durationMs": 66,
-      "lastSuccess": "2026-10-24T14:44:57.158Z"
+      "durationMs": 121,
+      "lastSuccess": "2026-10-24T17:50:58.455Z"
     },
     {
       "id": "euractiv",
@@ -39,8 +39,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 100,
-      "durationMs": 366,
-      "lastSuccess": "2026-10-24T14:44:57.459Z"
+      "durationMs": 668,
+      "lastSuccess": "2026-10-24T17:50:59.003Z"
     },
     {
       "id": "politico-eu",
@@ -50,8 +50,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 114,
-      "lastSuccess": "2026-10-24T14:44:57.207Z"
+      "durationMs": 392,
+      "lastSuccess": "2026-10-24T17:50:58.728Z"
     },
     {
       "id": "euobserver",
@@ -61,8 +61,8 @@
       "status": "active",
       "httpStatus": 304,
       "itemsCount": 20,
-      "durationMs": 1050,
-      "lastSuccess": "2026-10-24T14:44:58.144Z"
+      "durationMs": 1575,
+      "lastSuccess": "2026-10-24T17:50:59.912Z"
     },
     {
       "id": "ec-press-corner",
@@ -72,8 +72,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 716,
-      "lastSuccess": "2026-10-24T14:44:57.874Z"
+      "durationMs": 946,
+      "lastSuccess": "2026-10-24T17:50:59.374Z"
     },
     {
       "id": "eurostat-news",
@@ -84,7 +84,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 ",
       "itemsCount": 0,
-      "durationMs": 327
+      "durationMs": 615
     },
     {
       "id": "ecb-press",
@@ -94,8 +94,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 15,
-      "durationMs": 456,
-      "lastSuccess": "2026-10-24T14:44:57.663Z"
+      "durationMs": 410,
+      "lastSuccess": "2026-10-24T17:50:59.138Z"
     },
     {
       "id": "eurofound-news",
@@ -106,7 +106,7 @@
       "httpStatus": 429,
       "error": "HTTP 429 Too Many Requests",
       "itemsCount": 0,
-      "durationMs": 6271
+      "durationMs": 6898
     },
     {
       "id": "eea-press",
@@ -117,7 +117,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 521
+      "durationMs": 694
     },
     {
       "id": "eu-osha-news",
@@ -128,7 +128,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 830
+      "durationMs": 1406
     },
     {
       "id": "cedefop-news",
@@ -139,7 +139,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 671
+      "durationMs": 551
     },
     {
       "id": "oecd-newsroom",
@@ -150,7 +150,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 50
+      "durationMs": 175
     },
     {
       "id": "dw-business",
@@ -160,8 +160,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 415,
-      "lastSuccess": "2026-10-24T14:44:58.485Z"
+      "durationMs": 150,
+      "lastSuccess": "2026-10-24T17:51:00.062Z"
     },
     {
       "id": "dw-europe",
@@ -171,8 +171,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 345,
-      "lastSuccess": "2026-10-24T14:44:58.490Z"
+      "durationMs": 240,
+      "lastSuccess": "2026-10-24T17:51:00.165Z"
     },
     {
       "id": "tagesschau-wirtschaft",
@@ -182,8 +182,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 35,
-      "durationMs": 512,
-      "lastSuccess": "2026-10-24T14:44:58.997Z"
+      "durationMs": 760,
+      "lastSuccess": "2026-10-24T17:51:00.699Z"
     },
     {
       "id": "handelsblatt",
@@ -193,8 +193,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 21,
-      "durationMs": 612,
-      "lastSuccess": "2026-10-24T14:44:59.102Z"
+      "durationMs": 1112,
+      "lastSuccess": "2026-10-24T17:51:01.174Z"
     },
     {
       "id": "france24-en",
@@ -204,8 +204,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 24,
-      "durationMs": 215,
-      "lastSuccess": "2026-10-24T14:44:58.708Z"
+      "durationMs": 196,
+      "lastSuccess": "2026-10-24T17:51:00.361Z"
     },
     {
       "id": "rfi-en",
@@ -214,9 +214,9 @@
       "feedType": "rss",
       "status": "active",
       "httpStatus": 200,
-      "itemsCount": 21,
-      "durationMs": 156,
-      "lastSuccess": "2026-10-24T14:44:58.701Z"
+      "itemsCount": 22,
+      "durationMs": 49,
+      "lastSuccess": "2026-10-24T17:51:00.410Z"
     },
     {
       "id": "les-echos-eco",
@@ -227,7 +227,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 241
+      "durationMs": 196
     },
     {
       "id": "le-monde-eco",
@@ -237,8 +237,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 153,
-      "lastSuccess": "2026-10-24T14:44:58.861Z"
+      "durationMs": 165,
+      "lastSuccess": "2026-10-24T17:51:00.709Z"
     },
     {
       "id": "maddyness",
@@ -248,8 +248,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 162,
-      "lastSuccess": "2026-10-24T14:44:59.023Z"
+      "durationMs": 216,
+      "lastSuccess": "2026-10-24T17:51:00.822Z"
     },
     {
       "id": "nos-nieuws",
@@ -259,8 +259,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 859,
-      "lastSuccess": "2026-10-24T14:44:59.801Z"
+      "durationMs": 653,
+      "lastSuccess": "2026-10-24T17:51:01.352Z"
     },
     {
       "id": "nl-times",
@@ -270,8 +270,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 260,
-      "lastSuccess": "2026-10-24T14:44:59.257Z"
+      "durationMs": 552,
+      "lastSuccess": "2026-10-24T17:51:01.261Z"
     },
     {
       "id": "fd-nl",
@@ -280,9 +280,9 @@
       "feedType": "rss",
       "status": "active",
       "httpStatus": 200,
-      "itemsCount": 41,
-      "durationMs": 605,
-      "lastSuccess": "2026-10-24T14:44:59.628Z"
+      "itemsCount": 40,
+      "durationMs": 520,
+      "lastSuccess": "2026-10-24T17:51:01.342Z"
     },
     {
       "id": "ansa-en",
@@ -292,8 +292,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 37,
-      "durationMs": 966,
-      "lastSuccess": "2026-10-24T14:45:00.068Z"
+      "durationMs": 1253,
+      "lastSuccess": "2026-10-24T17:51:02.427Z"
     },
     {
       "id": "il-sole-24-ore",
@@ -303,8 +303,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 12,
-      "durationMs": 565,
-      "lastSuccess": "2026-10-24T14:44:59.822Z"
+      "durationMs": 1203,
+      "lastSuccess": "2026-10-24T17:51:02.464Z"
     },
     {
       "id": "rai-news",
@@ -315,7 +315,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 663
+      "durationMs": 1017
     },
     {
       "id": "rtve-noticias",
@@ -326,7 +326,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 143
+      "durationMs": 893
     },
     {
       "id": "el-pais-en",
@@ -337,7 +337,7 @@
       "httpStatus": 370,
       "error": "HTTP 370 status code 370",
       "itemsCount": 0,
-      "durationMs": 417
+      "durationMs": 402
     },
     {
       "id": "cinco-dias",
@@ -348,7 +348,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 18
+      "durationMs": 30
     },
     {
       "id": "expansion",
@@ -358,8 +358,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 78,
-      "durationMs": 89,
-      "lastSuccess": "2026-10-24T14:45:00.051Z"
+      "durationMs": 480,
+      "lastSuccess": "2026-10-24T17:51:02.869Z"
     },
     {
       "id": "svt-nyheter",
@@ -369,8 +369,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 100,
-      "durationMs": 213,
-      "lastSuccess": "2026-10-24T14:45:00.264Z"
+      "durationMs": 720,
+      "lastSuccess": "2026-10-24T17:51:03.147Z"
     },
     {
       "id": "sr-english",
@@ -380,8 +380,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 743,
-      "lastSuccess": "2026-10-24T14:45:00.811Z"
+      "durationMs": 1211,
+      "lastSuccess": "2026-10-24T17:51:03.675Z"
     },
     {
       "id": "the-local-se",
@@ -391,8 +391,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 2077,
-      "lastSuccess": "2026-10-24T14:45:02.316Z"
+      "durationMs": 1912,
+      "lastSuccess": "2026-10-24T17:51:04.559Z"
     },
     {
       "id": "dr-nyheder",
@@ -403,7 +403,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 288
+      "durationMs": 497
     },
     {
       "id": "the-local-dk",
@@ -413,8 +413,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 1755,
-      "lastSuccess": "2026-10-24T14:45:02.046Z"
+      "durationMs": 1428,
+      "lastSuccess": "2026-10-24T17:51:04.575Z"
     },
     {
       "id": "nrk-nyheter",
@@ -424,8 +424,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 333,
-      "lastSuccess": "2026-10-24T14:45:00.885Z"
+      "durationMs": 262,
+      "lastSuccess": "2026-10-24T17:51:03.628Z"
     },
     {
       "id": "the-local-no",
@@ -435,8 +435,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 1350,
-      "lastSuccess": "2026-10-24T14:45:02.161Z"
+      "durationMs": 1252,
+      "lastSuccess": "2026-10-24T17:51:04.880Z"
     },
     {
       "id": "yle-news",
@@ -446,8 +446,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 250,
-      "lastSuccess": "2026-10-24T14:45:01.135Z"
+      "durationMs": 445,
+      "lastSuccess": "2026-10-24T17:51:04.120Z"
     },
     {
       "id": "rte-business",
@@ -455,10 +455,10 @@
       "type": "news",
       "feedType": "rss",
       "status": "active",
-      "httpStatus": 200,
+      "httpStatus": 304,
       "itemsCount": 40,
-      "durationMs": 221,
-      "lastSuccess": "2026-10-24T14:45:01.356Z"
+      "durationMs": 158,
+      "lastSuccess": "2026-10-24T17:51:04.278Z"
     },
     {
       "id": "irish-times-biz",
@@ -467,9 +467,9 @@
       "feedType": "rss",
       "status": "active",
       "httpStatus": 200,
-      "itemsCount": 83,
-      "durationMs": 754,
-      "lastSuccess": "2026-10-24T14:45:02.110Z"
+      "itemsCount": 76,
+      "durationMs": 738,
+      "lastSuccess": "2026-10-24T17:51:05.016Z"
     },
     {
       "id": "bbc-business",
@@ -479,8 +479,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 55,
-      "durationMs": 155,
-      "lastSuccess": "2026-10-24T14:45:02.201Z"
+      "durationMs": 170,
+      "lastSuccess": "2026-10-24T17:51:04.729Z"
     },
     {
       "id": "bbc-europe",
@@ -489,9 +489,9 @@
       "feedType": "rss",
       "status": "active",
       "httpStatus": 200,
-      "itemsCount": 25,
-      "durationMs": 284,
-      "lastSuccess": "2026-10-24T14:45:02.394Z"
+      "itemsCount": 22,
+      "durationMs": 241,
+      "lastSuccess": "2026-10-24T17:51:04.816Z"
     },
     {
       "id": "guardian-business",
@@ -501,8 +501,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 53,
-      "lastSuccess": "2026-10-24T14:45:02.214Z"
+      "durationMs": 65,
+      "lastSuccess": "2026-10-24T17:51:04.794Z"
     },
     {
       "id": "city-am",
@@ -510,10 +510,10 @@
       "type": "news",
       "feedType": "rss",
       "status": "active",
-      "httpStatus": 200,
+      "httpStatus": 304,
       "itemsCount": 30,
-      "durationMs": 35,
-      "lastSuccess": "2026-10-24T14:45:02.236Z"
+      "durationMs": 135,
+      "lastSuccess": "2026-10-24T17:51:04.929Z"
     },
     {
       "id": "vrt-nws",
@@ -524,7 +524,7 @@
       "httpStatus": 410,
       "error": "HTTP 410 Gone",
       "itemsCount": 0,
-      "durationMs": 362
+      "durationMs": 1181
     },
     {
       "id": "brussels-times",
@@ -535,7 +535,7 @@
       "httpStatus": 200,
       "error": "0 items parsed from XML",
       "itemsCount": 0,
-      "durationMs": 298
+      "durationMs": 451
     },
     {
       "id": "orf-news",
@@ -544,9 +544,9 @@
       "feedType": "rss",
       "status": "active",
       "httpStatus": 200,
-      "itemsCount": 23,
-      "durationMs": 1334,
-      "lastSuccess": "2026-10-24T14:45:03.650Z"
+      "itemsCount": 24,
+      "durationMs": 1280,
+      "lastSuccess": "2026-10-24T17:51:06.209Z"
     },
     {
       "id": "the-local-at",
@@ -556,8 +556,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 20,
-      "durationMs": 1423,
-      "lastSuccess": "2026-10-24T14:45:03.817Z"
+      "durationMs": 1838,
+      "lastSuccess": "2026-10-24T17:51:06.854Z"
     },
     {
       "id": "swissinfo-en",
@@ -568,7 +568,7 @@
       "httpStatus": 410,
       "error": "HTTP 410 Gone",
       "itemsCount": 0,
-      "durationMs": 1054
+      "durationMs": 2529
     },
     {
       "id": "nzz-wirtschaft",
@@ -578,8 +578,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 33,
-      "durationMs": 241,
-      "lastSuccess": "2026-10-24T14:45:02.817Z"
+      "durationMs": 331,
+      "lastSuccess": "2026-10-24T17:51:06.232Z"
     },
     {
       "id": "tvp-world",
@@ -590,7 +590,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 533
+      "durationMs": 543
     },
     {
       "id": "notes-from-poland",
@@ -600,8 +600,8 @@
       "status": "active",
       "httpStatus": 304,
       "itemsCount": 12,
-      "durationMs": 67,
-      "lastSuccess": "2026-10-24T14:45:03.417Z"
+      "durationMs": 89,
+      "lastSuccess": "2026-10-24T17:51:06.298Z"
     },
     {
       "id": "portugal-resident",
@@ -609,10 +609,10 @@
       "type": "news",
       "feedType": "rss",
       "status": "active",
-      "httpStatus": 304,
+      "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 725,
-      "lastSuccess": "2026-10-24T14:45:04.142Z"
+      "durationMs": 517,
+      "lastSuccess": "2026-10-24T17:51:06.749Z"
     },
     {
       "id": "rtp-noticias",
@@ -622,8 +622,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 50,
-      "durationMs": 595,
-      "lastSuccess": "2026-10-24T14:45:04.183Z"
+      "durationMs": 173,
+      "lastSuccess": "2026-10-24T17:51:06.471Z"
     },
     {
       "id": "sifted",
@@ -633,8 +633,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 24,
-      "durationMs": 413,
-      "lastSuccess": "2026-10-24T14:45:04.063Z"
+      "durationMs": 676,
+      "lastSuccess": "2026-10-24T17:51:07.147Z"
     },
     {
       "id": "tech-eu",
@@ -645,7 +645,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 244
+      "durationMs": 259
     },
     {
       "id": "eu-startups",
@@ -655,8 +655,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 1852,
-      "lastSuccess": "2026-10-24T14:45:05.669Z"
+      "durationMs": 1432,
+      "lastSuccess": "2026-10-24T17:51:08.181Z"
     },
     {
       "id": "silicon-canals",
@@ -666,8 +666,8 @@
       "status": "active",
       "httpStatus": 304,
       "itemsCount": 10,
-      "durationMs": 85,
-      "lastSuccess": "2026-10-24T14:45:04.059Z"
+      "durationMs": 94,
+      "lastSuccess": "2026-10-24T17:51:06.893Z"
     },
     {
       "id": "the-next-web",
@@ -677,8 +677,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 329,
-      "lastSuccess": "2026-10-24T14:45:04.388Z"
+      "durationMs": 316,
+      "lastSuccess": "2026-10-24T17:51:07.170Z"
     },
     {
       "id": "autonews-europe",
@@ -689,7 +689,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 1222
+      "durationMs": 738
     },
     {
       "id": "electrive",
@@ -699,8 +699,8 @@
       "status": "active",
       "httpStatus": 304,
       "itemsCount": 30,
-      "durationMs": 183,
-      "lastSuccess": "2026-10-24T14:45:04.325Z"
+      "durationMs": 219,
+      "lastSuccess": "2026-10-24T17:51:07.366Z"
     },
     {
       "id": "robot-report",
@@ -708,10 +708,10 @@
       "type": "news",
       "feedType": "rss",
       "status": "active",
-      "httpStatus": 200,
+      "httpStatus": 304,
       "itemsCount": 15,
-      "durationMs": 104,
-      "lastSuccess": "2026-10-24T14:45:04.288Z"
+      "durationMs": 118,
+      "lastSuccess": "2026-10-24T17:51:07.288Z"
     },
     {
       "id": "manufacturing-global",
@@ -722,7 +722,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 Forbidden",
       "itemsCount": 0,
-      "durationMs": 67
+      "durationMs": 97
     },
     {
       "id": "aerospace-global-news",
@@ -730,10 +730,10 @@
       "type": "news",
       "feedType": "rss",
       "status": "active",
-      "httpStatus": 200,
+      "httpStatus": 304,
       "itemsCount": 10,
-      "durationMs": 76,
-      "lastSuccess": "2026-10-24T14:45:04.401Z"
+      "durationMs": 79,
+      "lastSuccess": "2026-10-24T17:51:07.445Z"
     },
     {
       "id": "esa-news",
@@ -743,8 +743,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 9,
-      "durationMs": 676,
-      "lastSuccess": "2026-10-24T14:45:05.031Z"
+      "durationMs": 2281,
+      "lastSuccess": "2026-10-24T17:51:09.666Z"
     },
     {
       "id": "fashionunited",
@@ -754,8 +754,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 100,
-      "durationMs": 167,
-      "lastSuccess": "2026-10-24T14:45:04.555Z"
+      "durationMs": 933,
+      "lastSuccess": "2026-10-24T17:51:08.378Z"
     },
     {
       "id": "ee-times-europe",
@@ -766,7 +766,7 @@
       "httpStatus": 0,
       "error": "Request timed out",
       "itemsCount": 0,
-      "durationMs": 42007
+      "durationMs": 42009
     },
     {
       "id": "eures-news",
@@ -777,7 +777,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 (Not Found)",
       "itemsCount": 0,
-      "durationMs": 305
+      "durationMs": 328
     },
     {
       "id": "study-in-europe",
@@ -788,7 +788,7 @@
       "httpStatus": 200,
       "error": "0 items parsed from XML",
       "itemsCount": 0,
-      "durationMs": 961
+      "durationMs": 1643
     },
     {
       "id": "daad-news",
@@ -799,7 +799,7 @@
       "httpStatus": 404,
       "error": "HTTP 404 Not Found",
       "itemsCount": 0,
-      "durationMs": 1339
+      "durationMs": 1313
     },
     {
       "id": "erasmus-plus-news",
@@ -809,8 +809,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 10,
-      "durationMs": 1230,
-      "lastSuccess": "2026-10-24T14:45:06.515Z"
+      "durationMs": 806,
+      "lastSuccess": "2026-10-24T17:51:09.184Z"
     },
     {
       "id": "arbeitnow",
@@ -820,8 +820,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 900,
-      "durationMs": 2721,
-      "lastSuccess": "2026-10-24T14:45:49.129Z"
+      "durationMs": 3639,
+      "lastSuccess": "2026-10-24T17:51:53.279Z"
     },
     {
       "id": "adzuna",
@@ -843,7 +843,7 @@
       "httpStatus": 403,
       "error": "HTTP 403 No match found for request",
       "itemsCount": 0,
-      "durationMs": 715
+      "durationMs": 604
     },
     {
       "id": "france-travail",
@@ -884,10 +884,10 @@
       "type": "jobs",
       "feedType": "json-api",
       "status": "active",
-      "httpStatus": 304,
+      "httpStatus": 200,
       "itemsCount": 9,
-      "durationMs": 84,
-      "lastSuccess": "2026-10-24T14:45:49.929Z"
+      "durationMs": 120,
+      "lastSuccess": "2026-10-24T17:51:54.004Z"
     },
     {
       "id": "himalayas",
@@ -897,8 +897,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 5,
-      "durationMs": 155,
-      "lastSuccess": "2026-10-24T14:45:50.084Z"
+      "durationMs": 130,
+      "lastSuccess": "2026-10-24T17:51:54.134Z"
     },
     {
       "id": "weworkremotely",
@@ -908,8 +908,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 2,
-      "durationMs": 161,
-      "lastSuccess": "2026-10-24T14:45:50.245Z"
+      "durationMs": 193,
+      "lastSuccess": "2026-10-24T17:51:54.327Z"
     },
     {
       "id": "ats-greenhouse-aggregate",
@@ -919,8 +919,8 @@
       "status": "active",
       "httpStatus": 200,
       "itemsCount": 75,
-      "durationMs": 2287,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "durationMs": 2710,
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "epso",
@@ -931,7 +931,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "eures-portal",
@@ -942,7 +942,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "linkedin-jobs",
@@ -953,7 +953,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "indeed-eu",
@@ -964,7 +964,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "stepstone",
@@ -975,7 +975,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     },
     {
       "id": "welcome-to-the-jungle",
@@ -986,7 +986,7 @@
       "httpStatus": 200,
       "itemsCount": 0,
       "durationMs": 0,
-      "lastSuccess": "2026-10-24T14:45:52.533Z"
+      "lastSuccess": "2026-10-24T17:51:57.038Z"
     }
   ]
 }

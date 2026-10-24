@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "editionNumber": 66,
   "isDemo": false,
-  "leadSummary": "Days before tight elections are due to be held in Israel, Prime Minister Benjamin Netanyahu has announced a massive operation on the West Bank after two Israeli soldiers were killed by militants at...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,9 @@
       "countryName": "France",
       "items": [
         {
-          "text": "French protests see fewer early incidents as tighter policing draws criticism",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Tensions flare up across France as marches come to an end",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
           "text": "Police fire tear gas as new French demonstrations kick off",
@@ -20,9 +20,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "France protests begin largely peacefully under heavy police presence",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "France: Clashes break out as protests go nationwide",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Nach der Elternzeit: Wenn die Rückkehr in den Job schwierig wird",
+          "text": "France: Clashes break out as protests go nationwide",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Yellow alert remains in effect for heavy winds in coastal areas, western Wadden Islands",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Man faces months in jail for sexually assaulting a horse in Oss",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Amsterdam Dance Event draws at least 600,000 visitors as hotel prices soar",
+          "text": "Road traffic workers say Rijkswaterstaat is forcing them to use slow, unsafe software",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Amsterdam court postpones appeal until April in case of boy killed in climbing-hall fall",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dozens of churches sign up to house asylum seekers amid housing shortage",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -86,9 +86,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Protests against cost of living expected in Italy under heavy security",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Italy hit by new cost of living protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,18 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "20-åriga Charlize har avlidit – drabbades av blodcancer",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "Kan ”mannen utan karisma” besegra Netanyahu?",
+          "text": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Varning för ”livsfara” när stormen Boelo når Storbritannien",
+          "text": "Tog med jaktgevär in i vallokal i Krokom – åtalas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Smäll för Sirius – föll mot AIK efter kritiserat straffmål",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
