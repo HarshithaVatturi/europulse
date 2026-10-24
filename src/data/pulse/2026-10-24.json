@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "editionNumber": 66,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Days before tight elections are due to be held in Israel, Prime Minister Benjamin Netanyahu has announced a massive operation on the West Bank after two Israeli soldiers were killed by militants at...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "NFL would cancel Paris game if unsafe due to protests, Steelers QB Aaron Rodgers says",
+          "text": "French protests see fewer early incidents as tighter policing draws criticism",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Netanyahu orders West Bank operation",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Police fire tear gas as new French demonstrations kick off",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Typhoon Champi batters Taiwan",
+          "text": "France protests begin largely peacefully under heavy police presence",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Ein Spaziergang mit Martin Blessing",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Deutschlandticket für Gelegenheitsfahrer: Bilger findet Idee gut",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Energie-Entkoppelung: So abhängig ist Europa noch von Russland",
+          "text": "Nach der Elternzeit: Wenn die Rückkehr in den Job schwierig wird",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Prosecutors seek 4 years for man who raped woman in A'dam garage in presence of child",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Yellow alert remains in effect for heavy winds in coastal areas, western Wadden Islands",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Student groups condemn Cabinet over dropping promised 2.5 % student-loan interest cap",
+          "text": "Amsterdam Dance Event draws at least 600,000 visitors as hotel prices soar",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Video: Fire destroys Rotterdam wholesaler of Middle Eastern, Turkish, North African food",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Amsterdam court postpones appeal until April in case of boy killed in climbing-hall fall",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Soldiers patrol Milan streets as shops board up ahead of protests",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
           "text": "Piero Cipollone: Interview with Milano Finanza",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Protests against cost of living expected in Italy under heavy security",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Zakharova, 'Meloni ascolti Al Bano che chiede di riaprire le porte a Mosca'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,18 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Se casinobluffen: Två män från Skellefteå döms för spelfusk",
+          "text": "20-åriga Charlize har avlidit – drabbades av blodcancer",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Kan ”mannen utan karisma” besegra Netanyahu?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kristin Thorleifsdóttir berättar om konstanta smärtorna: ”Inget roligt liv att leva”",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "SVT:s expert ställdes en mot en mot Connor McDavid: ”Helt sjukt”",
+          "text": "Varning för ”livsfara” när stormen Boelo når Storbritannien",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
