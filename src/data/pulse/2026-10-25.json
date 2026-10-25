@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "Harun A., 26, from Oss, faces one month in jail for sexual acts with a horse, prosecutors say.",
+  "leadSummary": "In Potsdam wird gerade mehr als einen Kilometer in den Boden gebohrt, um künftig Tausende Haushalte mit Erdwärme zu versorgen. Die Technik birgt Risiken, aber auch viele Chancen. Von M. Kell und H....",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Mobilisation sociale : « Les syndicats, qui devaient canaliser la colère, ne jouent plus leur rôle »",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pour identifier le recours à l’IA dans les œuvres, la musique affiche une sérieuse avance sur l’édition et le cinéma",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "« Je n’ai pas la force de lutter contre l’IA » : face aux ravages de l’automatisation, une partie des jeunes se tourne vers des métiers manuels",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -22,9 +32,15 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Wie Erdwärme die Wärmeversorgung verändern soll",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Auto: Nach Handelsblatt-Bericht: Trump bestätigt Bau von Audi-Werk in den USA",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volkswagen"
         }
       ]
     },
@@ -56,9 +72,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Media: 'Un morto e dieci feriti in un attacco ucraino a Belgorod'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Il Brasile alle urne, Lula voterà a San Paolo e Bolsonaro a Rio",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fashion in Formula 1: How the paddock became global catwalk",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +94,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Strövområde i Kil förändras – upp till 120 bostäder planeras",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Södertälje först i länet med startklara polisdrönare på taket",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Sylvia, 96, fikar med volontärer för att bryta ensamheten: ”Blir isolerad hemma”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
