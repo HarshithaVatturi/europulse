@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "Brazilians headed to the polls on Sunday to choose between Lula and Flávio Bolsonaro. From canoe journeys in the Amazon to long queues in Rio and a Lula doll in Brasília, voters turned out for the...",
+  "leadSummary": "Audi is planning its first car factory in the United States, with the Ingolstadt-based manufacturer set to invest billions in a new plant in Georgia.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Le Pen casts herself as protector of France as troubles swirl",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Le Pen kicks off presidential push amid France unrest",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France: Le Pen seeks to leverage unrest in presidential campaign kick-off",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Opposition leader Machado returns to Venezuela after 10 months in exile",
+          "text": "Marine Le Pen launches presidential campaign in Orléans",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
+          "text": "Prague honors Roma resistance fighters against Hitler",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Prague honours Roma resistance fighters against Hitler",
+          "text": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Bulgaria holds presidential elections amid divisions over Ukraine war",
+          "text": "France and Britain test NATO readiness with major airborne exercise in Germany",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -59,12 +59,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Court backs Amsterdam school's refusal to promote English-speaking student to next grade",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Ajax close gap on league leaders Feyenoord with victory over Sparta",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Dutch pension funds stop Brussels from steering members' savings into European startups",
+          "text": "Dutch police seize 3,000 kilograms of illegal fireworks, arrest 33-year-old man",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,7 +76,7 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Prague honours Roma resistance fighters against Hitler",
+          "text": "Prague honors Roma resistance fighters against Hitler",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -86,9 +86,10 @@
           "industryName": "Manufacturing"
         },
         {
-          "text": "Media, 'scontro fra bus e auto vicino Barcellona, 40 feriti di cui 20 gravi'",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "Vucic, 'abbiamo perso le elezioni'",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     },
@@ -104,12 +105,12 @@
           "companySlug": "volvo"
         },
         {
-          "text": "David Rumbutis skrev svensk gymnastikhistoria under VM",
+          "text": "Joen Vikingsson Sjöblom efter Rysslandsbeskedet: ”Inte förvånad”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "”Arvet efter franska revolutionen lever”",
+          "text": "David Rumbutis skrev svensk gymnastikhistoria under VM",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
