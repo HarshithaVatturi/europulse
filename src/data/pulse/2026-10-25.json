@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Harun A., 26, from Oss, faces one month in jail for sexual acts with a horse, prosecutors say.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -34,9 +34,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Man faces a month in jail for sexually assaulting a horse in Oss",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Road traffic workers say Rijkswaterstaat is forcing them to use slow, unsafe software",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dozens of churches sign up to house asylum seekers amid housing shortage",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
