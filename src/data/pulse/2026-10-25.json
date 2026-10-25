@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "In Potsdam wird gerade mehr als einen Kilometer in den Boden gebohrt, um künftig Tausende Haushalte mit Erdwärme zu versorgen. Die Technik birgt Risiken, aber auch viele Chancen. Von M. Kell und H....",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Mobilisation sociale : « Les syndicats, qui devaient canaliser la colère, ne jouent plus leur rôle »",
+          "text": "Suspect in racist gun attack near Paris transferred to psychiatric unit",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pour identifier le recours à l’IA dans les œuvres, la musique affiche une sérieuse avance sur l’édition et le cinéma",
+          "text": "France: Some clashes erupted at end of protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "« Je n’ai pas la force de lutter contre l’IA » : face aux ravages de l’automatisation, une partie des jeunes se tourne vers des métiers manuels",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "More than 400.000 protest across France",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,15 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Wie Erdwärme die Wärmeversorgung verändern soll",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Auto: Nach Handelsblatt-Bericht: Trump bestätigt Bau von Audi-Werk in den USA",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "volkswagen"
+          "text": "Bulgaria holds presidential elections amid divisions over Ukraine war",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France and Britain test NATO readiness with major airborne exercise in Germany",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -50,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Man faces a month in jail for sexually assaulting a horse in Oss",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Road traffic workers say Rijkswaterstaat is forcing them to use slow, unsafe software",
+          "text": "Video: Queen Máxima, Princess Alexia spotted at Amsterdam Dance Event party in Zaandam",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dozens of churches sign up to house asylum seekers amid housing shortage",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "High winds from Storm Boelo force dozens of Schiphol flight cancellations",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Video: Major fire burned at Zoetermeer car scrapyard; Same site burned last February",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -72,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Media: 'Un morto e dieci feriti in un attacco ucraino a Belgorod'",
+          "text": "Chimica, dalla salute all’energia i temi dell’assemblea degli industriali",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
+          "text": "Urne aperte in Serbia, sfida tra Movimento studenti e l'uscente Vucic",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Il Brasile alle urne, Lula voterà a San Paolo e Bolsonaro a Rio",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Fashion in Formula 1: How the paddock became global catwalk",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Polizia, 128 arresti e 15 agenti feriti per disordini a Barcellona",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -94,20 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Strövområde i Kil förändras – upp till 120 bostäder planeras",
+          "text": "Emil Forsberg målskytt mot Messis Inter Miami",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Södertälje först i länet med startklara polisdrönare på taket",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "Sylvia, 96, fikar med volontärer för att bryta ensamheten: ”Blir isolerad hemma”",
+          "text": "Efter skidmärkenas bojkott – ryska åkarna köper skidor i butik",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Här får Sidney Crosby en smäll i ansiktet – av domaren",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     }
