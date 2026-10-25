@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Audi plans its first car plant of its own in the United States, investing billions in a new production site in the state of Georgia.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Suspect in racist gun attack near Paris transferred to psychiatric unit",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "France: Some clashes erupted at end of protests",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "More than 400.000 protest across France",
+          "text": "Calais, 10 years after the Jungle: Migrants still risk the Channel crossing",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Presidential runoff under way in Brazil",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Le Pen leads polls with up to 38% six months before election",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
+          "text": "Prague honours Roma resistance fighters against Hitler",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "France and Britain test NATO readiness with major airborne exercise in Germany",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Wie ein Dorf in Brandenburg seinen Gasthof retten will",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Video: Queen Máxima, Princess Alexia spotted at Amsterdam Dance Event party in Zaandam",
+          "text": "Missing Dutch TV personality Emile Ratelband left Thailand in 2025, Thai police report",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "High winds from Storm Boelo force dozens of Schiphol flight cancellations",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Man faces 4 years in prison for planning terrorist attack on proposed asylum shelter",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Video: Major fire burned at Zoetermeer car scrapyard; Same site burned last February",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Amsterdam's debt set to surpass €10 billion",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Chimica, dalla salute all’energia i temi dell’assemblea degli industriali",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
-        },
-        {
-          "text": "Urne aperte in Serbia, sfida tra Movimento studenti e l'uscente Vucic",
+          "text": "Prague honours Roma resistance fighters against Hitler",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Polizia, 128 arresti e 15 agenti feriti per disordini a Barcellona",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Burnham apre a una 'discussione onesta' sul ripristino della libera circolazione Gb-Ue",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lula vota a San Paolo e attacca Flavio Bolsonaro, 'è un bugiardo'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,19 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Emil Forsberg målskytt mot Messis Inter Miami",
+          "text": "Fina gesten – ger bort straffen till svenska lagkamraten",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Efter skidmärkenas bojkott – ryska åkarna köper skidor i butik",
+          "text": "Isabelle Haaks dröminsats – hyllas efter supercuptiteln: ”Prinsessa”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Här får Sidney Crosby en smäll i ansiktet – av domaren",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Misstänkt grovt brott i Sala Backe",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
