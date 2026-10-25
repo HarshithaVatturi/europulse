@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "editionNumber": 67,
   "isDemo": false,
-  "leadSummary": "Audi plans its first car plant of its own in the United States, investing billions in a new production site in the state of Georgia.",
+  "leadSummary": "Brazilians headed to the polls on Sunday to choose between Lula and Flávio Bolsonaro. From canoe journeys in the Amazon to long queues in Rio and a Lula doll in Brasília, voters turned out for the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Calais, 10 years after the Jungle: Migrants still risk the Channel crossing",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Presidential runoff under way in Brazil",
+          "text": "Le Pen kicks off presidential push amid France unrest",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Le Pen leads polls with up to 38% six months before election",
+          "text": "France: Le Pen seeks to leverage unrest in presidential campaign kick-off",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Opposition leader Machado returns to Venezuela after 10 months in exile",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,6 +32,11 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Prague honours Roma resistance fighters against Hitler",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -40,11 +45,6 @@
           "text": "Bulgaria holds presidential elections amid divisions over Ukraine war",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Wie ein Dorf in Brandenburg seinen Gasthof retten will",
-          "industrySlug": "energy",
-          "industryName": "Energy"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Missing Dutch TV personality Emile Ratelband left Thailand in 2025, Thai police report",
+          "text": "Tempête Boelo : 82 000 foyers privés d’électricité au Royaume-Uni, des dizaines de vols annulés à l’aéroport d’Amsterdam",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man faces 4 years in prison for planning terrorist attack on proposed asylum shelter",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Court backs Amsterdam school's refusal to promote English-speaking student to next grade",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Amsterdam's debt set to surpass €10 billion",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Dutch pension funds stop Brussels from steering members' savings into European startups",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Burnham apre a una 'discussione onesta' sul ripristino della libera circolazione Gb-Ue",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Chimica, dalla salute all’energia i temi dell’assemblea degli industriali",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         },
         {
-          "text": "Lula vota a San Paolo e attacca Flavio Bolsonaro, 'è un bugiardo'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Media, 'scontro fra bus e auto vicino Barcellona, 40 feriti di cui 20 gravi'",
+          "industrySlug": "ai",
+          "industryName": "AI"
         }
       ]
     },
@@ -98,17 +98,18 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Fina gesten – ger bort straffen till svenska lagkamraten",
+          "text": "Omvang verlies verrast personeel Volvo Cars in Göteborg: ‘Volgens mij doen we de juiste dingen’",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "volvo"
+        },
+        {
+          "text": "David Rumbutis skrev svensk gymnastikhistoria under VM",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Isabelle Haaks dröminsats – hyllas efter supercuptiteln: ”Prinsessa”",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Misstänkt grovt brott i Sala Backe",
+          "text": "”Arvet efter franska revolutionen lever”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
