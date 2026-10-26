@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "editionNumber": 68,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "President Luiz Inacio Lula da Silva will have to wrestle with a divided Brazil, an unfriendly Congress, feeble public finances and a Donald Trump-shaped menace during his unprecedented fourth term.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "What challenges await Brazil's Lula in his fourth term as president?",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "Brazil's President Lula da Silva beats Flavio Bolsonaro to win re-election",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Wahlen in Brasilien: Lula gewinnt Stichwahl in Brasilien",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +44,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Twente stun AZ with late goals as Willem II slump continues",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Max Verstappen takes third in Austin as Kimi Antonelli closes in on F1 title",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ajax close gap on league leaders Feyenoord with victory over Sparta",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -46,9 +66,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Si dimette la presidente dell'autorità elettorale messicana",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Lula rieletto presidente del Brasile",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Proiezione di Datafolha: 'Lula ha vinto'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +88,9 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Lula omvald i Brasiliens presidentval",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
