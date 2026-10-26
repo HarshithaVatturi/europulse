@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "editionNumber": 68,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Russian overnight strikes injured four people in Zaporizhzhia and sparked fires in the Odesa region on Monday. Ukrainian emergency services said an industrial site was hit twice more as...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "French presidential hopeful Philippe slips in new poll",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "FIREPOWER: E5 defence ministers gather in Paris",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Real Madrid win Clasico against FC Barcelona thanks to Kylian Mbappé",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Tens of thousands of Israelis living abroad expected to fly in for pivotal vote",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "🔴 Live: Bolsonaro refuses to recognise Brazil election results",
+          "text": "Serbia's Vucic concedes defeat to the student-led movement: What's next?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "German business confidence rises in October despite global economic risks",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "‘Disturbing and pathetic’: German politicians slam Audi CEO’s appearance at Trump rally",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Putins Schattenflotte: Warum greift Deutschland nicht durch?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Marktbericht: Anleger versuchen DAX zu stabilisieren",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Südamerika: Lula gewinnt Präsidentschaftswahl in Brasilien – Bolsonaro erkennt Ergebnis nicht an",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Video: Woman found dead in Eindhoven apartment; Man arrested",
+          "text": "€10,000 worth of Halloween display sparks battle between Breda resident and municipality",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "New Schiphol rules allows up to 80 percent more night time noise over parts of Amsterdam",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Boelo: Cyclist killed in Amsterdam, kite surfer missing in Scheveningen, lots of damage",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Only 6% of Dutch patients using new system that lets them cut hospital wait times",
+          "text": "Consumers’ Association: Major brands get more expensive while budget ones cheaper",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "German business confidence rises in October despite global economic risks",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Von der Leyen’s big Commission shake-up moves a step closer",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "EU aid chief: ‘Nothing is changing’ in Africa",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Von der Leyen, in Brasile hanno vinto democrazia e multilateralismo",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Bolsonaro: 'Non riconosco il risultato del voto, va annullato'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Ryska åkarna om hatet: ”Bara från våra egna supportrar”",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Tonåring låtsades vara oligarkson – dog mystiskt",
+          "text": "”En jävla smäll” – sprängning vid företag i Taberg gick fel",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Husbilar förstörda i brand i Huskvarna",
+          "text": "Kvinna döms för ofredande efter kränkande kommentar om Blerta Hoti Singh (S)",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Anton Grahn: ”Finns några riktiga skräckexempel”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
