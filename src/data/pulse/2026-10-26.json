@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "editionNumber": 68,
   "isDemo": false,
-  "leadSummary": "Russian overnight strikes injured four people in Zaporizhzhia and sparked fires in the Odesa region on Monday. Ukrainian emergency services said an industrial site was hit twice more as...",
+  "leadSummary": "After a year in exile, Venezuela's opposition leader returns, ready to negotiate with the government. The EU welcomes her and calls for free and fair elections.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "French government fails to convince students to stop protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "FIREPOWER: E5 defence ministers gather in Paris",
           "industrySlug": "energy",
           "industryName": "Energy"
         },
         {
-          "text": "Tens of thousands of Israelis living abroad expected to fly in for pivotal vote",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Serbia's Vucic concedes defeat to the student-led movement: What's next?",
+          "text": "Comeback kid: How did Brazil veteran-leader Lula upset Bolsonaro?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Putins Schattenflotte: Warum greift Deutschland nicht durch?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Germany’s Helsing moves into air defence",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "€10,000 worth of Halloween display sparks battle between Breda resident and municipality",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
-        },
-        {
-          "text": "New Schiphol rules allows up to 80 percent more night time noise over parts of Amsterdam",
+          "text": "Utrecht court orders psychiatric treatment for man, 68, in child sexual assault cases",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Consumers’ Association: Major brands get more expensive while budget ones cheaper",
+          "text": "Struggling seal center postpones filing for bankruptcy",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fundraiser of parents of 17-year-old Milou who died by euthanasia hits €30,000",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -86,7 +86,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "EU aid chief: ‘Nothing is changing’ in Africa",
+          "text": "Salvini’s anti-Ukraine pledge puts Meloni under pressure",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "”En jävla smäll” – sprängning vid företag i Taberg gick fel",
+          "text": "Regeringens svar efter protesterna i Frankrike: ”Inga tomma löften”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kvinna döms för ofredande efter kränkande kommentar om Blerta Hoti Singh (S)",
+          "text": "Här lyfter första chartern mot Kanarieöarna från Skavsta",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Anton Grahn: ”Finns några riktiga skräckexempel”",
+          "text": "Vem är Gadi Eisenkot?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
