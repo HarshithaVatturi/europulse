@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "editionNumber": 69,
   "isDemo": false,
-  "leadSummary": "South Korea's economy grew faster than expected in the third quarter. However, analysts warned that its heavy reliance on the chip industry leaves the country vulnerable to a slowdown in global AI...",
+  "leadSummary": "A government spokesperson said Jordan had \"avoided\" civilian sites and that it regretted \"unintended casualties,\" stressing that the country had \"deep respect\" for the Syrian state and people.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "BAROMÈTRE DU REJET : Le Pen, toujours moins rejetée",
+          "text": "French government mulled blocking social networks and mobile internet amid protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Paris, Berlin join Eastern Europe in anti-carbon pricing crusade",
+          "text": "French MPs will vote on Sánchez-style amnesty plan for undocumented workers",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "THE HACK: Anthropic discloses ‘Brussels effect’ risk",
+          "text": "Mbappé apologizes after being dropped by Chinese brands over ‘dictator’ comment",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,13 @@
           "industryName": "Technology"
         },
         {
-          "text": "Paris, Berlin join Eastern Europe in anti-carbon pricing crusade",
+          "text": "Mercedes-Benz cuts 2026 profit outlook amid China market struggles",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "mercedes-benz"
         },
         {
-          "text": "Putellas and Kane win 2026 Ballon d'Or as PSG retain men's team of year prize",
+          "text": "Germany slams brakes on EU-Canada ‘associate member’ statement",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands won't participate in 2027 Eurovision Song Contest after all",
+          "text": "Dutch chip firm Besi's shares jump as Applied Materials moves to double stake",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Football association opens probe into De Dijk club over alleged fraud, money laundering",
+          "text": "Dutch Bitcoin company Bitonic hacked; Cryptocurrency of 3 clients stolen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rotterdam's approach to landlords that charge exorbitant rents is expensive, ineffective",
+          "text": "Experienced Beekse Bergen zookeeper dies days after leopard attack, safari park says",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Konjunktur: Ifo-Beschäftigungsbarometer: Aufschwung kommt bisher nicht am Arbeitsmarkt an",
+          "text": "Italian archaeologists discover links to tomb of Jesus underneath Jerusalem's Church of the Holy Sepulchre",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Consumo di ruolo, record nel 2025: coperti in Italia 102 kmq",
+          "text": "Ukraine urges E5 allies to provide 10% of their air defence missile stocks",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ferrovie verso la nuova tecnologia 5G per le comunicazioni tra terra e treno",
+          "text": "Milano, A2A inaugura nuova cabina primaria Comasina: investimento da 38 milioni",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,18 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Döda flugpuppor bland pommesen på restaurang som frontas av Tiktok-profilen Megic Mike",
+          "text": "Östgötapolitiker på Nordiska rådets möte: ”Otroligt viktigt”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man fejkvabbade över 200 dagar – fick hundra tusen kronor av Försäkringskassan",
+          "text": "Sotaren Petronella uppsagd med omedelbar verkan: ”Jag är förbannad”",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         },
         {
-          "text": "Förskoleanställd i Vänersborg misstänkt för grovt sexualbrott mot barn",
+          "text": "Efter SVT:s granskning av spelbyn i Nordingrå – skarp kritik mot ansvariga i Kramfors",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
