@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "editionNumber": 69,
   "isDemo": false,
-  "leadSummary": "Bericht: USA heben Zölle auf bestimmte kanadische Waren auf +++ Datum für US-Einfuhrverbot gegen kanadische Waren erreicht +++ Der Newsblog.",
+  "leadSummary": "Präsentiert von YouTube.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "BAROMÈTRE DU REJET : Le Pen, toujours moins rejetée",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Israel votes in first election since October 7 attack as Netanyahu faces crucial test",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "+++ US-Zollpolitik +++: USA und Kanada verhandeln laut Insidern über Lockerung von Zöllen",
+          "text": "Putellas and Kane win 2026 Ballon d'Or as PSG retain men's team of year prize",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Autobauer: Bis zu 330.000 Euro Abfindung – Mercedes baut auch Personal in Teilen der Produktion ab",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Wahlen: Beispiellose Wahlbeobachterkampagne für Kongresswahlen in den USA",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Woman seriously injured during assault at Amsterdam party; Suspect at large",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "6 in 10 Dutch people believe AI is becoming part of society too quickly",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Utrecht court orders psychiatric treatment for man, 68, in child sexual assault cases",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Sindaco Kiev, 'è stato colpito il ponte Pivdennyi'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sciopero dei trasportatori in Messico, strade bloccate",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Messico, stretta sul lavoro nero per le esportazioni agricole",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +98,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Christin och Erika förlorade sina barn – nu hjälper de andra i sorgen",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Nytt nordiskt samarbete ska säkra blod vid kris och krig",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Håriga korvar som luktar krut – så vet du om det är vargskit",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
