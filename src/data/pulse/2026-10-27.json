@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "editionNumber": 69,
   "isDemo": false,
-  "leadSummary": "A government spokesperson said Jordan had \"avoided\" civilian sites and that it regretted \"unintended casualties,\" stressing that the country had \"deep respect\" for the Syrian state and people.",
+  "leadSummary": "Premier Paul St-Pierre Plamondon says Ottawa would rather he “serve shrimp cocktail” at a function than stage one, and alleges a “serious lack of respect.”",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -60,14 +60,15 @@
           "industryName": "Technology"
         },
         {
-          "text": "Dutch Bitcoin company Bitonic hacked; Cryptocurrency of 3 clients stolen",
+          "text": "Dutch DJ Afrojack shares backstage video with Queen Máxima during Amsterdam Dance Event",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Experienced Beekse Bergen zookeeper dies days after leopard attack, safari park says",
+          "text": "Teen convicted of threatening school shooting in Den Bosch to get the day off",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "bosch"
         }
       ]
     },
@@ -87,7 +88,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Milano, A2A inaugura nuova cabina primaria Comasina: investimento da 38 milioni",
+          "text": "Europe’s centre parties are collapsing – and, for the first time, the far-right are collaborating, rather than fighting",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +100,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Östgötapolitiker på Nordiska rådets möte: ”Otroligt viktigt”",
+          "text": "Dömd pappa åtalas igen – hotade dottern efter vittnesmål om hedersvåld",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Sotaren Petronella uppsagd med omedelbar verkan: ”Jag är förbannad”",
+          "text": "”Vet fortfarande inte vad Studentlistans politik kommer vara”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Efter SVT:s granskning av spelbyn i Nordingrå – skarp kritik mot ansvariga i Kramfors",
+          "text": "Nya SD-styret i Oskarshamn vill stoppa Prideflaggan vid kommunhuset",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
