@@ -56,13 +56,17 @@ function generatePulse() {
 
     for (const n of cNews.slice(0, 3)) {
       const indSlug = n.industries[0] || 'technology';
-      const indData = industries.find(i => i.slug === indSlug);
+      const indData = industries.find(i => i.slug === indSlug) ||
+                      industries.find(i => i.aliases && i.aliases.includes(indSlug)) ||
+                      industries.find(i => i.slug === 'technology');
+      const validSlug = indData ? indData.slug : 'technology';
+      const validName = indData ? indData.name : 'Technology';
       const compSlug = n.companies && n.companies.length > 0 ? n.companies[0] : undefined;
 
       items.push({
         text: n.title,
-        industrySlug: indSlug,
-        industryName: indData ? indData.name : indSlug,
+        industrySlug: validSlug,
+        industryName: validName,
         companySlug: compSlug
       });
     }

@@ -147,15 +147,18 @@ runTest('dedupeAndFilterJobs should deduplicate identical roles and track alsoSe
 });
 
 runTest('dedupeAndFilterNews should drop items older than 14 days', () => {
+  const now = new Date();
+  const freshDate = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const oldDate = new Date(now.getTime() - 40 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const freshItem = {
     id: 'fresh-news',
     title: 'Fresh News',
-    date: '2026-09-30',
+    date: freshDate,
   };
   const oldItem = {
     id: 'old-news',
     title: 'Old News',
-    date: '2026-08-01', // over 40 days old
+    date: oldDate,
   };
 
   const result = dedupeAndFilterNews([], [freshItem, oldItem]);

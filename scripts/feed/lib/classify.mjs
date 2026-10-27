@@ -65,7 +65,7 @@ const INDUSTRY_KEYWORDS = {
   manufacturing: ['industrial manufacturing', 'smart factory', 'advanced manufacturing', 'industry 4.0', 'metallurgy'],
   'logistics-supply-chain': ['supply chain', 'freight corridor', 'maritime logistics', 'intermodal', 'procurement network'],
   'finance-banking': ['central bank', 'interest rate', 'banking union', 'fintech', 'capital markets', 'sepa', 'asset management'],
-  'healthcare-pharma': ['pharmaceutical', 'biotech', 'clinical trial', 'medical device', 'life sciences', 'medtech'],
+  healthcare: ['pharmaceutical', 'biotech', 'clinical trial', 'medical device', 'life sciences', 'medtech'],
   retail: ['e-commerce', 'luxury retail', 'consumer goods', 'circular retail', 'fmcg'],
 };
 
