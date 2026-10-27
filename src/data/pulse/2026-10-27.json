@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "editionNumber": 69,
   "isDemo": false,
-  "leadSummary": "Präsentiert von YouTube.",
+  "leadSummary": "South Korea's economy grew faster than expected in the third quarter. However, analysts warned that its heavy reliance on the chip industry leaves the country vulnerable to a slowdown in global AI...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Israel votes in first election since October 7 attack as Netanyahu faces crucial test",
+          "text": "Paris, Berlin join Eastern Europe in anti-carbon pricing crusade",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
+          "text": "THE HACK: Anthropic discloses ‘Brussels effect’ risk",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Putellas and Kane win 2026 Ballon d'Or as PSG retain men's team of year prize",
+          "text": "Merz courts Asian investors as he insists Europe remains a safe bet",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Autobauer: Bis zu 330.000 Euro Abfindung – Mercedes baut auch Personal in Teilen der Produktion ab",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Paris, Berlin join Eastern Europe in anti-carbon pricing crusade",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Wahlen: Beispiellose Wahlbeobachterkampagne für Kongresswahlen in den USA",
+          "text": "Putellas and Kane win 2026 Ballon d'Or as PSG retain men's team of year prize",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Woman seriously injured during assault at Amsterdam party; Suspect at large",
+          "text": "Netherlands won't participate in 2027 Eurovision Song Contest after all",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "6 in 10 Dutch people believe AI is becoming part of society too quickly",
+          "text": "Football association opens probe into De Dijk club over alleged fraud, money laundering",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Utrecht court orders psychiatric treatment for man, 68, in child sexual assault cases",
+          "text": "Rotterdam's approach to landlords that charge exorbitant rents is expensive, ineffective",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Sindaco Kiev, 'è stato colpito il ponte Pivdennyi'",
+          "text": "Konjunktur: Ifo-Beschäftigungsbarometer: Aufschwung kommt bisher nicht am Arbeitsmarkt an",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Sciopero dei trasportatori in Messico, strade bloccate",
+          "text": "Consumo di ruolo, record nel 2025: coperti in Italia 102 kmq",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Messico, stretta sul lavoro nero per le esportazioni agricole",
+          "text": "Ferrovie verso la nuova tecnologia 5G per le comunicazioni tra terra e treno",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,18 +98,18 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Christin och Erika förlorade sina barn – nu hjälper de andra i sorgen",
+          "text": "Döda flugpuppor bland pommesen på restaurang som frontas av Tiktok-profilen Megic Mike",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Man fejkvabbade över 200 dagar – fick hundra tusen kronor av Försäkringskassan",
           "industrySlug": "technology",
           "industryName": "Technology",
           "companySlug": "abb"
         },
         {
-          "text": "Nytt nordiskt samarbete ska säkra blod vid kris och krig",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Håriga korvar som luktar krut – så vet du om det är vargskit",
+          "text": "Förskoleanställd i Vänersborg misstänkt för grovt sexualbrott mot barn",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
