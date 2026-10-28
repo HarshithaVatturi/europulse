@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "editionNumber": 70,
   "isDemo": false,
-  "leadSummary": "Cyclone Arnab strengthened into a “very severe” cyclonic storm late Tuesday with gusting winds and heavy rain reported in several coastal areas.",
+  "leadSummary": "At least 10 people died when a high-speed train struck another near Toledo, Spain. Two carriages derailed, leaving rescuers searching through the wreckage as authorities warned the death toll could...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "BNP Paribas downplays French debt exposure as stock trading lifts profit",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "French Senate passes bill to make protesters pay for unrest damage",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Naval innovation puts industry ahead of customers, Thales says",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Rights groups oppose UAE’s Lana Nusseibeh for UN chief over Sudan claims",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Aux Etats-Unis, des vies minées par l’inflation : « L’essence et la nourriture, ça devient de la folie, on va finir par crever de faim »",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,18 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Wo Deutschland noch wachsen kann: Zukunftsmärkte für heimische Firmen",
+          "text": "UK’s Streeting to visit Berlin for defense talks with Pistorius",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "German chemicals giant BASF raises profit guidance after Iran war price hikes",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Interbrand-Ranking: Deutsche Autobauer verlieren ein Fünftel ihres Markenwerts",
-          "industrySlug": "automotive",
-          "industryName": "Automotive",
-          "companySlug": "bmw"
-        },
-        {
-          "text": "Morning Briefing: Auf Wahlkampf folgt Machtkampf – ausgerechnet aus Israels Minderheit könnte eine Mehrheit werden",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -55,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "MPs propose lower penalties for late traffic fine payments",
+          "text": "Eurovision confirms candidates for 2027 — but 2 EU countries are still on the fence",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch competition watchdog blocks sale of iconic sausage brand Unox",
+          "text": "Europe's first deportation center for failed asylum seekers to open in Rwanda: report",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch DJ Afrojack shares backstage video with Queen Máxima during Amsterdam Dance Event",
+          "text": "Dutch ministry urges nationals in Spain to confirm they are safe after fatal train crash",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -77,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Trump, 'con il mio sostegno Netanyahu passato dal ko alla vittoria'",
+          "text": "Daily News 28 / 10 / 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump, 'molto presto' un incontro tra Putin e Zelensky",
+          "text": "Israele: scrutinio delle urne terminato, 53 seggi al blocco Netanyahu, 48 a blocco Eisenkot",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Israele: a metà dei seggi scrutinati Likud in testa con il 20,81%",
+          "text": "Farnesina, '5 italiani su treno Toledo, 4 stanno bene, sul quinto verifiche'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "E45 utanför Trollhättan avstängd efter olycka",
+          "text": "Healthcare costs on sharp rise in Sweden [Partner Content]",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trots två ihjälskjutna i oktober – färre dödsskjutningar i Stockholm",
+          "text": "Stopp i tågtrafiken på Österlen – tills imorgon",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Eko-bonden Charlott uppsagd av Arla: ”Det känns lite som ett svek”",
+          "text": "Statliga gruvjätten LKAB vänder förlust till vinst",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
