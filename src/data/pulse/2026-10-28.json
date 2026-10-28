@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "editionNumber": 70,
   "isDemo": false,
-  "leadSummary": "The Authority for Consumers and Markets (ACM) is not approving the takeover of Unox by Zwanenburg.",
+  "leadSummary": "Cyclone Arnab strengthened into a “very severe” cyclonic storm late Tuesday with gusting winds and heavy rain reported in several coastal areas.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Naval innovation puts industry ahead of customers, Thales says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rights groups oppose UAE’s Lana Nusseibeh for UN chief over Sudan claims",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Aux Etats-Unis, des vies minées par l’inflation : « L’essence et la nourriture, ça devient de la folie, on va finir par crever de faim »",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Wo Deutschland noch wachsen kann: Zukunftsmärkte für heimische Firmen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Interbrand-Ranking: Deutsche Autobauer verlieren ein Fünftel ihres Markenwerts",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "bmw"
+        },
+        {
+          "text": "Morning Briefing: Auf Wahlkampf folgt Machtkampf – ausgerechnet aus Israels Minderheit könnte eine Mehrheit werden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,6 +55,11 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "MPs propose lower penalties for late traffic fine payments",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Dutch competition watchdog blocks sale of iconic sausage brand Unox",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -42,12 +68,6 @@
           "text": "Dutch DJ Afrojack shares backstage video with Queen Máxima during Amsterdam Dance Event",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Teen convicted of threatening school shooting in Den Bosch to get the day off",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "bosch"
         }
       ]
     },
@@ -57,9 +77,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Trump, 'con il mio sostegno Netanyahu passato dal ko alla vittoria'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump, 'molto presto' un incontro tra Putin e Zelensky",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Israele: a metà dei seggi scrutinati Likud in testa con il 20,81%",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -69,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "E45 utanför Trollhättan avstängd efter olycka",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trots två ihjälskjutna i oktober – färre dödsskjutningar i Stockholm",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Eko-bonden Charlott uppsagd av Arla: ”Det känns lite som ett svek”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
