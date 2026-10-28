@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "editionNumber": 70,
   "isDemo": false,
-  "leadSummary": "At least 10 people died when a high-speed train struck another near Toledo, Spain. Two carriages derailed, leaving rescuers searching through the wreckage as authorities warned the death toll could...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 28th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "EU set to scrap ‘associate member’ offer for Canada",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "BNP Paribas downplays French debt exposure as stock trading lifts profit",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "French Senate passes bill to make protesters pay for unrest damage",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Naval innovation puts industry ahead of customers, Thales says",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "UK’s Streeting to visit Berlin for defense talks with Pistorius",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
-        },
-        {
-          "text": "German chemicals giant BASF raises profit guidance after Iran war price hikes",
+          "text": "EU set to scrap ‘associate member’ offer for Canada",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "Berlin startet KI-Überwachung am Kottbusser Tor",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "German chemicals giant BASF raises profit guidance after Iran war price hikes",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -59,12 +59,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Europe's first deportation center for failed asylum seekers to open in Rwanda: report",
+          "text": "Netherlands to give Ukraine ‘whatever we have’ in air defence supplies",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch ministry urges nationals in Spain to confirm they are safe after fatal train crash",
+          "text": "Caretaker PM Netanyahu expected to escalate violence, as EU sanctions talk on hold until new Israeli government formed",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Israele: scrutinio delle urne terminato, 53 seggi al blocco Netanyahu, 48 a blocco Eisenkot",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Les maisons des jeunes et de la culture contraintes de faire évoluer leur modèle",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "Farnesina, '5 italiani su treno Toledo, 4 stanno bene, sul quinto verifiche'",
+          "text": "Restaurants Sardinië verbieden telefoons aan tafel: 'Gesprek ouder-kind stimuleren'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -103,12 +103,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Stopp i tågtrafiken på Österlen – tills imorgon",
+          "text": "Aliya och Najib utvisades till Somalia – i väntan på ny stopplag",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Statliga gruvjätten LKAB vänder förlust till vinst",
+          "text": "Asmat bunkrar flaskvatten – efter bakterielarmet i Hallstahammar",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
