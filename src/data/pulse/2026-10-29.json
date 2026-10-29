@@ -2,7 +2,7 @@
   "date": "2026-10-29",
   "editionNumber": 71,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Canada and the European Union will pursue closer ties but have dropped a proposal for associate EU membership, according to a joint declaration ahead of Thursday’s summit in Montreal. Prime...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,14 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Canada and EU drop associate membership plan in bid to deepen ties",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sheinbaum, 'Le Pen è male informata sui valori del Messico'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +27,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Tech-Konzern: Samsung erzielt Rekordgewinn dank KI-Boom",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +39,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Amsterdam's Dutch slavery museum delayed to 2033 by permits, tender, design process",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "D66 councillor in Boxtel suspected of election fraud, corruption and forgery",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Appeals court reduces sentence in Diemen abortion murder: 14 years, no psych treatment",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +61,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Arabia Saudita, intercettato e distrutto un missile lanciato dagli Houthi",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sheinbaum, 'Le Pen è male informata sui valori del Messico'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Media, El Salvador schiera 1.300 militari ad Haiti",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
