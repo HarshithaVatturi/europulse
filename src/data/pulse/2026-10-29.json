@@ -2,7 +2,7 @@
   "date": "2026-10-29",
   "editionNumber": 71,
   "isDemo": false,
-  "leadSummary": "Qatar has denied interfering in the election or funding efforts to influence the result, calling the accusations “ridiculous and dangerous”.",
+  "leadSummary": "President Tokayev outlined the country's priorities for the coming year in his annual address, urging the government to accelerate energy and construction projects, while criticising inefficiencies...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Christine Lagarde quittera ses fonctions de présidente de la BCE en février",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Lagarde’s early exit Le Pen-proofs ECB as France veers toward a debt reckoning",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "The French programme helping autistic people get a job",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Patrick Stewart, star of 'Star Trek' and 'X men', dies age 86",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "'Extremist right-wing ideologies' an increasing threat in France & 'across much of democratic world'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Germany and Ukraine test armed ground robot for frontline deployment",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Left-wing Berlin mayor candidate’s private Hamas remarks complicate coalition talks",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Von der Leyen touts ‘associate member’ status for Canada over objections of EU capitals",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "DW",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Shadow fleet sanctions: Can the EU act if the US pulls back?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -64,9 +64,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Dutch MPs want to ban primary school children from using generative AI",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "Wolf attacks on cattle in Drenthe rise to 60 percent as predators learn to kill cows",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -82,12 +82,13 @@
           "companySlug": "airbus"
         },
         {
-          "text": "DRC: C64 opposition coalition meets in Rome, calls for inclusive dialogue",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Pour Airbus et Boeing, la « galère » de la hausse de la production",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "airbus"
         },
         {
-          "text": "Ex Ilva, Cassazione rigetta i ricorsi delle società, resta ferma a Taranto l’area a caldo",
+          "text": "Militaire helikopter uit Italië neergestort in Bosnië en Herzegovina, vier doden",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +100,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Fortum om misslyckade provsläppet i Mittån",
+          "text": "60-tal personer fortfarande saknade efter tågolyckan",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Toppmöte mellan EU och Kanada",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Här får Isabelle Wranå se sin briljanta sten: ”Bara fart där”",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Talmannens besked: Statsministeromröstning om Elisabeth Thand Ringqvist (C)",
+          "text": "Kaosavslutning när Häcken tog första poängen i Champions League",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
