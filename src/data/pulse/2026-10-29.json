@@ -2,7 +2,7 @@
   "date": "2026-10-29",
   "editionNumber": 71,
   "isDemo": false,
-  "leadSummary": "Russian President Vladimir Putin has praised Elon Musk as a “genius” for deploying thousands of satellites into orbit. Speaking in Moscow, Putin highlighted Russia’s efforts to develop its own...",
+  "leadSummary": "Qatar has denied interfering in the election or funding efforts to influence the result, calling the accusations “ridiculous and dangerous”.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Christine Lagarde quittera ses fonctions de présidente de la BCE en février",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lagarde’s early exit Le Pen-proofs ECB as France veers toward a debt reckoning",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "The French programme helping autistic people get a job",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "League Cup: Liverpool edge Chelsea in penalty shoot-out",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,20 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Milliardenverlust bei Volkswagen",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "volkswagen"
-        },
-        {
-          "text": "Wie lange ist Christine Lagarde noch EZB-Chefin?",
+          "text": "Von der Leyen touts ‘associate member’ status for Canada over objections of EU capitals",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Marktbericht: DAX dürfte vor EZB-Zinsentscheid leicht zulegen",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Shadow fleet sanctions: Can the EU act if the US pulls back?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -55,20 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Extreme weather causes over 200,000 home damage claims in the Netherlands",
+          "text": "Rembrandt's masterpieces become tattoos in the Netherlands",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch King receives Ukrainian president with open arms; Gov't promises more military aid",
+          "text": "Speech by Commissioner Lahbib at the UNESCO Global Forum against Racism and Discrimination",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "bosch"
+          "industryName": "Technology"
         },
         {
-          "text": "ING planning to cut hundreds of jobs despite €1.9 billion profit last quarter",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Dutch MPs want to ban primary school children from using generative AI",
+          "industrySlug": "ai",
+          "industryName": "AI"
         }
       ]
     },
@@ -84,14 +82,14 @@
           "companySlug": "airbus"
         },
         {
-          "text": "Primo deal all’estero di Teoresi, con Delta System si rafforza in Aerospace e Difesa",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "DRC: C64 opposition coalition meets in Rome, calls for inclusive dialogue",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Porti, piano da 309 milioni per potenziare i sette scali di Marche e Abruzzo",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Ex Ilva, Cassazione rigetta i ricorsi delle società, resta ferma a Taranto l’area a caldo",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -101,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Se den sanslösa duellen mellan Alexis LeBrun och Patrick Franziska i Montpelliers WTT Champions",
+          "text": "Fortum om misslyckade provsläppet i Mittån",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Han gömde 56 handgranater i källaren i Fruängen – nu kommer domen",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Toppmöte mellan EU och Kanada",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Fyra personer gripna efter misstänkt rån – utreds för grovt vapenbrott",
+          "text": "Talmannens besked: Statsministeromröstning om Elisabeth Thand Ringqvist (C)",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
