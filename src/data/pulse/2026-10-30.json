@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "editionNumber": 72,
   "isDemo": false,
-  "leadSummary": "A rare ceasefire in Russian-occupied Oleshky enters its fourth day as aid is expected to arrive, after a Russian drone killed at least 14 at Dnipro's station. In Albania, protesters face fines up...",
+  "leadSummary": "Iran’s Revolutionary Guard said Friday that two oil tankers had caught fire and been stopped in the Strait of Hormuz, as Qatari mediators returned to Tehran for another round of talks aimed at...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Big Tech main target of Kobosko’s 2% traffic rule",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Unrest in France is nightmare fuel for Macron’s heirs",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged town of Oleshky",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+          "text": "French presidential candidate questioned in funds probe",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "Neo-Nazi messages, links to Moscow, and Alice Weidel’s hypocrisy. 13 years of AfD emails have leaked",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Milliardenschwerer Hackerangriff auf Kryptobörse Binance",
+          "text": "Tennis: Alexander Zverev guaranteed to become world No. 1",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch government wants to ban smoking at supervised playgrounds, petting zoos",
+          "text": "Latvia, the Netherlands to host new European Drone Technology Hubs",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Foggy start to a sunny day: Code yellow warning for poor visibility in entire country",
+          "text": "‘Follow our example,’ Dutch minister tells EU over Ukraine air defence",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Amsterdam, Rotterdam, The Hague, and Utrecht to account for 27% of new homes",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "FIREPOWER: Netherlands eyes SAFE for air defence",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Halloween, mercato da 550 milioni ma quest’anno acquisti in frenata",
+          "text": "Christa Pike describes 'pain in my mind and in my soul' in first statement after failed execution",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Scatta la corsa all’Oil&Gas in Argentina",
+          "text": "Italy: Thousands protest rising living costs and defence spending in general strike",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cinecittà, dal Ministero stanziati altri 10 milioni per le attività",
+          "text": "EU mourns four Italians killed in EUFOR Bosnia mission crash",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Man i Bohuslän begärd häktad misstänkt för fyra våldtäkter mot barn",
+          "text": "Följ med bakom kulisserna på Jönköping horse show",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Vännerna startade en runclub i Eskilstuna – för att få en ny gemenskap",
+          "text": "Svensk-litauisk elförbindelse bröts – orsaken utreds",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pokémonprofessorn Rasmus, 27, ledsnade och sa upp sig – på grund av köphetsen",
+          "text": "Folk svarar: Så vill vi bli begravda",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
