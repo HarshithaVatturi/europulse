@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-30",
+  "editionNumber": 72,
+  "isDemo": false,
+  "leadSummary": "North Korea has tested attack drones, cruise missiles and rocket launchers at a weapons demonstration, state media reported Friday, as Kim Jong Un called for faster development of military drone...",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "Automobilindustrie: Rivian meldet geringeren Verlust als erwartet – Erfolge mit neuem SUV",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "Veroordeelde paddenstoelenmoord Australië verliest beroepzaak, komt nooit meer vrij",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wolf attacks on cattle in Drenthe rise to 60 percent as predators learn to kill cows",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch online gambling accounts rise by 100,000 in first half of year",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "El Salvador, 'Siamo ad Haiti per combattere contro i malvagi'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, dubbi sui dati del cellulare di Vorcaro possono favorire il giudice Moraes",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brasile, il ministero del Lavoro porta Meta in tribunale per coercizione elettorale",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
