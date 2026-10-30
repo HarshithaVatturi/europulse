@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "editionNumber": 72,
   "isDemo": false,
-  "leadSummary": "Iran’s Revolutionary Guard said Friday that two oil tankers had caught fire and been stopped in the Strait of Hormuz, as Qatari mediators returned to Tehran for another round of talks aimed at...",
+  "leadSummary": "Canadian prime minister backs “the deepest possible partnership” with the bloc, but questions over its cost and differences on trade remain.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "German demands shape latest EU Space Act compromise",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
           "text": "EU fast-tracks promising pancreatic cancer drug",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Neo-Nazi messages, links to Moscow, and Alice Weidel’s hypocrisy. 13 years of AfD emails have leaked",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Tennis: Alexander Zverev guaranteed to become world No. 1",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,6 +54,11 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Dutch government warns of privacy risks in EU Kids Act",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Latvia, the Netherlands to host new European Drone Technology Hubs",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -62,11 +67,6 @@
           "text": "‘Follow our example,’ Dutch minister tells EU over Ukraine air defence",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "FIREPOWER: Netherlands eyes SAFE for air defence",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Följ med bakom kulisserna på Jönköping horse show",
+          "text": "Lastbil har vält på E4an – oklart skadeläge",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Svensk-litauisk elförbindelse bröts – orsaken utreds",
+          "text": "Svenska ishockeyförbundet om Ryssland-beslutet: ”Blev förbannad”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Folk svarar: Så vill vi bli begravda",
+          "text": "Drama under G20 – gruppfoto ställs in: ”Nej!”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
