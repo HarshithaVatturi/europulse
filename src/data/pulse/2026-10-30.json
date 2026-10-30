@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "editionNumber": 72,
   "isDemo": false,
-  "leadSummary": "North Korea has tested attack drones, cruise missiles and rocket launchers at a weapons demonstration, state media reported Friday, as Kim Jong Un called for faster development of military drone...",
+  "leadSummary": "A rare ceasefire in Russian-occupied Oleshky enters its fourth day as aid is expected to arrive, after a Russian drone killed at least 14 at Dnipro's station. In Albania, protesters face fines up...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Big Tech main target of Kobosko’s 2% traffic rule",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged town of Oleshky",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
+          "text": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Automobilindustrie: Rivian meldet geringeren Verlust als erwartet – Erfolge mit neuem SUV",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "EU fast-tracks promising pancreatic cancer drug",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Milliardenschwerer Hackerangriff auf Kryptobörse Binance",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Veroordeelde paddenstoelenmoord Australië verliest beroepzaak, komt nooit meer vrij",
+          "text": "Dutch government wants to ban smoking at supervised playgrounds, petting zoos",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Wolf attacks on cattle in Drenthe rise to 60 percent as predators learn to kill cows",
+          "text": "Foggy start to a sunny day: Code yellow warning for poor visibility in entire country",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch online gambling accounts rise by 100,000 in first half of year",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Amsterdam, Rotterdam, The Hague, and Utrecht to account for 27% of new homes",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "El Salvador, 'Siamo ad Haiti per combattere contro i malvagi'",
+          "text": "Halloween, mercato da 550 milioni ma quest’anno acquisti in frenata",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, dubbi sui dati del cellulare di Vorcaro possono favorire il giudice Moraes",
+          "text": "Scatta la corsa all’Oil&Gas in Argentina",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brasile, il ministero del Lavoro porta Meta in tribunale per coercizione elettorale",
+          "text": "Cinecittà, dal Ministero stanziati altri 10 milioni per le attività",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -78,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Man i Bohuslän begärd häktad misstänkt för fyra våldtäkter mot barn",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Vännerna startade en runclub i Eskilstuna – för att få en ny gemenskap",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pokémonprofessorn Rasmus, 27, ledsnade och sa upp sig – på grund av köphetsen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
