@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "editionNumber": 73,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "France braces for another weekend of unrest as the Yellow Vests return to the streets under the rallying cry of ‘Act III – Halloween’, with 70,000 police and security forces deployed after the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,14 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "La Bourse de New York saisie d’effroi, à la veille d’Halloween",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +39,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Pilot gives 30 volunteers personal defibrillators to raise cardiac arrest survival rate",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Netherlands has 8.2 million registered organ donors, up 90,000 in a year",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Investigative journalists worried about planned changes to open government act",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +61,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Pemex perde 605 milioni nel terzo trimestre, produzione in calo dello 0,4%",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cuba, Porto Rico possibile base Usa per un'operazione contro Raúl Castro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cile, Kast rimuove il sottosegretario alla Giustizia Silva per il caso pedofilia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
