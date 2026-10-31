@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "editionNumber": 73,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 31st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Turkey nominates former foreign minister Sinirlioglu as UN chief",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+          "text": "Hundreds of thousands of protesters march across France for third week in a row",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "UK PM 'open' to slavery apology but not reparations",
+          "text": "France sees third weekend of protests as youth-led rallies sweep Europe",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "'African leaders are not naive, they will partner with whoever makes the best offer’",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "KI bei der Geldanlage: Wie sicher sind ChatGPT-Anlagetipps?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Was Salz aus 1.000 Metern Tiefe so wertvoll macht",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Riot police respond in The Hague amid chaotic \"Gen. Z\" riots; At least 10 arrested",
+          "text": "Feyenoord drop points again at home after late Fortuna Sittard equalizer",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Two men arrested for assaulting disabled man, 61, after luring him through dating app",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "State Secretary reports modest gains in recognition of sexual boundary-crossing",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Boat from which 38 migrants were rescued off Zeeland coast had no engine",
+          "text": "Four alleged Romanian pimps had first hearing for years of exploiting women",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Zelensky, 'rientrati in Ucraina i residenti evacuati da Oleshky'",
+          "text": "Valle d’Aosta, Bovard: la viticoltura e il nostro lavoro rischiano di cambiare",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Violente proteste a Tirana, sassi e molotov contro la polizia",
+          "text": "Valle d’Aosta, vendemmia 2026: qualità e produzione resistono al caldo record e alla siccità",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kiev, 'rispettiamo la tregua a Oleshky, Mosca tenta di screditarci'",
+          "text": "Un brevetto italiano per realizzare il cavalletto elettrico per moto e scooter",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "En allvarligt skadad efter olycka på rallytävling utanför Nässjö",
+          "text": "Niklas var på plats vid rallyolyckan utanför Nässjö: ”Helt osannolikt”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Polisen bordade fartyg utanför Gotland",
+          "text": "USA:s ambassad i Moskva varnar för våldsdåd",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rustar för nya protester – 70 000 poliser kallas in",
+          "text": "En död efter olycka på rallytävling utanför Nässjö",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
