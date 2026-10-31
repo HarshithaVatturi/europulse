@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "editionNumber": 73,
   "isDemo": false,
-  "leadSummary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 31st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,14 +15,14 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "France sees third weekend of protests as youth-led rallies sweep Europe",
+          "text": "Some 320,000 demonstrators take part in largely peaceful protests across France",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "'African leaders are not naive, they will partner with whoever makes the best offer’",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "'Gen Z' demonstrations across Germany demand more education funding",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Was Salz aus 1.000 Metern Tiefe so wertvoll macht",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
+          "text": "'Gen Z' demonstrations across Germany demand more education funding",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Valle d’Aosta, Bovard: la viticoltura e il nostro lavoro rischiano di cambiare",
+          "text": "'Fbi, Corea del Nord responsabile dell'attacco hacker a Binance'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Valle d’Aosta, vendemmia 2026: qualità e produzione resistono al caldo record e alla siccità",
+          "text": "Commissione Ue, 'presidente Polonia convalidi la nomina dei nuovi giudici'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Un brevetto italiano per realizzare il cavalletto elettrico per moto e scooter",
+          "text": "Tusk, 'attacco alla Corte è nuova violazione dello stato di diritto del Pis'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Deep Purple-sångare inlagd på sjukhus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Niklas var på plats vid rallyolyckan utanför Nässjö: ”Helt osannolikt”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "USA:s ambassad i Moskva varnar för våldsdåd",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "En död efter olycka på rallytävling utanför Nässjö",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
