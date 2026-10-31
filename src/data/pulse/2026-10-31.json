@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "editionNumber": 73,
   "isDemo": false,
-  "leadSummary": "France braces for another weekend of unrest as the Yellow Vests return to the streets under the rallying cry of ‘Act III – Halloween’, with 70,000 police and security forces deployed after the...",
+  "leadSummary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
+          "text": "France braces for Halloween protests, shops board up storefronts",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "La Bourse de New York saisie d’effroi, à la veille d’Halloween",
+          "text": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: France’s top court bans Halloween protest in the heart of Paris, permits route on outskirts",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -27,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "KI bei der Geldanlage: Wie sicher sind ChatGPT-Anlagetipps?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Jugendproteste: Jugendforscher über Proteste der Gen Z: „Sauer sein allein reicht nicht“",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -39,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Pilot gives 30 volunteers personal defibrillators to raise cardiac arrest survival rate",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Video: Zoetermeer Halloween turns chaotic: Riot police called in, 10 arrested",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Netherlands has 8.2 million registered organ donors, up 90,000 in a year",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Video: Man hospitalized after early morning shooting in Rotterdam nightlife area",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Investigative journalists worried about planned changes to open government act",
+          "text": "The Hague shopkeepers board up stores following online calls for Gen. Z protest",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -61,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Pemex perde 605 milioni nel terzo trimestre, produzione in calo dello 0,4%",
+          "text": "Podcast De Dag: tonnen subsidie voor film die niet op het witte doek kwam",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cuba, Porto Rico possibile base Usa per un'operazione contro Raúl Castro",
+          "text": "A Montichiari 100 milioni di investimenti per potenziare l’attività cargo",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cile, Kast rimuove il sottosegretario alla Giustizia Silva per il caso pedofilia",
+          "text": "“Adotta un bene archeologico”: da Napoli l’appello a Comuni e cittadini",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -83,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Man ropade på hjälp från vattnet i Göteborg – livshotande skadad",
+          "industrySlug": "ai",
+          "industryName": "AI"
+        },
+        {
+          "text": "Mittuniversitetet ledande i forskningen kring giftbankar: ”Bör återvinnas”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Farligt mot vid E18 byggs om – så blir nya cykelbanan säkrare",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
