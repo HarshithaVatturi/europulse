@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "editionNumber": 73,
   "isDemo": false,
-  "leadSummary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany...",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this October 31st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France braces for Halloween protests, shops board up storefronts",
+          "text": "Turkey nominates former foreign minister Sinirlioglu as UN chief",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Live: France’s top court bans Halloween protest in the heart of Paris, permits route on outskirts",
+          "text": "UK PM 'open' to slavery apology but not reparations",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "KI bei der Geldanlage: Wie sicher sind ChatGPT-Anlagetipps?",
+          "text": "Merz ‘surprised’ by Asian pushback to ‘Made in Europe’ plan for car industry",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Jugendproteste: Jugendforscher über Proteste der Gen Z: „Sauer sein allein reicht nicht“",
+          "text": "KI bei der Geldanlage: Wie sicher sind ChatGPT-Anlagetipps?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Video: Zoetermeer Halloween turns chaotic: Riot police called in, 10 arrested",
+          "text": "Riot police respond in The Hague amid chaotic \"Gen. Z\" riots; At least 10 arrested",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Video: Man hospitalized after early morning shooting in Rotterdam nightlife area",
+          "text": "Two men arrested for assaulting disabled man, 61, after luring him through dating app",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "The Hague shopkeepers board up stores following online calls for Gen. Z protest",
+          "text": "Boat from which 38 migrants were rescued off Zeeland coast had no engine",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Podcast De Dag: tonnen subsidie voor film die niet op het witte doek kwam",
+          "text": "Zelensky, 'rientrati in Ucraina i residenti evacuati da Oleshky'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "A Montichiari 100 milioni di investimenti per potenziare l’attività cargo",
+          "text": "Violente proteste a Tirana, sassi e molotov contro la polizia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "“Adotta un bene archeologico”: da Napoli l’appello a Comuni e cittadini",
+          "text": "Kiev, 'rispettiamo la tregua a Oleshky, Mosca tenta di screditarci'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Man ropade på hjälp från vattnet i Göteborg – livshotande skadad",
-          "industrySlug": "ai",
-          "industryName": "AI"
-        },
-        {
-          "text": "Mittuniversitetet ledande i forskningen kring giftbankar: ”Bör återvinnas”",
+          "text": "En allvarligt skadad efter olycka på rallytävling utanför Nässjö",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Farligt mot vid E18 byggs om – så blir nya cykelbanan säkrare",
+          "text": "Polisen bordade fartyg utanför Gotland",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rustar för nya protester – 70 000 poliser kallas in",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
