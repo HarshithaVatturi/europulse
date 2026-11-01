@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "editionNumber": 74,
   "isDemo": false,
-  "leadSummary": "The statement comes after a confrontation outside the Constitutional Tribunal building on Friday night, broadcast live on television, that has pushed a decade-old dispute into the wider European...",
+  "leadSummary": "Switzerland is renewing direct talks with North Korea as tensions rise on the peninsula. Seoul hopes the Swiss office will help it engage with Pyongyang.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Indian opposition stage mega rally seeking election chief’s resignation",
+          "text": "French high school blockades to restart on Monday, student unions say",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Why war makes Ukraine media more determined than ever to hold power to account",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "US Midterms: Democrats face leftward surge",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Après un sinistre, le long parcours des assurés pour obtenir une indemnisation",
+          "text": "Poland rocked by Constitutional showdown",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Wie KI Entwicklung und Alltag verändert - kreativ auf Knopfdruck?",
+          "text": "Looted shops, burning barricades as riots erupt in Frankfurt",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Warnstreiks der IG Metall kurz nach Mitternacht angelaufen",
+          "text": "Flags, banners and chants at youth protest in Berlin",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Robert Habeck: „China hat den Freihandel zu einer Falle gemacht“",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Kärcher CEO warns Europe faces 'perfect storm' as he calls for economic reforms",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
+          "text": "Reward for information leading to arrest of Dutch drug kingpin to rise to €2 million",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "6 minors among 38 rescued from migrant boat off Dutch coast; 1 adult applies for asylum",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Those rescued from rubber boat off Dutch coast were 36 Afghans; 2 arrested are Sudanese",
+          "text": "Police shoot suspect in Rotterdam after masked robbery, warning shots",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "More landlords offering tenants €100,000 to move out before selling",
-          "industrySlug": "construction",
-          "industryName": "Construction"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "New Amsterdam Zuid station entrance opens Sunday with music, sports and workshops",
+          "text": "Youth Olympic Games kick off in Dakar",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ecomondo 2026, crescono spazio ed espositori",
+          "text": "Youth-led rallies sweep Europe",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Repubblica Centrafricana, esercito sventa tentativo di presa del potere dei miliziani",
+          "text": "Nella corsa ai data center riflettori puntati sulle miniere ancora utilizzabili",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,18 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Man anhållen efter misstänkt mordförsök i Sigtuna",
+          "text": "David Druid tar paus från ”Morgonpasset” i P3",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "En till sjukhus efter misshandel i Piteå",
+          "text": "Man tog sig in på hotellrum i Eskilstuna – döms till fängelse",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         },
         {
-          "text": "En allvarligt skadad efter trafikolycka på Kungsholmen",
+          "text": "Sveriges reserv av soldater krymper – äventyrar försvarsförmågan",
           "industrySlug": "technology",
           "industryName": "Technology",
           "companySlug": "abb"
