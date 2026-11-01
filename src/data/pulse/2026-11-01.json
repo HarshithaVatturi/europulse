@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "editionNumber": 74,
   "isDemo": false,
-  "leadSummary": "Switzerland is renewing direct talks with North Korea as tensions rise on the peninsula. Seoul hopes the Swiss office will help it engage with Pyongyang.",
+  "leadSummary": "Europe and Germany risk deindustrialisation, Kärcher CEO Hartmut Jenner has warned. He is urging major cuts in bureaucracy, incentives for extra work and a firm EU trade policy towards China and...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "French high school blockades to restart on Monday, student unions say",
+          "text": "Brussels sides with Donald Tusk in Poland’s court crisis",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "US Midterms: Democrats face leftward surge",
+          "text": "Michigan ‘Betrayal’ & Mid Term Manouvres",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Poland rocked by Constitutional showdown",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France: Route du Rhum yacht race sets off",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Looted shops, burning barricades as riots erupt in Frankfurt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Flags, banners and chants at youth protest in Berlin",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "Kärcher CEO warns Europe faces 'perfect storm' as he calls for economic reforms",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
+        },
+        {
+          "text": "How Merz’s five-day Asia trip ended up being mostly about Europe",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Looted shops, burning barricades as riots erupt in Frankfurt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Reward for information leading to arrest of Dutch drug kingpin to rise to €2 million",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "6 minors among 38 rescued from migrant boat off Dutch coast; 1 adult applies for asylum",
+          "text": "Dutch care homes for severely ill children to close without alternative placements",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Police shoot suspect in Rotterdam after masked robbery, warning shots",
+          "text": "Phantom train caused Amsterdam subway shutdown in early October",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch ambulances give stroke suspects real-time video access to neurologists",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -86,7 +86,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Nella corsa ai data center riflettori puntati sulle miniere ancora utilizzabili",
+          "text": "Cnn, 'Trump chiuderà domani la campagna per le midterm al Lincoln Memorial'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,20 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "David Druid tar paus från ”Morgonpasset” i P3",
+          "text": "Många döda identifierade efter tågolyckan i Spanien",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man tog sig in på hotellrum i Eskilstuna – döms till fängelse",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Explosion på Rosengård – boende hålls inne",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Sveriges reserv av soldater krymper – äventyrar försvarsförmågan",
+          "text": "Misstänkt mord i Ludvika – kvinna hittad död",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     }
