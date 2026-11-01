@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "editionNumber": 74,
   "isDemo": false,
-  "leadSummary": "Irans Außenminister sieht keine Notwendigkeit für USA-Treffen +++ Rubio: Noch keine Entscheidung zu weiterem US-Militäreinsatz gegen Iran +++ Von Huthi entführter UN-Mitarbeiter tot +++ Der Newsblog.",
+  "leadSummary": "The statement comes after a confrontation outside the Constitutional Tribunal building on Friday night, broadcast live on television, that has pushed a decade-old dispute into the wider European...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Indian opposition stage mega rally seeking election chief’s resignation",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Why war makes Ukraine media more determined than ever to hold power to account",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Après un sinistre, le long parcours des assurés pour obtenir une indemnisation",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "+++ Iran-Krieg +++: Iran beharrt auf Bedingungen – und droht mit neuen Waffen",
+          "text": "Wie KI Entwicklung und Alltag verändert - kreativ auf Knopfdruck?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Warnstreiks der IG Metall kurz nach Mitternacht angelaufen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Robert Habeck: „China hat den Freihandel zu einer Falle gemacht“",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Ajax end 11-game winless streak against AZ with 1-0 victory",
+          "text": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Feyenoord drop points again at home after late Fortuna Sittard equalizer",
+          "text": "Those rescued from rubber boat off Dutch coast were 36 Afghans; 2 arrested are Sudanese",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "State Secretary reports modest gains in recognition of sexual boundary-crossing",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "More landlords offering tenants €100,000 to move out before selling",
+          "industrySlug": "construction",
+          "industryName": "Construction"
         }
       ]
     },
@@ -56,13 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Trump: 'Non abbiamo fretta sull'Iran, abbiamo uno o due siti di cui occuparci'",
+          "text": "New Amsterdam Zuid station entrance opens Sunday with music, sports and workshops",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         },
         {
-          "text": "Città del Messico, parata da 1,6 milioni di spettatori per i defunti",
+          "text": "Ecomondo 2026, crescono spazio ed espositori",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Repubblica Centrafricana, esercito sventa tentativo di presa del potere dei miliziani",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -74,9 +98,21 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Man anhållen efter misstänkt mordförsök i Sigtuna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "En till sjukhus efter misshandel i Piteå",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "En allvarligt skadad efter trafikolycka på Kungsholmen",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }
