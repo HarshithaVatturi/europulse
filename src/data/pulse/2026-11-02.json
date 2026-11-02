@@ -2,7 +2,7 @@
   "date": "2026-11-02",
   "editionNumber": 75,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Friedrich Merz steht vor einer heiklen Mission:Der CDU-Chef trifft auf die Kreisvorsitzenden und damit auf die teils kritischsten offiziellen Stimmen seiner Partei. Nach schmerzhaften...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Can French Riviera bling bring wealthy conservatives to Le Pen?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Russia and Ukraine accuse each other of hacking emergency alert apps",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "EXCLUSIVE: EU to seek global action against climate super-pollutant SF6",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "IG Metall weitet im Tarifstreit Warnstreiks aus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Analyse: „Orcel hat keine Skrupel“ – Commerzbank-Investoren fürchten Nachteile nach Übernahme durch Unicredit",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Max Verstappen wins Mexican GP after starting fifth; Kimi Antonelli crowned champion",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Twente make history with 9-0 win as PSV also hit Willem II for seven",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch care homes for severely ill children to close without alternative placements",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "HDE-Konsumbarometer: Robuste deutsche Wirtschaft: Kann der Handel auf das Weihnachtsgeschäft hoffen?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "'Gli Usa premono per il ripristino delle vendite di gas russo in Ue attraverso l'Ucraina'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mosca, hackerata l'app di allerta per attacchi aerei",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Retuna vill skapa gemensam nätbutik: ”Programmerade att handla online”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brist på handbollsdomare i norr – Hampus och Daniel dömer över hela Sverige",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "13 åtalas i apotekshärvan – ska ha lurat regioner på miljoner",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
