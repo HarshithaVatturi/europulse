@@ -2,7 +2,7 @@
   "date": "2026-11-02",
   "editionNumber": 75,
   "isDemo": false,
-  "leadSummary": "Friedrich Merz steht vor einer heiklen Mission:Der CDU-Chef trifft auf die Kreisvorsitzenden und damit auf die teils kritischsten offiziellen Stimmen seiner Partei. Nach schmerzhaften...",
+  "leadSummary": "Advocacy groups have warned that the removal of former allies and their families could endanger their lives.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Can French Riviera bling bring wealthy conservatives to Le Pen?",
+          "text": "Europe seeks Central Asia's critical minerals as producers push for local processing",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Russia and Ukraine accuse each other of hacking emergency alert apps",
+          "text": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Suspected cyberattacks disrupt supermarkets in Belgium, Sweden, Estonia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Europe seeks Central Asia's critical minerals as producers push for local processing",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "EXCLUSIVE: EU to seek global action against climate super-pollutant SF6",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "IG Metall weitet im Tarifstreit Warnstreiks aus",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Analyse: „Orcel hat keine Skrupel“ – Commerzbank-Investoren fürchten Nachteile nach Übernahme durch Unicredit",
+          "text": "Vor den US-Zwischenwahlen: Wie ist Trumps Wirtschaftsbilanz?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Max Verstappen wins Mexican GP after starting fifth; Kimi Antonelli crowned champion",
+          "text": "Fridges, freezers of 17 Dutch businesses attacked; Large supermarkets unaffected",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Twente make history with 9-0 win as PSV also hit Willem II for seven",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Suspects in Overasselt fatal shooting armed with military-grade fully automatic guns",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Dutch care homes for severely ill children to close without alternative placements",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch grid operators to offer compensation for home batteries that ease evening peaks",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Carburants : le gouvernement affirme que le prix du gazole a baissé de « 12 à 18 centimes » dans plus de la moitié des stations-service grâce à la libération de stocks stratégiques",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "HDE-Konsumbarometer: Robuste deutsche Wirtschaft: Kann der Handel auf das Weihnachtsgeschäft hoffen?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "'Gli Usa premono per il ripristino delle vendite di gas russo in Ue attraverso l'Ucraina'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Mosca, hackerata l'app di allerta per attacchi aerei",
+          "text": "Il Tar Palermo conferma la decadenza della concessione Italo-Belga per Mondello",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Retuna vill skapa gemensam nätbutik: ”Programmerade att handla online”",
+          "text": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brist på handbollsdomare i norr – Hampus och Daniel dömer över hela Sverige",
+          "text": "Suspected cyberattacks disrupt supermarkets in Belgium, Sweden, Estonia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "13 åtalas i apotekshärvan – ska ha lurat regioner på miljoner",
+          "text": "Ica-handlaren Tommy efter attacken: ”Det är det här jag lever för”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
