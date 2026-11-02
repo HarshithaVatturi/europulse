@@ -2,7 +2,7 @@
   "date": "2026-11-02",
   "editionNumber": 75,
   "isDemo": false,
-  "leadSummary": "Advocacy groups have warned that the removal of former allies and their families could endanger their lives.",
+  "leadSummary": "British adventurer Karl Bushby returns to his mother’s home in Hull after completing a 28-year, 50,000-kilometre journey from Chile.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Europe’s supermarkets hit by new wave of cyberattacks targeting fridges",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Suspected cyberattacks disrupt supermarkets in Belgium, Sweden, Estonia",
+          "text": "Europe must ‘assert its own’ model to win the deep tech race, says Bpifrance [Partner Content]",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "EXCLUSIVE: EU to seek global action against climate super-pollutant SF6",
+          "text": "Berlin unveils blueprint to catch up on AI",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Vor den US-Zwischenwahlen: Wie ist Trumps Wirtschaftsbilanz?",
+          "text": "EXCLUSIVE: Ireland makes pro-US Big Tech amendments to EU sovereign cloud law",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Fridges, freezers of 17 Dutch businesses attacked; Large supermarkets unaffected",
+          "text": "Refrigeration cyberattacks highlight risks of connecting industry to the internet",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Suspects in Overasselt fatal shooting armed with military-grade fully automatic guns",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "KNMI switching to area-specific weather warnings starting Monday",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Dutch grid operators to offer compensation for home batteries that ease evening peaks",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Now 74 municipalities placed under increased government pressure over asylum housing",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -76,12 +76,12 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Carburants : le gouvernement affirme que le prix du gazole a baissé de « 12 à 18 centimes » dans plus de la moitié des stations-service grâce à la libération de stocks stratégiques",
+          "text": "On an Italian dock, the EU’s new asylum pact gives rescued migrants a rushed ‘tick-box’ border screening",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "HDE-Konsumbarometer: Robuste deutsche Wirtschaft: Kann der Handel auf das Weihnachtsgeschäft hoffen?",
+          "text": "Electrolux, al Mimit trattativa ad oltranza ma l’accordo è ancora lontano",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Hackers attack supermarket fridges in Belgium, Sweden and Luxembourg",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "Suspected cyberattacks disrupt supermarkets in Belgium, Sweden, Estonia",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ica-handlaren Tommy efter attacken: ”Det är det här jag lever för”",
+          "text": "EU says fridge attacks 'deliberate attempt to disrupt' bloc's food supply",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Refrigeration cyberattacks highlight risks of connecting industry to the internet",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
