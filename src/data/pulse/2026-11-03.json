@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-03",
+  "editionNumber": 76,
+  "isDemo": false,
+  "leadSummary": "PM Tusk's government frames the battle over the Constitutional Tribunal as an effort to restore the rule of law, his enemies call it a coup.",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "UK, France to lead first-ever Coalition of the Willing exercise in Poland",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "European force to hold first Ukraine support exercise in Poland",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "Apple-Warnung: Wie gefährlich der Spionageangriff auf den Bundestag ist",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "KNMI switching to area-specific weather warnings starting Monday",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Now 74 municipalities placed under increased government pressure over asylum housing",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Two held in violent Amsterdam robbery that left 93-year-old woman with broken back",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "INTERVIEW: ‘Show me the calculation!’ – Italy’s counter-MFN plan raises questions",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump, 'con Iran sorta di guerra che può degenerare, ottime probabilità di accordo'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Droni ucraini colpiscono una raffineria di petrolio in Russia",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Deep Purple avbryter Europaturné",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Uppgift: USA-attack mot ön Qeshm",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
