@@ -2,7 +2,7 @@
   "date": "2026-11-03",
   "editionNumber": 76,
   "isDemo": false,
-  "leadSummary": "PM Tusk's government frames the battle over the Constitutional Tribunal as an effort to restore the rule of law, his enemies call it a coup.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 3rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "THE HACK: Copenhagen’s disappointment",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "UK, France to lead first-ever Coalition of the Willing exercise in Poland",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "European force to hold first Ukraine support exercise in Poland",
+          "text": "DR Congo opposition figure Prince Epenge arrested for spreading fake news",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Apple-Warnung: Wie gefährlich der Spionageangriff auf den Bundestag ist",
+          "text": "Lufthansa faces €2 billion extra fuel bill as Iran war keeps prices high",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Bärbel Bas legt nach",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -44,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "KNMI switching to area-specific weather warnings starting Monday",
+          "text": "Child protection agency hid 3 children from parents without legal approval",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Now 74 municipalities placed under increased government pressure over asylum housing",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "More highly-educated people receiving unemployment benefits, partly due to AI",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "Two held in violent Amsterdam robbery that left 93-year-old woman with broken back",
+          "text": "Police free man held hostage in Zwijndrecht; Two arrested",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -66,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "FIRST AID: Italy’s counter-MFN plan raises questions",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
+        },
+        {
           "text": "INTERVIEW: ‘Show me the calculation!’ – Italy’s counter-MFN plan raises questions",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump, 'con Iran sorta di guerra che può degenerare, ottime probabilità di accordo'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Droni ucraini colpiscono una raffineria di petrolio in Russia",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Daily News 03 / 11 / 2026",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -88,14 +98,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Deep Purple avbryter Europaturné",
+          "text": "Där sticker Hammarby ut – enligt experten: ”Kopiöst”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Uppgift: USA-attack mot ön Qeshm",
+          "text": "Inget besked om kyrkans utredning av Birgitta Ed",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Strömavbrott i Göteborgs skärgård – flera öar drabbade",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }
