@@ -2,7 +2,7 @@
   "date": "2026-11-03",
   "editionNumber": 76,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 3rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Trump tied the decision to criticism from left wing politicians, while US forces struck Iranian targets in the Strait of Hormuz.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "EU to host Ukraine reconstruction talks with US and UK",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "THE HACK: Copenhagen’s disappointment",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "UK, France to lead first-ever Coalition of the Willing exercise in Poland",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "DR Congo opposition figure Prince Epenge arrested for spreading fake news",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Lufthansa faces €2 billion extra fuel bill as Iran war keeps prices high",
+          "text": "Germany’s Merz warns Europe needs seat at the table as Trump renews Ukraine talks",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Bärbel Bas legt nach",
+          "text": "EU to host Ukraine reconstruction talks with US and UK",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "Portugal signs TAP sale contract with Lufthansa, pledging to keep airline Portuguese",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,20 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Child protection agency hid 3 children from parents without legal approval",
+          "text": "Amsterdam court jails man for attack on bystanders at pro-Palestinian protest",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "More highly-educated people receiving unemployment benefits, partly due to AI",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
-        },
-        {
-          "text": "Police free man held hostage in Zwijndrecht; Two arrested",
+          "text": "Rising prices: Municipalities running out of funds to help 1st-time buyers afford a home",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Philips reaches $288 million agreement with U.S. over sleep apnea case",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "philips"
         }
       ]
     },
@@ -76,6 +77,11 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Germany exploring participation in GCAP next-gen fighter jet",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "FIRST AID: Italy’s counter-MFN plan raises questions",
           "industrySlug": "healthcare",
           "industryName": "Healthcare"
@@ -84,11 +90,6 @@
           "text": "INTERVIEW: ‘Show me the calculation!’ – Italy’s counter-MFN plan raises questions",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Daily News 03 / 11 / 2026",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,20 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Där sticker Hammarby ut – enligt experten: ”Kopiöst”",
+          "text": "Jonas Eriksson: Därför fick Kalmar inte straff mot Mjällby",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Inget besked om kyrkans utredning av Birgitta Ed",
+          "text": "Kent fick sms om akut blodbrist – lämnade blod för 98:e gången",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Strömavbrott i Göteborgs skärgård – flera öar drabbade",
+          "text": "Vill se Kulusevski-comeback: ”Där blir de bäst någonsin i Sverige”",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     }
