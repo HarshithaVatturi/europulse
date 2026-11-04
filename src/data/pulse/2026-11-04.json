@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "editionNumber": 77,
   "isDemo": false,
-  "leadSummary": "Democrat James Talarico has won the US Senate race in Texas, according to US media projections, marking a major breakthrough in a traditionally Republican state.",
+  "leadSummary": "After the midterms, Europe will not get a weaker Trump but one who turns even more to global politics, warns US expert Josef Braml. Europe cannot wait this Trump out.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "REPLAY - US midterms: \"Today begins the Great American comeback\" (Hakeem Jeffries)",
+          "text": "French bank Crédit Mutuel Arkéa reports cyberattack, says customers face no losses",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Midterms 2026: Democrats win control of House and Senate as Republican strongholds fall",
+          "text": "Paul Krugman backs temporary rent caps to curb housing speculation in Europe",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Midterms: Why is California slower at counting its votes?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Fridge hacks also hit French blood banks",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Marktbericht: Zwischen Zahlenflut und US-Politik",
+          "text": "Hockey nations refuse to play Russia as Germany weighs pulling out as host",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Airlines streichen Flüge: Verliert Deutschland den Anschluss?",
+          "text": "Iranian MP tells Euronews Tehran's missiles will strike Europe if US uses its bases there",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Midterms: „Nacht, von der die Demokraten geträumt haben“: Trumps Niederlage wird immer größer",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Defense chief rejects claims Germany puts its own arms industry ahead of Europe",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Energy and fuel prices push Dutch inflation to 3.7 percent in October",
+          "text": "Pro-life group faces complaint over leaflet with \"dangerous\" abortion misinformation",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "ABN Amro staff prepare to strike after pay and office attendance talks collapse",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "1.7 million counterfeit Pokémon cards found in Rotterdam shipping container",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         },
         {
-          "text": "Police issued hundreds of fines to taxi drivers during ADE in Amsterdam",
+          "text": "Court rules heritage group was rightly excluded from Nazi bunker sale",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "I dem hanno raggiunto quota 218 seggi alla Camera",
+          "text": "Iranian MP tells Euronews Tehran's missiles will strike Europe if US uses its bases there",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Media, il dem El-Sayed vince la corsa al Senato in Michigan",
+          "text": "Roma ‘intimidation’ in Bulgarian presidentials as Iliana Iotova’s win raises alarm bells for press freedom",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Teheran, 'il messaggio degli americani è no alla guerra'",
+          "text": "Speech by Commissioner Albuquerque (by video message) for the 13th Joint ESAs Consumer Protection Day, Rome",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,19 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Galen vändning av Winnipeg Jets – hämtade upp 0–4 på mindre än tre minuter",
+          "text": "Hockey nations refuse to play Russia as Germany weighs pulling out as host",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Klarar ”J-O” Waldner testet med pingisspelarnas siluett?",
+          "text": "Increasingly long stays at Migration Agency's largest detention centre",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Byggentreprenören: Så ska Ullån skyddas",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Sweden's Dala Horse receives EU protection status",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     }
