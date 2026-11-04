@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "editionNumber": 77,
   "isDemo": false,
-  "leadSummary": "After the midterms, Europe will not get a weaker Trump but one who turns even more to global politics, warns US expert Josef Braml. Europe cannot wait this Trump out.",
+  "leadSummary": "Dozens of Santas gathered at Rio de Janeiro's iconic Christ the Redeemer statue to celebrate their graduation. The 55 new recruits are preparing to spread Christmas cheer across Brazil.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -20,9 +20,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Fridge hacks also hit French blood banks",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Mélenchon a-t-il déjà son ticket pour le second tour ?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -42,9 +42,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Defense chief rejects claims Germany puts its own arms industry ahead of Europe",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Pro-life group faces complaint over leaflet with \"dangerous\" abortion misinformation",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch consumers warned over agressive, misleading sales of costly energy products",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "1.7 million counterfeit Pokémon cards found in Rotterdam shipping container",
-          "industrySlug": "logistics-supply-chain",
-          "industryName": "Logistics & Supply Chain"
+          "text": "Child sexual abuse to face tougher penalties across EU under new rules",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Court rules heritage group was rightly excluded from Nazi bunker sale",
+          "text": "Dutch parliament looks to Spain for journalism code of conduct on femicide reporting",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Roma ‘intimidation’ in Bulgarian presidentials as Iliana Iotova’s win raises alarm bells for press freedom",
+          "text": "Speech by Commissioner Albuquerque (by video message) for the 13th Joint ESAs Consumer Protection Day, Rome",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Speech by Commissioner Albuquerque (by video message) for the 13th Joint ESAs Consumer Protection Day, Rome",
+          "text": "Roma ‘intimidation’ in Bulgarian presidentials as Iliana Iotova’s win raises alarm bells for press freedom",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -103,14 +103,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Increasingly long stays at Migration Agency's largest detention centre",
+          "text": "Trump efter valförlusten: Kriget mot Iran värt det",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Sweden's Dala Horse receives EU protection status",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Besök från Asien i Jönköping – mandarinanden väcker uppmärksamhet",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
