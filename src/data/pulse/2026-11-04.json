@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "editionNumber": 77,
   "isDemo": false,
-  "leadSummary": "Feyenoord were comfortably beaten by Internazionale in the UEFA Champions League on Tuesday.",
+  "leadSummary": "Democrat James Talarico has won the US Senate race in Texas, according to US media projections, marking a major breakthrough in a traditionally Republican state.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "REPLAY - US midterms: \"Today begins the Great American comeback\" (Hakeem Jeffries)",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Midterms 2026: Democrats win control of House and Senate as Republican strongholds fall",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Midterms: Why is California slower at counting its votes?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Marktbericht: Zwischen Zahlenflut und US-Politik",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Airlines streichen Flüge: Verliert Deutschland den Anschluss?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Midterms: „Nacht, von der die Demokraten geträumt haben“: Trumps Niederlage wird immer größer",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Feyenoord suffer heavy home defeat against Inter in UEFA Champions League",
+          "text": "Energy and fuel prices push Dutch inflation to 3.7 percent in October",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Two suspects arrested over fatal attack on 27-year-old in Vlissingen",
+          "text": "ABN Amro staff prepare to strike after pay and office attendance talks collapse",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nijmegen based Nexperia sues Chinese parent company Wingtech for more than $2 billion",
+          "text": "Police issued hundreds of fines to taxi drivers during ADE in Amsterdam",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "I dem hanno raggiunto quota 218 seggi alla Camera",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Media, il dem El-Sayed vince la corsa al Senato in Michigan",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Teheran, 'il messaggio degli americani è no alla guerra'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Galen vändning av Winnipeg Jets – hämtade upp 0–4 på mindre än tre minuter",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Klarar ”J-O” Waldner testet med pingisspelarnas siluett?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Byggentreprenören: Så ska Ullån skyddas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
