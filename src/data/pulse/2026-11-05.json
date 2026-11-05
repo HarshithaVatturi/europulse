@@ -2,7 +2,7 @@
   "date": "2026-11-05",
   "editionNumber": 78,
   "isDemo": false,
-  "leadSummary": "PSV suffered a painful loss at home against Club Brugge in the UEFA Champions League on Wednesday.",
+  "leadSummary": "US President Donald Trump has warned that impeaching him would damage the Democratic Party, after Republicans suffered major losses in the midterm elections.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Europe Today: Trump loses Congress. Will he now be even more unpredictable?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Le Pen keeps Farage hanging over his Paris rendezvous",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "French bank says cyberattack stole around €100 million",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Rotterdam suspect linked to 60 million euro money laundering network",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Crises have taken their classrooms. But education cannot wait",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Canada spat exposes widening rift between Merz and von der Leyen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "PSV's Champions League hopes take a hit after 2-1 home loss to Club Brugge",
+          "text": "Canadian woman on holiday held hostage, raped in Amsterdam-Noord home: Prosecutors",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "KLM announces 5,000 job cuts; 15% of its workforce disappearing",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch consumers warned over agressive, misleading sales of costly energy products",
-          "industrySlug": "energy",
-          "industryName": "Energy"
-        },
-        {
-          "text": "Child sexual abuse to face tougher penalties across EU under new rules",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Many new sites selling weight-loss drugs; Authorities drowning in peptides from China",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,12 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Sheinbaum celebra i nuovi governatori Usa di origini messicane",
+          "text": "Midterms 2026 : Wall Street salue la vague démocrate au Congrès et ses promesses de stabilité et de statu quo",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Colombia, il Parlamento approva la legge che archivia la 'pace totale' di Petro",
+          "text": "Cnn, repubblicani scaricano Hegseth, possibile avvio impeachment prossima settimana",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Partito ultraortodosso non raccomanda candidati, rotta alleanza con Netanyahu",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -73,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Carina Bergfeldt blir årets julvärd 2026",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lungön i Härnösand varmast i landet – här är förklaringen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lastbil med farligt gods har kört av vägen utanför Eskilstuna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
