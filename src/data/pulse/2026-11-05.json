@@ -2,13 +2,18 @@
   "date": "2026-11-05",
   "editionNumber": 78,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 5th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Palestinian farmers in the occupied West Bank have been allowed limited access to their olive groves under Israeli military restrictions. Many found damaged trees, while soldiers fired tear gas...",
   "countryBriefs": [
     {
       "countrySlug": "france",
       "countryIso2": "FR",
       "countryName": "France",
       "items": [
+        {
+          "text": "Greece: Students march in Athens demanding more education funding",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
         {
           "text": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
           "industrySlug": "energy",
@@ -18,11 +23,6 @@
           "text": "France: Mass protests and school blockades mark fourth national strike",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Europe Today: Trump loses Congress. Will he now be even more unpredictable?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Amerikaanse techaandelen gaan hard onderuit, trekken ook Europese tech mee",
+          "text": "AZ lose to Juventus as 17-match unbeaten European home run ends",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nieuwe bezuinigingsronde KLM zet ook druk op cao-onderhandelingen",
+          "text": "NEC fight back to beat Omonia Nicosia and claim second UEFA Europa League win",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "‘Populistische moeder’ gaat als gouverneur de corruptie in Texas aanpakken",
+          "text": "Ajax thrash Danish side Midtjylland 6-1 after second-half goal rush in Conference League",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "”Sydamerikas Dubai kollapsade”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brist på skyddsrum i Kyjiv – här övernattar SVT i tunnelbanan",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Svenska fångar i Estland straffas efter stök",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Bankkollaps i Paraguay – presidenten avgår",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "72-åriga Marie har spelat World of Warcraft i över 20 år: ”Spelar nästan varje kväll”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
