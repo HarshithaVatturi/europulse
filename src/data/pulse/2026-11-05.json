@@ -2,7 +2,7 @@
   "date": "2026-11-05",
   "editionNumber": 78,
   "isDemo": false,
-  "leadSummary": "US President Donald Trump has warned that impeaching him would damage the Democratic Party, after Republicans suffered major losses in the midterm elections.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 5th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "France: Mass protests and school blockades mark fourth national strike",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
           "text": "Europe Today: Trump loses Congress. Will he now be even more unpredictable?",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Le Pen keeps Farage hanging over his Paris rendezvous",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "French bank says cyberattack stole around €100 million",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Canada spat exposes widening rift between Merz and von der Leyen",
+          "text": "Rheinmetall shares plunge more than 17% after profit warning over order delays",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "Talks ‘well underway’ for partial German takeover of tank maker KNDS: source",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Canadian woman on holiday held hostage, raped in Amsterdam-Noord home: Prosecutors",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "KLM announces 5,000 job cuts; 15% of its workforce disappearing",
+          "text": "Amerikaanse techaandelen gaan hard onderuit, trekken ook Europese tech mee",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Many new sites selling weight-loss drugs; Authorities drowning in peptides from China",
+          "text": "Nieuwe bezuinigingsronde KLM zet ook druk op cao-onderhandelingen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "‘Populistische moeder’ gaat als gouverneur de corruptie in Texas aanpakken",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,18 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Midterms 2026 : Wall Street salue la vague démocrate au Congrès et ses promesses de stabilité et de statu quo",
+          "text": "Meloni urges ‘disorganized’ EU to speak with one voice on Ukraine",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cnn, repubblicani scaricano Hegseth, possibile avvio impeachment prossima settimana",
+          "text": "Leonardo tops €60 billion in orders as defence, drones and space grow",
           "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "industryName": "Robotics & Automation",
+          "companySlug": "leonardo"
         },
         {
-          "text": "Partito ultraortodosso non raccomanda candidati, rotta alleanza con Netanyahu",
+          "text": "Meloni protests EU disarray as Brussels hosts Ukraine talks",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Carina Bergfeldt blir årets julvärd 2026",
+          "text": "Svenska fångar i Estland straffas efter stök",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Lungön i Härnösand varmast i landet – här är förklaringen",
+          "text": "Bankkollaps i Paraguay – presidenten avgår",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Lastbil med farligt gods har kört av vägen utanför Eskilstuna",
+          "text": "72-åriga Marie har spelat World of Warcraft i över 20 år: ”Spelar nästan varje kväll”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
