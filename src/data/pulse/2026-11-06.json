@@ -2,7 +2,7 @@
   "date": "2026-11-06",
   "editionNumber": 79,
   "isDemo": false,
-  "leadSummary": "The former British PM was at Mar-a-Lago the night before the midterms. Coincidence? Yes, probably.",
+  "leadSummary": "EU countries lose nearly €60bn a year to corporate profit shifting, the Tax Justice Network estimates. It links about €8bn of those losses to the UK and its tax haven network, even as the UK itself...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Marco Rubio denies plans to resign as 2028 speculation grows",
+          "text": "Midterms over, Democrats eye wide-open 2028 White House race",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Le nouveau TGV de la SNCF, plus confortable, écologique et modulable, entre enfin en service vendredi",
+          "text": "Israel president to announce Sunday who will form new government",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "US Republicans face reckoning after major midterm election defeat",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -30,6 +35,16 @@
           "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Chipaktien an den internationalen Börsen im freien Fall",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ressourcenverbrauch vieler Rechenzentren nicht öffentlich einsehbar",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -39,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Twente come from behind to beat Pafos and maintain perfect European record",
+          "text": "Dutch parliament backs small nuclear power plants to reduce dependence on non-EU energy",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Hacked freezers, bomb threats on flights: Russia ramping up hybrid warfare, experts say",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "KLM flight from Amsterdam to Bucharest & Tel Aviv targeted in bomb threat",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "AZ lose to Juventus as 17-match unbeaten European home run ends",
+          "text": "Dutch Cabinet wants to give working refugees more time to integrate",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -61,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Paraguay, dal 6 novembre i rimborsi ai correntisti di Ueno Bank",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Cuba, liberata dopo nove ore la giornalista Yoani Sánchez",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Kiev, 'a Komyshuvakha bilancio sale a 53 morti, circa 50 dispersi'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Messico, ucciso in scontro a fuoco il leader del cartello Nuevo Imperio",
+          "text": "Media, Trump ha incontrato team sicurezza nazionale, 3 opzioni su Iran",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -83,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Swedish heart patients urge government to back dedicated EU health fund [Partner Content]",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Swedish teenager convicted for shooting outside Alphen aan den Rijn prison",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nya hot mot flygplatser i Europa",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
