@@ -2,7 +2,7 @@
   "date": "2026-11-07",
   "editionNumber": 80,
   "isDemo": false,
-  "leadSummary": "Dass die Generalsanierung der Bahnstrecke Berlin-Hannover massive Verspätungen bedeutet, war klar. Doch nun zeigt sich: Die Pünktlichkeit auf der Ausweichstrecke ist selbst für Bahnverhältnisse...",
+  "leadSummary": "Die Welt spielt verrückt, doch im Präsidium des Bundestages herrscht überraschende Einigkeit. Bundestagsvizepräsident Bodo Ramelow (Die Linke) gibt im Gespräch mit Gordon Repinski einen seltenen...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Amid protests, France's rising debt costs threaten stability",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pope urges healthcare for all in Uruguay",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "AI Data centres face growing backlash",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,12 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Sanierung der Bahnstrecke Berlin-Hannover: Massive Probleme für Pendler",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "KI-Finanzierung: OpenAI sammelt laut Bericht elf Milliarden Dollar bei Investoren ein",
+          "text": "Amid protests, France's rising debt costs threaten stability",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Sanierung der Bahnstrecke Berlin-Hannover: Massive Probleme für Pendler",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -39,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Elderly people also vulnerable to RS virus; Doctors call for vaccinations",
+          "text": "AI Data centres face growing backlash",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Mass sperm donor Simon who fathered at least 199 children signs contract to stop",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "ING bank launches €128.5 million loan program for Dutch small and mid-sized businesses",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Interior minister backs plan to ban politicians from holding multiple political roles",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Netherlands records first sub-zero temp. of autumn; Weekend set to stay cool at 5-10°C",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -61,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Paraguay, nuove proteste e incidenti di fronte alla casa dell'ex presidente",
+          "text": "Sirti, piano da 430 esuberi e i sindacati portano il dossier al Mimit",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        },
+        {
+          "text": "Cultura e creatività come volàno per l’economia: il bilancio di Eureka",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trump: 'Stiamo facendo molti progressi con Russia e Ucraina'",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Novo presidente do Paraguai Pedro Alliana promete compensar vítimas do \"caos financeiro\"",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Napoli, nuova Darsena da 277 milioni bloccata: il terminal gas va trasferito",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -83,10 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Paraguays president avsatt – kan åtalas",
+          "text": "Stor trafikpåverkan i Nässjö – krock mellan två personbilar",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
+        },
+        {
+          "text": "Totalstopp på E4 efter olycka: ”Fläckvis väldigt halt”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Maskerade personer slog sönder fönster på skola och garage",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
