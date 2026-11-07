@@ -2,7 +2,7 @@
   "date": "2026-11-07",
   "editionNumber": 80,
   "isDemo": false,
-  "leadSummary": "Die Welt spielt verrückt, doch im Präsidium des Bundestages herrscht überraschende Einigkeit. Bundestagsvizepräsident Bodo Ramelow (Die Linke) gibt im Gespräch mit Gordon Repinski einen seltenen...",
+  "leadSummary": "UGC footage shows people running for cover as a deadly shooting unfolds in Kraków, Poland, leaving at least six people dead and around a dozen wounded, according to police.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Amid protests, France's rising debt costs threaten stability",
+          "text": "France Unbowed’s Mélenchon unveils ‘A Shared Future’ manifesto ahead of 2027 presidential race",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+          "text": "🔴 Israeli president picks Netanyahu's rival Eisenkot to try to form government",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'",
+          "text": "'We must change everything': French far-left leader Mélenchon launches presidential programme",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Son of Iran's shah receives 'Freedom Prize' in Frankfurt",
+          "text": "Journalism and AI: Who owns the news?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+          "text": "Son of Iran's shah receives 'Freedom Prize' in Frankfurt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -59,12 +59,12 @@
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "CDA leader Bontenbal calls sending tax plan to Senate without majority 'irresponsible'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Transport group Hardt Hyperloop comes back from bankruptcy with millions in U.S. funding",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Netherlands surpasses 2,000 hours of sunshine for only the sixth time since 1906",
+          "text": "Limburg seeks UNESCO heritage status for renowned Pinkpop festival",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "'Peace is possible and we are called to build it' Pope Leo XIV says in Uruguay",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Nations League: Zinedine Zidane balances surprise and continuity in his second roster",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Caro energia, Confcommercio: bollette sempre più pesanti, urgente ridurre i costi",
+          "text": "Mbappé returns to France duty as Zidane drafts Pagis into Nations League squad",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Sirti, piano da 430 esuberi e i sindacati portano il dossier al Mimit",
-          "industrySlug": "construction",
-          "industryName": "Construction"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Hackergruppernas mystiska ”bevis” för frysattackerna sågas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Slovakisk hockeyspelare förd till sjukhus – skridsko träffade halsen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
           "text": "Fem bilar inblandade i krock",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Stor trafikpåverkan i Nässjö – krock mellan två personbilar",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
