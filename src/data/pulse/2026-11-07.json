@@ -2,7 +2,7 @@
   "date": "2026-11-07",
   "editionNumber": 80,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Dass die Generalsanierung der Bahnstrecke Berlin-Hannover massive Verspätungen bedeutet, war klar. Doch nun zeigt sich: Die Pünktlichkeit auf der Ausweichstrecke ist selbst für Bahnverhältnisse...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -22,9 +22,14 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Sanierung der Bahnstrecke Berlin-Hannover: Massive Probleme für Pendler",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "KI-Finanzierung: OpenAI sammelt laut Bericht elf Milliarden Dollar bei Investoren ein",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +39,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Elderly people also vulnerable to RS virus; Doctors call for vaccinations",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "ING bank launches €128.5 million loan program for Dutch small and mid-sized businesses",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Interior minister backs plan to ban politicians from holding multiple political roles",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +61,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Paraguay, nuove proteste e incidenti di fronte alla casa dell'ex presidente",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Trump: 'Stiamo facendo molti progressi con Russia e Ucraina'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Novo presidente do Paraguai Pedro Alliana promete compensar vítimas do \"caos financeiro\"",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         }
       ]
     },
@@ -58,9 +83,10 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Paraguays president avsatt – kan åtalas",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }
