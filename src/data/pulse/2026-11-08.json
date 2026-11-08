@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "editionNumber": 81,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 8th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Egypt is seeking closer ties with Libya’s western government after years of backing its eastern rival. Talks in Tripoli covered energy projects and Egypt’s objections to Libya’s maritime deal with...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Chez Grasset, un supplice mortifère après sept mois sans patron",
+          "text": "‘10 times more painful’: Menstrual disorders fuel calls to ban tear gas at French protests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "François Villeroy de Galhau : « Laisser filer la dette, c’est faire des choix contre la jeunesse, des choix gérontocratiques »",
+          "text": "2026 Dakar Youth Olympic Games: Golden Double for Senegal",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Le « super El Niño » inquiète les horticulteurs kényans, qui fournissent un tiers des fleurs importées de l’UE",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Diwali: Over one billion people mark victory of light over darkness",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,12 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Gewaltverbrechen: Sechs Tote und mehr als fünfzehn Verletzte bei Schießerei in Krakau",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Wie der Aktienkauf rund um die Uhr funktionieren soll",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "+++ US-Midterms +++: Trump will Ermittlungen gegen Demokraten – „bedrohen viele Menschen“",
+          "text": "Versicherungen: Frankfurter Leben kämpft mit Problemfällen im Private-Credit-Portfolio",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Gewinnverlagerung: Apple spart offenbar 2,7 Milliarden Dollar Steuern in Singapur",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -49,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Scientists find extremely rare 66-million-year-old crab-like fossil found in Limburg",
+          "text": "Landgoedeigenaar zoekt geld, het succes van Poiesz, en een diner met Karien van Gennip",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Transport group Hardt Hyperloop comes back from bankruptcy with millions in U.S. funding",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Het autocratische bewind van Vučić in Servië vertoont eerste barsten",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Limburg seeks UNESCO heritage status for renowned Pinkpop festival",
+          "text": "Mag de overheid besparen met hulp van AI? ‘Ik heb geen sociaal contract met een chatbot’",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -71,7 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Media: 'Dana White incontrerà Trump alla Casa Bianca lunedì'",
+          "text": "La Sicilia punta a costruire un sistema regionale dell’innovazione",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cop31, focus sull’elettrificazione ma l’Italia è indietro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Selezionatori e manager, quasi tutti usano l’Ai ma mancano le linee guida",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -83,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Brand i företagslokal i Visby – byggnaden bevakas",
+          "text": "Blåvitts supportrar i protestmarsch efter polisinsatsen på derbyt",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Casinodaddy marknadsför illegala casinon – tjänar hundratals miljoner",
+          "text": "Rökutveckling på tåg – trafikstopp i Laxå kommun",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Se ”Casinokungarna” på SVT Play",
+          "text": "Misstänkt farligt föremål i trapphus i Malmö var leksak",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
