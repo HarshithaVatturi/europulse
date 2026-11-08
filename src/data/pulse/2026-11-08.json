@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "editionNumber": 81,
   "isDemo": false,
-  "leadSummary": "Egypt is seeking closer ties with Libya’s western government after years of backing its eastern rival. Talks in Tripoli covered energy projects and Egypt’s objections to Libya’s maritime deal with...",
+  "leadSummary": "The Rio de Janeiro government confirmed ten dead, including five children. Brazilian media say a baby was among the victims.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "‘10 times more painful’: Menstrual disorders fuel calls to ban tear gas at French protests",
+          "text": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "2026 Dakar Youth Olympic Games: Golden Double for Senegal",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Ukraine: Russian strikes leave hundreds of thousands without power",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Diwali: Over one billion people mark victory of light over darkness",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Gadi Eisenkot receives mandate to form government",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Viele Gebäude weiterhin ohne Elementarschadenversicherung",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Wie der Aktienkauf rund um die Uhr funktionieren soll",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Versicherungen: Frankfurter Leben kämpft mit Problemfällen im Private-Credit-Portfolio",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Gewinnverlagerung: Apple spart offenbar 2,7 Milliarden Dollar Steuern in Singapur",
+          "text": "Bundespräsidentin: Erste Frau im Amt – Ilse Aigner soll Bundespräsidentin werden",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Landgoedeigenaar zoekt geld, het succes van Poiesz, en een diner met Karien van Gennip",
+          "text": "Dutch organization demands equal treatment for victims of online and physical abuse",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Het autocratische bewind van Vučić in Servië vertoont eerste barsten",
+          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
           "industrySlug": "automotive",
           "industryName": "Automotive"
         },
         {
-          "text": "Mag de overheid besparen met hulp van AI? ‘Ik heb geen sociaal contract met een chatbot’",
+          "text": "Video: Man killed in Schiedam was 19, working at the time; 3 suspects remain at large",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "La Sicilia punta a costruire un sistema regionale dell’innovazione",
+          "text": "Watch: Spectacular double waterspout forms off Italy's Capri island",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cop31, focus sull’elettrificazione ma l’Italia è indietro",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         },
         {
-          "text": "Selezionatori e manager, quasi tutti usano l’Ai ma mancano le linee guida",
+          "text": "Ex Ilva, fonti Flacks: offerta solo dopo un incontro con Meloni",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "BP slog nytt poängrekord – trots Zandéns trippla missar",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Blåvitts supportrar i protestmarsch efter polisinsatsen på derbyt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Rökutveckling på tåg – trafikstopp i Laxå kommun",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Misstänkt farligt föremål i trapphus i Malmö var leksak",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
