@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "editionNumber": 81,
   "isDemo": false,
-  "leadSummary": "The Rio de Janeiro government confirmed ten dead, including five children. Brazilian media say a baby was among the victims.",
+  "leadSummary": "Tens of thousands of people, many dressed in red, marched through Amsterdam in the Netherlands on Sunday 8 November, demanding that the Dutch government take stronger action against Israel over the...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Ukraine: Russian strikes leave hundreds of thousands without power",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Pope Leo arrives in Argentina amid divisions over Milei’s austerity",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Gadi Eisenkot receives mandate to form government",
+          "text": "Pope Leo in Latin America: Papal Politics and Peru",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -42,7 +42,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Bundespräsidentin: Erste Frau im Amt – Ilse Aigner soll Bundespräsidentin werden",
+          "text": "Spionageverdacht: Hatte Jensen Huang eine Affäre mit einer Spionin? – Nvidia will Medienberichte prüfen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch organization demands equal treatment for victims of online and physical abuse",
+          "text": "Netherlands: Sea of red fills Amsterdam streets in Gaza protest",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Video: Man killed in Schiedam was 19, working at the time; 3 suspects remain at large",
+          "text": "PSV take Eredivisie lead after goal-filled weekend featuring AZ thriller",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Max Verstappen storms from 21st to second in Brazilian Grand Prix",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
+          "text": "PSV take Eredivisie lead after goal-filled weekend featuring AZ thriller",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
           "industrySlug": "automotive",
           "industryName": "Automotive"
-        },
-        {
-          "text": "Ex Ilva, fonti Flacks: offerta solo dopo un incontro con Meloni",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -103,12 +103,12 @@
           "industryName": "Automotive"
         },
         {
-          "text": "BP slog nytt poängrekord – trots Zandéns trippla missar",
+          "text": "”Fördel Kristersson eller extraval”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Blåvitts supportrar i protestmarsch efter polisinsatsen på derbyt",
+          "text": "BP slog nytt poängrekord – trots Zandéns trippla missar",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
