@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "editionNumber": 81,
   "isDemo": false,
-  "leadSummary": "Dutch transport company Hardt Hyperloop is restarting operations after securing an investment worth several million euros.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 8th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Chez Grasset, un supplice mortifère après sept mois sans patron",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "François Villeroy de Galhau : « Laisser filer la dette, c’est faire des choix contre la jeunesse, des choix gérontocratiques »",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Le « super El Niño » inquiète les horticulteurs kényans, qui fournissent un tiers des fleurs importées de l’UE",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,14 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Gewaltverbrechen: Sechs Tote und mehr als fünfzehn Verletzte bei Schießerei in Krakau",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "+++ US-Midterms +++: Trump will Ermittlungen gegen Demokraten – „bedrohen viele Menschen“",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,6 +49,11 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Scientists find extremely rare 66-million-year-old crab-like fossil found in Limburg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Transport group Hardt Hyperloop comes back from bankruptcy with millions in U.S. funding",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
@@ -42,12 +62,6 @@
           "text": "Limburg seeks UNESCO heritage status for renowned Pinkpop festival",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Woman, 54, arrested after fatal stabbing of man, 70, in Zaandam",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
         }
       ]
     },
@@ -57,9 +71,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Media: 'Dana White incontrerà Trump alla Casa Bianca lunedì'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -69,9 +83,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Brand i företagslokal i Visby – byggnaden bevakas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Casinodaddy marknadsför illegala casinon – tjänar hundratals miljoner",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Se ”Casinokungarna” på SVT Play",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
