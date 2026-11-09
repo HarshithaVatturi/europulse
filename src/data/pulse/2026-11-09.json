@@ -2,7 +2,7 @@
   "date": "2026-11-09",
   "editionNumber": 82,
   "isDemo": false,
-  "leadSummary": "G7 foreign ministers will revisit Russia’s war in Ukraine and the prospect of further US strikes on Iran when they meet in Paris. Washington has kept the option of new strikes open since...",
+  "leadSummary": "Authorities are still investigating the 24-year-old's motive for the mass shooting that killed at least 6 people.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,14 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Europe to press US on Ukraine peace and Iran at Paris G7 ministers talks",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Marine Le Pen is coming after Kaja Kallas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Trump vows comeback as parties clash over Democrat prosecution threats",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "European troops in Poland: 'Coalition of the Willing' holds military exercises",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "French PM holds 'social conference': just 'an exercise in PR'?",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -27,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Spionageverdacht: Hatte Jensen Huang eine Affäre mit einer Spionin? – Nvidia will Medienberichte prüfen",
+          "text": "Hoffen auf Ende des Iran-Krieges: Ölpreise deutlich gesunken",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Untersuchung gegen Nvidia-Chef Huang wegen möglicher Spionin aus China",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Marktbericht: Anleger nach KI-Crash weiter verunsichert",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -39,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "PSV take Eredivisie lead after goal-filled weekend featuring AZ thriller",
+          "text": "Pro Brabant proposes to scrap all flights from Eindhoven Airport to and from London",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Max Verstappen storms from 21st to second in Brazilian Grand Prix",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Nearly 1 in 4 young adults pretend to be better off financially than they are: Study",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Dutch organization demands equal treatment for victims of online and physical abuse",
+          "text": "21 percent of Dutch feeling mentally fatigued by work, especially women aged 25 to 35",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -66,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Ex Ilva, è sfida a due: sul tavolo le offerte di Arvedi e Jindal",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Paraguay, Alliana vara la linea dura e ringrazia gli Stati Uniti",
+          "text": "Von der Leyen conferma, 'l'Ue presente ai colloqui di Abu Dhabi'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -83,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Swedish automaker Polestar plans Dutch restructuring to improve financial flexibility",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "FIREPOWER: Defence Equity Facility 2.0 incoming",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Sweden’s Svekon turns civilian industry into defence capability",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Två häktas misstänkta för mord i Norrköping",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
