@@ -2,7 +2,7 @@
   "date": "2026-11-09",
   "editionNumber": 82,
   "isDemo": false,
-  "leadSummary": "Authorities are still investigating the 24-year-old's motive for the mass shooting that killed at least 6 people.",
+  "leadSummary": "The Pontiff visited the Cottolengo Don Orione, which cares for over 400 people and has been hit by Javier Milei's cuts, and said a nation's progress should be judged by how it treats those most in...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Marine Le Pen is coming after Kaja Kallas",
+          "text": "La France accuse l’Iran d’être à l’origine des cyberattaques visant les supermarchés",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "European troops in Poland: 'Coalition of the Willing' holds military exercises",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "De quoi la candidature Teddy Riner est-elle le nom ?",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
-          "text": "French PM holds 'social conference': just 'an exercise in PR'?",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "France blames Iran for cyberattacks targeting supermarket fridges",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Hoffen auf Ende des Iran-Krieges: Ölpreise deutlich gesunken",
+          "text": "Merz ties EU budget deal to new Ukraine loans",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Untersuchung gegen Nvidia-Chef Huang wegen möglicher Spionin aus China",
+          "text": "Germany on track for first female president",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Marktbericht: Anleger nach KI-Crash weiter verunsichert",
+          "text": "G7 to press Rubio on Iran and Ukraine in Paris",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Pro Brabant proposes to scrap all flights from Eindhoven Airport to and from London",
+          "text": "Dutch online gift retailer confirms its website was hacked, customer data stolen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nearly 1 in 4 young adults pretend to be better off financially than they are: Study",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Big Tech, AI, disinformation campaigns putting Dutch journalistic freedom under pressure",
+          "industrySlug": "ai",
+          "industryName": "AI"
         },
         {
-          "text": "21 percent of Dutch feeling mentally fatigued by work, especially women aged 25 to 35",
+          "text": "19-year-old shot dead in Schiedam was mistaken for friend over €500 debt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "PSV take Eredivisie lead after goal-filled weekend featuring AZ thriller",
+          "text": "G7 to press Rubio on Iran and Ukraine in Paris",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ex Ilva, è sfida a due: sul tavolo le offerte di Arvedi e Jindal",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "La Cour des comptes repart à la charge contre les niches fiscales",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Von der Leyen conferma, 'l'Ue presente ai colloqui di Abu Dhabi'",
+          "text": "Ex Ilva, il sindaco di Taranto: «Irrituale che Arvedi chieda prima il consenso alla comunità»",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -108,7 +108,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Två häktas misstänkta för mord i Norrköping",
+          "text": "Iran pekas ut efter hackerattack mot kylar i Frankrike",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
