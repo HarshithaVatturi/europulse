@@ -2,7 +2,7 @@
   "date": "2026-11-10",
   "editionNumber": 83,
   "isDemo": false,
-  "leadSummary": "The independence movement has been largely dormant since 2017-2018, but could revive if the People's Party and Vox win the election on Nov. 29.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 10th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment",
+          "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy",
+          "text": "New Israel parliament to be sworn in as Eisenkot works to form new govt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "California voters reject measure to tax the wealth of billionaires",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -27,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Warum strategische Investitionen jetzt wichtiger sind denn je",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "INTERVIEW: Estonia rebuffs Berlin on EU budget cuts",
           "industrySlug": "finance-banking",
           "industryName": "Finance & Banking"
         },
         {
-          "text": "Arbeitsmarkt: „800.000 Jobs werden in Deutschland aufgrund von KI wegfallen“",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Klimaschutz: CO₂‑Emissionen aus fossilen Brennstoffen sinken leicht",
+          "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -49,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Rotterdam man sentenced to five years in prison for online child sexual abuse",
+          "text": "AFM ziet cyberaanvallen als acuut systeemrisico voor financiële sector",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch online gift retailer confirms its website was hacked, customer data stolen",
+          "text": "Grondpolitiek staat weer op de agenda. Aan welke knoppen kunnen overheden draaien?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Big Tech, AI, disinformation campaigns putting Dutch journalistic freedom under pressure",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "Live: Olieprijs gedaald tot onder de $90, voor het eerst sinds augustus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -71,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Messico da record con oltre 23 milioni di occupati formali",
+          "text": "Italy’s Ukraine arms package exposes tensions within Meloni’s coalition",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "El Salvador congela i prezzi dei carburanti fino al 23 novembre",
+          "text": "Ugandan former intelligence officer exposes alleged army abuses",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "L'Italia in Messico con 58 autori per la Fiera del Libro di Guadalajara",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -93,7 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
+          "text": "Hospital sewers are breeding grounds for drug-resistant bacteria, Swedish study finds [Partner Content]",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Nordic Air Defence: Start-ups and primes need a new equilibrium",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kristoffer Wolke (V): ”Kravet är att sitta med i en regering”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
