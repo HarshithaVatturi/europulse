@@ -2,7 +2,7 @@
   "date": "2026-11-10",
   "editionNumber": 83,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 10th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "As of Tuesday, projections gave the Democrats 254 seats and the Republicans 165, with 16 races still undecided.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
+          "text": "Iran denies role in cyberattacks on French supermarket refrigerators",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "New Israel parliament to be sworn in as Eisenkot works to form new govt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "California voters reject measure to tax the wealth of billionaires",
+          "text": "Iran denies role in fridge hack, France summons ambassador",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Warum strategische Investitionen jetzt wichtiger sind denn je",
+          "text": "Surge in EV demand blows past German government’s subsidy forecasts",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "INTERVIEW: Estonia rebuffs Berlin on EU budget cuts",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Merz clashes with Fico over German bid to link EU budget and Ukraine loan",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
+          "text": "Vodafone suffers huge net loss on Germany hit but raises full-year outlook",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "AFM ziet cyberaanvallen als acuut systeemrisico voor financiële sector",
+          "text": "Macht van Jensen Huang legt gaten in toezicht en opvolgingsplan Nvidia bloot",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Grondpolitiek staat weer op de agenda. Aan welke knoppen kunnen overheden draaien?",
+          "text": "Audi-ceo zit Brussel in de weg door met Witte Huis te onderhandelen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Live: Olieprijs gedaald tot onder de $90, voor het eerst sinds augustus",
+          "text": "Met overname Matrans komt opnieuw Rotterdamse containerterminal in buitenlandse handen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Italy’s F-35 bill jumps by €7 billion",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Italy’s Ukraine arms package exposes tensions within Meloni’s coalition",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
           "text": "Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Ugandan former intelligence officer exposes alleged army abuses",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -108,7 +108,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Kristoffer Wolke (V): ”Kravet är att sitta med i en regering”",
+          "text": "Civil Rights Defenders warn of 'two-tier' citizenship if new legislation is passed",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
