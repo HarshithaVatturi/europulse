@@ -2,7 +2,7 @@
   "date": "2026-11-11",
   "editionNumber": 84,
   "isDemo": false,
-  "leadSummary": "A 47-year-old man from Georgia was sentenced on Monday to eight years in prison for raping one woman and attempting to sexually assault two others in Zeist and Bunschoten.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 11th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Live: Ukraine, Russia hold second day of US-mediated talks in Abu Dhabi",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Boat capsized off Senegal's northwest coast leaving 39 dead",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Marktbericht: DAX-Rekord bleibt in Sichtweite",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Energietechnik: Siemens Energy mit neuen Zielen – Aktie soll profitieren",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "siemens"
+        },
+        {
+          "text": "Morning Briefing: Steuerklasse III oder V abschaffen? Klingbeils großes Ablenkungsmanöver",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,17 +55,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Man from Georgia sentenced to 8 years for rape, assault attempts in Zeist and Bunschoten",
+          "text": "Home prices up 3.4% in Q3; Prices fell in 13 municipalities",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch troops and F-35s take part in drills for potential Ukraine deployment",
+          "text": "Dutch police chief denies racism is involved in fatal arrests",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Families of 6 killed, 5 hurt in Hague shop explosion urge life in prison for suspects",
+          "text": "Children in the Netherlands set to mark Sint-Maarten with lanterns, door-to-door songs",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +77,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Fondazione di Sardegna, erogazioni a 42,5 milioni nel 2029 e patrimonio in crescita a 1,14 miliardi",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Call center in sciopero, l’allarme dei sindacati su 13mila posti",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Termini Imerese ora scommette sull’innovazione",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +99,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "How Sweden’s Ebba Busch jolted Europe’s power grid",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Sweden rethinks defence procurement as new threats demand speed",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Anthony Elanga vill inte avslöja knepet: ”Folk kommer kopiera mig”",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }
