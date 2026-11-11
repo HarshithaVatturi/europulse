@@ -2,7 +2,7 @@
   "date": "2026-11-11",
   "editionNumber": 84,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 11th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "Heavy rain, rough seas and strong winds hit Costa da Caparica in Portugal, with coastal facilities closed and streets left waterlogged.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Live: Ukraine, Russia hold second day of US-mediated talks in Abu Dhabi",
+          "text": "[Interview] ‘I cannot be optimistic,’ says climatologist Jean Jouzel",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+          "text": "Behind Georges Larnicol's creative spin on Breton specialty kouign-amann",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Boat capsized off Senegal's northwest coast leaving 39 dead",
+          "text": "UNICEF head Catherine Russell: 'We're all committed to the importance of children'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,18 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Marktbericht: DAX-Rekord bleibt in Sichtweite",
+          "text": "‘Systemic’ sexual misconduct in German armed forces, study finds",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Energietechnik: Siemens Energy mit neuen Zielen – Aktie soll profitieren",
+          "text": "Wirtschaftsweise korrigieren Wachstumsprognose deutlich nach oben",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "siemens"
+          "industryName": "Technology"
         },
         {
-          "text": "Morning Briefing: Steuerklasse III oder V abschaffen? Klingbeils großes Ablenkungsmanöver",
+          "text": "Bundeskartellamt kritisiert Gebührenpolitik von PayPal",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -55,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Home prices up 3.4% in Q3; Prices fell in 13 municipalities",
+          "text": "Nurse accused of killing 2 nursing home residents with insulin linked to more deaths",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch police chief denies racism is involved in fatal arrests",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Two Cabinet parties make income and assets tax deal with left & center; VVD wavering",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Children in the Netherlands set to mark Sint-Maarten with lanterns, door-to-door songs",
+          "text": "Heineken Netherlands CEO Maarten Schuurman dies unexpectedly at age 57",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -77,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Fondazione di Sardegna, erogazioni a 42,5 milioni nel 2029 e patrimonio in crescita a 1,14 miliardi",
+          "text": "Schools evacuated across Italy after bomb threats",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "🔴Italy: At least 300 schools evacuated after email bomb alerts",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Call center in sciopero, l’allarme dei sindacati su 13mila posti",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Termini Imerese ora scommette sull’innovazione",
+          "text": "Scholen in Italië, Schotland en Noord-Ierland ontruimd om bommeldingen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -109,10 +108,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Anthony Elanga vill inte avslöja knepet: ”Folk kommer kopiera mig”",
+          "text": "Moskéerna utreds efter avslöjande om månggifte – får miljoner i bidrag",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     }
