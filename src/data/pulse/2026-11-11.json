@@ -2,7 +2,7 @@
   "date": "2026-11-11",
   "editionNumber": 84,
   "isDemo": false,
-  "leadSummary": "Heavy rain, rough seas and strong winds hit Costa da Caparica in Portugal, with coastal facilities closed and streets left waterlogged.",
+  "leadSummary": "SpaceX signed a €60 million deal with German mechanical engineering company Singulus Technologies for the strategic supply of solar cells, giving the German company a massive price jump.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,14 +15,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "Behind Georges Larnicol's creative spin on Breton specialty kouign-amann",
+          "text": "General strike over housing brings out hundreds of thousands in Spain",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "UNICEF head Catherine Russell: 'We're all committed to the importance of children'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Rare Marilyn Monroe photos from her final shoot to be auctioned",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
           "text": "‘Systemic’ sexual misconduct in German armed forces, study finds",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Wirtschaftsweise korrigieren Wachstumsprognose deutlich nach oben",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Bundeskartellamt kritisiert Gebührenpolitik von PayPal",
+          "text": "Germany must rein in debt-fuelled defence spending: experts",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Nurse accused of killing 2 nursing home residents with insulin linked to more deaths",
+          "text": "Helpline for veterinarians expands as 70% report extra stress, 1 in 3 consider quitting",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Two Cabinet parties make income and assets tax deal with left & center; VVD wavering",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Dutch Cabinet in crisis: VVD could leave coalition over tax deal with left, center",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Heineken Netherlands CEO Maarten Schuurman dies unexpectedly at age 57",
+          "text": "Woman, 58, dies after garden wall collapses on her in Vlaardingen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,20 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Bomb threats hit hundreds of schools in Italy, Ireland and UK",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Schools evacuated across Italy after bomb threats",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "🔴Italy: At least 300 schools evacuated after email bomb alerts",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Scholen in Italië, Schotland en Noord-Ierland ontruimd om bommeldingen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Lid van Italiaanse terreurgroep (74) ontsnapt met touw van balkon van vijf hoog",
+          "industrySlug": "automotive",
+          "industryName": "Automotive",
+          "companySlug": "leonardo"
         }
       ]
     },
@@ -108,7 +109,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "Moskéerna utreds efter avslöjande om månggifte – får miljoner i bidrag",
+          "text": "”Ryssland dribblar bort Europa”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
