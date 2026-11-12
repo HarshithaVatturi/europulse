@@ -2,7 +2,7 @@
   "date": "2026-11-12",
   "editionNumber": 85,
   "isDemo": false,
-  "leadSummary": "La revalorisation du salaire minimum, annoncée lundi par le gouvernement et prévue le 1ᵉʳ décembre, pourrait entraîner la non-conformité d’un grand nombre de branches qui se retrouveraient avec une...",
+  "leadSummary": "The report alleging Beijing uses hundreds of European outposts to monitor and police diaspora communities lands as EU trade officials meet a Chinese counterpart.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "La hausse du smic mettra 164 branches professionnelles dans « l’illégalité », pointe la CGT",
+          "text": "Mississippi Democrat Scott Colom flips US Senate seat in stunning upset",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+          "text": "Millions join Spain's first general strike in 14 years as anger over housing leads to clashes",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "From Paris to DC - why offices are being turned into apartments",
-          "industrySlug": "construction",
-          "industryName": "Construction"
+          "text": "'Peruvian pope' makes jubilant return to his second 'homeland'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,9 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "+++ Ukraine-Krieg +++: Russischer Botschafter in den USA gestorben",
+          "text": "Germany, Visegrád tee up EU fuel carbon price fight",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Geldanlage: „Er ist Nvidia“: Was wäre die Aktie ohne CEO Jensen Huang wert?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dax-Konzern: Siemens legt Rekordzahlen vor und erhöht Ziele",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "siemens"
         }
       ]
     },
@@ -44,19 +55,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Helpline for veterinarians expands as 70% report extra stress, 1 in 3 consider quitting",
+          "text": "Crisis engulfs Dutch government ahead of crucial tax vote",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch Cabinet in crisis: VVD could leave coalition over tax deal with left, center",
+          "text": "Perfect autumn weather forecast for Sinterklaas arrival party",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Woman, 58, dies after garden wall collapses on her in Vlaardingen",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Lawmakers want e-gates at Amsterdam Centraal to cut delays of Eurostar trains to London",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -66,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Paraguay, Peña rischia fino a 15 anni di carcere per il caso Ueno",
+          "text": "Hybrid warfare: Hoax bomb alerts sent to schools in Italy, UK in latest disruption",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Kylian Mbappé to miss Thursday's Nations League clash against Italy",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Panama frena gli Usa sul Canale, smentita la gestione congiunta",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "La Bolivia accusa Evo Morales, 'guida un cartello della droga'",
+          "text": "Regisseur Char Li Chung: ‘Hard werken voor wat ik wil bereiken zit in mijn bloed’",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -88,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Manchester United sparkar Michael Carrick",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Flera grova stölder i Skellefteå – polis söker vittnen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Färre lodjur får skjutas i Kalmar län och Kronoberg",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
