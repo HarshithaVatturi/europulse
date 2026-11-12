@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-12",
+  "editionNumber": 85,
+  "isDemo": false,
+  "leadSummary": "La revalorisation du salaire minimum, annoncée lundi par le gouvernement et prévue le 1ᵉʳ décembre, pourrait entraîner la non-conformité d’un grand nombre de branches qui se retrouveraient avec une...",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "La hausse du smic mettra 164 branches professionnelles dans « l’illégalité », pointe la CGT",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "From Paris to DC - why offices are being turned into apartments",
+          "industrySlug": "construction",
+          "industryName": "Construction"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "+++ Ukraine-Krieg +++: Russischer Botschafter in den USA gestorben",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "Helpline for veterinarians expands as 70% report extra stress, 1 in 3 consider quitting",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch Cabinet in crisis: VVD could leave coalition over tax deal with left, center",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Woman, 58, dies after garden wall collapses on her in Vlaardingen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "Paraguay, Peña rischia fino a 15 anni di carcere per il caso Ueno",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Panama frena gli Usa sul Canale, smentita la gestione congiunta",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "La Bolivia accusa Evo Morales, 'guida un cartello della droga'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
