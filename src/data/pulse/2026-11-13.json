@@ -2,7 +2,7 @@
   "date": "2026-11-13",
   "editionNumber": 86,
   "isDemo": false,
-  "leadSummary": "More than 1,000 cows are roaming freely through Kriva Palanka in North Macedonia, damaging property and alarming residents. The mayor wants the government to declare a 30-day state of crisis.",
+  "leadSummary": "A tanker struck and partially submerged a New Orleans river cruise carrying around 129 passengers. Multiple people were rescued as search-and-rescue operations continued.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Le Pen offers to meet Zelenskyy in Brussels",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Military mobility: How France taps private firms to prepare for war",
           "industrySlug": "automotive",
           "industryName": "Automotive"
-        },
-        {
-          "text": "Listen: Is the right to protest under threat in Europe?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Roger Waters launches heartfelt plea for 'an end to the genocide in Gaza'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "DW",
+          "text": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "EU countries to announce deportation hub deal with Rwanda",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "EU-Emissionshandel: Mehr kostenlose Verschmutzungsrechte für die Industrie",
+          "text": "EU leaders hand Ukraine peace talks to France, Germany, UK, Italy, Poland plus Brussels – instead of a single envoy",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Baby spoons sold in Netherlands recalled over hormone-disrupting chemical",
+          "text": "EU countries to announce deportation hub deal with Rwanda",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Missing sailing yacht Luna found safe off Danish coast after overnight search",
+          "text": "Shoulder injuries among Dutch athletes hit record high after 23 percent rise",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "VVD won't continue in minority cabinet \"in this form,\" sources say",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Schiphol donates 29 electric buses to Ukraine for public transport",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Meloni’s allies join opposition against Italy’s health budget",
+          "text": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "La SNCF et l’Etat scellent un accord pour moderniser le rail français, le doute subsiste sur son financement",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Bessent, 'chieste da tempo a Dipartimento del Commercio restrizioni su Megaspeed'",
+          "text": "Meloni’s allies join opposition against Italy’s health budget",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Åklagarens bevisning: Här fångades bråket på film",
+          "text": "Totalt flygstopp i USA",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mordmisstänkte i Föllinge ska ha använt tillhygge – Döms idag i annat mål",
+          "text": "Lastfartyg har kolliderat med kryssningsfartyg i New Orleans – över 100 ombord",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Inget dricksvatten till naturisar – Växjö måste spara vatten",
+          "text": "Nederländernas regering räddad – tillfälligt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
