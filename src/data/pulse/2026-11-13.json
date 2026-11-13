@@ -2,7 +2,7 @@
   "date": "2026-11-13",
   "editionNumber": 86,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 13th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "How to win friends and throw people: Judo’s big impact on politics",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Military mobility: How France taps private firms to prepare for war",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Microsoft struggles to repair global Outlook outage",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "What will a female president mean for Germany and Europe?",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Auch Outlook betroffen: Microsoft-Dienste weltweit mit Störungen",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Gesundheitswesen: Klage gegen GKV-Sparpaket: Pharmakonzern MSD zieht vor das Bundesverfassungsgericht",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
         }
       ]
     },
@@ -34,9 +54,20 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Many entrepreneurs not insured against cyberattacks, IT damage",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Man who stabbed ex-wife 25 times sentenced to 12 years in prison and psychiatric care",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Jetten Cabinet in trouble as left-center income & asset tax deals pass despite VVD protest",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +77,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Meloni’s allies join opposition against Italy’s health budget",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Acqua, via libera a 896 milioni per rafforzare le infrastrutture italiane",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ortofrutta, Sicilia prima in Italia ma la filiera resta fragile",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Polisförbundet: Åtta av tio nya poliser utsätts för hot och våld",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Björn Ferry minns tillbaka till Sturla Holm Lägreids chockintervju: ”Fick sympati för honom”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Pinnkonstnären Maria Westerberg nominerad till Årets Miljöhjälte 2026",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
