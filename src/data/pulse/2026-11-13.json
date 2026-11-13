@@ -2,7 +2,7 @@
   "date": "2026-11-13",
   "editionNumber": 86,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 13th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "More than 1,000 cows are roaming freely through Kriva Palanka in North Macedonia, damaging property and alarming residents. The mayor wants the government to declare a 30-day state of crisis.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "How to win friends and throw people: Judo’s big impact on politics",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
           "text": "Military mobility: How France taps private firms to prepare for war",
           "industrySlug": "automotive",
           "industryName": "Automotive"
         },
         {
-          "text": "Microsoft struggles to repair global Outlook outage",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Listen: Is the right to protest under threat in Europe?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Roger Waters launches heartfelt plea for 'an end to the genocide in Gaza'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "What will a female president mean for Germany and Europe?",
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Auch Outlook betroffen: Microsoft-Dienste weltweit mit Störungen",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Gesundheitswesen: Klage gegen GKV-Sparpaket: Pharmakonzern MSD zieht vor das Bundesverfassungsgericht",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
+          "text": "EU-Emissionshandel: Mehr kostenlose Verschmutzungsrechte für die Industrie",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,18 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Many entrepreneurs not insured against cyberattacks, IT damage",
+          "text": "Baby spoons sold in Netherlands recalled over hormone-disrupting chemical",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Man who stabbed ex-wife 25 times sentenced to 12 years in prison and psychiatric care",
+          "text": "Missing sailing yacht Luna found safe off Danish coast after overnight search",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         },
         {
-          "text": "Jetten Cabinet in trouble as left-center income & asset tax deals pass despite VVD protest",
+          "text": "VVD won't continue in minority cabinet \"in this form,\" sources say",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -82,12 +81,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Acqua, via libera a 896 milioni per rafforzare le infrastrutture italiane",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "La SNCF et l’Etat scellent un accord pour moderniser le rail français, le doute subsiste sur son financement",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Ortofrutta, Sicilia prima in Italia ma la filiera resta fragile",
+          "text": "Bessent, 'chieste da tempo a Dipartimento del Commercio restrizioni su Megaspeed'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Polisförbundet: Åtta av tio nya poliser utsätts för hot och våld",
+          "text": "Åklagarens bevisning: Här fångades bråket på film",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Björn Ferry minns tillbaka till Sturla Holm Lägreids chockintervju: ”Fick sympati för honom”",
+          "text": "Mordmisstänkte i Föllinge ska ha använt tillhygge – Döms idag i annat mål",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pinnkonstnären Maria Westerberg nominerad till Årets Miljöhjälte 2026",
+          "text": "Inget dricksvatten till naturisar – Växjö måste spara vatten",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
