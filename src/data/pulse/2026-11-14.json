@@ -2,7 +2,7 @@
   "date": "2026-11-14",
   "editionNumber": 87,
   "isDemo": false,
-  "leadSummary": "The number of shoulder injuries among people playing sports in the Netherlands reached a record high in 2025.",
+  "leadSummary": "The research team used a small electronic capsule that participants swallowed to monitor changes as it passed through the digestive system.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Live: France mobilises in fifth wave of student protests",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Microsoft says all services 'fully recovered' after global outage",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "FAA lifts nationwide ground stop on all US flights",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Ukraine: Weißes Haus kündigt Dreiertreffen Trumps mit Xi und Putin an",
+          "text": "Gen Z protests: Do Baby Boomers really have it better than young people?",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Warum in Polen schneller gebaut wird als in Deutschland",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Shoulder injuries among Dutch athletes hit record high after 23 percent rise",
+          "text": "Dutch coalition leaders continue crisis talks as Cabinet risks collapse",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Schiphol donates 29 electric buses to Ukraine for public transport",
-          "industrySlug": "logistics-supply-chain",
-          "industryName": "Logistics & Supply Chain"
+          "text": "Video: At least 11 KLM flights disrupted after all U.S. departures grounded",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Retirees in Dutch care, construction, metal sectors to see small pension rises in 2027",
+          "text": "Google India blocking many articles on 2016 kidnapping of Insiya Hemani in Amsterdam",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,12 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Cnn, 'ancora 700 aerei nei cieli Usa, più di 3.000 voli cancellati'",
+          "text": "Italiaanse minister: scholen niet meteen dicht na een bommelding",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "L'opera classica vietnamita rivive a Hanoi con una mostra e un ciclo di incontri",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Casa Bianca, 'Trump discuterà di Iran con Xi e Putin, non di Ucraina'",
+          "text": "Media, 'Tokyo chiede a Pechino rassicurazioni su trattamento di Takaichi all'Apec'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -73,7 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden wants to block Russian athletes from competing in country: minister to AFP",
+          "text": "Kalvklippet väcker ilska: ”Koncentrationsläger för kor”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Totalstopp på Forsmark 3 efter ”kortslutning”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "USA förlorar sin status som mässlingsfritt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
