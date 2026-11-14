@@ -2,7 +2,7 @@
   "date": "2026-11-14",
   "editionNumber": 87,
   "isDemo": false,
-  "leadSummary": "The research team used a small electronic capsule that participants swallowed to monitor changes as it passed through the digestive system.",
+  "leadSummary": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Live: France mobilises in fifth wave of student protests",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Microsoft says all services 'fully recovered' after global outage",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "'I never imagined my father was a Nazi': Born in a German-run 'baby factory'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "FAA lifts nationwide ground stop on all US flights",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Espionage accusations: a pressure tactic for Turkish government critics",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Gen Z protests: Do Baby Boomers really have it better than young people?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Warum in Polen schneller gebaut wird als in Deutschland",
+          "text": "'I never imagined my father was a Nazi': Born in a German-run 'baby factory'",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch coalition leaders continue crisis talks as Cabinet risks collapse",
+          "text": "Volt leader warns coalition against VVD 'blackmail' over tax deal amid crisis talks",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Video: At least 11 KLM flights disrupted after all U.S. departures grounded",
+          "text": "Eighteen more Dutch municipalities plan to abolish dog tax",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Google India blocking many articles on 2016 kidnapping of Insiya Hemani in Amsterdam",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Court frees former Boxtel councilor suspected of corruption, election fraud",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italiaanse minister: scholen niet meteen dicht na een bommelding",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "L'opera classica vietnamita rivive a Hanoi con una mostra e un ciclo di incontri",
+          "text": "Italy hits Meta with €805m fine over privacy law violation",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Media, 'Tokyo chiede a Pechino rassicurazioni su trattamento di Takaichi all'Apec'",
+          "text": "Italy fines Meta €805mn over photo privacy: authority",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Moederbedrijf van WhatsApp en Instagram krijgt boete van 805 miljoen in Italië",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Kalvklippet väcker ilska: ”Koncentrationsläger för kor”",
+          "text": "Italienska miljardböter för Meta",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Totalstopp på Forsmark 3 efter ”kortslutning”",
+          "text": "Tufft jobb att leverera mat till äldreboenden i Umeå under snökaoset",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "USA förlorar sin status som mässlingsfritt",
+          "text": "Tennisslaget i Stockholm Open hyllas: ”Hittar krysset”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
