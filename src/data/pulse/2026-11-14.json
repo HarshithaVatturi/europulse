@@ -2,7 +2,7 @@
   "date": "2026-11-14",
   "editionNumber": 87,
   "isDemo": false,
-  "leadSummary": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told...",
+  "leadSummary": "Teachers and health workers are among the hardest to recruit in the EU, according to the OECD. Experts explain why some jobs are harder to fill than others.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
+          "text": "Macron says limiting Ukraine aid would pave way to 'another war'",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "'I never imagined my father was a Nazi': Born in a German-run 'baby factory'",
+          "text": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+          "text": "Youth Olympic Games organisers hail Senegal's capability to host major events",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,7 +32,7 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Espionage accusations: a pressure tactic for Turkish government critics",
+          "text": "Turkey uses espionage accusations to pressure government critics",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Volt leader warns coalition against VVD 'blackmail' over tax deal amid crisis talks",
+          "text": "Four minors arrested in Drunen after posing as officers in scam attempt of older man",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Eighteen more Dutch municipalities plan to abolish dog tax",
+          "text": "Amsterdam schools see rise in parent lawsuits over student grades, expulsions",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Court frees former Boxtel councilor suspected of corruption, election fraud",
+          "text": "Dutch roads face years of closures as maintenance backlog doubles to 2.5 million euros",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         }
@@ -98,17 +98,18 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Italienska miljardböter för Meta",
+          "text": "BMW återkallar drygt 720 000 bilar: Brandrisk",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "bmw"
+        },
+        {
+          "text": "Frustration präglar nya protester i Paris",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Tufft jobb att leverera mat till äldreboenden i Umeå under snökaoset",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Tennisslaget i Stockholm Open hyllas: ”Hittar krysset”",
+          "text": "Full drift efter flygstoppet – men fortsatta förseningar",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
