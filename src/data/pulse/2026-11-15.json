@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "editionNumber": 88,
   "isDemo": false,
-  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 15th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+  "leadSummary": "\"Estonia is preparing for the possibility of closing its border with Russia,\" said Estonian Prime Minister Kristen Michal.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Immobilier : les sommes reçues des promoteurs en échange du désistement d’un recours contre leur permis de construire doivent-elles être déclarées au fisc ?",
+          "text": "French protesters chant against inflation and police",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Le lent déclin économique de la France face au reste de l’Europe",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Why the Nvidia scandal is bad news for Europe’s AI ambitions",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "Riner, Khan, Klitschko: The sport stars that go from pitch to politics",
+          "text": "US probes nationwide flights stoppage as travel disruptions persist",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,14 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "+++ Iran-Krieg +++: Iran: Revolutionsgarden greifen US-Stützpunkt in Bahrain an",
+          "text": "Krise im Handwerk: \"Stilles Sterben der Betriebe\"",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Crime: „Knasttourismus“: Hanno Berger, ein korrupter Oberstaatsanwalt und eine Scheinwohnung",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Warum Azubis in der Autoindustrie anfangen - trotz Krisenstimmung",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "+++ Ukraine-Krieg +++: Selenskyj fordert USA zur Aufhebung der Starshield-Drosselung auf",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -49,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Higher energy prices will eventually lead to higher food prices: DNB",
+          "text": "Business leaders warn Cabinet collapse would be \"disastrous\" for the Dutch economy",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch insurers uncover nearly 10,000 fraud cases, highest number in three years",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Video: People across Rotterdam heard a blast after explosion at apartment entrance",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Four minors arrested in Drunen after posing as officers in scam attempt of older man",
+          "text": "Video: At least seven Schiphol-bound flights disrupted by GPS interference",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -71,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Contratto bancari, negoziato sul rinnovo in stallo da mesi tra Opas e manovra",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Contratti di lavoro da rinnovare per 2,5 milioni di lavoratori",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -83,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Eva Lund om OS-skandalen: ”Curlingen har gynnats av bråket”",
+          "text": "Splittring i C inför regeringsbeskedet: ”Spelar ett högt spel”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Misstänkt mordförsök på Gotland – man stickskadad",
+          "text": "Dubbla olyckor i Göteborgsbacken i Jönköping – krockade med tappat hjul",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Lanthandel i Södertälje brann ner",
+          "text": "Trots kyla och billig el i norr – datacenter väljer södra Sverige",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
