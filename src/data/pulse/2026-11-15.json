@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "editionNumber": 88,
   "isDemo": false,
-  "leadSummary": "\"Estonia is preparing for the possibility of closing its border with Russia,\" said Estonian Prime Minister Kristen Michal.",
+  "leadSummary": "Präsentiert von YouTube.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -15,12 +15,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Why the Nvidia scandal is bad news for Europe’s AI ambitions",
-          "industrySlug": "semiconductors",
-          "industryName": "Semiconductors"
+          "text": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "US probes nationwide flights stoppage as travel disruptions persist",
+          "text": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Krise im Handwerk: \"Stilles Sterben der Betriebe\"",
+          "text": "DW",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Warum Azubis in der Autoindustrie anfangen - trotz Krisenstimmung",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Quallenzucht: Ein Geschäftsmodell, das sich lohnt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "+++ Ukraine-Krieg +++: Selenskyj fordert USA zur Aufhebung der Starshield-Drosselung auf",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Krise im Handwerk: \"Stilles Sterben der Betriebe\"",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Business leaders warn Cabinet collapse would be \"disastrous\" for the Dutch economy",
+          "text": "Amsterdam removes 180 elms after 8-year study into best soil for largest trees",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Video: People across Rotterdam heard a blast after explosion at apartment entrance",
+          "text": "Rain set to dominate first half of the week before drier, cooler weather by next weekend",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Video: At least seven Schiphol-bound flights disrupted by GPS interference",
+          "text": "Zeeland thrift store seeks to gift century-old royal album to King Willem-Alexander",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,11 +76,6 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
-        },
-        {
           "text": "Contratto bancari, negoziato sul rinnovo in stallo da mesi tra Opas e manovra",
           "industrySlug": "technology",
           "industryName": "Technology"
@@ -89,6 +84,11 @@
           "text": "Contratti di lavoro da rinnovare per 2,5 milioni di lavoratori",
           "industrySlug": "automotive",
           "industryName": "Automotive"
+        },
+        {
+          "text": "Imballaggi in legno, il paradosso della sostenibilità",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Splittring i C inför regeringsbeskedet: ”Spelar ett högt spel”",
+          "text": "Klart: Centern väljer Socialdemokraterna",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dubbla olyckor i Göteborgsbacken i Jönköping – krockade med tappat hjul",
+          "text": "SMHI varnar för plötslig ishalka längs del av Norrlandskusten",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Trots kyla och billig el i norr – datacenter väljer södra Sverige",
+          "text": "Bekräftat: Ryssland stoppas från JVM",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
