@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "editionNumber": 88,
   "isDemo": false,
-  "leadSummary": "Police in Drunen arrested four minors who had posed as officers while attempting to defraud a 77-year-old man, NOS reports.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 15th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Immobilier : les sommes reçues des promoteurs en échange du désistement d’un recours contre leur permis de construire doivent-elles être déclarées au fisc ?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Le lent déclin économique de la France face au reste de l’Europe",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Riner, Khan, Klitschko: The sport stars that go from pitch to politics",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,14 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "+++ Iran-Krieg +++: Iran: Revolutionsgarden greifen US-Stützpunkt in Bahrain an",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Crime: „Knasttourismus“: Hanno Berger, ein korrupter Oberstaatsanwalt und eine Scheinwohnung",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +49,19 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Higher energy prices will eventually lead to higher food prices: DNB",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch insurers uncover nearly 10,000 fraud cases, highest number in three years",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Four minors arrested in Drunen after posing as officers in scam attempt of older man",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Amsterdam schools see rise in parent lawsuits over student grades, expulsions",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Dutch roads face years of closures as maintenance backlog doubles to 2.5 million euros",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -68,9 +83,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Eva Lund om OS-skandalen: ”Curlingen har gynnats av bråket”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Misstänkt mordförsök på Gotland – man stickskadad",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Lanthandel i Södertälje brann ner",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
