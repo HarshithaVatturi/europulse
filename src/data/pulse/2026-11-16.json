@@ -2,7 +2,7 @@
   "date": "2026-11-16",
   "editionNumber": 89,
   "isDemo": false,
-  "leadSummary": "Amsterdam officials and Wageningen University researchers pulled 180 identical elms from the ground on Friday, NOS reports.",
+  "leadSummary": "The attack has sparked much soul-searching in a country where political violence is rare but where police have documented a steady rise in threats towards elected officials.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "French presidential election: Meet the contenders you didn’t see coming",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "THIS WEEK: EU piles on more Russia sanctions, a crunch UK-EU summit, and budget wrangles",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Jewish heirs challange $180 million Van Gogh auction, cite sale under Nazi pressure",
+          "text": "Nuremberg streets in Germany fill with sheep heading for winter quarters",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Warum Merz jetzt auf Söder setzt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Helping arms: German hospitals turn to robots to solve worker shortages",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Amsterdam removes 180 elms after 8-year study into best soil for largest trees",
+          "text": "Live: Nvidia-cijfers, Anthropic-debuut en Azië-overleg sturen de marktstemming",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Rain set to dominate first half of the week before drier, cooler weather by next weekend",
+          "text": "GTA VI: niet alleen een paar ‘geeks’ vragen vrij",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ai, ai, ai. Wat als de AI-agent verkeerd belegt?",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Zeeland thrift store seeks to gift century-old royal album to King Willem-Alexander",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -56,9 +76,20 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Italy’s self-described ‘hellraiser’ wants a say in Meloni’s second term",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Canada ready to turn to Chinese carmakers if US trade talks fail to protect auto sector, PM Carney says",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Colpito nella notte il ponte di Crimea, 'traffico bloccato'",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     },
@@ -68,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Massiv protest mot public service-förändringar i Tjeckien",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Regn översvämmar tältläger i Gaza – EU kräver mer nödhjälp",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Signmark slutar – Följ med sista spelningen i Sverige",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
