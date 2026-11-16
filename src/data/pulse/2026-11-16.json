@@ -2,7 +2,7 @@
   "date": "2026-11-16",
   "editionNumber": 89,
   "isDemo": false,
-  "leadSummary": "The attack has sparked much soul-searching in a country where political violence is rare but where police have documented a steady rise in threats towards elected officials.",
+  "leadSummary": "Catch up with the most important stories from around Europe and beyond this November 16th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "French presidential election: Meet the contenders you didn’t see coming",
+          "text": "Moulin Rouge dancers kick off Paris Christmas celebrations",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "THIS WEEK: EU piles on more Russia sanctions, a crunch UK-EU summit, and budget wrangles",
+          "text": "German, French organic farmers warn of substantial drop in support in next CAP",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+          "text": "Paris to host international conference on Russian shadow fleet",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -37,12 +37,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Warum Merz jetzt auf Söder setzt",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "EU clears UniCredit takeover of Germany's Commerzbank",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Helping arms: German hospitals turn to robots to solve worker shortages",
+          "text": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Live: Nvidia-cijfers, Anthropic-debuut en Azië-overleg sturen de marktstemming",
+          "text": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "GTA VI: niet alleen een paar ‘geeks’ vragen vrij",
+          "text": "Harbor seal population in Wadden Sea continues to decline",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ai, ai, ai. Wat als de AI-agent verkeerd belegt?",
+          "text": "Woman crashes into Maas river after failing to see where the water began",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         }
@@ -76,9 +76,9 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy’s self-described ‘hellraiser’ wants a say in Meloni’s second term",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Revolut's Italian unit put under judicial administration after anti-money laundering failures",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
           "text": "Canada ready to turn to Chinese carmakers if US trade talks fail to protect auto sector, PM Carney says",
@@ -86,10 +86,9 @@
           "industryName": "Automotive"
         },
         {
-          "text": "Colpito nella notte il ponte di Crimea, 'traffico bloccato'",
+          "text": "Germany’s participation in GCAP fighter still ‘very much open’",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     },
@@ -99,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Massiv protest mot public service-förändringar i Tjeckien",
+          "text": "Fast i timmar på E4 – bärgare i Skellefteå kritisk mot däcken: ”För små krav”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Regn översvämmar tältläger i Gaza – EU kräver mer nödhjälp",
+          "text": "Polisen varnar för ny farlig narkotika: ”Flera har förlorat medvetandet”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Signmark slutar – Följ med sista spelningen i Sverige",
+          "text": "Familjen har pyntat överallt: ”Vi maxar julen”",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
