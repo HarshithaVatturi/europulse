@@ -2,7 +2,7 @@
   "date": "2026-11-17",
   "editionNumber": 90,
   "isDemo": false,
-  "leadSummary": "The attacks came as Ukraine carried out further strikes on a key bridge in Crimea.",
+  "leadSummary": "'The opportunities that decarbonization offers have never been greater', explains Noam Boussidan, Head of the First Movers Coalition, in an op-ed for Euronews. In stable conditions, fossil-based...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
+          "text": "'Absurd': France rejects claim its troops are directly participating in Ukraine war",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France and Malaysia agree rare earths deal as Macron looks beyond China for supplies",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Renault to create 2,000 jobs in France while cutting 1,000 others by 2028",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
-        },
-        {
-          "text": "Raiding the British piggy bank",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Live: France braces for new day of protests as unions call for nationwide strike",
-          "industrySlug": "technology",
-          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Tag der Wohnungswirtschaft: Bauen verteuert sich weiter - trotz aller Versprechen",
+          "text": "Europe’s almost-members face reality check",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "US-Regierung verhängt neue Exportbeschränkungen für KI-Chips",
+          "text": "Witkoff and Kushner to join Ukraine summit in Berlin",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
+          "text": "Speech by Commissioner Dombrovskis at German Digital Ministers' Conference",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "Denmark hosts Tetris showdown as Dutch champion takes victory",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "INTERVIEW: Europe faces hard choices over land use, Wageningen chief says",
           "industrySlug": "energy",
           "industryName": "Energy"
         },
         {
-          "text": "Owner must pay €16,000 for German shepherd biting woman trying to protect her own dog",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Over 20% of vocational students smoke, vape, or use snus daily, including minors",
+          "text": "Five EU member states open talks with Rwanda on deportation centre",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "Watch: today’s top No Comment videos from around the world",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "53-fingered robot pianist and human musician perform Chopin together",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
-          "text": "Oestrogen sales rise in Sweden, but supply gaps remain [Partner Content]",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
-        },
-        {
-          "text": "Automotive, con l’elettrico 30% di chimica in più, ma la produzione si è dimezzata",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Finland’s satellite provider Iceye bids €2 billion for Italian rocket maker Avio",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         }
       ]
     },
@@ -103,12 +103,12 @@
           "industryName": "Manufacturing"
         },
         {
-          "text": "Only Stockholm, Helsinki and Copenhagen meet EU air pollution rules, as stricter enforcement looms",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France dethrones Sweden as EU gender equality leader — but overall progress is slowing",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         },
         {
-          "text": "Mordhotade Amanda Lind – åtalas",
+          "text": "Only Stockholm, Helsinki and Copenhagen meet EU air pollution rules, as stricter enforcement looms",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
