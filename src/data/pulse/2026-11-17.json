@@ -2,7 +2,7 @@
   "date": "2026-11-17",
   "editionNumber": 90,
   "isDemo": false,
-  "leadSummary": "Oranje suffered a 5-0 defeat to Germany in Berlin on Monday, bringing their UEFA Nations League group campaign to a painful end.",
+  "leadSummary": "The attacks came as Ukraine carried out further strikes on a key bridge in Crimea.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "text": "Renault to create 2,000 jobs in France while cutting 1,000 others by 2028",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
+        },
+        {
+          "text": "Raiding the British piggy bank",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: France braces for new day of protests as unions call for nationwide strike",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,7 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Oranje suffer historic 5-0 defeat to Germany in the UEFA Nations League",
+          "text": "Tag der Wohnungswirtschaft: Bauen verteuert sich weiter - trotz aller Versprechen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "US-Regierung verhängt neue Exportbeschränkungen für KI-Chips",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Oranje suffer historic 5-0 defeat to Germany in the UEFA Nations League",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Apparent deal: Dutch PM Jetten's Cabinet & minority coalition will remain in power",
+          "text": "INTERVIEW: Europe faces hard choices over land use, Wageningen chief says",
           "industrySlug": "energy",
           "industryName": "Energy"
         },
         {
-          "text": "Prices of plant-based products shot up, with farmers earning 50% more for potatoes",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Owner must pay €16,000 for German shepherd biting woman trying to protect her own dog",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Over 20% of vocational students smoke, vape, or use snus daily, including minors",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "La carovana di migranti 'Dios con nosotros' avanza nel Chiapas verso gli Stati Uniti",
+          "text": "53-fingered robot pianist and human musician perform Chopin together",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Oestrogen sales rise in Sweden, but supply gaps remain [Partner Content]",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
+          "text": "Automotive, con l’elettrico 30% di chimica in più, ma la produzione si è dimezzata",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
+          "text": "Oestrogen sales rise in Sweden, but supply gaps remain [Partner Content]",
           "industrySlug": "manufacturing",
           "industryName": "Manufacturing"
+        },
+        {
+          "text": "Only Stockholm, Helsinki and Copenhagen meet EU air pollution rules, as stricter enforcement looms",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mordhotade Amanda Lind – åtalas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
