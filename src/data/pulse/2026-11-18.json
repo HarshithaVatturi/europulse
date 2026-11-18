@@ -2,7 +2,7 @@
   "date": "2026-11-18",
   "editionNumber": 91,
   "isDemo": false,
-  "leadSummary": "Xi Jinping and Vladimir Putin meet in Shenzhen ahead of a rare trilateral summit with Donald Trump, focusing on energy, finance and global security.",
+  "leadSummary": "The New York Democrat secured 251 votes in favour and 11 against, but faces pressure from progressive lawmakers demanding commitments on healthcare, immigration and other key issues.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Anthropic’s IPO price is due today. What should investors know?",
+          "text": "Iraqi court jails six French Islamic State members for life",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Hydrogen in Mediterranean ports: France and Italy show how cross-border cooperation delivers results [Partner Content]",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "L’après-Macron vu par les espions",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "French pharma industry wary of hard left’s programme for the sector",
-          "industrySlug": "healthcare",
-          "industryName": "Healthcare"
+          "text": "France’s Philippe steps up attacks on Le Pen and Mélenchon as his poll numbers slide",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Trump trifft Putin und Xi: Was bedeutet das für den Ukraine-Gipfel in Berlin?",
+          "text": "German government recruits World Cup hero Philipp Lahm to teach financial literacy",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Anthropic’s IPO price is due today. What should investors know?",
+          "text": "Deutschland und Österreich fordern europäischen Eigentümer für TikTok",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "\"An der Zinsschraube drehen\", um die Inflation zu bekämpfen",
+          "text": "Germany, Austria demand TikTok’s European platform be sold to owners in EU",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,18 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Woman collapses on Rotterdam road after getting stabbed inside car",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
-        },
-        {
-          "text": "Dutch government considering mandatory helmets for children in cargo bikes",
+          "text": "Remarks by Commissioner Hoekstra during the Ministerial Dialogue on Implementing The Energy Transition at COP31",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Parliament sceptical about Cabinet’s “restart,” doubt much will change",
+          "text": "Athlete support under spotlight as South Africa swimmer switches to Netherlands",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Petrol price drops 12.5% in six weeks; Pricey motorway stations down below €2.40/liter",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -99,19 +98,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "IKEA stores in the Netherlands see visitor numbers fall by more than 5 percent",
+          "text": "35 frågor: Här är de rödgröna partierna överens – och inte",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "”Mänsklig” är årets ord",
+          "text": "Frida Karlssons stalker ska genomgå sinnesundersökning",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kif Örebro begärs i konkurs",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Så ska Södertäljeborna få vatten i en kris",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     }
