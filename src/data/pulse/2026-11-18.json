@@ -2,7 +2,7 @@
   "date": "2026-11-18",
   "editionNumber": 91,
   "isDemo": false,
-  "leadSummary": "Wenige Tage nach der Spionageaffäre rund um den bisherigen Konzernchef Huang hat Nvidia überraschend starke Quartalsergebnisse vorgelegt. Die Zahlen des US-Chipkonzerns lagen deutlich über den...",
+  "leadSummary": "Xi Jinping and Vladimir Putin meet in Shenzhen ahead of a rare trilateral summit with Donald Trump, focusing on energy, finance and global security.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Anthropic’s IPO price is due today. What should investors know?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Hydrogen in Mediterranean ports: France and Italy show how cross-border cooperation delivers results [Partner Content]",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "French pharma industry wary of hard left’s programme for the sector",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
         }
       ]
     },
@@ -22,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Neue Quartalszahlen: Nvidia verdoppelt Umsatz und Gewinn",
+          "text": "Trump trifft Putin und Xi: Was bedeutet das für den Ukraine-Gipfel in Berlin?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Prediction Markets: US-Aufsicht stoppt Wetten auf Trumps Aussagen bei Kalshi",
+          "text": "Anthropic’s IPO price is due today. What should investors know?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch players and pundits condemn Oranje after record-breaking Germany defeat",
+          "text": "\"An der Zinsschraube drehen\", um die Inflation zu bekämpfen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -44,17 +54,18 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Inwoners van Hilversum en Wijdemeren naar de stembus",
+          "text": "Woman collapses on Rotterdam road after getting stabbed inside car",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Dutch government considering mandatory helmets for children in cargo bikes",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "IKEA stores in the Netherlands see visitor numbers fall by more than 5 percent",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Aldi becomes last Dutch supermarket to guarantee fair prices for house-brand chocolate",
+          "text": "Parliament sceptical about Cabinet’s “restart,” doubt much will change",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -66,9 +77,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Incontri bilaterali con Xi Jinping per Messico, Perù e Cile al vertice Apec",
+          "text": "Hydrogen in Mediterranean ports: France and Italy show how cross-border cooperation delivers results [Partner Content]",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Italy’s Ilva steel crisis: Two buyers, but who will foot the bill?",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "French pharma industry wary of hard left’s programme for the sector",
+          "industrySlug": "healthcare",
+          "industryName": "Healthcare"
         }
       ]
     },
@@ -81,6 +102,16 @@
           "text": "IKEA stores in the Netherlands see visitor numbers fall by more than 5 percent",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "”Mänsklig” är årets ord",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kif Örebro begärs i konkurs",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     }
