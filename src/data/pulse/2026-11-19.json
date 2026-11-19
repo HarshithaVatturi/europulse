@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "editionNumber": 92,
   "isDemo": false,
-  "leadSummary": "Vladimir Putin says his meeting with Donald Trump and Xi Jinping covered key global security issues, including the war in Ukraine, nuclear proliferation and freedom of navigation. The leaders also...",
+  "leadSummary": "The US defence secretary, under fire for his role in the Iran war and illegal bombings in the Caribbean and Pacific, has announced a military pact with Venezuela. His next stop is Honduras.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -37,7 +37,7 @@
           "industryName": "Technology"
         },
         {
-          "text": "The Coalition of the Willing’s chance to deliver",
+          "text": "After Putin talks, Trump tells Europe it could save lives and cash if Ukraine war ends",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -59,12 +59,12 @@
           "industryName": "Technology"
         },
         {
-          "text": "Russian drone crashes behind Dutch embassy in Kyiv, causing damage",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Dutch suspects aged 17 and 20 arrested after police prevent bomb attack in Frankfurt",
+          "text": "Russia says Netherlands is no longer a bystander in Ukraine war; PM Jetten pushes back",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -81,14 +81,14 @@
           "industryName": "Technology"
         },
         {
-          "text": "« L’impopularité des droits de douane imposés par Donald Trump révèle les limites de sa politique économique, fondée sur une illusion »",
+          "text": "Italy’s hard definition of antisemitism will shield Israeli crimes and harm free speech",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Media, drone russo vicino all'ambasciata olandese a Kiev",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "« L’impopularité des droits de douane imposés par Donald Trump révèle les limites de sa politique économique, fondée sur une illusion »",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Här är detaljen som Frida Karlsson slipat på: ”Varit en utmaning”",
+          "text": "Wolf hunt appeal: 'They belong in the Swedish countryside'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Tax divides loom over Sweden’s possible red-green deal",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Fågelinfluensan kan påverka äggproduktion – det här behöver du veta",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Man i 35-årsåldern död efter olycka på arbetsplats",
+          "text": "IS symphathiser stands trial over planned school attack",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
