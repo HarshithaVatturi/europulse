@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "editionNumber": 92,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "European leaders gather in Berlin for a high-stakes meeting on Ukraine, just as Donald Trump, Vladimir Putin and Xi Jinping hold talks in China. With Washington and Moscow sending conflicting...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "COP31: Vanuatu calls for UN climate summit reform, warns of backsliding",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Xi-Trump-Putin talks live: China, US and Russia leaders to hold landmark three-way meeting",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "The Coalition of the Willing’s chance to deliver",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Germany presses to make Ukraine aid Le Pen-proof",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Zelenskyy says he expects debrief from US envoys on Trump’s talks with Xi and Putin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Foundation to release a report linking traditional masculinity to violence against women",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Asylum minister reaffirms Syria is safe despite Council of State ruling",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch MPs want NS to scrap planned 4.7 percent ticket price increase",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Messico, crescita potenziale da 1,4 miliardi per il made in Italy",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "«Importanti le opportunità per l’industria»",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mercato auto, in Italia si guarda al prezzo più che in altre aree del mondo",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -58,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Se hur familjen i Tullingsås löser sin vardag efter brohaveriet i Strömsund",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Besiktningsteknikern Pierre om mutförsöken: ”Man blir helt paff”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Forskaren: Högst överbetyg i landet på friskolor i Eskilstuna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
