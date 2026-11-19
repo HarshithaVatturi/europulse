@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "editionNumber": 92,
   "isDemo": false,
-  "leadSummary": "European leaders gather in Berlin for a high-stakes meeting on Ukraine, just as Donald Trump, Vladimir Putin and Xi Jinping hold talks in China. With Washington and Moscow sending conflicting...",
+  "leadSummary": "Vladimir Putin says his meeting with Donald Trump and Xi Jinping covered key global security issues, including the war in Ukraine, nuclear proliferation and freedom of navigation. The leaders also...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
+          "text": "France: Hundreds raise a glass to Beaujolais Nouveau in Lyon",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "COP31: Vanuatu calls for UN climate summit reform, warns of backsliding",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "EXCLUSIVE: France, Spain push for ‘big four’ telco asks in satellite-to-phone law",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         },
         {
-          "text": "Xi-Trump-Putin talks live: China, US and Russia leaders to hold landmark three-way meeting",
+          "text": "INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Zelenskyy says he expects debrief from US envoys on Trump’s talks with Xi and Putin",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "The Coalition of the Willing’s chance to deliver",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Germany presses to make Ukraine aid Le Pen-proof",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Zelenskyy says he expects debrief from US envoys on Trump’s talks with Xi and Putin",
+          "text": "Commerzbank welcomes UniCredit commitments after Berlin agreement",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Foundation to release a report linking traditional masculinity to violence against women",
+          "text": "Commission greenlights the Netherlands' fifth and final payment request for €1.7 billion under NextGenerationEU",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Asylum minister reaffirms Syria is safe despite Council of State ruling",
+          "text": "Russian drone crashes behind Dutch embassy in Kyiv, causing damage",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch MPs want NS to scrap planned 4.7 percent ticket price increase",
+          "text": "Dutch suspects aged 17 and 20 arrested after police prevent bomb attack in Frankfurt",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,17 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Messico, crescita potenziale da 1,4 miliardi per il made in Italy",
+          "text": "HARVEST: GI Italian offensive",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "«Importanti le opportunità per l’industria»",
+          "text": "« L’impopularité des droits de douane imposés par Donald Trump révèle les limites de sa politique économique, fondée sur une illusion »",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Mercato auto, in Italia si guarda al prezzo più che in altre aree del mondo",
+          "text": "Media, drone russo vicino all'ambasciata olandese a Kiev",
           "industrySlug": "automotive",
           "industryName": "Automotive"
         }
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Se hur familjen i Tullingsås löser sin vardag efter brohaveriet i Strömsund",
+          "text": "Här är detaljen som Frida Karlsson slipat på: ”Varit en utmaning”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Besiktningsteknikern Pierre om mutförsöken: ”Man blir helt paff”",
+          "text": "Fågelinfluensan kan påverka äggproduktion – det här behöver du veta",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Forskaren: Högst överbetyg i landet på friskolor i Eskilstuna",
+          "text": "Man i 35-årsåldern död efter olycka på arbetsplats",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
