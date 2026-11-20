@@ -2,7 +2,7 @@
   "date": "2026-11-20",
   "editionNumber": 93,
   "isDemo": false,
-  "leadSummary": "UK Prime Minister Andy Burnham was welcomed by EU leaders in Brussels for a summit aimed at strengthening post-Brexit relations. God Save the King rang out for the first time since Brexit at the...",
+  "leadSummary": "We take stock of who’s up and who’s down after London and Brussels sign three new deals.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France's 17-18 October unrest may cost insurers €207 million in damage claims",
+          "text": "France and Germany complete political deal for ECB leadership",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
+          "text": "Unrest around French cost-of-living protests could cost insurers €207mn",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Emmanuel Macron hosts Kamala Harris at Elysée",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term",
+          "text": "🦛 USA: Fiona, Cincinnati Zoo’s famous hippo, has died",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,9 +32,9 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Lufthansa plans 1,000 job cuts in Frankfurt and Munich as Iran war slows turnaround",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "France and Germany complete political deal for ECB leadership",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         },
         {
           "text": "German defense minister apologizes for calling US criticism of Ukraine strikes ‘stupid’",
@@ -42,7 +42,7 @@
           "industryName": "Aerospace"
         },
         {
-          "text": "Germany says investors ready to spend €25B to buy TikTok Europe",
+          "text": "Germany intensifies engagement with South Caucasus as 'region of opportunities'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch school and university students to protest against military conscription 16 cities",
+          "text": "Daily News 20 / 11 / 2026",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch high streets make way for gyms, nail salons and discount stores",
+          "text": "Court convicts man for stomping girlfriend to death",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Pilot launching in Amsterdam for testing whether victims of sexual violence were drugged",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Dutch household investments hit record €241.9 billion despite tech stock dip",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
         }
       ]
     },
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Bending Spoons to buy Mailchimp from Intuit in €3.32 billion deal",
+          "text": "Italy: Workers and students stage nationwide strike over living costs",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Italy strike draws workers, students into nationwide protests over wages and living costs",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Bending Spoons to buy Mailchimp from Intuit in €3.35bn deal",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Met nieuwe supersportwagen klimt Lamborghini verder uit het dal",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
+          "text": "Minerais critiques : au Kenya, un consortium américain met la main sur un site prometteur",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -98,20 +98,20 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "19-åring döms till tolv års fängelse efter polisens Signal-fälla",
+          "text": "Fast på balkongen i brinnande hus – räddades av grannarna i Piteå",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Regionrådet vill utreda krav på återbetalning från Frohm: ”Sticker i ögonen”",
+          "text": "Carina Bergfeldt hjälpte adhd-expert att anmäla SVT",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Verkstad på Volvo CE i Eskilstuna utrymd: ”Risk för explosion”",
-          "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "volvo"
+          "text": "Fyllegolf slutade med dikeskörning i Trosa",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation",
+          "companySlug": "abb"
         }
       ]
     }
