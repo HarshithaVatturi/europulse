@@ -2,7 +2,7 @@
   "date": "2026-11-21",
   "editionNumber": 94,
   "isDemo": false,
-  "leadSummary": "Les inquiétudes sur le modèle économique des entreprises, les incertitudes sur l’avenir des data centers et les déboires du champion Nvidia ont effacé des milliards de dollars de valorisation, la...",
+  "leadSummary": "The US Department of War has published its eighth release of declassified historical files on unidentified anomalous phenomena, with further documents expected to be made public.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Aux Etats-Unis, Wall Street en déroute après la dégringolade des sociétés liées à l’intelligence artificielle",
+          "text": "Fossil fuel row sees COP31 talks spill into overtime",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "« GTA VI » s’offre un lancement record avec 3,79 milliards de dollars de ventes dès le premier jour",
+          "text": "Live: France braces for fresh protests as social unrest enters sixth week",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "US Agriculture Department and FBI hit by cyberattacks, media report",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         }
@@ -27,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "US-Gericht billigt Vergleich von Bayer mit Glyphosat-Klägern",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Interaktiver Rechner: 333 Gasanbieter erhöhen zum 1. Januar ihr Tarife – so viel teurer kann es für Sie werden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Morning Briefing Plus: Sicherheitsrisiko Tischreservierung: Cyberbedrohungen werden politisch unterschätzt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -39,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "ABN Amro reaches labor deal with three unions, but FNV plans more strikes",
+          "text": "Video: Children under 12 set off fireworks that destroy classrooms at Deurne school",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Court convicts man for stomping girlfriend to death",
+          "text": "Woman, 64, whose car went into Amsterdam canal, died hours later",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch household investments hit record €241.9 billion despite tech stock dip",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Dutch PM Jetten voices support for Denmark after alleged Russian plot to murder rapper",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -61,12 +76,17 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Terremoto di magnitudo 6.7 colpisce il centro del Perù, gente in strada a Lima",
+          "text": "A Sigonella accertamenti in corso dopo il possibile sorvolo di droni",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Ue-Messico, Hansen auspica il via libera all'accordo commerciale entro l'anno",
+          "text": "Media, 'arrestato in Messico capo cartello narco Meza-Flores'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "La Cnn: 'Nuovo attacco hacker all'Fbi, violato l'archivio criminale'",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -78,7 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Jordbävning vid Perus huvudstad Lima",
+          "text": "Alvar Myhlbacks glädjebesked: Kör 10 kilometer klassiskt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Därför backar inte V",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Klackbergstunneln i Norberg öppen igen efter fyra år",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
