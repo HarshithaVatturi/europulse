@@ -2,7 +2,7 @@
   "date": "2026-11-22",
   "editionNumber": 95,
   "isDemo": false,
-  "leadSummary": "More than 200 colourful mascots gathered in Saitama, Japan, delighting tens of thousands of fans with dancing, parades and photo opportunities. Among the stars was Kumamon, the country's famous...",
+  "leadSummary": "A suspected drone strike on a Russian ship at Libya’s Benghazi port has raised concerns over the spread of the Russia-Ukraine conflict. Authorities are investigating the blast amid growing fears...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Cop31 draft deal sparks backlash as France warns of 'step backward'",
+          "text": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Le Pen denies receiving leaked information from French interior ministry official",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nepal's first climate loss and damage payout falls far short of needs",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Princess of Wales opens up about cancer",
+          "text": "Ligue 1: PSG extend winning run at Nice (3-2) but lose Désiré Doué to injury",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,19 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "Gebrauchte Elektroautos: Alternative oder Schrott?",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Sind Einzelaktien eine Kostenfalle oder eine Goldgrube?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "IG Metall weitet Warnstreiks in norddeutscher Metall- und Elektroindustrie aus",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "COP31: Deutschland und Frankreich weisen neuen Abschluss-Entwurf zurück – Klimagipfel droht zu scheitern",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Nvidia-Skandal: Hatte Alice Huang Kontakte zu Chipschmugglern?",
-          "industrySlug": "semiconductors",
-          "industryName": "Semiconductors"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "5-year-old girl dies at Dutch hospital after eating unidentified poisonous mushroom",
+          "text": "Man, 25, arrested after striking, critically injuring cyclist, 19, with delivery van",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch OnlyFans model returns to the Netherlands after 11 days in ICE detention",
+          "text": "Weeks of streetlight outages leave Ede cyclists worried about safety amid repair delays",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Dutch weather service issued alert for fog and icy roads",
+          "text": "8 injured after escalator runs out of control at Bijlmer ArenA station in Amsterdam",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Cop31, nuova bozza con riferimento indiretto a uscita da fossili",
+          "text": "Former Italian police chief found dead",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Cop 31, nella bozza nessuna menzione dei combustibili fossili",
+          "text": "Media, nave russa colpita in Libia da attacco a lungo raggio ucraino",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "'Nave russa colpita a Bengasi, sospetto attacco di droni'",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -98,19 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Förändringen i Djurgården: ”Var tungt”",
+          "text": "Israel set to become world's 25th-largest economy: What can Europe learn from its tech boom?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Fartyget i finska viken ännu inte släckt",
+          "text": "Julia Walentowicz: ”Ska fira på Sturehof med Bosse”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Tränaren rasar efter Lionel Messis agerande: ”Sorgligt”",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Rosengårds mardröm – åker ur damallsvenskan",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     }
