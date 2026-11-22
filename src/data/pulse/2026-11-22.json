@@ -2,7 +2,7 @@
   "date": "2026-11-22",
   "editionNumber": 95,
   "isDemo": false,
-  "leadSummary": "The delay in the opening of the Porthos CO₂ storage project will cost up to 397...",
+  "leadSummary": "More than 200 colourful mascots gathered in Saitama, Japan, delighting tens of thousands of fans with dancing, parades and photo opportunities. Among the stars was Kumamon, the country's famous...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Cop31 draft deal sparks backlash as France warns of 'step backward'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nepal's first climate loss and damage payout falls far short of needs",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Princess of Wales opens up about cancer",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Utrecht criminals increasingly target Switzerland over Germany for ATM explosions",
+          "text": "IG Metall weitet Warnstreiks in norddeutscher Metall- und Elektroindustrie aus",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "COP31: Deutschland und Frankreich weisen neuen Abschluss-Entwurf zurück – Klimagipfel droht zu scheitern",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nvidia-Skandal: Hatte Alice Huang Kontakte zu Chipschmugglern?",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Delay in massive CO2 storage project costing gov’t €400 million",
+          "text": "5-year-old girl dies at Dutch hospital after eating unidentified poisonous mushroom",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Nearly 60% of Dutch municipalities stop requiring residents to separate waste at home",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Dutch OnlyFans model returns to the Netherlands after 11 days in ICE detention",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Driver dies after car enters water in Zeeland after similar incident earlier this week",
+          "text": "Dutch weather service issued alert for fog and icy roads",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Cop31, nuova bozza con riferimento indiretto a uscita da fossili",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cop 31, nella bozza nessuna menzione dei combustibili fossili",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -68,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Förändringen i Djurgården: ”Var tungt”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Fartyget i finska viken ännu inte släckt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Tränaren rasar efter Lionel Messis agerande: ”Sorgligt”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
