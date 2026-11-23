@@ -2,7 +2,7 @@
   "date": "2026-11-23",
   "editionNumber": 96,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "The left-wing EH Bildu coalition is set to perform strongly in the Basque Country — setting it on a potential collision course with a right-wing government in Madrid.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Thousands rally in Istanbul against Turkey’s crackdown on opposition and media",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Christmas market returns to Paris' Champs Elysées",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France's far-right leader Le Pen denies receiving secrets from civil servant",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "German reform would let drugmakers keep setting launch prices",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Märkte: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Autoindustrie: Ford-Europachef: „Wir würden uns wünschen, dass für alle die gleichen Wettbewerbsbedingungen gelten“",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Minder bussen en treinen: week begint met staking streekvervoer",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "'Alice Huang tijdens affaire met Nvidia-chef ruim een jaar in contact met spionagedienst'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Rusland treft opnieuw burgerdoelen in Oekraïne, meerdere doden",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Italy leads fight with Trump over European food names",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Kiev, 'bilancio vittime Dymer sale a 9, si scava ancora tra le macerie'",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
