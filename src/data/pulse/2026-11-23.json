@@ -2,7 +2,7 @@
   "date": "2026-11-23",
   "editionNumber": 96,
   "isDemo": false,
-  "leadSummary": "The left-wing EH Bildu coalition is set to perform strongly in the Basque Country — setting it on a potential collision course with a right-wing government in Madrid.",
+  "leadSummary": "Five thousand drones lit up the night sky over Wushan, southwest China, creating giant images of autumn leaves, mountains and river landscapes. The spectacular display celebrated the region's...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,19 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Thousands rally in Istanbul against Turkey’s crackdown on opposition and media",
+          "text": "Macron moves to ‘trap’ successors with new budget rule",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Christmas market returns to Paris' Champs Elysées",
+          "text": "France gets an EU budget win — but wants more",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France's far-right leader Le Pen denies receiving secrets from civil servant",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Nearly €15 billion in new investments announced at 'Choose France' summit",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
         }
       ]
     },
@@ -32,19 +32,20 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "German reform would let drugmakers keep setting launch prices",
+          "text": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
           "industrySlug": "technology",
-          "industryName": "Technology"
+          "industryName": "Technology",
+          "companySlug": "bmw"
         },
         {
-          "text": "Märkte: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Autoindustrie: Ford-Europachef: „Wir würden uns wünschen, dass für alle die gleichen Wettbewerbsbedingungen gelten“",
+          "text": "Rich countries defend new EU fuel carbon price amid Polish pushback",
           "industrySlug": "automotive",
           "industryName": "Automotive"
+        },
+        {
+          "text": "FIRST AID: Germany sticks to its drug-pricing approach",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -54,19 +55,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Minder bussen en treinen: week begint met staking streekvervoer",
+          "text": "Dutch universities do too little to police scientific fraud, study finds",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "'Alice Huang tijdens affaire met Nvidia-chef ruim een jaar in contact met spionagedienst'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "13 locations in Netherlands contaminated with dangerous levels of PFAS pollution",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Rusland treft opnieuw burgerdoelen in Oekraïne, meerdere doden",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Prosecutors again seek 30-year sentence for 'Erasmus shooter' who killed 3 people",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -76,17 +77,17 @@
       "countryName": "Italy",
       "items": [
         {
+          "text": "How industrial cooperation strengthens Europe’s defense readiness",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Italy leads fight with Trump over European food names",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Kiev, 'bilancio vittime Dymer sale a 9, si scava ancora tra le macerie'",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+          "text": "French pair target Grand Slam glory after ATP Finals crown in Turin",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -98,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Sweden's Left Party rejects latest Red-Green offer — here's where we're at",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "COP31 ends without a deal – what happens now?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Faults found in three out of four electrical products from well-known online marketplaces",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
