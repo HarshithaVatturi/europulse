@@ -2,7 +2,7 @@
   "date": "2026-11-24",
   "editionNumber": 97,
   "isDemo": false,
-  "leadSummary": "A Patriots for Europe official said several other delegations could back a challenge that would slow down budget talks in the European Parliament.",
+  "leadSummary": "Colombian President Abelardo de la Espriella arrived in Villavicencio at around 9 am local time on Tuesday as he prepared to hold a security meeting and visit the scene of the blast.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,17 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
+          "text": "France: Chefs compete for the world egg mayonnaise championship",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "France to create strategic reserves of rare earths and critical metals",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "The good, the bad and the French: EU countries get fiscal report cards",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Le Pen spectre haunts Greek plans for Montenegro’s EU entry",
+          "text": "Le congrès des maires, passage obligé des candidats",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "FIREPOWER: ASD calls €130bn defence funding ‘bare minimum’",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Qatar says it ‘will not accept’ attacks after Iran protests over joint statement with Germany",
+          "industrySlug": "logistics-supply-chain",
+          "industryName": "Logistics & Supply Chain"
         },
         {
-          "text": "Brussels wants to stop nuclear, coal shutdowns in energy security overhaul",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Which way, Weber Manfred?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "DW",
+          "text": "Germany, France warned against breaching EU fiscal rules",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Police looking for witnesses in the Netherlands of 1986 massacre in Moiwana, Suriname",
+          "text": "PSV collapse after halftime as Real Madrid score five in Champions League rout",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Adyen payments company co-founder Van der Does to retire at year-end",
+          "text": "King Willem-Alexander presents 2026 Erasmus Prize to Oscar-winner Steve McQueen",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Experts find no signs of mental illness in man accused of killing 17-year-old Lisa",
+          "text": "Court orders Netherlands to set binding climate targets in line with Paris Agreement",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,21 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Biffi: «La Ue acceleri. Sull’AI servono scelte, investimenti e tempi certi»",
+          "text": "Italy develops 'ambitious' business with 'strategic partner' Azerbaijan, Tajani tells Euronews",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Domenicali: «Dai trionfi in MotoGP sprint al progetto industriale Ducati»",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing",
-          "companySlug": "abb"
+          "text": "Il giallo dei tacchini graziati da Trump, uno è salvo ma l'altro è sparito",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "Extravergine venduto a 4 euro, servono investimenti strutturali per abbassare i costi",
+          "text": "Premier Haiti, 'l'accordo con El Salvador è per la sicurezza nazionale'",
           "industrySlug": "technology",
-          "industryName": "Technology",
-          "companySlug": "abb"
+          "industryName": "Technology"
         }
       ]
     },
@@ -100,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Kommunen ska säga upp hyresavtal med Halmstads moské efter avslöjande om månggifte",
+          "text": "Andersson: V har inte ”rört sig en millimeter”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Läkare häktad – misstänkt för våldtäkt på sjukhuset i Västerås",
+          "text": "Nick Carter åtalas för sexuella övergrepp",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Se när männen stoppar polisinsatsen vid streetrace utanför Enköping – ytterligare fem åtalas",
+          "text": "Brand i radhus i Helsingborg – flera personer till sjukhus för kontroll",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
