@@ -2,7 +2,7 @@
   "date": "2026-11-24",
   "editionNumber": 97,
   "isDemo": false,
-  "leadSummary": "Ukrainian President Volodymyr Zelensky is calling for a new round of negotiations involving Ukraine, Russia, the United States and European leaders, saying Kyiv is ready to meet as early as Tuesday.",
+  "leadSummary": "A Patriots for Europe official said several other delegations could back a challenge that would slow down budget talks in the European Parliament.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,7 +10,17 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+          "text": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France to create strategic reserves of rare earths and critical metals",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing"
+        },
+        {
+          "text": "Le Pen spectre haunts Greek plans for Montenegro’s EU entry",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "FIREPOWER: ASD calls €130bn defence funding ‘bare minimum’",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Brussels wants to stop nuclear, coal shutdowns in energy security overhaul",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Red Cross returns items of two Afghan men whose remains washed ashore on Texel in 2023",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "More families buying Sinterklaas gifts from the thrift store",
+          "text": "Police looking for witnesses in the Netherlands of 1986 massacre in Moiwana, Suriname",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Website releases facial reconstruction of unidentified man found in Groningen in 2002",
+          "text": "Adyen payments company co-founder Van der Does to retire at year-end",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Experts find no signs of mental illness in man accused of killing 17-year-old Lisa",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -56,9 +76,21 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Messico, il Pil cresce del 3,3% annuo nel terzo trimestre del 2026",
+          "text": "Biffi: «La Ue acceleri. Sull’AI servono scelte, investimenti e tempi certi»",
           "industrySlug": "technology",
           "industryName": "Technology"
+        },
+        {
+          "text": "Domenicali: «Dai trionfi in MotoGP sprint al progetto industriale Ducati»",
+          "industrySlug": "manufacturing",
+          "industryName": "Manufacturing",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Extravergine venduto a 4 euro, servono investimenti strutturali per abbassare i costi",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
         }
       ]
     },
@@ -68,9 +100,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Kommunen ska säga upp hyresavtal med Halmstads moské efter avslöjande om månggifte",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Läkare häktad – misstänkt för våldtäkt på sjukhuset i Västerås",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Se när männen stoppar polisinsatsen vid streetrace utanför Enköping – ytterligare fem åtalas",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
