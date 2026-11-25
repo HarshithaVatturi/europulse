@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-25",
+  "editionNumber": 98,
+  "isDemo": false,
+  "leadSummary": "Presented by Fusion for Energy.",
+  "countryBriefs": [
+    {
+      "countrySlug": "france",
+      "countryIso2": "FR",
+      "countryName": "France",
+      "items": [
+        {
+          "text": "Amnesty calls for ICC genocide probe over Israel's impact on births in Gaza",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Ukraine seeks €115 billion in foreign aid for 2027, Zelensky says",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "germany",
+      "countryIso2": "DE",
+      "countryName": "Germany",
+      "items": [
+        {
+          "text": "Rüstung: Insider: Helsing prüft offenbar Übernahme von Marschflugkörperhersteller Destinus",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Forschungssicherheit: „Gravierende Verstöße bei Forschungssicherheit“: Cispa-Skandal kostet Steuerzahler Millionen Euro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Nikkei, Kospi, Taiex: Viele Chipaktien in Asien fallen unter das Niveau vor der Rally",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "netherlands",
+      "countryIso2": "NL",
+      "countryName": "Netherlands",
+      "items": [
+        {
+          "text": "Feyenoord beaten by Porto as UEFA Champions League struggles continue",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "PSV collapse after halftime as Real Madrid score five in Champions League rout",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "King Willem-Alexander presents 2026 Erasmus Prize to Oscar-winner Steve McQueen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "italy",
+      "countryIso2": "IT",
+      "countryName": "Italy",
+      "items": [
+        {
+          "text": "‘Everything that concerns Libya concerns Italy’: Why Ukraine’s Med strike is a problem for Meloni",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "« Le Monde des start-up » : plongée dans les contradictions des jeunes pousses",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Huawei: 'La condanna Usa è senza fondamento giuridico o fattuale'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    },
+    {
+      "countrySlug": "sweden",
+      "countryIso2": "SE",
+      "countryName": "Sweden",
+      "items": [
+        {
+          "text": "”Anderssons sista strid”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Turkosa taxibilar rullar redan i Köpenhamn – SVT på plats för att se hur det gått",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brattåsmålet: Professor varnar för fällande domar från kontakt-dna",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        }
+      ]
+    }
+  ],
+  "sideRail": {
+    "companiesToWatch": [
+      "asml",
+      "bmw",
+      "airbus",
+      "lvmh",
+      "abb"
+    ],
+    "industriesToWatch": [
+      {
+        "slug": "semiconductors",
+        "name": "Semiconductors",
+        "trend": "up",
+        "note": "High-NA EUV lithography scale-up in Eindhoven drives nanotech hiring."
+      },
+      {
+        "slug": "automotive",
+        "name": "Automotive",
+        "trend": "up",
+        "note": "High-voltage battery production ramp in Regensburg and gigafactory tooling."
+      },
+      {
+        "slug": "ai",
+        "name": "AI & Machine Learning",
+        "trend": "up",
+        "note": "EU AI Act conformity verification teams expanding across European tech hubs."
+      }
+    ],
+    "careerInsightOfDay": {
+      "title": "Cross-Border Engineering Mobilities Accelerate",
+      "content": "Bilateral industrial partnerships between Germany and France are creating joint graduate tracks requiring French and German bilingual competencies with EASA Part 21 and ISO 26262 compliance knowledge.",
+      "linkedRoleSlug": "robotics-automation-engineer",
+      "linkedRoleName": "Robotics Automation Engineer"
+    },
+    "startupFundingWatch": [
+      {
+        "startupSlug": "synthetica-robotics",
+        "name": "Synthetica Robotics",
+        "round": "Series B",
+        "amount": "€34M",
+        "industrySlug": "robotics",
+        "countryIso2": "DE"
+      },
+      {
+        "startupSlug": "voltgrid-nordic",
+        "name": "VoltGrid Nordic",
+        "round": "Series A",
+        "amount": "€18M",
+        "industrySlug": "energy",
+        "countryIso2": "SE"
+      },
+      {
+        "startupSlug": "neurocraft-labs",
+        "name": "NeuroCraft Labs",
+        "round": "Seed",
+        "amount": "€4.5M",
+        "industrySlug": "ai",
+        "countryIso2": "FR"
+      }
+    ]
+  }
+}
