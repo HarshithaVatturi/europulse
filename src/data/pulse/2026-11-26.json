@@ -2,7 +2,7 @@
   "date": "2026-11-26",
   "editionNumber": 99,
   "isDemo": false,
-  "leadSummary": "Presented by Fusion for Energy.",
+  "leadSummary": "Négociations en coulisses avec la patronne des verts Marine Tondelier, ralliement de députés communistes et retour d’anciens élus LFI au bercail : Jean-Luc Mélenchon, porté par une dynamique...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,12 +10,12 @@
       "countryName": "France",
       "items": [
         {
-          "text": "Why Jean-Luc Mélenchon has it in for Germany",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
+          "text": "Iraq sentences eight French nationals to life for joining Islamic State",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         },
         {
-          "text": "This Riviera mayor wants to bring Javier Milei’s chainsaw politics to France",
+          "text": "EUCO: Macron’s EU budget threat riles other leaders",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Prostitution in Deutschland vor dem Aus?",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Why Jean-Luc Mélenchon has it in for Germany",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
           "text": "UniCredit secures final Polish approval for Commerzbank takeover bid",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Spain’s de Cos set to win ECB presidency",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Europe’s struggling leaders leave Costa without a Merkel",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
+          "text": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+          "industrySlug": "finance-banking",
+          "industryName": "Finance & Banking"
+        },
+        {
           "text": "Europe’s integrated power market fears growing political backlash",
           "industrySlug": "energy",
           "industryName": "Energy"
         },
         {
-          "text": "Banque de France-econoom gelooft niet in groen monetair beleid: ‘Je opent de doos van Pandora’",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Live: AEX begint waarschijnlijk fors hoger na opleving op Wall Street",
+          "text": "Dutch dismiss any deadline on budget deal as EU leaders remain divided on size and new resources of revenue",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -76,19 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "'Nvidia interrompe le spedizioni di chip nel sud-est asiatico'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Elon Musk promet d’offrir deux actions de SpaceX à « chaque enfant » aux Etats-Unis",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
         },
         {
-          "text": "Cremlino a von der Leyen, 'non puoi dettare condizioni per i negoziati'",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Twee Italianen omgekomen bij droneaanval op Koeweit",
+          "industrySlug": "semiconductors",
+          "industryName": "Semiconductors"
         },
         {
-          "text": "Onde record in California, molo spazzato via a sud di San Francisco",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Ex Ilva, dopo ok del Senato al decreto quali sono le prospettive per Taranto",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Ebba Busch (KD): Inte gamla Alliansen",
+          "text": "Sweden’s Kristersson edges closer to new term as prime minister",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Så påverkas din pension av USA-börsen",
+          "text": "C-toppen ska rösta nej till Kristersson: ”Oerhört upprörd”",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Spelinspektionen inleder granskning av Casinodaddy",
+          "text": "C-ledningen säger ja till Ulf Kristersson",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
