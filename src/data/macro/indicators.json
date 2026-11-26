@@ -12,7 +12,7 @@
   },
   "DE": {
     "iso2": "DE",
-    "gdpGrowthRate": 0.2,
+    "gdpGrowthRate": 0.1,
     "gdpPeriod": "2026-Q3",
     "unemploymentRate": 4.1,
     "unemploymentPeriod": "2026-09",
