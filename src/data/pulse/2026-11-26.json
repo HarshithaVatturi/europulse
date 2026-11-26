@@ -2,7 +2,7 @@
   "date": "2026-11-26",
   "editionNumber": 99,
   "isDemo": false,
-  "leadSummary": "European industrial momentum pivots on sovereign technological sovereignty, cross-border energy grids, and talent recruitment.",
+  "leadSummary": "Presented by Fusion for Energy.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Why Jean-Luc Mélenchon has it in for Germany",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "This Riviera mayor wants to bring Javier Milei’s chainsaw politics to France",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Europe’s integrated power market fears growing political backlash",
+          "industrySlug": "energy",
+          "industryName": "Energy"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Prostitution in Deutschland vor dem Aus?",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "Why Jean-Luc Mélenchon has it in for Germany",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "UniCredit secures final Polish approval for Commerzbank takeover bid",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,9 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Netherlands industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Europe’s integrated power market fears growing political backlash",
+          "industrySlug": "energy",
+          "industryName": "Energy"
+        },
+        {
+          "text": "Banque de France-econoom gelooft niet in groen monetair beleid: ‘Je opent de doos van Pandora’",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: AEX begint waarschijnlijk fors hoger na opleving op Wall Street",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -46,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "'Nvidia interrompe le spedizioni di chip nel sud-est asiatico'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Cremlino a von der Leyen, 'non puoi dettare condizioni per i negoziati'",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Onde record in California, molo spazzato via a sud di San Francisco",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -58,9 +98,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Ebba Busch (KD): Inte gamla Alliansen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Så påverkas din pension av USA-börsen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Spelinspektionen inleder granskning av Casinodaddy",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
