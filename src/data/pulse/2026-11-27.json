@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "editionNumber": 100,
   "isDemo": false,
-  "leadSummary": "'Frugal' countries are keeping up the pressure for more cuts, teeing up a marathon summit in December",
+  "leadSummary": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "France industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Video shows Levski fan caught giving Nazi salute before Marseille match",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "France's inflation slows to 2.9% in November as energy prices fall",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dépendance aux Big Tech américaines : où en est la France par rapport à ses voisins européens ?",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Germany's IG Metall reaches pay deal amid industrial crisis",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
+        },
+        {
+          "text": "‘Islam is Sharia’: Germany’s far-right leader attacks Le Pen on Muslims and Europe",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Wie Firmen mit Weiterbildung gegen Fachkräftemangel vorbeugen",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Meta defends AI glasses in court as Dutch groups demand ban",
-          "industrySlug": "energy",
-          "industryName": "Energy"
+          "text": "Public Prosecutor launches investigation into neo-Nazi cage fights in Dutch countryside",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         },
         {
-          "text": "Modified fireworks prompt hours-long closure of Heerenveen shopping street",
+          "text": "Netherlands to return two 18th-century rifles looted from Sri Lanka",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "AI use by Dutch politicians increases workload for municipal officials, study finds",
-          "industrySlug": "ai",
-          "industryName": "AI"
+          "text": "MPs want to block provinces from shooting stray cats",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,19 +76,20 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "El Salvador, Bukele auspica di rifondare il Paese sugli ideali degli Usa",
+          "text": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "industrySlug": "technology",
+          "industryName": "Technology",
+          "companySlug": "abb"
+        },
+        {
+          "text": "Macron: budget hero or villain?",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "La Dante Alighieri alla Fil di Guadalajara, in programma quattro eventi",
+          "text": "Pomodoro da industria, Princes raddoppia la quantità di prodotto lavorato in Puglia",
           "industrySlug": "technology",
           "industryName": "Technology"
-        },
-        {
-          "text": "Il bilancio spacca l'Europa ma Costa insiste: 'Serve un'intesa a dicembre'",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
         }
       ]
     },
@@ -78,9 +99,19 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Sweden industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Centerpartister efter högersvängen: ”Ledsen och besviken”",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Brand i Björkdalsgruvan utanför Kåge – 20 personer fast i kammare under jord",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Släp i diket efter olycka – E4 söderut stängd vid Mjölby",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     }
