@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "editionNumber": 100,
   "isDemo": false,
-  "leadSummary": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian...",
+  "leadSummary": "Estonia has opened its embassies in Baku and Yerevan to strengthen its strategic ties with the South Caucasus. Estonian Foreign Minister Margus Tsahkna confirmed during his visit to the Azerbaijani...",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -32,17 +32,17 @@
       "countryName": "Germany",
       "items": [
         {
+          "text": "German sofware giant SAP weighs at least 10,000 job cuts amid AI shift, reports say",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
           "text": "Germany's IG Metall reaches pay deal amid industrial crisis",
           "industrySlug": "robotics",
           "industryName": "Robotics & Automation"
         },
         {
           "text": "‘Islam is Sharia’: Germany’s far-right leader attacks Le Pen on Muslims and Europe",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Wie Firmen mit Weiterbildung gegen Fachkräftemangel vorbeugen",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -54,17 +54,17 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Public Prosecutor launches investigation into neo-Nazi cage fights in Dutch countryside",
-          "industrySlug": "robotics",
-          "industryName": "Robotics & Automation"
-        },
-        {
-          "text": "Netherlands to return two 18th-century rifles looted from Sri Lanka",
+          "text": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "MPs want to block provinces from shooting stray cats",
+          "text": "Drone pilots gain access to more airspace around five Dutch airports",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "Slaughterhouses bullying inspectors: Allegations of discrimination, sexual intimidation",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
@@ -87,9 +87,9 @@
           "industryName": "Technology"
         },
         {
-          "text": "Pomodoro da industria, Princes raddoppia la quantità di prodotto lavorato in Puglia",
-          "industrySlug": "technology",
-          "industryName": "Technology"
+          "text": "Il Costa Rica respinge Francesca Albanese, relatrice Onu per i territori palestinesi",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
         }
       ]
     },
@@ -99,17 +99,17 @@
       "countryName": "Sweden",
       "items": [
         {
-          "text": "Centerpartister efter högersvängen: ”Ledsen och besviken”",
+          "text": "Swedish Gripen jets with Meteor missiles will arrive in Ukraine in January, posing the first serious threat to Russian aviation (Ukraine Battlefield update, Day 1,737)",
+          "industrySlug": "aerospace",
+          "industryName": "Aerospace"
+        },
+        {
+          "text": "How Sweden’s Centre Party got caught between its political red lines",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Brand i Björkdalsgruvan utanför Kåge – 20 personer fast i kammare under jord",
-          "industrySlug": "technology",
-          "industryName": "Technology"
-        },
-        {
-          "text": "Släp i diket efter olycka – E4 söderut stängd vid Mjölby",
+          "text": "Can Sweden really be governed one deal at a time?",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
