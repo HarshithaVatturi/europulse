@@ -2,7 +2,7 @@
   "date": "2026-11-28",
   "editionNumber": 101,
   "isDemo": false,
-  "leadSummary": "The Netherlands is joining four other European countries in buying more than 400 armored vehicles manufactured in Sweden.",
+  "leadSummary": "Victoria's state election could deal a blow to the Prime Minister's Labor party that has been ruling the region for 12 years, in favour of the country's conservatives.",
   "countryBriefs": [
     {
       "countrySlug": "france",
@@ -10,9 +10,19 @@
       "countryName": "France",
       "items": [
         {
-          "text": "S&P manteve classificação da dívida francesa em A+ mas baixa perspetiva",
-          "industrySlug": "finance-banking",
-          "industryName": "Finance & Banking"
+          "text": "Immigration, a key issue in Sunday's Spanish snap election",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Taiwan holds local elections under Beijing's watchful gaze",
+          "industrySlug": "robotics",
+          "industryName": "Robotics & Automation"
         }
       ]
     },
@@ -22,9 +32,19 @@
       "countryName": "Germany",
       "items": [
         {
-          "text": "Germany industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "DW",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "So einfach kann man schlüssellose Autos mit Keyless Go knacken",
+          "industrySlug": "automotive",
+          "industryName": "Automotive"
+        },
+        {
+          "text": "Immobilien: Wie schlimm ist es wirklich? Diese Grafiken zeigen die wahre Lage am Immobilienmarkt",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -34,19 +54,19 @@
       "countryName": "Netherlands",
       "items": [
         {
-          "text": "Dutch army expands fleet with dozens of new Swedish-made armored vehicles",
-          "industrySlug": "automotive",
-          "industryName": "Automotive"
-        },
-        {
-          "text": "Nearly 1,000 reports of aggressive green-product sales such as heat pump, battery",
+          "text": "Foundation sues Odido over February data breach affecting 6 million accounts",
           "industrySlug": "technology",
           "industryName": "Technology"
         },
         {
-          "text": "Drone pilots gain access to more airspace around five Dutch airports",
-          "industrySlug": "aerospace",
-          "industryName": "Aerospace"
+          "text": "Premises evacuated amid days-long fire at agricultural firm silo",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Dutch Neo-Nazi sentenced in Germany for glorifying Hitler",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -56,9 +76,19 @@
       "countryName": "Italy",
       "items": [
         {
-          "text": "Italy industrial clusters sustain steady capital deployment across core manufacturing operations.",
-          "industrySlug": "manufacturing",
-          "industryName": "Manufacturing"
+          "text": "Partir ou rester en cas de victoire du RN à la présidentielle 2027, le dilemme des hauts fonctionnaires",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Per le Pmi produttività al palo, giù il costo del lavoro",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Veronafiere rileva Forum Risk Management in Sanità ed entra nel settore salute",
+          "industrySlug": "technology",
+          "industryName": "Technology"
         }
       ]
     },
@@ -73,7 +103,12 @@
           "industryName": "Automotive"
         },
         {
-          "text": "A clinic is reassessing people with ADHD and autism diagnoses - but critics fear it could deepen stigma",
+          "text": "Polisen växlar upp – när Hammarby möter VSK",
+          "industrySlug": "technology",
+          "industryName": "Technology"
+        },
+        {
+          "text": "Mjällby måste rädda Degerfors – efter bortamatch i Kazakstan",
           "industrySlug": "technology",
           "industryName": "Technology"
         }
